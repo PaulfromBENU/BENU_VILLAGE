@@ -1,0 +1,608 @@
+:root {
+
+/* Colors: */
+--unnamed-color-d0d0d0: #D0D0D0;
+--benu_reuse: #F9941D;
+--benu_village: #27955B;
+--benu_couture_couleur_texte: #2E1414;
+--benu_couture_couleur_principale: #D41C1B;
+}
+
+@font-face {
+	font-family: "Barlow Condensed";
+	// src:  url(../public/landing/fonts/Barlow_Condensed/BarlowCondensed-Regular.ttf);
+	src:  url('/landing/fonts/Barlow_Condensed/BarlowCondensed-Regular.ttf');
+}
+
+@font-face {
+	font-family: "Barlow";
+	// src:  url(../public/landing/fonts/Barlow/Barlow-Regular.ttf);
+	src:  url('/landing/fonts/Barlow/Barlow-Regular.ttf');
+}
+
+@font-face {
+	font-family: "Barlow Semi Condensed";
+	// src:  url(../public/landing/fonts/Barlow_Condensed/BarlowCondensed-SemiBold.ttf);
+	src:  url('/landing/fonts/Barlow_Condensed/BarlowCondensed-SemiBold.ttf');
+}
+
+.landing-body {
+	margin: 0px;
+	box-sizing: border-box;
+	/*font-family: "Barlow Condensed", Sans-serif;*/
+	color: rgb(60, 60, 60);
+	@include tablet {
+		width: 100vw;
+		overflow-x: hidden;
+	}
+	@include mobile {
+		width: 100vw;
+		overflow-x: hidden;
+	}
+}
+
+.central_col {
+	width: 56vw;
+	margin-left: 22vw;
+	// margin-top: -140px;
+	position: relative;
+	box-sizing: border-box;
+	@include tablet {
+		width: 80vw;
+		margin-left: 10vw;
+	}
+	@include mobile {
+		width: 80vw;
+		margin-left: 10vw;
+	}
+}
+
+// @media only screen and (max-width: 768px) {
+// 	.central_col {
+// 		width: 80vw;
+// 		margin-left: 10vw;
+// 		margin-top: -50px;
+// 		position: absolute;
+// 		box-sizing: border-box;
+// 	}
+// }
+
+.central_textbox {
+	background: white;
+	padding: 20px 0px;
+	border-radius: 15px;
+	box-shadow: 0px 3px 66px #00000029;
+	text-align: justify;
+	position: relative;
+	top: -140px;
+	h1 {
+		text-transform: uppercase;
+		color: $primary_color;// $primary-color;
+		text-align: center;
+		margin-top: 50px;
+		margin-bottom: 5px;
+		color: $primary-color;
+		text-align: center;
+		font: normal normal 400 72px/86px "Barlow Semi Condensed";
+		letter-spacing: 0px;
+		@include tablet {
+			font: normal normal 400 36px/43px "Barlow Semi Condensed";
+			margin-top: 20px;
+		}
+		@include mobile {
+			font: normal normal 400 36px/43px "Barlow Semi Condensed";
+			margin-top: 20px;
+		}
+	}
+	&__desc {
+		font: normal normal 400 18px/33px "Barlow";
+		letter-spacing: 0px;
+		/*padding: 20px 70px;*/
+		width: 75%;
+		margin: auto;
+		margin-bottom: 65px;
+		color: var(--benu_couture_couleur_texte);
+		@include tablet {
+			font: normal normal 400 12px/24px "Barlow";
+			// padding: 20px 10px;
+			width: 80%;
+			margin-bottom: 25px;
+		}
+		@include mobile {
+			font: normal normal 400 12px/24px "Barlow";
+			// padding: 20px 10px;
+			width: 80%;
+			text-align: center;
+			margin-bottom: 25px;
+		}
+	}
+}
+
+.central_textbox__sub {
+	font: normal normal 400 16px/28px "Barlow Condensed";
+	letter-spacing: 0.16px;
+	color: #2E141480;
+	text-align: center;
+	margin-bottom: 15px;
+	@include tablet {
+		font: normal normal 400 12px/22px "Barlow Condensed";
+	}
+	@include mobile {
+		font: normal normal 400 12px/22px "Barlow Condensed";
+	}
+}
+
+.central_textbox__teaser {
+	position: absolute;
+	top: -22px;
+	display: flex;
+	justify-content: center;
+	width: 100%;
+	@include tablet {
+		top: -18px;
+	}
+	@include mobile {
+		top: -18px;
+	}
+}
+
+.central_textbox__teaser p {
+	background: rgb(50, 50, 50);
+	color:  white;
+	text-align: center;
+	padding: 5px 40px 5px 40px;
+	font: normal normal 300 28px/34px "Barlow Condensed";
+	letter-spacing: 0px;
+	text-transform: uppercase;
+	margin: 0;
+	border-radius: 10px;
+	@include tablet {
+		font: normal normal 200 20px/26px "Barlow Condensed";
+		border-radius: 20px;
+	}
+	@include mobile {
+		font: normal normal 200 20px/26px "Barlow Condensed";
+		border-radius: 20px;
+	}
+}
+
+.contact_form {
+	padding: 10px;
+	background: $primary-color;
+	border-radius: 10px;
+}
+
+.contact-form-container {
+	display: flex;
+	justify-content: center;
+	flex-wrap: wrap;
+	padding-bottom: 70px;
+	position: relative;
+	top: -30px;
+	@include tablet {
+		top: -70px;
+		padding-bottom: 0px;
+	}
+	@include mobile {
+		top: -70px;
+		padding-bottom: 0px;
+	}
+	h2 {
+		color: var(--benu_couture_couleur_texte);
+		text-align: center;
+		font: normal normal 800 44px/53px "Barlow Semi Condensed";
+		letter-spacing: 0px;
+		@include tablet {
+			font: normal normal 800 22px/26px "Barlow Semi Condensed";
+		}
+		@include mobile {
+			font: normal normal 800 22px/26px "Barlow Semi Condensed";
+		}
+	}
+	input[type=email] {
+		width: 300px;
+		height: 30px;
+		padding: 5px 10px;
+		border-radius: 5px;
+		font-size: 1rem;
+		border: none;
+	}
+	input[type=submit] {
+		border: none;
+		height: 40px;
+		background: white;
+		color: $primary-color;
+		padding: 5px 30px;
+		font-size: 1rem;
+		border-radius: 5px;
+		cursor: pointer;
+		margin-left: 10px;
+	}
+	input[type=submit]:hover {
+		background: $primary-color;
+		color: white;
+	}
+	::placeholder {
+		color: var(--unnamed-color-d0d0d0);
+	}
+}
+
+.contact_form_container h2 {
+	color: var(--benu_couture_couleur_texte);
+	text-align: center;
+	font: normal normal 800 44px/53px "Barlow Semi Condensed";
+	letter-spacing: 0px;
+	margin: 0;
+	margin-bottom: 30px;
+	@include tablet {
+		font: normal normal 800 22px/26px "Barlow Semi Condensed";
+	}
+	@include mobile {
+		font: normal normal 800 22px/26px "Barlow Semi Condensed";
+	}
+}
+
+/*.contact-link {
+	padding: 10px;
+	background: $primary-color;
+	border-radius: 10px;
+}*/
+
+.contact-link a {
+	// border: solid 3px $primary-color;
+	display: block;
+	padding-top: 5px;
+	padding-bottom: 5px;
+	// height: 44px;
+	height: fit-content;
+
+	// background: white;
+	// color: $primary-color;
+	// padding: 5px 30px;
+	// font-size: 1rem;
+	// border-radius: 5px;
+	// cursor: pointer;
+	// text-decoration: none;
+	// font: normal normal 400 22px/23px "Barlow Condensed";
+	// transition:  all 0.2s;
+	// @include tablet {
+	// 	height: 70px;
+	// }
+	// @include mobile {
+	// 	height: 70px;
+	// }
+}
+
+// .contact-link a:hover {
+// 	background: $primary-color;
+// 	color: white;
+// }
+
+.landing-footer {
+	background: $primary-color;
+	height: 233px;
+	position: relative;
+	@include tablet {
+		height: 150px;
+	}
+	@include mobile {
+		height: 150px;
+	}
+	&__copyright {
+		text-align: center;
+		font: normal normal 400 18px/33px "Barlow";
+		letter-spacing: 0px;
+		color: #FFFFFF;
+		position: absolute;
+		bottom: 25px;
+		width: 100%;
+		@include tablet {
+			font: normal normal 400 12px/24px "Barlow";
+		}
+		@include mobile {
+			font: normal normal 400 12px/24px "Barlow";
+		}
+	}
+	&__links {
+		position: absolute;
+		width: 600px;
+		margin-left: calc(50vw - 300px);
+		margin-top: -125px;
+		background: white;
+		border-radius: 15px;
+		box-shadow: 0px 3px 66px #00000029;
+		min-height: 240px;
+		box-sizing: border-box;
+		@include tablet {
+			width: 100vw;
+			margin-left: 0;
+			min-height: 170px;
+		}
+		@include mobile {
+			width: 100vw;
+			margin-left: 0;
+			min-height: 170px;
+		}
+		&__header {
+			width: 350px;
+			background: $primary-color;
+			color:  white;
+			padding: 5px 25px 5px 25px;
+			text-align: center;
+			font: normal normal 600 44px/53px "Barlow Semi Condensed";
+			letter-spacing: 0px;
+			border-radius: 10px;
+			@include tablet {
+				font: normal normal 600 22px/25px "Barlow Semi Condensed";
+			}
+			@include mobile {
+				font: normal normal 600 22px/25px "Barlow Semi Condensed";
+			}
+		}
+		&__header-container {
+			display: flex;
+			justify-content: center;
+			position: absolute;
+			top: -35px;
+			width: 100%;
+			@include tablet {
+				left: 25%;
+				width: 50%;
+				top: -17px;
+			}
+			@include mobile {
+				left: 25%;
+				width: 50%;
+				top: -17px;
+			}
+		}
+		&__icon {
+			background: rgb(246, 246, 246);
+			width: 95px;
+			padding: 18px 0px 18px 0px;
+			margin: 10px;
+			margin-top:  85px;
+			font-size: 2.8rem;
+			font-family: "Barlow Condensed";
+			text-align: center;
+			border-radius: 10px;
+			color: $primary-color;
+			transition: all 0.2s;
+			&:hover {
+				color: $white;
+				background: $primary-color;
+			}
+			@include tablet {
+				margin-top:  55px;
+				height: 70px;
+				padding-top: 13px;
+				font-size: 1.8rem;
+			}
+			@include mobile {
+				margin-top:  55px;
+				height: 70px;
+				padding-top: 13px;
+				font-size: 1.8rem;
+			}
+			// a {
+			// 	color: $primary-color;
+			// }
+		}
+		&__icons {
+			display: flex;
+			justify-content: space-around;
+			padding: 0px 78px;
+			@include tablet {
+				padding: 0px 40px;
+			}
+			@include mobile {
+				padding: 0px 40px;
+			}
+		}
+	}
+}
+
+.landing-header {
+	width: 100%;
+	height: 704px;
+	background: $primary-color 0% 0% no-repeat padding-box;
+	position: relative;
+	@include tablet {
+		height: 500px;
+	}
+	@include mobile {
+		height: 450px;
+	}
+}
+
+.header-bckgnd__bird {
+	position: absolute;
+	top: 100px;
+	left: calc(50vw - 220px);
+	transition: top 2.5s ease-in-out, left 6s ease-out;
+	min-width: fit-content;
+	@include tablet {
+		top: 80px;
+		left: calc(50vw - 110px);
+	}
+	@include mobile {
+		top: 80px;
+		left: calc(50vw - 125px);
+	}
+	&__img {
+		height: 280px;
+		min-width: 498px;
+		@include tablet {
+			//max-height: 150px;
+			width: 250px;
+		}
+		@include mobile {
+			//max-height: 150px;
+			width: 250px;
+		}
+	}
+}
+
+.header-bckgnd {
+	height: 100%;
+}
+
+.header-bckgnd__font {
+	position: relative;
+	height: 100%;
+	overflow: hidden;
+}
+
+.header-bckgnd__moving {
+	width: 100vw;
+	position: absolute;
+	height: 100%;
+	color: white;
+}
+
+.header-bckgnd__moving--1 {
+	left: 0px;
+	animation: clouds1 15s linear infinite;
+}
+
+@keyframes clouds1 {
+	0% {
+		left: 0px;
+	}
+	100% {
+		left: -100vw;
+	}
+}
+
+.header-bckgnd__moving--2 {
+	left: 100vw;
+	animation: clouds2 15s linear infinite;
+}
+
+@keyframes clouds2 {
+	0% {
+		left: 100vw;
+	}
+	100% {
+		left: 0px;
+	}
+}
+
+.header_logo {
+	position: absolute;
+	top: 0px;
+	left: 10vw;
+	color: white;
+	@include tablet {
+		position: absolute;
+		top: 0px;
+		left: calc(50vw - 17px);
+		color: white;
+	}
+	@include mobile {
+		position: absolute;
+		top: 0px;
+		left: calc(50vw - 17px);
+		color: white;
+	}
+	&__img {
+		width: 54px;
+		@include tablet {
+			width: 34px
+		}
+		@include mobile {
+			width: 34px
+		}
+	}
+}
+
+.header_socialmedia {
+	position: absolute;
+	top: 82px;
+	right: 4vw;
+	height: 25px;
+	color: white;
+	font-size: 1.5rem;
+	font-weight: 300;
+	display: flex;
+	flex-wrap: wrap;
+	@include tablet {
+		// display: none;
+	}
+	@include mobile {
+		// display: none;
+		// flex-direction: column;
+		right: 3vw;
+		top: 10px;
+		height: fit-content;
+		max-width: 35vw;
+	}
+}
+
+.header_socialmedia p {
+	margin: 5px 12px;
+}
+
+.header_socialmedia a {
+	color: white;
+}
+
+.header_socialmedia a:hover {
+	color: white;
+}
+
+.pattern_bg {
+	// height: 1200px;
+	background: transparent url('/landing/pictures/pattern_solo_benu_couture_OK.svg') 0% 0% repeat padding-box;
+	background-size: 150px;
+	z-index: -1;
+	background-attachment: fixed;
+}
+
+.text-center {
+	text-align: center;
+}
+
+.universe {
+	margin-top: 60px;
+	padding-top: 50px;
+	padding-bottom: 150px;
+	@include tablet {
+		margin-top: 0px;
+	}
+	@include mobile {
+		margin-top: 0px;
+	}
+	h2 {
+		color: var(--benu_couture_couleur_texte);
+		text-align: center;
+		font: normal normal 800 44px/53px "Barlow Semi Condensed";
+		letter-spacing: 0px;
+		@include tablet {
+			font: normal normal 800 22px/26px "Barlow Semi Condensed";
+		}
+		@include mobile {
+			font: normal normal 800 22px/26px "Barlow Semi Condensed";
+		}
+	}
+	&__links {
+		display: flex;
+		justify-content: center;
+		flex-wrap: wrap;
+		width: 50vw;
+		margin:  auto;
+		margin-top: 50px;
+		margin-bottom: 100px;
+		@include tablet {
+			margin-top: 20px;
+			margin-bottom: 60px;
+		}
+		@include mobile {
+			margin-top: 20px;
+			margin-bottom: 60px;
+		}
+		a {
+			transition: all 0.2s;
+		}
+	}
+}

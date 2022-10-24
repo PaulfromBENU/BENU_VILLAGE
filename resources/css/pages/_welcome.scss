@@ -1,0 +1,683 @@
+.welcome-presentation {
+	// min-height: max(800px, 80vh);
+	margin-bottom: 60px;
+	width: 100vw;
+	position: relative;
+	min-height: min(80vh, 800px);
+	@include intermediate {
+		min-height: 550px;
+		height: 625px;
+	}
+	@include tablet {
+		min-height: 0;
+		height: auto;
+		overflow: hidden;
+	}
+	@include mobile {
+		min-height: 0;
+		height: auto;
+		margin-bottom: 20px;
+		overflow: hidden;
+	}
+	&__desc {
+		padding-top: 139px;
+		position: relative;
+		z-index: 2;
+		top: 0;
+		left: 0;
+		@include intermediate {
+			padding-top: 120px;
+		}
+		@include tablet {
+			padding-top: 30px;
+			// height: 550px;
+		}
+		@include mobile {
+			padding-top: 10px;
+			min-height: 550px;
+		}
+		&__bar {
+			padding: 10px 5px;
+			margin-bottom: 50px;
+			background: $primary-color-light 0% 0% no-repeat padding-box;
+			border-radius: 8px;
+			width: fit-content;
+			@include tablet {
+				margin-bottom: 25vh;
+			}
+			@include mobile {
+				width: 100%;
+				overflow-x: auto;
+			}
+			&__btn {
+				margin-left: 5px;
+				margin-right: 5px;
+				display: block;
+				text-align: center;
+				padding: 6px 12px;
+				font: normal normal 500 18px/22px 'Barlow Condensed';
+				letter-spacing: 0.36px;
+				color: $dark-text;
+				border-radius: 8px;
+				background: $primary-color-light 0% 0% no-repeat padding-box;
+				transition: $transition-base;
+				@include intermediate {
+					margin-left: 3px;
+					margin-right: 3px;
+					font: normal normal 500 17px/20px 'Barlow Condensed';
+				}
+				@include mobile {
+					min-width: fit-content;
+				}
+				&:hover {
+					color: $white;
+					background: $primary-color 0% 0% no-repeat padding-box;
+				}
+				&.--active {
+					color: $white;
+					background: $primary-color 0% 0% no-repeat padding-box;
+				}
+			}
+		}
+		&__title {
+			text-align: left;
+			font: normal normal bold 44px/53px 'Barlow Condensed';
+			letter-spacing: 0px;
+			color: $dark-text;
+			margin-bottom: 55px;
+			@include intermediate {
+				font: normal normal bold 35px/44px 'Barlow Condensed';
+			}
+			@include tablet {
+				font: normal normal bold 35px/42px 'Barlow Condensed';
+				margin-bottom: 35px;
+			}
+			@include mobile {
+				font: normal normal bold 30px/38px 'Barlow Condensed';
+				margin-bottom: 35px;
+			}
+		}
+		&__text {
+			width: 42vw;
+			text-align: left;
+			font: normal normal 500 18px/33px 'Barlow';
+			letter-spacing: 0px;
+			color: #2E1739;
+			margin-bottom: 30px;
+			@include large {
+				width: 760px;
+			}
+			@include intermediate {
+				font: normal normal 500 16px/28px 'Barlow';
+			}
+			@include tablet {
+				width: 60%;
+				margin-bottom: 20px;
+				font: normal normal 500 16px/28px 'Barlow';
+				// min-height: 300px;
+			}
+			@include mobile {
+				width: 100%;
+				margin-bottom: 20px;
+				font: normal normal 500 15px/26px 'Barlow';
+				// min-height: 300px;
+			}
+			li {
+				margin-left: 25px;
+			}
+			li::before {
+			  content: "\2022";  /* CSS Code/unicode for a bullet */
+			  color: $primary-color;
+			  font-weight: bold; /* If you want it to be bold */
+			  display: inline-block; /* Needed to add space between the bullet and the text */
+			  width: 1em; /* Also needed for space (tweak if needed) */
+			  margin-left: -1em; /* Also needed for space (tweak if needed) */
+			}
+		}
+		&__link {
+			text-align: left;
+			font: normal normal 800 22px/33px 'Barlow';
+			letter-spacing: 0px;
+			color: $primary-color;
+			transition: color 0.2s;
+			&:hover {
+				color: $dark-text;
+			}
+			@include mobile {
+				font: normal normal 800 18px/28px 'Barlow';
+			}
+		}
+	}
+	&__illustration {
+		position: absolute;
+		right: 0vw;
+		top: 0;
+		width: 68%;
+		// overflow: hidden;
+		z-index: -1;
+		height: 100%;
+		//background: lightgrey;
+		@include tablet {
+			right: 0;
+			overflow: hidden;
+		}
+		@include mobile {
+			position: relative;
+			right: 40%;
+			width: 150%;
+			height: auto;
+			overflow: hidden;
+		}
+	}
+}
+
+.welcome-illustration-2, .welcome-illustration-3, .welcome-illustration-4, .welcome-illustration-5 {
+	display: none;
+}
+
+.welcome-campaign {
+	margin-top: -90px;
+	margin-bottom: 37px;
+	// min-height: 100vh;
+	// height: min(100vh, 900px);
+	@include mobile {
+		margin-top: 20px;
+	}
+	&__left {
+		width: 50%;
+		margin-top: 50px;
+		@include tablet {
+			width: 100%;
+		}
+		@include mobile {
+			width: 100%;
+		}
+		&__img-container {
+			width: 80%;
+			max-height: 432px;
+			overflow: hidden;
+			border-radius: 25px;
+			margin: auto;
+			margin-top: 100px;
+			margin-bottom: 64px;
+			@include mobile {
+				width: 100%;
+				margin-top: 0px;
+				margin-bottom: 10px;
+				height: 275px;
+			}
+		}
+		&__title-1 {
+			text-align: left;
+			font: normal normal 300 40px/48px 'Barlow Condensed';
+			letter-spacing: 0.36px;
+			color: $dark-text;
+			@include intermediate {
+				font: normal normal 300 34px/40px 'Barlow Condensed';
+				letter-spacing: 0px;
+			}
+			@include tablet {
+				text-align: center;
+				font: normal normal 300 35px/40px 'Barlow Condensed';
+			}
+			@include mobile {
+				text-align: center;
+				font: normal normal 300 30px/34px 'Barlow Condensed';
+			}
+		}
+		&__title-2 {
+			text-align: left;
+			font: normal normal 600 105px/126px 'Barlow Condensed';
+			letter-spacing: 0px;
+			color: $primary-color;
+			margin-top: -25px;
+			@include intermediate {
+				font: normal normal 600 80px/100px 'Barlow Condensed';
+				margin-top: 0px;
+			}
+			@include tablet {
+				text-align: center;
+				font: normal normal 600 70px/60px 'Barlow Condensed';
+				margin-top: 5px;
+				margin-bottom: 40px;
+			}
+			@include mobile {
+				text-align: center;
+				font: normal normal 600 42px/40px 'Barlow Condensed';
+				margin-top: 5px;
+				margin-bottom: 40px;
+			}
+		}
+		&__links {
+			margin-bottom: 20%;
+			@include tablet {
+				margin-bottom: 0px;
+			}
+			@include mobile {
+				margin-bottom: 40px;
+			}
+			a {
+				@include intermediate {
+					margin-bottom: 15px;
+				}
+				@include mobile {
+					margin-bottom: 15px;
+					width: 72%;
+				}
+			}
+		}
+	}
+	&__right {
+		margin-top: 9%;
+		width: 50%;
+		height: fit-content;
+		border-radius: 25px;
+		//max-height: 1072px;
+		overflow: hidden;
+		//padding-top: 40px;
+		@include tablet {
+			margin: auto;
+		}
+		@include mobile {
+			width: 100%;
+		}
+		img {
+			width: 100%;
+			object-fit: cover;
+			object-position: center center;
+			// height: 100%;
+			aspect-ratio: 1;
+		}
+	}
+}
+
+.welcome-creations {
+	min-height: 100vh;
+	padding: 79px 100px;
+	@include intermediate {
+		padding: 70px 80px;
+	}
+	@include tablet {
+		padding: 60px 30px;
+	}
+	@include mobile {
+		padding: 50px 0px;
+	}
+	&__list {
+		&__link {
+			width: 100%;
+			margin-top: 41px;
+			font: normal normal 600 22px/26px 'Barlow Condensed';
+			letter-spacing: 0.44px;
+			a {
+				position: relative;
+				display: block;
+				width: fit-content;
+				margin: auto;
+				transition: $transition-base;
+				height: 40px;
+				margin-bottom: 60px;
+				&::after {
+					content: "";
+					position: absolute;
+					bottom: 0px;
+					left: 0px;
+					width: 20%;
+					height: 5px;
+					border-radius: 10px;
+					background: $primary-color;
+					transition: width 0.5s ease-in-out;
+				}
+				&:hover {
+					color: $primary-color;
+					&::after {
+						width: 100%;
+					}
+				}
+			}
+		}
+	}
+	&__title {
+		text-align: center;
+		font: normal normal 700 44px/53px 'Barlow Condensed';
+		letter-spacing: 0px;
+		color: $dark-text;
+		margin-bottom: 26px;
+		@include tablet {
+			font: normal normal 700 34px/40px 'Barlow Condensed';
+		}
+		@include mobile {
+			font: normal normal 700 28px/32px 'Barlow Condensed';
+		}
+	}
+	&__subtitle {
+		text-align: center;
+		font: normal normal 500 16px/28px 'Barlow';
+		letter-spacing: 0px;
+		color: $dark-text;
+		width: 45%;
+		margin: auto;
+		margin-bottom: 50px;
+		@include intermediate {
+			width: 60%;
+		}
+		@include tablet {
+			width: 70%;
+			font: normal normal 500 16px/28px 'Barlow';
+		}
+		@include mobile {
+			width: 80%;
+			font: normal normal 500 16px/28px 'Barlow';
+		}
+	}
+}
+
+.welcome-others {
+	padding-top: 100px;
+	padding-bottom: 100px;
+	@include mobile {
+		padding-top: 80px;
+		padding-bottom: 60px;
+	}
+	h3 {
+		margin-bottom: 5px;
+		text-align: center;
+		font: normal normal 700 44px/53px 'Barlow Condensed';
+		letter-spacing: 0px;
+		color: $dark-text;
+		@include tablet {
+			font: normal normal 700 34px/40px 'Barlow Condensed';
+		}
+		@include mobile {
+			font: normal normal 700 28px/34px 'Barlow Condensed';
+		}
+	}
+	p {
+		text-align: center;
+		font: normal normal 600 105px/115px 'Barlow Condensed';
+		letter-spacing: 0px;
+		color: $primary-color;
+		padding: 20px;
+		margin-bottom: 10px;
+		@include tablet {
+			font: normal normal 600 65px/85px 'Barlow Condensed';
+			margin-bottom: 20px;
+		}
+		@include mobile {
+			font: normal normal 600 34px/54px 'Barlow Condensed';
+			margin-bottom: 20px;
+		}
+	}
+	&__list {
+		a {
+			display: inline-block;
+			transition: all 0.3s;
+			padding: 0px 15px;
+			&:hover {
+				color: $dark-text;
+			}
+		}
+	}
+	&__plus {
+		height: 104px;
+		width: 104px;
+		border: 5px solid $dark-text;
+		border-radius: 50%;
+		position: relative;
+		margin: auto;
+		color: $primary-color-light;
+		transition: $transition-base;
+		&__symbol {
+			position: absolute;
+			width: 100%;
+			left: 0;
+			top: -18px;
+			font-size: 5rem;
+			text-align: center;
+		}
+		&:hover {
+			background: $primary-color-light;
+			color: $primary-color;
+		}
+	}
+	&__svg-container {
+		background: $white;
+		border-radius: 8px;
+		box-shadow: 0 10px 20px lightgrey;
+		padding: 20px;
+		height: 170px;
+		overflow: hidden;
+		svg {
+			height: 80%;
+			margin: auto;
+		}
+		h4 {
+			text-align: center;
+			font: normal normal 600 18px/18px 'Barlow Condensed';
+			padding-top: 5px;
+		}
+	}
+	&__block {
+		padding-top: 20px;
+		margin: 20px;
+		height: 160px;
+		transition: padding 0.3s;
+		@include mobile {
+			padding-top: 0px;
+		}
+		&:hover {
+			padding-top: 0px;
+		}
+	}
+}
+
+.error-page {
+	min-height: 80vh;
+	h1 {
+		font-family: 'Barlow Condensed'; 
+		font-size: 3rem; 
+		font-weight: 600; 
+		margin-bottom: 20px;
+	}
+	h2 {
+		font-family: 'Barlow Condensed'; 
+		font-size: 1.6rem; 
+		color: grey; 
+		font-weight: 600; 
+		margin-bottom: 20px;
+	}
+	svg {
+		max-width: 50vw;
+		margin: auto;
+	}
+}
+
+
+.welcome-mobile-nav {
+	position: fixed;
+	bottom: 0;
+	width: 100vw;
+	height: 55px;
+	background: $white;
+	z-index: 100;
+	border-top: lightgrey 1px solid;
+	&__link {
+		text-align: center;
+		width: 33%;
+		cursor: pointer;
+		position: relative;
+		button, a {
+			margin: auto !important;
+			padding-top: 6px !important;
+			padding-bottom: 0px !important;
+			height: auto !important;
+		}
+		p {
+			text-align: center;
+			font: normal normal 500 14px/17px 'Barlow Condensed';
+			letter-spacing: 0px;
+		}
+		svg {
+			margin: auto;
+			height: 22px;
+			width: 22px;
+		}
+		&:hover {
+			background: $primary-color-light;
+		}
+	}
+}
+
+
+.side-mobile {
+	position: fixed;
+	bottom: 150vh;
+	width: 100%;
+	height: 100%;
+	background: $white;
+	z-index: 101;
+	left: 0;
+	transition: bottom 0.6s;
+	padding-top: 120px;
+	overflow: auto;
+	padding-bottom: 20px;
+	&__toggler {
+		width: 42%;
+		min-width: 100px;
+		margin: 5px;
+		border-radius: 8px;
+		padding: 10px;
+		text-align: center;
+		cursor: pointer;
+		transition: all 0.3s;
+		&__svg {
+			margin-left: 4px;
+			margin-top: 1px;
+			margin-right: 18px;
+			height: 20px;
+			width: 20px;
+		}
+		&--general {
+			background: lightgrey;
+			font: normal normal 600 16px/22px 'Barlow Condensed';
+			letter-spacing: 0.36px;
+			text-transform: uppercase;
+			&:hover {
+				background: $dark-bg;
+				color: $white;
+			}
+		}
+		&--creation {
+			background: $primary-color-light;
+			font: normal normal 500 16px/22px 'Barlow Condensed';
+			&:hover {
+				background: $primary-color;
+				color: $white;
+				.side-mobile__toggler__svg {
+					path {
+						fill: $white;
+					}
+				}
+			}
+			&--active {
+				background: $primary-color;
+				color: $white;
+				.side-mobile__toggler__svg {
+					path {
+						fill: $white;
+					}
+				}
+			}
+		}
+	}
+	&__links {
+		margin-bottom: 35px;
+		margin-left: 5px;
+		margin-right: 5px;
+		li {
+			border-bottom: lightgrey solid 1px;
+			transition: all 0.2s;
+			&:hover {
+				background: $primary-color;
+				color: $white;
+				padding-left: 9px;
+			}
+			a {
+				padding: 10px 2px;
+				display: inline-block;
+				width: 100%;
+				height: 100%;
+				font: normal normal 500 15px/19px 'Barlow Condensed';
+				letter-spacing: 0.32px;
+				&:hover, &:focus, &:active {
+					color: $white;
+				}
+			}
+		}
+	}
+	&__creations {
+		margin-bottom: 35px;
+		margin-left: 5px;
+		margin-right: 5px;
+		&__title {
+			border-bottom: lightgrey solid 1px;
+			transition: all 0.2s;
+			cursor: pointer;
+			padding: 10px 2px;
+			font: normal normal 500 16px/19px 'Barlow Condensed';
+			letter-spacing: 0.32px;
+			&:hover {
+				background: $primary-color;
+				color: $white;
+				padding-left: 9px;
+				.side-mobile__creations__title__svg {
+					path {
+						fill: $white;
+					}
+				}
+			}
+			&--active {
+				color: $primary-color;
+				font-weight: 600;
+			}
+			&__svg {
+				height: 18px;
+				width: 18px;
+				margin-right: 10px;
+				transform: rotate(0deg);
+				&--open {
+					transform: rotate(180deg);
+				}
+				path {
+					fill: $primary-color;
+				}
+			}
+		}
+		&__list {
+			overflow: hidden;
+			transition: all 0.2s;
+
+			&--hidden {
+				max-height: 0;
+			}
+			&--visible {
+				max-height: fit-content;
+			}
+			h4 {
+				font: normal normal 600 16px/19px 'Barlow Condensed';
+				color: $primary-color;
+				margin-top: 15px;
+				margin-bottom: 15px;
+			}
+			&__links {
+				font: normal normal 500 16px/19px 'Barlow Condensed';
+				li {
+					padding-top: 4px;
+					padding-bottom: 4px;
+					margin-bottom: 8px;
+					padding-left: 7px;
+				}
+			}
+		}
+	}
+}

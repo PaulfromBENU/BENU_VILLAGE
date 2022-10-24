@@ -1,0 +1,669 @@
+.payment-tunnel {
+	width: 72%;
+	@include tablet {
+		width: 100%;
+	}
+	@include mobile {
+		width: 100%;
+	}
+	&__block {
+		margin-bottom: 30px;
+		background: #D0D0D040;
+		border-radius: 8px;
+		&__title {
+			text-align: left;
+			font: normal normal 700 44px/53px 'Barlow Condensed';
+			letter-spacing: 0px;
+			border-radius: 10px;
+			width: 100%;
+			padding: 10px 40px;
+			cursor: pointer;
+			height: 75px;
+			@include intermediate {
+				font: normal normal 700 38px/46px 'Barlow Condensed';
+				padding: 10px 20px;
+				height: auto;
+			}
+			@include tablet {
+				font: normal normal 700 34px/38px 'Barlow Condensed';
+				padding: 10px 20px;
+				height: auto;
+			}
+			@include mobile {
+				font: normal normal 700 28px/34px 'Barlow Condensed';
+				padding: 10px 20px;
+				height: auto;
+			}
+			&--waiting {
+				color: #2E1414;
+				opacity: 0.5;
+				background: #D0D0D0;
+			}
+			&--current {
+				color: $white;
+				background: $primary-color;
+			}
+			&--finished {
+				background: #2E1414;
+				color: $white;
+			}
+		}
+		&__content {
+			padding: 40px;
+			@include intermediate {
+				padding: 35px;
+			}
+			@include tablet {
+				padding: 30px;
+			}
+			@include mobile {
+				padding: 20px;
+			}
+		}
+	}
+	&__identification {
+		&__logged {
+			font: normal normal 500 16px/36px 'Barlow';
+		}
+		&__modify {
+			position: absolute;
+			top: 0;
+			right: 20px;
+			@include intermediate {
+				position: relative;
+				top: auto;
+				right: auto;
+				max-width: 350px;
+				margin: auto;
+				margin-top: 20px;
+			}
+			@include tablet {
+				position: relative;
+				top: auto;
+				right: auto;
+				max-width: 350px;
+				margin: auto;
+				margin-top: 20px;
+			}
+			@include mobile {
+				position: relative;
+				top: auto;
+				right: auto;
+				max-width: 350px;
+				margin: auto;
+				margin-top: 20px;
+			}
+		}
+		&__field {
+			font: normal normal 500 16px/36px 'Barlow';
+			background: $white;
+			border-radius: 10px;
+			padding: 20px 30px;
+			position: relative;
+			@include intermediate {
+				padding: 15px 20px;
+			}
+			@include tablet {
+				padding: 15px 20px;
+			}
+			@include mobile {
+				padding: 10px 20px;
+			}
+			h4 {
+				text-align: left;
+				font: normal normal 700 44px/53px 'Barlow Condensed';
+				letter-spacing: 0px;
+				margin-bottom: 10px;
+				@include intermediate {
+					font: normal normal 700 34px/40px 'Barlow Condensed';
+				}
+				@include tablet {
+					font: normal normal 700 34px/40px 'Barlow Condensed';
+				}
+				@include mobile {
+					font: normal normal 700 28px/34px 'Barlow Condensed';
+				}
+			}
+			p {
+				text-align: left;
+				font: normal normal 500 16px/26px 'Barlow';
+				letter-spacing: 0px;
+				width: calc(100% - 2.5rem - 16px);
+				@include intermediate {
+					width: calc(100% - 2.5rem - 16px);
+				}
+				@include tablet {
+					width: 100%;
+				}
+				@include mobile {
+					width: 100%;
+				}
+			}
+			&__col {
+				@include intermediate {
+					width: 48%;
+				}
+			}
+			&__btn-container {
+				position: absolute;
+				top: 0;
+				right: 20px;
+				height: 100%;
+				@include intermediate {
+					position: relative;
+					margin: 0;
+					margin-top: 15px;
+					margin-bottom: 10px;
+					right: 0;
+					width: 100%;
+				}
+				@include tablet {
+					position: relative;
+					margin: 0;
+					margin-top: 15px;
+					margin-bottom: 10px;
+					right: 0;
+					width: 100%;
+				}
+				@include mobile {
+					position: relative;
+					margin: 0;
+					margin-top: 15px;
+					margin-bottom: 10px;
+					right: 0;
+					width: 100%;
+				}
+			}
+			label {
+				z-index: 1;
+				color: grey;
+				bottom: 26px;
+				left: 0;
+				transform: scale(0.8);
+			}
+		}
+	}
+	&__delivery {
+		&__logged {
+			font: normal normal 500 16px/36px 'Barlow';
+		}
+		&__field {
+			font: normal normal 500 16px/36px 'Barlow';
+			background: $white;
+			border-radius: 10px;
+			padding: 20px 30px;
+			@include intermediate {
+				padding: 10px 20px;
+				font: normal normal 500 16px/34px 'Barlow';
+			}
+			@include tablet {
+				padding: 10px 20px;
+				font: normal normal 500 16px/34px 'Barlow';
+			}
+			@include mobile {
+				padding: 10px 20px;
+				font: normal normal 500 16px/28px 'Barlow';
+			}
+			h4 {
+				text-align: left;
+				font: normal normal 700 44px/53px 'Barlow Condensed';
+				letter-spacing: 0px;
+				margin-bottom: 30px;
+				@include intermediate {
+					font: normal normal 700 40px/48px 'Barlow Condensed';
+				}
+				@include tablet {
+					font: normal normal 700 34px/40px 'Barlow Condensed';
+				}
+				@include mobile {
+					font: normal normal 700 28px/34px 'Barlow Condensed';
+				}
+			}
+			p {
+				text-align: left;
+				font: normal normal 500 16px/26px 'Barlow';
+				letter-spacing: 0px;
+				width: 50%;
+				@include intermediate {
+					width: 100%;
+				}
+				@include tablet {
+					width: 100%;
+				}
+				@include mobile {
+					width: 100%;
+				}
+			}
+			&__radio-block {
+				@include intermediate {
+					margin-bottom: 10px;
+				}
+				@include tablet {
+					margin-bottom: 10px;
+				}
+				@include mobile {
+					margin-bottom: 10px;
+				}
+			}
+			&__btn {
+				position: absolute; 
+				top: 14px; 
+				right: 4px; 
+				padding-top: 0; 
+				padding-bottom: 0; 
+				width: 340px;
+				min-width: 175px;
+				@include intermediate {
+					position: relative;
+					width: 100%;
+					top: 0px; 
+					right: 0px; 
+					margin: 10px 0px;
+				}
+				@include tablet {
+					position: relative;
+					width: 100%;
+					top: 0px; 
+					right: 0px; 
+					margin: 10px 0px;
+				}
+				@include mobile {
+					position: relative;
+					width: 100%;
+					top: 0px; 
+					right: 0px; 
+					margin: 10px 0px;
+				}
+			}
+		}
+		&__address-container {
+			padding-bottom: 30px;
+			border-bottom: solid 1px lightgrey;
+			margin-top: 30px;
+			margin-bottom: 30px;
+		}
+		&__address {
+			&__name {
+				text-align: center;
+				font: normal normal 600 20px/28px 'Barlow Condensed';
+				letter-spacing: 0px;
+				color: $white;
+				background: $primary-color;
+				border-radius: 8px;
+				padding: 4px 10px;
+				width: fit-content;
+				margin-bottom: 15px;
+				@include intermediate {
+					max-width: 250px;
+				}
+				@include tablet {
+					width: 100%;
+				}
+				@include mobile {
+					width: 100%;
+				}
+			}
+			h5 {
+				text-align: left;
+				font: normal normal 700 20px/28px 'Barlow';
+				letter-spacing: 0px;
+			}
+			&__btn {
+				position: absolute; 
+				right: 4px; 
+				padding-top: 0; 
+				padding-bottom: 0; 
+				width: 340px;
+				@include intermediate {
+					position: relative;
+					top: 0;
+					right: 0;
+					width: 100%;
+					margin: 0;
+				}
+				@include tablet {
+					position: relative;
+					top: 0;
+					right: 0;
+					width: 100%;
+					margin: 0;
+				}
+				@include mobile {
+					position: relative;
+					top: 0;
+					right: 0;
+					width: 100%;
+					margin: 0;
+				}
+				&--1 {
+					top: 14px;
+					@include intermediate {
+						top: 0;
+						margin-top: 0px;
+					}
+					@include tablet {
+						top: 0;
+						margin-top: 15px;
+					}
+					@include mobile {
+						top: 0;
+						margin-top: 15px;
+					}
+				}
+				&--2 {
+					top: 54px;
+					@include intermediate {
+						top: 0;
+						display: inline-block;
+						margin-top: 12px;
+						font-size: 1.3rem;
+						padding: 5px;
+					}
+					@include tablet {
+						top: 0;
+						display: inline-block;
+						margin-top: 12px;
+						font-size: 1.3rem;
+						padding: 5px;
+					}
+					@include mobile {
+						top: 0;
+						display: inline-block;
+						margin-top: 12px;
+						font-size: 1.2rem;
+						padding: 5px;
+					}
+				}
+			}
+		}
+		&__summary {
+			font: normal normal 500 16px/36px 'Barlow';
+		}
+		h6 {
+			font: normal normal 700 22px/28px 'Barlow';
+		}
+		label {
+			z-index: 1;
+			color: $dark-text;
+			bottom: 30px;
+			left: 0;
+			transform: scale(0.8);
+			@include mobile {
+				transform: scale(0.8);
+				// width: fit-content;
+				// white-space: nowrap;
+			}
+		}
+	}
+	&__payment {
+		&__logged {
+			font: normal normal 500 16px/36px 'Barlow';
+		}
+		&__field {
+			font: normal normal 500 16px/36px 'Barlow';
+			background: $white;
+			border-radius: 10px;
+			padding: 20px 30px;
+			button {
+				@include intermediate {
+					max-width: 80%;
+					text-align: center;
+					padding-left: 20px;
+					padding-right: 20px;
+				}
+			}
+		}
+		img {
+			max-height: 55px;
+		}
+	}
+	&__in-shop {
+		width: 70%;
+		margin: auto;
+		h2 {
+			text-align: center;
+			font: normal normal 700 44px/53px 'Barlow Condensed';
+			letter-spacing: 0px;
+			width: 100%;
+			padding: 10px 40px;
+			margin-bottom: 30px;
+		}
+		&__form {
+			label {
+				font-size: 0.9rem;
+			}
+			&__explanation {
+				margin-bottom: 20px;
+				border-bottom: solid 1px $primary-color;
+				padding-bottom: 6px;
+				font-size: 1.1rem;
+			}
+		}
+	}
+}
+
+.payment-summary {
+	width: 25%;
+	position: relative;
+	@include tablet {
+		width: 100%;
+	}
+	@include mobile {
+		width: 100%;
+	}
+	&__title {
+		background: #2E1414;
+		color: $white;
+		min-height: 75px;
+		padding: 8px 20px 8px 30px;
+		font: normal normal 500 24px/28px 'Barlow Condensed';
+		letter-spacing: 0px;
+		cursor: pointer;
+		border-radius: 10px;
+		position: relative;
+		z-index: 2;
+		@include intermediate {
+			padding: 8px 20px;
+			font: normal normal 500 24px/28px 'Barlow Condensed';
+		}
+		@include tablet {
+			padding: 8px 20px;
+			font: normal normal 500 24px/28px 'Barlow Condensed';
+		}
+		@include mobile {
+			padding: 8px 20px;
+			font: normal normal 500 24px/28px 'Barlow Condensed';
+		}
+		h3 {
+			padding-right: 3px;
+		}
+		&__plus {
+			font-size: 5rem;
+			font-weight: 100;
+			padding-top: 8px;
+		}
+	}
+	&__cart-content {
+		padding: 20px;
+		background: #D0D0D040;
+		box-shadow: lightgrey 0 0 12px;
+		position: relative;
+		z-index: 1;
+		top: -10px;
+		padding-top: 40px;
+		overflow: hidden;
+		transition: height 0.3s;
+		&__article {
+			padding: 10px 10px;
+			background: $white;
+			border-radius: 8px;
+			font: normal normal 500 16px/32px 'Barlow';
+			@include intermediate {
+				flex-direction: column;
+			}
+			&__name {
+				color: $primary-color;
+				font: normal normal 600 26px/28px 'Barlow Condensed';
+				margin-bottom: 7px;
+			}
+			&__size {
+				background: $primary-color;
+				padding: 1px 10px;
+				width: fit-content;
+				border-radius: 20px;
+				text-transform: uppercase;
+				color: $white;
+				font: normal normal 600 14px/28px 'Barlow Condensed';
+			}
+			&__info {
+				font: normal normal 500 14px/28px 'Barlow';
+			}
+			img {
+				max-height: 150px;
+				border-radius: 8px;
+				margin-right: 15px;
+				@include intermediate {
+					margin-right: 0;
+					margin-bottom: 15px;
+				}
+			}
+		}
+	}
+}
+
+.payment-process {
+	&__form {
+		border: solid 2px #D41C1B; 
+		border-radius: 8px;
+		width: 70%;
+		margin: auto;
+		margin-bottom: 40px;
+		@include tablet {
+			width: 100%;
+		}
+		@include mobile {
+			width: 100%;
+		}
+		label {
+			text-align: left;
+			color: grey;
+			display: block;
+			width: 100%;
+		}
+		input[type="text"] {
+			width: 100%;
+			border: none;
+			border-bottom: solid 1px lightgrey;
+			&:focus {
+				outline: none;
+				box-shadow: none;
+				border-color: $primary-color;
+			}
+		}
+	}
+}
+
+.payment-confirmation {
+	padding-top: 65px;
+	margin-bottom: 80px;
+	&__subtitle {
+		text-align: center;
+		font: normal normal 500 16px/28px 'Barlow Condensed';
+		letter-spacing: 0.16px;
+		color: #26254480;
+		margin-bottom: 35px;
+	}
+	&__title {
+		width: 50%;
+		margin-left: 25%;
+		text-align: center;
+		font: normal normal 700 44px/53px 'Barlow Condensed';
+		letter-spacing: 0px;
+		color: #2E1414;
+		margin-bottom: 70px;
+		@include intermediate {
+			width: 100%;
+			margin-left: 0%;
+			font: normal normal 700 40px/48px 'Barlow Condensed';
+		}
+		@include tablet {
+			width: 100%;
+			margin-left: 0%;
+			font: normal normal 700 34px/40px 'Barlow Condensed';
+		}
+		@include mobile {
+			width: 100%;
+			margin-left: 0%;
+			font: normal normal 700 28px/34px 'Barlow Condensed';
+		}
+	}
+	&__order-number {
+		text-align: center;
+		font: normal normal 700 28px/34px 'Barlow Condensed';
+		letter-spacing: 0.28px;
+		color: $primary-color;
+		margin-bottom: 35px;
+	}
+	&__order-infos {
+		text-align: center;
+		font: normal normal 500 16px/28px 'Barlow';
+		letter-spacing: 0px;
+	}
+	&__txt-details {
+		text-align: center;
+		font: normal normal 500 16px/28px 'Barlow';
+		letter-spacing: 0px;
+		margin-bottom: 35px;
+		@include intermediate {
+			margin-bottom: 5px;
+		}
+		@include tablet {
+			margin-bottom: 5px;
+		}
+		@include mobile {
+			margin-bottom: 5px;
+		}
+	}
+	&__links {
+		padding-top: 35px;
+		width: 60%;
+		margin-left: 20%;
+		@include intermediate {
+			width: 100%;
+			margin-left: 0%;
+		}
+		@include tablet {
+			width: 100%;
+			margin-left: 0%;
+		}
+		@include mobile {
+			width: 100%;
+			margin-left: 0%;
+		}
+		a {
+			display: inline-block;
+			margin-bottom: 30px;
+			@include intermediate {
+				width: 100%;
+				margin-left: 0;
+				margin-right: 0;
+			}
+			@include tablet {
+				width: 100%;
+				margin-left: 0;
+				margin-right: 0;
+			}
+			@include mobile {
+				width: 100%;
+				margin-left: 0;
+				margin-right: 0;
+			}
+		}
+		div {
+			width: fit-content;
+			@include mobile {
+				width: 100%;
+			}
+		}
+	}
+}

@@ -1,0 +1,630 @@
+.full-story {
+	padding-top: 66px;
+	padding-bottom: 80px;
+	color: $dark-text;
+	line-height: 2rem;
+	&__title {
+		text-align: center;
+		font: normal normal 700 38px/45px 'Barlow Condensed';
+		letter-spacing: 0px;
+		margin-bottom: 55px;
+	}
+	&__subtitle {
+		text-align: center;
+		font: normal normal 500 16px/28px 'Barlow Condensed';
+		letter-spacing: 0px;
+		color: #2E141480;
+		margin-bottom: 35px;
+	}
+	&__lowtitle {
+		text-align: left;
+		font: normal normal 700 26px/34px 'Barlow Condensed';
+		letter-spacing: 0px;
+		margin-top: 65px;
+		margin-bottom: 32px;
+		color: $primary-color;
+		&--2 {
+			font: normal normal 700 25px/32px 'Barlow Condensed';
+			margin-bottom: 30px;
+			text-align: left;
+			color: $dark-text;
+		}
+	}
+	&__section-title {
+		text-align: center;
+		font: normal normal 700 38px/45px 'Barlow Condensed';
+		letter-spacing: 0px;
+		margin-bottom: 75px;
+		color: $primary-color;
+	}
+	&__txt {
+		margin-bottom: 30px;
+		font: normal normal 500 1.05rem 'Barlow';
+		line-height: 2rem;
+		a {
+			color: $primary-color;
+			font-weight: 500;
+			&:hover {
+				text-decoration: underline;
+			}
+		}
+	}
+	&__highlight {
+		background: $primary-color-light;
+		border-radius: 0.5rem;
+		font-size: 1.25rem;
+		font-weight: 700;
+		padding: 1.75rem;
+		margin-bottom: 30px;
+		a {
+			color: $primary-color;
+			font-weight: 500;
+			&:hover {
+				text-decoration: underline;
+			}
+		}
+	}
+	&__bullets {
+		margin-bottom: 45px;
+		font-weight: 500;
+		margin-left: 20px;
+		li::before {
+			content: "\2022";  /* Add content: \2022 is the CSS Code/unicode for a bullet */
+			color: $primary-color; /* Change the color */
+			font-weight: bold; /* If you want it to be bold */
+			display: inline-block; /* Needed to add space between the bullet and the text */
+			width: 1em; /* Also needed for space (tweak if needed) */
+			margin-left: -1em; /* Also needed for space (tweak if needed) */
+		}
+	}
+	&__general {
+		position: relative;
+		&__menu-container {
+			position: absolute;
+			width: 10%;
+			height: 100%;
+			top: 0;
+			left: 5%;
+			&__menu {
+				position: sticky;
+				top: 200px;
+				padding: 20px;
+				border-radius: 12px;
+				z-index: 5;
+				background: $white;
+				button {
+					width: 90%;
+					text-align: left;
+				}
+			}
+		}
+		&__content {
+			width: 100%;
+			position: relative;
+			&__slider {
+				overflow-x: auto;
+				width: 85%;
+				margin-left: 15%;
+				position: relative;
+				&__cards {
+					position: relative;
+					width: 100%;
+					&__card {
+						width: 300px;
+						min-width: 300px;
+						height: 320px;
+						border-radius: 8px;
+						box-shadow: lightgrey 0 0 10px;
+						margin: 10px;
+						position: relative;
+						overflow: hidden;
+						img {
+							width: 100%;
+							height: 100%;
+							object-fit: cover;
+						}
+						&__footer {
+							position: absolute;
+							bottom: 0;
+							left: 0;
+							width: 100%;
+							background: $primary-color;
+							color: $white;
+							padding: 12px 10px;
+							&--number {
+								height: 50px;
+								width: 50px;
+								padding-top: 7px;
+								text-align: center;
+								color: $primary-color;
+								background: $white;
+								border-radius: 50%;
+								margin-right: 20px;
+								font: normal normal 700 26px/34px 'Barlow Condensed';
+							}
+							&--txt {
+								width: calc(100% - 70px);
+								font: normal normal 700 16px/24px 'Barlow Condensed';
+							}
+						}
+					}
+				}
+				&__bar {
+					margin-top: 25px;
+					margin-left: 15%;
+					width: 85%;
+					margin-bottom: 80px;
+					&__btn {
+						height: 80px;
+						width: 80px;
+						background: $white;
+						border: 2px solid $primary-color;
+						border-radius: 50%;
+						padding-top: 23px;
+						padding-left: 20px;
+						transition: all 0.2s;
+						cursor: pointer;
+						margin: 12px;
+						&:hover {
+							background: $primary-color;
+							.full-story__general__content__slider__bar__svg {
+								path {
+									fill: $white;
+								}
+							}
+						}
+						&--left {
+							transform: rotate(90deg);
+							transform-origin: center;
+							@include mobile {
+								transform: scale(0.8) rotate(90deg);
+							}
+						}
+						&--right {
+							transform: rotate(-90deg);
+							transform-origin: center;
+							@include mobile {
+								transform: scale(0.8) rotate(90deg);
+							}
+						}
+					}
+					&__svg {
+						height: 35px;
+						width: 35px;
+						path {
+							fill: $primary-color;
+						}
+					}
+					&__scroll {
+						position: relative;
+						height: 2px;
+						background: lightgrey;
+						align-self: center;
+						right: 0;
+						margin-right: 10px;
+						&--red {
+							left: 0;
+							top: -1px;
+							height: 4px;
+							border-radius: 2px;
+							background: $primary-color;
+							width: 25%;
+							animation: left 0.2s;
+						}
+					}
+				}
+			}
+			&__info-section {
+				&__picture {
+					width: 100%;
+					height: 700px;
+					overflow: hidden;
+					img {
+						object-fit: cover;
+						width: 100%;
+					}
+				}
+				&__transition {
+					margin-top: 10px;
+					margin-bottom: 50px;
+					width: 100%;
+					min-height: 700px;
+					overflow: hidden;
+					img {
+						object-fit: cover;
+						width: 100%;
+					}
+				}
+				&__txt {
+					padding: 50px 70px;
+					width: 60%;
+					margin: auto;
+					margin-top: -40px;
+					background: $white;
+					position: relative;
+					z-index: 2;
+					border-radius: 12px;
+					h4 {
+						color: $primary-color;
+						font: normal normal 700 25px/32px 'Barlow Condensed';
+						margin-bottom: 30px;
+						text-align: left;
+					}
+					h5 {
+						font: normal normal 700 25px/32px 'Barlow Condensed';
+						margin-bottom: 30px;
+						text-align: left;
+					}
+					&__paragraph {
+						font: normal normal 500 16px/28px 'Barlow';
+						margin-bottom: 60px;
+					}
+					&__highlight {
+						font: normal normal 600 19px/24px 'Barlow';
+						text-align: center;
+						background: $primary-color-light;
+						padding: 20px 40px;
+						border-radius: 12px;
+						margin-bottom: 60px;
+					}
+				}
+			}
+		}
+	}
+}
+
+
+.about {
+	padding-top: 66px;
+	color: $dark-text;
+	line-height: 2rem;
+	&__title {
+		text-align: center;
+		font: normal normal 700 38px/45px 'Barlow Condensed';
+		letter-spacing: 0px;
+		margin-bottom: 55px;
+		@include tablet {
+			font: normal normal 700 32px/38px 'Barlow Condensed';
+		}
+		@include mobile {
+			font: normal normal 700 28px/34px 'Barlow Condensed';
+		}
+	}
+	&__subtitle {
+		text-align: center;
+		font: normal normal 500 16px/28px 'Barlow Condensed';
+		letter-spacing: 0px;
+		color: #2E141480;
+		margin-bottom: 35px;
+	}
+	&__lowtitle {
+		text-align: center;
+		font: normal normal 700 33px/40px 'Barlow Condensed';
+		letter-spacing: 0px;
+		margin-top: 65px;
+		margin-bottom: 32px;
+	}
+	&__section-title {
+		text-align: center;
+		font: normal normal 700 38px/45px 'Barlow Condensed';
+		letter-spacing: 0px;
+		margin-bottom: 75px;
+		color: $primary-color;
+		@include tablet {
+			font: normal normal 700 32px/38px 'Barlow Condensed';
+			margin-bottom: 60px;
+		}
+		@include mobile {
+			font: normal normal 700 28px/34px 'Barlow Condensed';
+			margin-bottom: 50px;
+			padding: 0px 15px;
+		}
+	}
+	&__txt {
+		margin-bottom: 45px;
+		font: normal normal 400 1.05rem 'Barlow';
+		line-height: 2rem;
+		a {
+			color: $primary-color;
+			font-weight: 500;
+			&:hover {
+				text-decoration: underline;
+			}
+		}
+	}
+	&__highlight {
+		background: $primary-color-light;
+		border-radius: 0.5rem;
+		font-size: 1.25rem;
+		font-weight: 700;
+		padding: 1.75rem;
+		margin-bottom: 45px;
+		a {
+			color: $primary-color;
+			font-weight: 500;
+			&:hover {
+				text-decoration: underline;
+			}
+		}
+	}
+	&__bullets {
+		margin-bottom: 45px;
+		font-weight: 500;
+		margin-left: 20px;
+		li::before {
+			content: "\2022";  /* Add content: \2022 is the CSS Code/unicode for a bullet */
+			color: $primary-color; /* Change the color */
+			font-weight: bold; /* If you want it to be bold */
+			display: inline-block; /* Needed to add space between the bullet and the text */
+			width: 1em; /* Also needed for space (tweak if needed) */
+			margin-left: -1em; /* Also needed for space (tweak if needed) */
+		}
+	}
+	&__general {
+		position: relative;
+		&__menu-container {
+			position: absolute;
+			width: 10%;
+			height: 100%;
+			top: 0;
+			left: 5%;
+			&__menu {
+				position: sticky;
+				top: 200px;
+				padding: 20px;
+				border-radius: 12px;
+				z-index: 5;
+				background: $white;
+				button {
+					width: 90%;
+					text-align: left;
+				}
+			}
+		}
+		&__content {
+			width: 100%;
+			position: relative;
+			&__slider {
+				overflow-x: auto;
+				width: 85%;
+				margin-left: 15%;
+				position: relative;
+				@include tablet {
+					width: 100%;
+					margin-left: 0;
+				}
+				@include mobile {
+					width: 100%;
+					margin-left: 0;
+				}
+				&__cards {
+					position: relative;
+					width: 100%;
+					&__card {
+						width: 300px;
+						min-width: 300px;
+						height: 320px;
+						border-radius: 8px;
+						box-shadow: lightgrey 0 0 10px;
+						margin: 10px;
+						position: relative;
+						overflow: hidden;
+						img {
+							width: 100%;
+							height: 100%;
+							object-fit: cover;
+						}
+						&__footer {
+							position: absolute;
+							bottom: 0;
+							left: 0;
+							width: 100%;
+							background: $primary-color;
+							color: $white;
+							padding: 12px 10px;
+							&--number {
+								height: 50px;
+								width: 50px;
+								padding-top: 7px;
+								text-align: center;
+								color: $primary-color;
+								background: $white;
+								border-radius: 50%;
+								margin-right: 20px;
+								font: normal normal 700 26px/34px 'Barlow Condensed';
+							}
+							&--txt {
+								width: calc(100% - 70px);
+								font: normal normal 700 16px/24px 'Barlow Condensed';
+							}
+						}
+					}
+				}
+				&__bar {
+					margin-top: 25px;
+					margin-left: 15%;
+					width: 85%;
+					margin-bottom: 80px;
+					@include tablet {
+						width: 100%;
+						margin-left: 0;
+					}
+					@include mobile {
+						width: 100%;
+						margin-left: 0;
+					}
+					&__btn {
+						height: 80px;
+						width: 80px;
+						background: $white;
+						border: 2px solid $primary-color;
+						border-radius: 50%;
+						padding-top: 23px;
+						padding-left: 20px;
+						transition: all 0.2s;
+						cursor: pointer;
+						margin: 12px;
+						@include tablet {
+							border: 2px solid $primary-color;
+							height: 80px;
+							width: 80px;
+						}
+						@include mobile {
+							border: 2px solid $primary-color;
+							height: 80px;
+							width: 80px;
+						}
+						&:hover {
+							background: $primary-color;
+							.about__general__content__slider__bar__svg {
+								path {
+									fill: $white;
+								}
+							}
+						}
+						&--left {
+							transform: rotate(90deg);
+							transform-origin: center;
+							@include mobile {
+								transform: scale(0.8) rotate(90deg);
+							}
+						}
+						&--right {
+							transform: rotate(-90deg);
+							transform-origin: center;
+							@include mobile {
+								transform: scale(0.8) rotate(-90deg);
+							}
+						}
+					}
+					&__svg {
+						height: 35px;
+						width: 35px;
+						path {
+							fill: $primary-color;
+						}
+					}
+					&__scroll {
+						position: relative;
+						height: 2px;
+						background: lightgrey;
+						align-self: center;
+						right: 0;
+						margin-right: 10px;
+						&--red {
+							left: 0;
+							top: -1px;
+							height: 4px;
+							border-radius: 2px;
+							background: $primary-color;
+							width: 25%;
+							animation: left 0.2s;
+						}
+					}
+				}
+			}
+			&__info-section {
+				&__picture {
+					width: 100%;
+					height: 700px;
+					overflow: hidden;
+					@include tablet {
+						height: fit-content;
+					}
+					@include mobile {
+						height: fit-content;
+					}
+					img {
+						object-fit: cover;
+						width: 100%;
+					}
+				}
+				&__transition {
+					margin-top: 10px;
+					margin-bottom: 50px;
+					width: 100%;
+					min-height: 700px;
+					overflow: hidden;
+					@include tablet {
+						height: fit-content;
+						min-height: 100px;
+					}
+					@include mobile {
+						height: fit-content;
+						min-height: 100px;
+					}
+					img {
+						object-fit: cover;
+						width: 100%;
+					}
+				}
+				&__txt {
+					padding: 50px 70px;
+					width: 60%;
+					margin: auto;
+					margin-top: -40px;
+					background: $white;
+					position: relative;
+					z-index: 2;
+					border-radius: 12px;
+					@include tablet {
+						width: 100%;
+						padding: 30px 20px;
+						margin-top: 20px;
+					}
+					@include mobile {
+						width: 100%;
+						padding: 30px 20px;
+						margin-top: 20px;
+					}
+					h4 {
+						color: $primary-color;
+						font: normal normal 700 25px/32px 'Barlow Condensed';
+						margin-bottom: 30px;
+						text-align: left;
+						@include tablet {
+							margin-bottom: 20px;
+						}
+						@include mobile {
+							margin-bottom: 20px;
+						}
+					}
+					h5 {
+						font: normal normal 700 25px/32px 'Barlow Condensed';
+						margin-bottom: 30px;
+						text-align: left;
+					}
+					&__paragraph {
+						font: normal normal 500 16px/28px 'Barlow';
+						margin-bottom: 60px;
+						@include tablet {
+							margin-bottom: 40px;
+							font: normal normal 500 16px/28px 'Barlow';
+						}
+						@include mobile {
+							margin-bottom: 40px;
+							font: normal normal 500 16px/28px 'Barlow';
+						}
+					}
+					&__highlight {
+						font: normal normal 600 19px/24px 'Barlow';
+						text-align: center;
+						background: $primary-color-light;
+						padding: 20px 40px;
+						border-radius: 12px;
+						margin-bottom: 60px;
+					}
+					&__section-3-img {
+						margin-left: 0;
+						@include tablet {
+							margin-left: 20%;
+						}
+						@include mobile {
+							margin-left: 0;
+						}
+					}
+				}
+			}
+		}
+	}
+}

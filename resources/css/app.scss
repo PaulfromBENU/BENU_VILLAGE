@@ -1,0 +1,41 @@
+//Variables
+@import './utils/variables';
+
+//Mixins
+@import './utils/mixins';
+
+//Base styling
+@import './base/general';
+
+//Specific components
+@import './components/buttons';
+@import './components/model_overview';
+@import './components/article_overview';
+@import './components/sold_overview';
+@import './components/breadcrumbs';
+@import './components/pagination';
+
+//Layout elements
+@import './layouts/header';
+@import './layouts/harmonica';
+@import './layouts/modals';
+@import './layouts/footer';
+
+//Application pages
+@import './pages/welcome';
+@import './pages/services';
+@import './pages/models';
+@import './pages/full_story';
+@import './pages/partners';
+@import './pages/news';
+@import './pages/auth';
+@import './pages/dashboard';
+@import './pages/filament';
+@import './pages/landing_page';
+@import './pages/cart';
+@import './pages/payment';
+@import './pages/participate';
+@import './pages/campaigns';
+@import './pages/medias';
+
+// Dependencies

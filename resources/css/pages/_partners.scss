@@ -1,0 +1,102 @@
+.partners {
+	padding-top: 65px;
+	margin-bottom: 60px;
+	&__side-title {
+		text-align: left;
+		font: normal normal 700 44px/53px 'Barlow Condensed';
+		letter-spacing: 0px;
+		margin-bottom: 35px;
+		@include tablet {
+			font: normal normal 700 28px/34px 'Barlow Condensed';
+			text-align: center;
+		}
+		@include mobile {
+			font: normal normal 700 28px/34px 'Barlow Condensed';
+			text-align: center;
+		}
+	}
+	&__side-txt {
+		text-align: left;
+		font: normal normal 500 16px/28px 'Barlow';
+		letter-spacing: 0px;
+		@include tablet {
+			margin-bottom: 20px;
+			padding-left: 1%;
+		}
+		@include mobile {
+			margin-bottom: 20px;
+		}
+	}
+	&__box {
+		padding: 34px;
+		margin-bottom: 50px;
+		background: $white 0% 0% no-repeat padding-box;
+		box-shadow: 0px 0px 40px #26254433;
+		border-radius: 8px;
+		@include tablet {
+			min-width: 48%;
+			width: 48%;
+			margin-left: 1%;
+			margin-right: 1%;
+		}
+		&__img-container {
+			margin-right: 50px;
+			border-radius: 10px;
+			overflow: hidden;
+			width: 30%;
+			height: auto;
+			@include tablet {
+				width: 100%;
+			}
+			@include mobile {
+				width: 100%;
+			}
+			img {
+				object-fit: cover;
+				width: 100%;
+			}
+		}
+		&__txt-container {
+			width: 65%;
+			@include tablet {
+				width: 100%;
+			}
+			@include mobile {
+				width: 100%;
+			}
+		}
+		&__title {
+			text-align: left;
+			font: normal normal 700 28px/34px 'Barlow Condensed';
+			letter-spacing: 0.28px;
+			@include tablet {
+				margin-top: 45px;
+				margin-bottom: 25px;
+			}
+			@include mobile {
+				margin-top: 45px;
+				margin-bottom: 25px;
+			}
+		}
+		&__desc {
+			margin-top: 25px;
+			margin-bottom: 25px;
+			text-align: left;
+			font: normal normal 500 16px/28px 'Barlow';
+			letter-spacing: 0px;
+		}
+		&__highlight {
+			background: $primary-color-light 0% 0% no-repeat padding-box;
+			border-radius: 8px;
+			padding: 18px 20px;
+		}
+		&__link {
+			text-align: left;
+			font: normal normal 700 16px/28px 'Barlow Condensed';
+			letter-spacing: 0.16px;
+			&:hover {
+				text-decoration: underline;
+			}
+		}
+	}
+}

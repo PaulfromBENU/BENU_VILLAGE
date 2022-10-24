@@ -1,0 +1,791 @@
+.all-campaigns {
+	padding-top: 60px;
+	padding-bottom: 40px;
+	@include mobile {
+		width: 92%;
+		margin: auto;
+		padding-top: 30px;
+		padding-bottom: 40px;
+	}
+	&__title {
+		text-align: center;
+		font: normal normal 600 44px/53px 'Barlow Condensed';
+		letter-spacing: 0px;
+		margin-bottom: 85px;
+		@include mobile {
+			font: normal normal 700 28px/34px 'Barlow Condensed';
+			margin-bottom: 20px;
+			padding-bottom: 20px;
+			padding-top: 10px;
+		}
+	}
+	&__subtitle {
+		text-align: center;
+		font: normal normal 500 16px/28px 'Barlow Condensed';
+		letter-spacing: 0px;
+		color: #2E141480;
+		margin-bottom: 35px;
+		@include mobile {
+			margin-bottom: 20px;
+		}
+	}
+}
+
+
+.campaign-overview {
+	width: 100%;
+	margin: auto;
+	border-radius: 8px;
+	padding: 20px;
+	box-shadow: 0px 0px 30px #CFCFCF80;
+	height: 250px;
+	margin-bottom: 40px;
+	transition: all 0.3s;
+	@include tablet {
+		height: fit-content;
+	}
+	@include mobile {
+		height: auto;
+	}
+	&:hover {
+		box-shadow: 0px 0px 50px #CFCFCFF0;
+	}
+	&__picture {
+		width: 48%;
+		height: 100%;
+		overflow: hidden;
+		border-radius: 8px;
+		@include mobile {
+			width: 100%;
+			margin-bottom: 30px;
+		}
+		img {
+			object-fit: cover;
+			width: 100%;
+		}
+	}
+	&__summary {
+		width: 50%;
+		text-align: left;
+		@include mobile {
+			width: 100%;
+		}
+		h3 {
+			text-align: left;
+			font: normal normal 700 28px/28px 'Barlow Condensed';
+			letter-spacing: 0px;
+			color: $primary-color;
+			padding-top: 10px;
+			margin-bottom: 10px;
+		}
+		&__date {
+			font: normal normal 500 12px/28px 'Barlow';
+			margin-bottom: 12px;
+		}
+		&__desc {
+			font: normal normal 500 16px/28px 'Barlow';
+		}
+	}
+}
+
+
+.single-campaign {
+	// padding-top: 60px;
+	// background: $white;
+	@include mobile {
+		margin: auto;
+		// padding-top: 30px;
+		padding-bottom: 40px;
+		overflow-x: hidden;
+	}
+	// a {
+	// 	font-weight: 600;
+	// 	color: inherit;
+	// 	transition: color 0.2s;
+	// 	&:hover {
+	// 		color: $primary-color;
+	// 	}
+	// }
+	&__header {
+		position: relative;
+		// height: calc(100vh - 160px);
+		padding-top: 15vh;
+		padding-bottom: 25px;
+		color: $white;
+		background: url('/images/pictures/campaigns/BC_WS_Photos_PoliticalDeclaration_1.jpg');
+		background-position: bottom;
+		background-attachment: fixed;
+		background-size: cover;
+		z-index: 1;
+		border: solid white 60px;
+		@include large {
+			background-size: cover;
+		}
+		@include intermediate {
+			border: solid white 20px;
+		}
+		@include tablet {
+			border: solid white 20px;
+		}
+		@include mobile {
+			// height: calc(100vh - 120px);
+			border: solid white 20px;
+			background-attachment: scroll;
+		}
+		a {
+			font-weight: 600;
+			text-decoration: underline;
+			transition: all 0.2s;
+			&:hover {
+				text-decoration: none;
+				color: $primary-color-light;
+			}
+		}
+		// img {
+		// 	position: absolute;
+		// 	top: 0;
+		// 	left: 0;
+		// 	width: 100%;
+		// 	// height: calc(100vh - 140px);
+		// 	height: 100%;
+		// 	object-fit: cover;
+		// 	z-index: -2;
+		// }
+		&__opacifier {
+			position: absolute;
+			top: 0;
+			left: 0;
+			width: 100%;
+			// height: calc(100vh - 140px);
+			height: 100%;
+			background: $dark-bg;
+			opacity: 0;
+			z-index: 1;
+			@include mobile {
+				opacity: 0.5;
+			}
+		}
+		&__txt-container {
+			height: 100%;
+			overflow-y: auto;
+			overflow-x: hidden;
+			width: 50vw;
+			position: relative;
+			z-index: 2;
+			@include tablet {
+				width: 80vw;
+			}
+			@include mobile {
+				width: 91.66667vw;
+			}
+			// z-index: 1;
+		}
+		&__toptitle {
+			text-align: center;
+			font: normal normal 500 16px/28px 'Barlow Condensed';
+			margin-bottom: 6vh;
+			@include mobile {
+				font: normal normal 500 15px/24px 'Barlow Condensed';
+			}
+		}
+		&__title {
+			text-align: center;
+			margin-bottom: 6vh;
+			font: normal normal 700 84px/98px 'Barlow Condensed';
+			overflow-wrap: break-word;
+			@include large {
+				font: normal normal 700 120px/144px 'Barlow Condensed';
+			}
+			@include tablet {
+				font: normal normal 700 74px/84px 'Barlow Condensed';
+			}
+			@include mobile {
+				font: normal normal 700 50px/64px 'Barlow Condensed';
+			}
+		}
+		&__subtitle {
+			text-align: left;
+			margin-bottom: 6vh;
+			font: normal normal 700 24px/32px 'Barlow';
+			overflow-wrap: break-word;
+			@include large {
+				font: normal normal 700 28px/38px 'Barlow';
+			}
+			@include mobile {
+				font: normal normal 700 20px/28px 'Barlow';
+			}
+			&__scroller {
+				max-height: 40px;
+				max-width: 40px;
+				margin: auto;
+				margin-top: 20px;
+			}
+		}
+		&__txt {
+			text-align: left;
+			margin-bottom: 3vh;
+			font: normal normal 500 18px/30px 'Barlow';
+			overflow-wrap: break-word;
+			@include large {
+				font: normal normal 500 20px/38px 'Barlow';
+			}
+			@include mobile {
+				font: normal normal 500 16px/26px 'Barlow';
+			}
+		}
+	}
+	&__section-1 {
+		padding-top: 80px;
+		padding-bottom: 50px;
+		@include large {
+			padding-top: 150px;
+		}
+		&__txt {
+			width: 45%;
+			margin-right: 5%;
+			text-align: left;
+			font: normal normal 500 18px/30px 'Barlow';
+			@include large {
+				font: normal normal 500 20px/38px 'Barlow';
+			}
+			@include tablet {
+				font: normal normal 500 18px/30px 'Barlow';
+				width: 100%;
+				margin: auto;
+				margin-bottom: 5%;
+			}
+			@include mobile {
+				font: normal normal 500 18px/30px 'Barlow';
+				width: 100%;
+				margin-right: 0;
+				margin-bottom: 5%;
+			}
+			p {
+				margin-bottom: 25px;
+			}
+		}
+		&__picture {
+			width: 40%;
+			min-height: fit-content;
+			// margin-bottom: 220px;
+			position: relative;
+			@include tablet {
+				width: 60%;
+				margin: auto;
+				margin-bottom: 5%;
+			}
+			@include mobile {
+				width: 100%;
+				margin-bottom: 5%;
+			}
+			&:hover {
+				.single-campaign__section-1__picture__img {
+					opacity: 0;
+				}
+				.single-campaign__section-1__picture__txt--base {
+					opacity: 0;
+					display: none;
+				}
+				.single-campaign__section-1__picture__txt--hover {
+					opacity: 1;
+					display: block;
+				}
+			}
+			&__img {
+				border-radius: 20px;
+				width: 100%;
+				transition: opacity 0.2s;
+				opacity: 1;
+				@include tablet {
+					margin: auto;
+				}
+				@include mobile {
+					margin: auto;
+				}
+			}
+			&__txt-container {
+				position: absolute;
+				top: 0;
+				height: 100%;
+				padding: 0px;
+				width: 100%;
+			}
+			&__txt {
+				font: normal normal 700 48px/64px 'Barlow';
+				text-align: center;
+				transition: opacity 0.3s;
+				&--base {
+					opacity: 1;
+					display: block;
+					color: $white;
+					padding: 0 20px;
+				}
+				&--hover {
+					opacity: 0;
+					display: none;
+					color: transparent;
+					background: url('/images/pictures/campaigns/BC_WS_Photos_PoliticalDeclaration_8.jpg');
+					background-size: cover;
+					@include large {
+						background-size: cover;
+					}
+					background-clip: text;
+					background-position: center;
+					padding: 0 20px;
+					// -webkit-text-fill-color: transparent;
+				}
+			}
+		}
+	}
+	&__transition-1 {
+		position: relative;
+		min-height: calc(100vh - 160px);
+		padding-top: 25vh;
+		padding-bottom: 25px;
+		color: $white;
+		overflow: hidden;
+		background: url('/images/pictures/campaigns/BC_WS_Photos_PoliticalDeclaration_6.jpg');
+		background-position: bottom;
+		background-attachment: fixed;
+		background-size: cover;
+		border: solid $white 60px;
+		z-index: 1;
+		@include large {
+			background-size: cover;
+		}
+		@include intermediate {
+			border: solid $white 20px;
+		}
+		@include tablet {
+			border: solid $white 20px;
+		}
+		@include mobile {
+			border: solid $white 20px;
+			height: fit-content;
+			padding-top: 15vh;
+			background-attachment: scroll;
+		}
+		img {
+			position: absolute;
+			top: 0;
+			left: 0;
+			width: 100%;
+			// height: calc(100vh - 140px);
+			height: 100%;
+			object-fit: cover;
+			z-index: -2;
+		}
+		&__opacifier {
+			position: absolute;
+			top: 0;
+			left: 0;
+			width: 100%;
+			// height: calc(100vh - 140px);
+			height: 100%;
+			background: $dark-bg;
+			opacity: 0;
+			z-index: -1;
+			@include mobile {
+				opacity: 0.5;
+			}
+		}
+		&__txt-container {
+			height: 100%;
+			position: absolute;
+			width: 100%;
+			top: 0;
+			left: 0;
+			@include mobile {
+				height: fit-content;
+				padding-top: 0px;
+				padding-bottom: 50px;
+				position: relative;
+			}
+		}
+		&__title {
+			text-align: center;
+			font: normal normal 600 80px/90px 'Barlow Condensed';
+			overflow-wrap: break-word;
+			margin-bottom: 60px;
+			@include large {
+				font: normal normal 600 110px/124px 'Barlow Condensed';
+			}
+			@include mobile {
+				font: normal normal 600 68px/74px 'Barlow Condensed';
+			}
+			@include mobile {
+				font: normal normal 600 42px/54px 'Barlow Condensed';
+				max-width: 80vw;
+				margin: auto;
+				margin-bottom: 60px;
+			}
+		}
+		&__txt {
+			height: 100%;
+			overflow-y: auto;
+			overflow-x: hidden;
+			width: 50vw;
+			margin: auto;
+			text-align: left;
+			font: normal normal 500 18px/30px 'Barlow';
+			overflow-wrap: break-word;
+			@include large {
+				font: normal normal 500 20px/38px 'Barlow';
+			}
+			@include tablet {
+				width: 80vw;
+			}
+			@include mobile {
+				width: 85vw;
+				font: normal normal 500 16px/26px 'Barlow';
+			}
+		}
+	}
+	&__section-2 {
+		padding-top: 80px;
+		padding-bottom: 50px;
+		margin-top: 0;
+		position: relative;
+		z-index: 2;
+		@include large {
+			padding-top: 150px;
+		}
+		&__txt {
+			width: 45%;
+			margin-left: 5%;
+			text-align: left;
+			font: normal normal 500 18px/30px 'Barlow';
+			padding-bottom: 150px;
+			@include large {
+				font: normal normal 500 20px/38px 'Barlow';
+			}
+			@include tablet {
+				font: normal normal 500 18px/30px 'Barlow';
+				width: 100%;
+				margin: auto;
+				margin-bottom: 5%;
+				padding-bottom: 15px;
+			}
+			@include mobile {
+				font: normal normal 500 18px/30px 'Barlow';
+				width: 100%;
+				margin-right: 0;
+				margin-bottom: 5%;
+				margin-left: 0;
+				margin-top: 25px;
+				padding-bottom: 0px;
+			}
+			h4 {
+				color: $primary-color;
+				font: normal normal 700 52px/56px 'Barlow';
+				margin-bottom: 40px;
+				@include large {
+					font: normal normal 700 72px/76px 'Barlow';
+				}
+				@include mobile {
+					font: normal normal 700 32px/36px 'Barlow';
+				}
+			}
+			p {
+				margin-bottom: 25px;
+			}
+		}
+		&__picture {
+			width: 40%;
+			margin-left: 10%;
+			min-height: fit-content;
+			margin-bottom: 50px;
+			position: relative;
+			margin-top: 10px;
+			@include tablet {
+				width: 60%;
+				margin: auto;
+				margin-bottom: 5%;
+			}
+			@include mobile {
+				width: 80%;
+				margin-bottom: 5%;
+				margin-left: 10%;
+				margin-top: -125px;
+			}
+			&__img {
+				border-radius: 20px;
+				width: 100%;
+				transition: opacity 0.2s;
+				opacity: 1;
+				@include tablet {
+					margin: auto;
+				}
+				@include mobile {
+					margin: auto;
+				}
+			}
+		}
+	}
+	&__section-3 {
+		position: relative;
+		height: calc(100vh - 160px);
+		padding-top: 20vh;
+		padding-bottom: 55px;
+		color: $white;
+		background: url('/images/pictures/campaigns/BC_WS_Photos_PoliticalDeclaration_7.jpg');
+		background-position: bottom;
+		background-attachment: fixed;
+		background-size: cover;
+		border: solid $white 60px;
+		z-index: 1;
+		@include intermediate {
+			border: solid $white 20px;
+		}
+		@include tablet {
+			border: solid $white 20px;
+			margin-bottom: 30px;
+		}
+		@include mobile {
+			border: solid $white 20px;
+			height: 30vh;
+			padding-top: 4vh;
+			padding-bottom: 0;
+			margin-bottom: 30px;
+			background-attachment: scroll;
+			background-size: cover;
+		}
+		// img {
+		// 	position: absolute;
+		// 	top: 0;
+		// 	left: 0;
+		// 	width: 100%;
+		// 	// height: calc(100vh - 140px);
+		// 	height: 100%;
+		// 	object-fit: cover;
+		// 	z-index: -2;
+		// }
+		&__opacifier {
+			position: absolute;
+			top: 0;
+			left: 0;
+			width: 100%;
+			// height: calc(100vh - 140px);
+			height: 100%;
+			background: $dark-bg;
+			opacity: 0;
+			z-index: 1;
+			@include mobile {
+				opacity: 0.5;
+			}
+		}
+		&__txt-container {
+			height: 100%;
+			overflow-y: auto;
+			z-index: 2;
+			position: relative;
+		}
+		&__title {
+			text-align: center;
+			margin-bottom: 6vh;
+			font: normal normal 700 90px/104px 'Barlow Condensed';
+			overflow-wrap: break-word;
+			@include large {
+				font: normal normal 700 120px/144px 'Barlow Condensed';
+			}
+			@include tablet {
+				font: normal normal 700 70px/84px 'Barlow Condensed';
+			}
+			@include mobile {
+				font: normal normal 700 45px/64px 'Barlow Condensed';
+			}
+		}
+		&__txt {
+			text-align: left;
+			margin-bottom: 3vh;
+			font: normal normal 500 18px/30px 'Barlow';
+			@include large {
+				font: normal normal 500 20px/38px 'Barlow';
+			}
+			&__link {
+				color: $primary-color;
+				transition: color 0.2s;
+				&:hover {
+					color: $dark-text;
+				}
+			}
+		}
+	}
+	&__section-3bis {
+		// padding-top: 80px;
+		padding-bottom: 50px;
+		position: relative;
+		z-index: 2;
+		@include large {
+			padding-top: 150px;
+		}
+		&__txt {
+			width: 55%;
+			margin-right: 5%;
+			text-align: left;
+			font: normal normal 500 18px/30px 'Barlow';
+			@include large {
+				font: normal normal 500 20px/38px 'Barlow';
+			}
+			@include tablet {
+				font: normal normal 500 17px/26px 'Barlow';
+				width: 100%;
+				margin: auto;
+				margin-bottom: 5%;
+			}
+			@include mobile {
+				font: normal normal 500 16px/20px 'Barlow';
+				width: 100%;
+				margin-right: 0;
+				margin-bottom: 5%;
+			}
+			p {
+				margin-bottom: 25px;
+			}
+		}
+		&__picture {
+			width: 30%;
+			min-height: fit-content;
+			margin-top: -80px;
+			// margin-bottom: 220px;
+			position: relative;
+			@include tablet {
+				width: 60%;
+				margin: auto;
+				margin-bottom: 5%;
+				margin-top: -40px;
+			}
+			@include mobile {
+				width: 100%;
+				margin-bottom: 5%;
+				margin-top: 0px;
+			}
+			&:hover {
+				.single-campaign__section-1__picture__img {
+					opacity: 0;
+				}
+				.single-campaign__section-1__picture__txt--base {
+					opacity: 0;
+					display: none;
+				}
+				.single-campaign__section-1__picture__txt--hover {
+					opacity: 1;
+					display: block;
+				}
+			}
+			&__img {
+				border-radius: 20px;
+				width: 100%;
+				transition: opacity 0.2s;
+				opacity: 1;
+				@include tablet {
+					margin: auto;
+				}
+				@include mobile {
+					margin: auto;
+				}
+			}
+			&__txt-container {
+				position: absolute;
+				top: 0;
+				height: 100%;
+				padding: 0px;
+				width: 100%;
+			}
+			&__txt {
+				font: normal normal 700 48px/64px 'Barlow';
+				text-align: center;
+				transition: opacity 0.3s;
+				&--base {
+					opacity: 1;
+					display: block;
+					color: $white;
+					padding: 0 20px;
+				}
+				&--hover {
+					opacity: 0;
+					display: none;
+					color: transparent;
+					background: url('/images/pictures/campaigns/BC_WS_Photos_PoliticalDeclaration_8.jpg');
+					background-size: cover;
+					@include large {
+						background-size: cover;
+					}
+					background-clip: text;
+					background-position: center;
+					padding: 0 20px;
+					// -webkit-text-fill-color: transparent;
+				}
+			}
+		}
+	}
+	&__section-4 {
+		padding-top: 60px;
+		margin-bottom: 80px;
+		&__quote {
+			font: normal normal 700 56px/56px 'Barlow';
+			color: $primary-color;
+			text-align: center;
+			margin-bottom: 40px;
+			overflow-wrap: break-word;
+			@include large {
+				font: normal normal 700 72px/76px 'Barlow';
+			}
+			@include mobile {
+				font: normal normal 700 30px/42px 'Barlow';
+			}
+			&--highlight {
+				color: $dark-text;
+			}
+		}
+		&__separator {
+			width: 2px;
+			height: 60px;
+			background: $primary-color;
+			margin: auto;
+			margin-bottom: 40px;
+		}
+		&__signature {
+			font: normal normal 500 42px/48px 'Barlow';
+			text-align: center;
+			margin-bottom: 60px;
+			@include mobile {
+				font: normal normal 500 32px/38px 'Barlow';
+			}
+		}
+		&__quote-2 {
+			background: rgb(240, 240, 240);
+			text-align: center;
+			color: $primary-color;
+			padding: 40px 0px;
+			&__symbols {
+				font: normal normal 700 82px/108px 'Barlow';
+				max-height: 70px;
+				max-width: 70px;
+				margin: auto;
+				margin-bottom: 20px;
+			}
+			&__txt {
+				font: normal normal 600 22px/40px 'Barlow';
+				width: 60%;
+				margin: auto;
+				@include mobile {
+					width: 90%;
+					font: normal normal 600 18px/30px 'Barlow';
+				}
+			}
+			&__signature {
+				font: normal normal 500 16px/28px 'Barlow';
+				width: 60%;
+				margin: auto;
+			}
+		}
+	}
+	&__prev-next {
+		width: 70%;
+		margin: auto;
+		margin-bottom: 40px;
+		border-top: solid 1px lightgrey;
+		padding-top: 15px;
+	}
+}

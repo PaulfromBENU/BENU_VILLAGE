@@ -1,0 +1,114 @@
+[
+  {
+    "name_fr": "Beige",
+    "name_lu": "Beige",
+    "name_de": "Beige",
+    "name_en": "Beige",
+    "hex_code": "#f0e4a6",
+    "translation_key": "colors.beige"
+  },
+  {
+    "name_fr": "Noir",
+    "name_lu": "Schwaarz",
+    "name_de": "Schwarz",
+    "name_en": "Black",
+    "hex_code": "#0a0a09",
+    "translation_key": "colors.black"
+  },
+  {
+    "name_fr": "Bleu",
+    "name_lu": "Blo",
+    "name_de": "Blau",
+    "name_en": "Blue",
+    "hex_code": "#0079A7",
+    "translation_key": "colors.blue"
+  },
+  {
+    "name_fr": "Brun",
+    "name_lu": "Brong",
+    "name_de": "Braun",
+    "name_en": "Brown",
+    "hex_code": "#64422C",
+    "translation_key": "colors.brown"
+  },
+  {
+    "name_fr": "Denim",
+    "name_lu": "Denim",
+    "name_de": "Denim",
+    "name_en": "Denim",
+    "hex_code": "#6F8FAF",
+    "translation_key": "colors.denim"
+  },
+  {
+    "name_fr": "Vert",
+    "name_lu": "Gréng",
+    "name_de": "Grün",
+    "name_en": "Green",
+    "hex_code": "#27955B",
+    "translation_key": "colors.green"
+  },
+  {
+    "name_fr": "Gris",
+    "name_lu": "Gro",
+    "name_de": "Grau",
+    "name_en": "Grey",
+    "hex_code": "#A1B2CF",
+    "translation_key": "colors.grey"
+  },
+  {
+    "name_fr": "Multicolore",
+    "name_lu": "Faarweg",
+    "name_de": "Bunt",
+    "name_en": "Multicolored",
+    "hex_code": "#FFFFFF",
+    "translation_key": "colors.multicolored"
+  },
+  {
+    "name_fr": "Orange",
+    "name_lu": "Orange",
+    "name_de": "Orange",
+    "name_en": "Orange",
+    "hex_code": "#FF9300",
+    "translation_key": "colors.orange"
+  },
+  {
+    "name_fr": "Rose",
+    "name_lu": "Rosa",
+    "name_de": "Rosa",
+    "name_en": "Pink",
+    "hex_code": "#f27af0",
+    "translation_key": "colors.pink"
+  },
+  {
+    "name_fr": "Violet",
+    "name_lu": "Mof",
+    "name_de": "Violett",
+    "name_en": "Purple",
+    "hex_code": "#793162",
+    "translation_key": "colors.purple"
+  },
+  {
+    "name_fr": "Rouge",
+    "name_lu": "Rout",
+    "name_de": "Rot",
+    "name_en": "Red",
+    "hex_code": "#D41C1B",
+    "translation_key": "colors.red"
+  },
+  {
+    "name_fr": "Jaune",
+    "name_lu": "Giel",
+    "name_de": "Gelb",
+    "name_en": "Yellow",
+    "hex_code": "#FFFB32",
+    "translation_key": "colors.yellow"
+  },
+  {
+    "name_fr": "Blanc",
+    "name_lu": "Weis",
+    "name_de": "Weiß",
+    "name_en": "White",
+    "hex_code": "#fbf8fb",
+    "translation_key": "colors.white"
+  }
+]

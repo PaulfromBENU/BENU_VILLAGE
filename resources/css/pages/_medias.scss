@@ -1,0 +1,183 @@
+.media-links {
+	&__card {
+		display: block;
+		width: 30%;
+		margin: 40px 1.666665%;
+		min-height: 150px;
+		padding: 30px 20px;
+		border-radius: 8px;
+		box-shadow: 0px 0px 30px #CFCFCF80;
+		transition: all 0.2s;
+		@include mobile {
+			width: 100%;
+			margin: 40px 0px;
+		}
+		&:hover {
+			box-shadow: 0px 0px 60px #CFCFCFF0;
+			.media-links__card__icon__svg {
+				transform: scale(1.1);
+			}
+		}
+		&__icon {
+			text-align: center;
+			height: 75px;
+			margin-bottom: 10px;
+			&__svg {
+				max-height: 100%;
+				margin: auto;
+				transform: scale(1);
+				transition: all 0.2s;
+			}
+		}
+		h3 {
+			font: normal normal 700 28px/28px 'Barlow Condensed';
+			letter-spacing: 0px;
+			text-align: center;
+			margin-bottom: 5px;
+			min-height: 60px;
+			@include tablet {
+				font: normal normal 700 24px/26px 'Barlow Condensed';
+			} 
+			@include mobile {
+				font: normal normal 700 20px/22px 'Barlow Condensed';
+			}
+		}
+		&__subtxt {
+			text-align: center;
+			font: normal normal 500 12px/28px 'Barlow';
+			letter-spacing: 0px;
+			margin-bottom: 20px;
+		}
+		&__language {
+			// min-height: 50px;
+			width: 50px;
+			margin: auto;
+			background: $primary-color;
+			border-radius: 12px;
+			text-transform: uppercase;
+			color: $white;
+			padding: 10px 15px;
+			text-align: center;
+			font: normal normal 500 20px/24px 'Barlow Condensed';
+			letter-spacing: 0px;
+		}
+	}
+	&__accordion {
+		&__header {
+			margin-bottom: 30px;
+			background: $primary-color 0% 0% no-repeat padding-box;
+			border-radius: 8px;
+			color: $white;
+			padding: 34px 50px 34px 50px;
+			text-align: left;
+			font: normal normal 700 28px/28px 'Barlow Condensed';
+			letter-spacing: 0px;
+			cursor: pointer;
+			transition: background 0.2s;
+			@include mobile {
+				font: normal normal 700 18px/28px 'Barlow Condensed';
+				padding: 14px 20px;
+				margin-bottom: 10px;
+			}
+			&:hover {
+				background: $dark-bg;
+			}
+			&__title {
+				margin-right: 15px;
+			}
+			&__arrow {
+				margin-right: 15px;
+				width: 30px;
+				position: relative;
+				@include mobile {
+					margin-right: 0;
+				}
+			}
+			&__chevron {
+				margin-top: 7px;
+				transform: rotate(0deg);
+				transition: $transition-base;
+				right: 0px;
+				position: absolute;
+				@include mobile {
+					right: 0px;
+					width: 25px;
+				}
+				&--active {
+					transform: rotate(180deg);
+				}
+			}
+			// &:hover {
+			// 	.media-links__accordion__header__chevron {
+			// 		transform: rotate(180deg);
+			// 	}
+			// }
+		}
+		&__answer {
+			width: 100%;
+			margin: auto;
+			padding-top: 10px;
+			@include mobile {
+				width: 100%;
+			}
+			button {
+				@include mobile {
+					width: 100% !important;
+					margin: 0 !important;
+					margin-bottom: 10px !important;
+				}
+			}
+			li {
+				border-bottom: 1px solid $light-grey;
+			}
+			&__txt {
+				text-align: left;
+				font: normal normal 500 16px/28px 'Barlow';
+				letter-spacing: 0px;
+				@include mobile {
+					font: normal normal 500 15px/25px 'Barlow';
+				}
+			}
+			&__subanswer {
+				padding-top: 20px;
+				padding-bottom: 50px;
+				text-align: left;
+				font: normal normal 500 16px/28px 'Barlow';
+				letter-spacing: 0px;
+				@include mobile {
+					font: normal normal 500 15px/25px 'Barlow';
+				}
+			}
+			&__header {
+				text-align: left;
+				font: normal normal 700 22px/28px 'Barlow Condensed';
+				letter-spacing: 0px;
+				border-bottom: 2px solid transparent;
+				margin-top: 25px;
+				height: fit-content;
+				cursor: pointer;
+				min-height: 40px;
+				@include mobile {
+					font: normal normal 700 16px/24px 'Barlow Condensed';
+				}
+				&--active {
+					border-bottom: 2px solid $primary-color;
+					color: $primary-color;
+				}
+				&__plus {
+					font-size: 2.2rem;
+					font-weight: 500;
+				}
+				&__minus {
+					font-size: 3.1rem;
+					font-weight: 500;
+				}
+			}
+		}
+	}
+	&__more {
+		text-align: center;
+		margin-top: 30px;
+		margin-bottom: 30px;
+	}
+}

@@ -1,0 +1,264 @@
+.btn-large {
+	text-transform: uppercase;
+	width: 333px;
+	padding: 10px 25px 10px 25px;
+	color: $benu_reuse;
+	text-align: center;
+	font: normal normal 500 42px/50px "Barlow Condensed";
+	letter-spacing: 0px;
+	border-style: solid;
+	border-radius: 10px;
+	border-width: 3px;
+	text-decoration: none;
+	margin: 10px;
+	display: inline-block;
+	@include tablet {
+		width: 180px;
+		font: normal normal 500 21px/25px "Barlow Condensed";
+	}
+	@include mobile {
+		width: 180px;
+		font: normal normal 500 21px/25px "Barlow Condensed";
+	}
+}
+
+.btn-yellow {
+	color: $benu_reuse;
+	border-color: $benu_reuse;
+	&:hover {
+		background: $benu_reuse;
+		color:  white;
+	}
+}
+
+.btn-green {
+	color: $benu_village;
+	border-color: $benu_village;
+	&:hover {
+		background: $benu_village;
+		color: white;
+	}
+}
+
+.btn-slider-left {
+	position: relative;
+	display: block;
+	width: fit-content;
+	transition: $transition-base;
+	height: 40px;
+	&::after {
+		content: "";
+		position: absolute;
+		bottom: 0px;
+		left: 0px;
+		width: 20%;
+		min-width: 30px;
+		height: 5px;
+		border-radius: 10px;
+		background: $primary-color;
+		transition: width 0.5s ease-in-out;
+	}
+	&:hover {
+		color: $primary-color;
+		&::after {
+			width: 100%;
+		}
+	}
+	&--active {
+		color: $primary-color;
+		&::after {
+			width: 100%;
+		}
+	}
+}
+
+.btn-slider-right {
+	position: relative;
+	display: block;
+	width: fit-content;
+	transition: $transition-base;
+	height: 40px;
+	&::after {
+		content: "";
+		position: absolute;
+		bottom: 0px;
+		right: 0px;
+		width: 20%;
+		height: 5px;
+		border-radius: 10px;
+		background: $primary-color;
+		transition: width 0.5s ease-in-out;
+	}
+	&:hover {
+		color: $primary-color;
+		&::after {
+			width: 100%;
+		}
+	}
+}
+
+.btn-trans {
+	color: white;
+	background: transparent;
+	// height: 50px;
+	padding: 10px 20px;
+	font-family: 'Barlow Condensed';
+	font-weight: 500;
+	&--b-white {
+		border: solid 2px $white;
+		border-radius: 5px;
+		transition: all 0.2s;
+		&:hover {
+			background: $white;
+		}	
+	}
+}
+
+.btn-couture {
+	color: $primary-color;
+	background: $white;
+	padding: 10px 40px;
+	text-align: center;
+	font: normal normal 600 22px/26px 'Barlow Condensed';
+	letter-spacing: 0px;
+	border: solid 2px $primary-color;
+	border-radius: 5px;
+	transition: $transition-base;
+	margin-left: 10px;
+	margin-right: 10px;
+	cursor: pointer;
+	&:hover {
+		background: $primary-color;
+		color: $white;
+	}
+	&--transparent {
+		background: transparent;
+	}
+}
+
+.btn-couture-plain {
+	color: $white;
+	background: $primary-color;
+	height: 27px;
+	padding-left: 40px;
+	padding-right: 40px;
+	text-align: center;
+	text-align: center;
+	font: normal normal 600 20px/28px 'Barlow Condensed';
+	letter-spacing: 0px;
+	border: solid 2px $primary-color;
+	border-radius: 5px;
+	transition: $transition-base;
+	margin-left: 10px;
+	margin-right: 10px;
+	cursor: pointer;
+	@include mobile {
+		padding-left: 20px;
+		padding-right: 20px;
+	}
+	&:hover {
+		color: $primary-color;
+		background: $white;
+	}
+	&--dark-hover {
+		&:hover {
+			background: $dark-bg;
+			color: $white;
+			border-color: $dark-bg;
+		}
+	}
+	&--fit {
+		height: fit-content;
+		padding-top: 7px;
+		padding-bottom: 7px;
+	}
+	&--grey {
+		background: grey;
+		color: white;
+		border-color: grey;
+		&:hover {
+			color: grey;
+		}
+	}
+	&--disabled {
+		background: grey;
+		color: white;
+		border-color: grey;
+		cursor: not-allowed;
+		&:hover {
+			background: grey;
+			color: white;
+			border-color: grey;
+		}
+	}
+}
+
+.btn-dashboard-plain {
+	display: inline-block;
+	width: 100%;
+	color: $white;
+	background: $primary-color;
+	padding-left: 40px;
+	padding-right: 40px;
+	text-align: center;
+	text-align: center;
+	text-align: center;
+	font: normal normal 600 18px/22px 'Barlow Condensed';
+	letter-spacing: 0px;
+	border: solid 2px $primary-color;
+	border-radius: 5px;
+	transition: $transition-base;
+	cursor: pointer;
+	&:hover {
+		color: $primary-color;
+		background: $white;
+	}
+}
+
+.btn-hover-village {
+	&:hover {
+		color: $benu_village;
+	}
+}
+
+.btn-hover-sis {
+	&:hover {
+		color: $benu_sis;
+	}
+}
+
+.btn-hover-sloow {
+	&:hover {
+		color: $benu_sloow;
+	}
+}
+
+.btn-hover-couture {
+	&:hover {
+		color: $benu_couture;
+	}
+}
+
+.btn-hover-reuse {
+	&:hover {
+		color: $benu_reuse;
+	}
+}
+
+.btn-hover-break {
+	&:hover {
+		color: $benu_break;
+	}
+}
+
+.btn-hover-lasa {
+	&:hover {
+		color: $benu_lasa;
+	}
+}
+
+.btn-hover-design {
+	&:hover {
+		color: $benu_design;
+	}
+}

@@ -1,0 +1,418 @@
+:root {
+
+/* Colors: */
+--unnamed-color-d0d0d0: #D0D0D0;
+--benu_reuse: #F9941D;
+--benu_village: #27955B;
+--benu_couture_couleur_texte: #2E1414;
+--benu_couture_couleur_principale: #D41C1B;
+}
+
+@font-face {
+	font-family: "Barlow Condensed";
+	src:  url(../landing/fonts/Barlow_Condensed/BarlowCondensed-Regular.ttf);
+}
+
+@font-face {
+	font-family: "Barlow";
+	src:  url(../landing.fonts/Barlow/Barlow-Regular.ttf);
+}
+
+@font-face {
+	font-family: "Barlow Semi Condensed";
+	src:  url(../landing/fonts/Barlow_Condensed/BarlowCondensed-SemiBold.ttf);
+}
+
+body {
+	margin: 0px;
+	box-sizing: border-box;
+	/*font-family: "Barlow Condensed", Sans-serif;*/
+	color: rgb(60, 60, 60);
+}
+
+.btn-large {
+	text-transform: uppercase;
+	width: 333px;
+	padding: 10px 25px 10px 25px;
+	color: var(--benu_reuse);
+	text-align: center;
+	font: normal normal 600 42px/50px "Barlow Condensed";
+	letter-spacing: 0px;
+	border-style: solid;
+	border-radius: 10px;
+	border-width: 3px;
+	text-decoration: none;
+	margin: 10px;
+	display: inline-block;
+}
+
+.btn-yellow {
+	color: var(--benu_reuse);
+	border-color: var(--benu_reuse);
+}
+
+.btn-yellow:hover {
+	background: var(--benu_reuse);
+	color:  white;
+}
+
+.btn-green {
+	color: var(--benu_village);
+	border-color: var(--benu_village);
+}
+
+.btn-green:hover {
+	background: var(--benu_village);
+	color: white;
+}
+
+input[type=email] {
+	width: 300px;
+	height: 30px;
+	padding: 5px 10px;
+	border-radius: 5px;
+	font-size: 1rem;
+	border:  none;
+}
+
+input[type=submit] {
+	border: none;
+	height: 40px;
+	background: white;
+	color: var(--benu_couture_couleur_principale);
+	padding: 5px 30px;
+	font-size: 1rem;
+	border-radius: 5px;
+	cursor: pointer;
+	margin-left: 10px;
+}
+
+input[type=submit]:hover {
+	background: var(--benu_couture_couleur_principale);
+	color: white;
+}
+
+::placeholder {
+	color: var(--unnamed-color-d0d0d0);
+}
+
+.central_col {
+	width: 56vw;
+	margin-left: 22vw;
+	margin-top: -140px;
+	position: absolute;
+	box-sizing: border-box;
+}
+
+@media only screen and (max-width: 768px) {
+	.central_col {
+		width: 80vw;
+		margin-left: 10vw;
+		margin-top: -50px;
+		position: absolute;
+		box-sizing: border-box;
+	}
+}
+
+.central_textbox {
+	background: white;
+	padding: 20px 0px;
+	border-radius: 15px;
+	box-shadow: 0px 3px 66px #00000029;
+	text-align: justify;
+}
+
+.central_textbox h1 {
+	text-transform: uppercase;
+	color:  var(--benu_couture_couleur_principale);
+	text-align: center;
+	margin-top: 50px;
+	margin-bottom: 5px;
+	color: var(--benu_couture_couleur_principale);
+	text-align: center;
+	font: normal normal 400 72px/86px "Barlow Semi Condensed";
+	letter-spacing: 0px;
+}
+
+.central_textbox__desc {
+	font: normal normal 400 18px/33px "Barlow";
+	letter-spacing: 0px;
+	/*padding: 20px 70px;*/
+	width: 75%;
+	margin: auto;
+	margin-bottom: 65px;
+	color: var(--benu_couture_couleur_texte);
+}
+
+@media only screen and (max-width: 768px) {
+	.central_textbox__desc {
+		font-size: 0.8rem;
+		line-height: 1.5rem;
+		padding: 20px 10px;
+	}
+}
+
+.central_textbox__sub {
+	font: normal normal 400 16px/28px "Barlow Condensed";
+	letter-spacing: 0.16px;
+	color: #2E141480;
+	text-align: center;
+}
+
+.central_textbox__teaser {
+	position: absolute;
+	top: -22px;
+	display: flex;
+	justify-content: center;
+	width: 100%;
+}
+
+.central_textbox__teaser p {
+	background: rgb(50, 50, 50);
+	color:  white;
+	text-align: center;
+	padding: 5px 40px 5px 40px;
+	font: normal normal 300 28px/34px "Barlow Condensed";
+	letter-spacing: 0px;
+	text-transform: uppercase;
+	margin: 0;
+	border-radius: 10px;
+}
+
+.contact_form {
+	padding: 10px;
+	background: var(--benu_couture_couleur_principale);
+	border-radius: 10px;
+}
+
+.contact_form_container {
+	margin-top: 70px;
+	display: flex;
+	justify-content: center;
+	flex-wrap: wrap;
+	height: 53px;
+}
+
+.contact_form_container h2 {
+	color: var(--benu_couture_couleur_texte);
+	text-align: center;
+	font: normal normal 800 44px/53px "Barlow Semi Condensed";
+	letter-spacing: 0px;
+	margin: 0;
+	margin-bottom: 30px;
+}
+
+/*.contact-link {
+	padding: 10px;
+	background: var(--benu_couture_couleur_principale);
+	border-radius: 10px;
+}*/
+
+.contact-link a {
+	border: solid 3px var(--benu_couture_couleur_principale);
+	height: 40px;
+	background: white;
+	color: var(--benu_couture_couleur_principale);
+	padding: 5px 30px;
+	font-size: 1rem;
+	border-radius: 5px;
+	cursor: pointer;
+	text-decoration: none;
+	font: normal normal 400 22px/23px "Barlow Condensed";
+	transition:  all 0.2s;
+}
+
+.contact-link a:hover {
+	background: var(--benu_couture_couleur_principale);
+	color: white;
+}
+
+footer {
+	background: var(--benu_couture_couleur_principale);
+	height: 233px;
+	position: relative;
+}
+
+.footer__copyright {
+	text-align: center;
+	font: normal normal 400 18px/33px "Barlow";
+	letter-spacing: 0px;
+	color: #FFFFFF;
+	position: absolute;
+	bottom: 25px;
+	width: 100%;
+}
+
+.footer__links {
+	position: absolute;
+	width: 600px;
+	margin-left: calc(50vw - 300px);
+	margin-top: -125px;
+	background: white;
+	border-radius: 15px;
+	box-shadow: 0px 3px 66px #00000029;
+	min-height: 240px;
+	box-sizing: border-box;
+}
+
+.footer__links__header {
+	width: 350px;
+	background: var(--benu_couture_couleur_principale);
+	color:  white;
+	padding: 5px 25px 5px 25px;
+	text-align: center;
+	font: normal normal 600 44px/53px "Barlow Semi Condensed";
+	letter-spacing: 0px;
+	border-radius: 10px;
+}
+
+.footer__links__header-container {
+	display: flex;
+	justify-content: center;
+	position: absolute;
+	top: -35px;
+	width: 100%;
+}
+
+.footer__links__icon {
+	background: rgb(246, 246, 246);
+	width: 95px;
+	padding: 18px 0px 18px 0px;
+	margin: 10px;
+	margin-top:  85px;
+	font-size: 2.8rem;
+	font-family: "Barlow Condensed";
+	text-align: center;
+	border-radius: 10px;
+}
+
+.footer__links__icon a {
+	color: var(--benu_couture_couleur_principale);
+}
+
+.footer__links__icons {
+	display: flex;
+	justify-content: space-around;
+	padding: 0px 78px;
+}
+
+header {
+	width: 100%;
+	height: 704px;
+	background: var(--benu_couture_couleur_principale) 0% 0% no-repeat padding-box;
+}
+
+.header_bckgnd__bird {
+	position: absolute;
+	top: 100px;
+	left: calc(50vw - 220px);
+	transition: top 2.5s ease-in-out ;
+}
+
+.header_bckgnd {
+	height: 100%;
+}
+
+.header_bckgnd__font {
+	position: relative;
+	height: 100%;
+	overflow: hidden;
+}
+
+.header_bckgnd__moving {
+	width: 100vw;
+	position: absolute;
+	height: 100%;
+	color: white;
+}
+
+.header_bckgnd__moving--1 {
+	left: 0px;
+	animation: clouds1 15s linear infinite;
+}
+
+@keyframes clouds1 {
+	0% {
+		left: 0px;
+	}
+	100% {
+		left: -100vw;
+	}
+}
+
+.header_bckgnd__moving--2 {
+	left: 100vw;
+	animation: clouds2 15s linear infinite;
+}
+
+@keyframes clouds2 {
+	0% {
+		left: 100vw;
+	}
+	100% {
+		left: 0px;
+	}
+}
+
+.header_logo {
+	position: absolute;
+	top: 0px;
+	left: 10vw;
+	color: white;
+}
+
+.header_socialmedia {
+	position: absolute;
+	top: 82px;
+	left: 80vw;
+	height: 25px;
+	color: white;
+	font-size: 1.5rem;
+	font-weight: 300;
+	display: flex;
+	flex-wrap: wrap;
+}
+
+.header_socialmedia p {
+	margin: 5px 12px;
+}
+
+.header_socialmedia a {
+	color: white;
+}
+
+.header_socialmedia a:hover {
+	color: white;
+}
+
+.pattern_bg {
+	height: 638px;
+	background: transparent url(../assets/pictures/pattern_solo_benu_couture_OK.svg) 0% 0% repeat padding-box;
+	background-size: 15%;
+}
+
+.text-center {
+	text-align: center;
+}
+
+.universe {
+	padding-top: 50px;
+	padding-bottom: 150px;
+}
+
+.universe h2 {
+	color: var(--benu_couture_couleur_texte);
+	text-align: center;
+	font: normal normal bold 44px/53px "Barlow Condensed";
+	letter-spacing: 0px;
+}
+
+.universe__links {
+	display: flex;
+	justify-content: center;
+	flex-wrap: wrap;
+	width: 50vw;
+	margin:  auto;
+	margin-top: 50px;
+	margin-bottom: 100px;
+}

@@ -1,0 +1,923 @@
+.dashboard {
+	padding-top: 60px;
+	margin-bottom: 60px;
+	@include tablet {
+		padding: 10px 0px;
+		margin-bottom: 10px;
+	}
+	@include mobile {
+		padding: 10px 0px;
+		margin-bottom: 10px;
+	}
+	&__nav {
+		padding: 29px 0px 29px 100px;
+		background: $primary-color-light 0% 0% no-repeat padding-box;
+		margin-right: 20px;
+		width: 27vw;
+		position: relative;
+		min-width: 310px;
+		@include intermediate {
+			padding: 29px 0px 29px 30px;
+		}
+		&__title {
+			text-align: left;
+			font: normal normal 300 44px/53px 'Barlow Condensed';
+			letter-spacing: 0px;
+			margin-bottom: 45px;
+			@include tablet {
+				font: normal normal 300 28px/34px 'Barlow Condensed';
+				margin-bottom: 25px;
+			}
+			@include mobile {
+				font: normal normal 300 28px/34px 'Barlow Condensed';
+				margin-bottom: 25px;
+			}
+			strong {
+				font-weight: 700;
+			}
+		}
+		&__links {
+			margin-bottom: 80px;
+		}
+		&__link-mobile {
+			@include tablet {
+				width: 100%;
+				display: block;
+				padding: 10px 30px;
+				background: $primary-color;
+				border-radius: 5px;
+				text-align: center;
+				color: white;
+				height: fit-content;
+				cursor: pointer;
+				font: normal normal 700 18px/22px 'Barlow Condensed';
+				letter-spacing: 0.32px;
+				margin-bottom: 15px;
+				&:hover {
+					background: $dark-bg;
+				}
+			}
+			@include mobile {
+				width: 100%;
+				display: block;
+				padding: 10px 30px;
+				background: $primary-color;
+				border-radius: 5px;
+				text-align: center;
+				color: white;
+				height: fit-content;
+				cursor: pointer;
+				font: normal normal 700 16px/19px 'Barlow Condensed';
+				letter-spacing: 0.32px;
+				margin-bottom: 15px;
+				&:hover {
+					background: $dark-bg;
+				}
+			}
+		}
+		&__link {
+			text-align: left;
+			font: normal normal 700 16px/19px 'Barlow Condensed';
+			letter-spacing: 0.32px;
+			margin-bottom: 10px;
+			height: 32px;
+			cursor: pointer;
+			&--active {
+				color: $primary-color;
+				&::after {
+					width: 100%;
+				}
+			}
+			&:hover {
+				color: $primary-color;
+			}
+		}
+		&__logout {
+			button {
+				display: inline-block;
+				height: 55px;
+				margin-bottom: 70px;
+			}
+		}
+	}
+	&__content {
+		width: calc(73vw - 20px);
+		@include tablet {
+			width: 100%;
+		}
+		@include mobile {
+			width: 100%;
+		}
+		&__box {
+			margin-right: 20px;
+			padding: 18px 40px;
+			background: $light-grey-transparent 0% 0% no-repeat padding-box;
+			border-radius: 8px;
+			min-height: 215px;
+			margin-bottom: 60px;
+			position: relative;
+			@include tablet {
+				padding: 8px 15px;
+				min-height: 20px;
+				margin-right: 0;
+				margin-bottom: 30px;
+			}
+			@include mobile {
+				padding: 8px 15px;
+				min-height: 20px;
+				margin-right: 0;
+				margin-bottom: 30px;
+			}
+			&--normal {
+				width: calc(22vw - 10px);
+				@include intermediate {
+					width: calc(50% - 20px);
+				}
+			}
+			&--large {
+				width: 44vw;
+				@include intermediate {
+					width: 100%;
+				}
+				@include tablet {
+					width: 100%;
+				}
+				@include mobile {
+					width: 100%;
+				}
+			}
+			&__title {
+				text-align: left;
+				font: normal normal 700 22px/28px 'Barlow Condensed';
+				letter-spacing: 0px;
+				margin-bottom: 21px;
+			}
+			&__subtitle {
+				text-align: left;
+				font: normal normal 700 22px/28px 'Barlow Condensed';
+				letter-spacing: 0px;
+				margin-bottom: 15px;
+			}
+			&__low-links {
+				position: absolute;
+				bottom: 18px;
+				right: 40px;
+				a {
+					margin-top: 20px;
+				}
+			}
+			&__bottom-link {
+				position: absolute;
+				bottom: 18px;
+				right: 40px;
+				width: calc(100% - 80px);
+			}
+			&__svg-container {
+				svg {
+					height: 50px;
+					margin-right: 15px;
+					@include mobile {
+						height: 40px;
+						margin: auto;
+					}
+				}
+			}
+		}
+	}
+}
+
+.dashboard-wishlist {
+	padding-left: 5vw;
+	padding-right: 5vw;
+	position: relative;
+	@include tablet {
+		width: 83.3333333%;
+		margin: auto;
+		padding: 0;
+		padding-bottom: 40px;
+	}
+	@include mobile {
+		width: 83.3333333%;
+		margin: auto;
+		padding: 0;
+		padding-bottom: 40px;
+	}
+	h2 {
+		font: normal normal 700 44px/53px 'Barlow Condensed';
+		padding-bottom: 20px;
+		border-bottom: solid 1px lightgrey;
+		margin-bottom: 20px;
+		@include tablet {
+			font: normal normal 700 28px/34px 'Barlow Condensed';
+			margin-bottom: 30px;
+			padding-bottom: 30px;
+			padding-top: 10px;
+		}
+		@include mobile {
+			font: normal normal 700 28px/34px 'Barlow Condensed';
+			margin-bottom: 30px;
+			padding-bottom: 30px;
+			padding-top: 10px;
+		}
+	}
+	&__title {
+		width: 100%;
+		// margin: auto;
+		border-radius: 10px;
+		text-align: center;
+		font: normal normal 700 44px/53px 'Barlow Condensed';
+		letter-spacing: 0px;
+		color: $white;
+		padding-top: 9px;
+		padding-bottom: 9px;
+		margin-bottom: 50px;
+		@include tablet {
+			width: 100%;
+			font: normal normal 700 28px/34px 'Barlow Condensed';
+		}
+		@include mobile {
+			width: 100%;
+			font: normal normal 700 28px/34px 'Barlow Condensed';
+		}
+		// text-align: left;
+		// font: normal normal 700 44px/53px 'Barlow Condensed';
+		// letter-spacing: 0px;
+		// margin-bottom: 50px;
+		&--couture {
+			background: $benu_couture;
+			// color: $benu_couture;
+		}
+		&--design {
+			// color: $benu_design;
+			background: $benu_design;
+		}
+		&--lasa {
+			background: $benu_lasa;
+			// color: $benu_lasa;
+		}
+	}
+	.article-overview, .sold-overview {
+		width: 30%;
+		margin-right: 2%;
+	}
+}
+
+
+.dashboard-addresses {
+	padding-left: 5vw;
+	padding-right: 5vw;
+	position: relative;
+	@include tablet {
+		width: 83.3333333%;
+		margin: auto;
+		padding: 0;
+		padding-bottom: 40px;
+	}
+	@include mobile {
+		width: 83.3333333%;
+		margin: auto;
+		padding: 0;
+		padding-bottom: 40px;
+	}
+	h2 {
+		font: normal normal 700 44px/53px 'Barlow Condensed';
+		padding-bottom: 20px;
+		border-bottom: solid 1px lightgrey;
+		@include tablet {
+			font: normal normal 700 28px/34px 'Barlow Condensed';
+			margin-bottom: 30px;
+			padding-bottom: 30px;
+			padding-top: 10px;
+		}
+		@include mobile {
+			font: normal normal 700 28px/34px 'Barlow Condensed';
+			margin-bottom: 30px;
+			padding-bottom: 30px;
+			padding-top: 10px;
+		}
+	}
+	h4 {
+		font: normal normal 700 20px/28px 'Barlow';
+	}
+	&__new-address-btn {
+		position: absolute;
+		top: 7px;
+		right: 5vw;
+		color: $primary-color;
+		width: fit-content;
+		font-size: 1.2rem;
+		height: 50px;
+		font-weight: 500;
+		padding: .6rem 1rem;
+		cursor: pointer;
+		background-color: $primary-color-light;
+		font-family: 'Barlow Condensed';
+		border-radius: 5px;
+		transition: $transition-base;
+		@include tablet {
+			position: relative;
+			width: 100%;
+			right: 0;
+			text-align: center;
+		}
+		@include mobile {
+			position: relative;
+			width: 100%;
+			right: 0;
+			text-align: center;
+		}
+		&:hover {
+			color: white;
+			background-color: $primary-color;
+			.header__main-nav__btn--logo-1 {
+				transform: rotate(90deg);
+			}
+		}
+	}
+	&__address {
+		margin-top: 30px;
+		width: 46%;
+		min-width: 320px;
+		margin-right: 3%;
+		padding: 20px 0px;
+		border-bottom: solid 1px lightgrey;
+		@include tablet {
+			min-width: 300px;
+			width: 100%;
+		}
+		@include mobile {
+			min-width: 300px;
+			width: 100%;
+		}
+		.btn-slider-left {
+			width: fit-content;
+			font-weight: 700;
+			font-size: 0.9rem;
+		}
+		&__name {
+			text-transform: uppercase;
+			color: $white;
+			background: $primary-color;
+			padding: 5px 10px;
+			width: fit-content;
+			font: normal normal 500 18px/20px 'Barlow Condensed';
+			border-radius: 5px;
+			position: absolute;
+			right: 0;
+			top: 0;
+			@include tablet {
+				position: relative;
+				margin-bottom: 10px;
+				width: 100%;
+				height: fit-content;
+			}
+			@include mobile {
+				position: relative;
+				margin-bottom: 10px;
+				width: 100%;
+				height: fit-content;
+			}
+		}
+	}
+}
+
+
+.dashboard-communications {
+	padding-left: 5vw;
+	padding-right: 5vw;
+	position: relative;
+	@include tablet {
+		width: 83.3333333%;
+		margin: auto;
+		padding: 0;
+		padding-bottom: 40px;
+	}
+	@include mobile {
+		width: 83.3333333%;
+		margin: auto;
+		padding: 0;
+		padding-bottom: 40px;
+	}
+	h2 {
+		font: normal normal 700 44px/53px 'Barlow Condensed';
+		padding-bottom: 20px;
+		border-bottom: solid 1px lightgrey;
+		margin-bottom: 20px;
+		@include tablet {
+			font: normal normal 700 28px/34px 'Barlow Condensed';
+			margin-bottom: 30px;
+			padding-bottom: 30px;
+			padding-top: 10px;
+		}
+		@include mobile {
+			font: normal normal 700 28px/34px 'Barlow Condensed';
+			margin-bottom: 30px;
+			padding-bottom: 30px;
+			padding-top: 10px;
+		}
+	}
+}
+
+.dashboard-conditions {
+	padding-left: 5vw;
+	padding-right: 5vw;
+	width: 100%;
+	position: relative;
+	@include tablet {
+		width: 83.3333333%;
+		margin: auto;
+		padding: 0;
+		padding-bottom: 40px;
+	}
+	@include mobile {
+		width: 83.3333333%;
+		margin: auto;
+		padding: 0;
+		padding-bottom: 40px;
+	}
+	h2 {
+		font: normal normal 700 44px/53px 'Barlow Condensed';
+		padding-bottom: 20px;
+		border-bottom: solid 1px lightgrey;
+		margin-bottom: 40px;
+		width: 100%;
+		@include tablet {
+			font: normal normal 700 28px/34px 'Barlow Condensed';
+			margin-bottom: 30px;
+			padding-bottom: 30px;
+			padding-top: 10px;
+		}
+		@include mobile {
+			font: normal normal 700 28px/34px 'Barlow Condensed';
+			margin-bottom: 30px;
+			padding-bottom: 30px;
+			padding-top: 10px;
+		}
+	}
+	h3 {
+		font: normal normal 600 20px/22px 'Barlow Condensed';
+		margin-bottom: 40px;
+	}
+	button {
+		@include tablet {
+			width: 100% !important;
+			margin: 0 !important;
+		}
+		@include mobile {
+			width: 100% !important;
+			margin: 0 !important;
+		}
+	}
+}
+
+
+.dashboard-details {
+	padding-left: 5vw;
+	padding-right: 5vw;
+	width: 100%;
+	position: relative;
+	@include tablet {
+		width: 83.3333333%;
+		margin: auto;
+		padding: 0;
+		padding-bottom: 40px;
+	}
+	@include mobile {
+		width: 83.3333333%;
+		margin: auto;
+		padding: 0;
+		padding-bottom: 40px;
+	}
+	h2 {
+		font: normal normal 700 44px/53px 'Barlow Condensed';
+		padding-bottom: 20px;
+		border-bottom: solid 1px lightgrey;
+		margin-bottom: 40px;
+		width: 100%;
+		@include tablet {
+			font: normal normal 700 28px/34px 'Barlow Condensed';
+			margin-bottom: 30px;
+			padding-bottom: 30px;
+			padding-top: 10px;
+		}
+		@include mobile {
+			font: normal normal 700 28px/34px 'Barlow Condensed';
+			margin-bottom: 30px;
+			padding-bottom: 30px;
+			padding-top: 10px;
+		}
+	}
+	h3 {
+		font: normal normal 600 20px/22px 'Barlow Condensed';
+		margin-bottom: 40px;
+	}
+	h4 {
+		font: normal normal 700 22px/26px 'Barlow Condensed';
+		margin-bottom: 15px;
+		margin-top: 20px;
+		@include tablet {
+			margin-bottom: 5px;
+		}
+		@include mobile {
+			margin-bottom: 5px;
+		}
+	}
+}
+
+
+.dashboard-delete {
+	padding-left: 5vw;
+	padding-right: 5vw;
+	width: 100%;
+	position: relative;
+	@include tablet {
+		width: 83.3333333%;
+		margin: auto;
+		padding: 0;
+		padding-bottom: 40px;
+	}
+	@include mobile {
+		width: 83.3333333%;
+		margin: auto;
+		padding: 0;
+		padding-bottom: 40px;
+	}
+	h2 {
+		font: normal normal 700 44px/53px 'Barlow Condensed';
+		padding-bottom: 20px;
+		border-bottom: solid 1px lightgrey;
+		margin-bottom: 40px;
+		width: 100%;
+		@include tablet {
+			font: normal normal 700 28px/34px 'Barlow Condensed';
+			margin-bottom: 30px;
+			padding-bottom: 30px;
+			padding-top: 10px;
+		}
+		@include mobile {
+			font: normal normal 700 28px/34px 'Barlow Condensed';
+			margin-bottom: 30px;
+			padding-bottom: 30px;
+			padding-top: 10px;
+		}
+	}
+	h3 {
+		font: normal normal 700 22px/26px 'Barlow Condensed';
+		margin-bottom: 15px;
+		margin-top: 20px;
+	}
+	input[type="checkbox"] {
+		border-radius: 4px;
+	}
+	textarea {
+		border-color: lightgrey;
+		border-radius: 4px;
+		@include mobile {
+			height: 160px;
+		}
+		&:focus {
+			border-color: $primary-color;
+			outline: none;
+			box-shadow: none;
+		}
+	}
+	button {
+		@include tablet {
+			width: 100% !important;
+			margin: 0 !important;
+		}
+		@include mobile {
+			width: 100% !important;
+			margin: 0 !important;
+		}
+	}
+}
+
+
+.dashboard-vouchers {
+	padding-left: 5vw;
+	padding-right: 5vw;
+	width: 100%;
+	position: relative;
+	@include tablet {
+		width: 83.3333333%;
+		margin: auto;
+		padding: 0;
+		padding-bottom: 40px;
+	}
+	@include mobile {
+		width: 83.3333333%;
+		margin: auto;
+		padding: 0;
+		padding-bottom: 40px;
+	}
+	h2 {
+		font: normal normal 700 44px/53px 'Barlow Condensed';
+		padding-bottom: 20px;
+		border-bottom: solid 1px lightgrey;
+		margin-bottom: 40px;
+		width: 100%;
+		@include tablet {
+			font: normal normal 700 28px/34px 'Barlow Condensed';
+			margin-bottom: 30px;
+			padding-bottom: 30px;
+			padding-top: 10px;
+		}
+		@include mobile {
+			font: normal normal 700 28px/34px 'Barlow Condensed';
+			margin-bottom: 30px;
+			padding-bottom: 30px;
+			padding-top: 10px;
+		}
+	}
+	h3 {
+		text-align: left;
+		font: normal normal 700 22px/28px 'Barlow Condensed';
+		letter-spacing: 0px;
+		margin-bottom: 35px;
+	}
+	&__form {
+		margin-bottom: 35px;
+		&__input {
+			margin-bottom: 30px;
+			label {
+				text-align: left;
+				font: normal normal 500 15px/28px 'Barlow';
+				letter-spacing: 0px;
+				margin-bottom: 10px;
+			}
+			input[type="text"] {
+				text-align: left;
+				font: normal normal 500 16px/28px 'Barlow';
+				letter-spacing: 0px;
+				border: none;
+				border-bottom: solid 1px lightgrey;
+				@include tablet {
+					width: 100%;
+				}
+				@include mobile {
+					width: 100%;
+				}
+				&:focus {
+					outline: none;
+					box-shadow: none;
+					border: none;
+					border-bottom: solid 1px $primary-color;
+				}
+				&::placeholder {
+					color: lightgrey;
+				}
+			}
+		}
+		button {
+			@include tablet {
+				width: 100% !important;
+				margin: 0 !important;
+			}
+			@include mobile {
+				width: 100% !important;
+				margin: 0 !important;
+			}
+		}
+	}
+	&__voucher {
+		width: 45%;
+		padding: 10px 0px;
+		border-bottom: solid 1px lightgrey;
+		margin-bottom: 20px;
+		@include tablet {
+			width: 100%;
+		}
+		@include mobile {
+			width: 100%;
+		}
+		&__code {
+			text-align: left;
+			font: normal normal 500 16px/36px 'Barlow';
+			letter-spacing: 0px;
+		}
+		&__remaining {
+			text-align: left;
+			font: normal normal 700 16px/36px 'Barlow';
+			letter-spacing: 0px;
+			color: $primary-color;
+		}
+		&__delete {
+			position: absolute;
+			top: 10px;
+			right: 5px;
+			transition: color 0.2s;
+			&:hover {
+				color: $primary-color;
+			}
+		}
+	}
+}
+
+
+.dashboard-orders {
+	padding-left: 5vw;
+	padding-right: 5vw;
+	position: relative;
+	@include tablet {
+		width: 83.3333333%;
+		margin: auto;
+		padding: 0;
+		padding-bottom: 40px;
+	}
+	@include mobile {
+		width: 83.3333333%;
+		margin: auto;
+		padding: 0;
+		padding-bottom: 40px;
+	}
+	h2 {
+		font: normal normal 700 44px/53px 'Barlow Condensed';
+		padding-bottom: 20px;
+		border-bottom: solid 1px lightgrey;
+		margin-bottom: 20px;
+		@include tablet {
+			font: normal normal 700 28px/34px 'Barlow Condensed';
+			margin-bottom: 30px;
+			padding-bottom: 30px;
+			padding-top: 10px;
+		}
+		@include mobile {
+			font: normal normal 700 28px/34px 'Barlow Condensed';
+			margin-bottom: 30px;
+			padding-bottom: 30px;
+			padding-top: 10px;
+		}
+	}
+	&__order {
+		margin-top: 10px;
+		margin-bottom: 20px;
+		border-radius: 10px;
+		padding: 25px 15px;
+		box-shadow: lightgrey 0 5px 10px;
+		button, a {
+			@include tablet {
+				width: 100% !important;
+				margin: 0 !important;
+				font-size: 18px;
+				// margin-bottom: 10px !important;
+			}
+			@include mobile {
+				width: 100% !important;
+				margin: 0 !important;
+				font-size: 18px;
+				// margin-bottom: 10px !important;
+			}
+		}
+		&__details {
+			background: lighten(lightgrey, 12);
+			border-radius: 10px;
+			padding: 15px;
+			@include tablet {
+				width: 100%;
+			}
+			@include mobile {
+				width: 100%;
+			}
+		}
+	}
+	&__details {
+		&__summary {
+			border-bottom: solid 1px lightgrey;
+			padding-bottom: 30px;
+			&__backlink {
+				transition: color 0.2s;
+				&:hover {
+					color: $dark-text;
+				}
+			}
+			button, a {
+				@include tablet {
+					width: 100% !important;
+					margin: 10px 0px !important;
+					font-size: 18px;
+					// margin-bottom: 10px !important;
+				}
+				@include mobile {
+					width: 100% !important;
+					margin: 10px 0px !important;
+					font-size: 18px;
+					// margin-bottom: 10px !important;
+				}
+			}
+		}
+		&__addresses {
+			padding-top: 20px;
+			padding-bottom: 40px;
+			&__address {
+				width: 45%;
+				padding-bottom: 20px;
+				border-bottom: solid 1px lightgrey;
+				@include tablet {
+					width: 100%;
+				}
+				@include mobile {
+					width: 100%;
+				}
+				h3 {
+					font: normal normal 700 26px/30px 'Barlow Condensed';
+					margin-bottom: 18px;
+					@include tablet {
+						font: normal normal 700 22px/28px 'Barlow Condensed';
+					}
+					@include mobile {
+						font: normal normal 700 22px/28px 'Barlow Condensed';
+					}
+				}
+				h4 {
+					font: normal normal 700 18px/22px 'Barlow';
+				}
+			}
+		}
+		&__articles {
+			&__article {
+				padding: 15px;
+				border-radius: 8px;
+				box-shadow: lightgrey 0 0 10px;
+				height: 200px;
+				width: 45%;
+				@include tablet {
+					width: 100%;
+				}
+				@include mobile {
+					width: 100%;
+				}
+				&__img-container {
+					height: 100%;
+					border-radius: 8px;
+					overflow: hidden;
+					img {
+						object-fit: cover;
+						// min-width: 100%;
+						height: 100%;
+					}
+				}
+				&__desc {
+					width: 75%;
+					h5 {
+						color: $primary-color;
+						font: normal normal 700 26px/30px 'Barlow Condensed';
+						margin-bottom: 15px;
+						@include tablet {
+							font: normal normal 600 24px/28px 'Barlow Condensed';
+						}
+						@include mobile {
+							font: normal normal 600 24px/28px 'Barlow Condensed';
+						}
+					}
+					&__size {
+						width: fit-content;
+						text-transform: uppercase;
+						color: $white;
+						background: $primary-color;
+						padding: 4px 22px;
+						border-radius: 30px;
+						text-align: center;
+						font: normal normal 600 21px/20px 'Barlow Condensed';
+						margin-bottom: 25px;
+						font-weight: 500;
+						@include tablet {
+							padding: 0px 22px;
+							font: normal normal 600 16px/28px 'Barlow Condensed';
+							margin-bottom: 20px;
+						}
+						@include mobile {
+							padding: 0px 22px;
+							font: normal normal 600 16px/28px 'Barlow Condensed';
+							margin-bottom: 20px;
+						}
+					}
+					&__color {
+						font-weight: 500;
+						font-size: 0.9rem;
+					}
+					&__number {
+						font-weight: 500;
+						font-size: 0.9rem;
+					}
+					&__price {
+						position: absolute;
+						bottom: 5px;
+						right: 5px;
+						font: normal normal 600 30px/30px 'Barlow Condensed';
+						@include tablet {
+							bottom: 0px;
+							left: 0px;
+							right: auto;
+						}
+						@include mobile {
+							bottom: 0px;
+							left: 0px;
+							right: auto;
+						}
+					}
+				}
+			}
+		}
+	}
+}

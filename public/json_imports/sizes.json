@@ -1,0 +1,186 @@
+[
+  {
+    "value": "XS",
+    "category": "adults"
+  },
+  {
+    "value": "S",
+    "category": "adults"
+  },
+  {
+    "value": "M",
+    "category": "adults"
+  },
+  {
+    "value": "L",
+    "category": "adults"
+  },
+  {
+    "value": "XL",
+    "category": "adults"
+  },
+  {
+    "value": "2XL",
+    "category": "adults"
+  },
+  {
+    "value": "3XL",
+    "category": "adults"
+  },
+  {
+    "value": "4XL",
+    "category": "adults"
+  },
+  {
+    "value": "5XL",
+    "category": "adults"
+  },
+  {
+    "value": "XS-S",
+    "category": "plusieurs tailles adultes"
+  },
+  {
+    "value": "M-L",
+    "category": "plusieurs tailles adultes"
+  },
+  {
+    "value": "XL-XXL",
+    "category": "plusieurs tailles adultes"
+  },
+  {
+    "value": "3XL-5XL",
+    "category": "plusieurs tailles adultes"
+  },
+  {
+    "value": 50,
+    "category": "kids"
+  },
+  {
+    "value": 56,
+    "category": "kids"
+  },
+  {
+    "value": 62,
+    "category": "kids"
+  },
+  {
+    "value": 68,
+    "category": "kids"
+  },
+  {
+    "value": 74,
+    "category": "kids"
+  },
+  {
+    "value": 80,
+    "category": "kids"
+  },
+  {
+    "value": 86,
+    "category": "kids"
+  },
+  {
+    "value": 92,
+    "category": "kids"
+  },
+  {
+    "value": 98,
+    "category": "kids"
+  },
+  {
+    "value": 104,
+    "category": "kids"
+  },
+  {
+    "value": 110,
+    "category": "kids"
+  },
+  {
+    "value": 116,
+    "category": "kids"
+  },
+  {
+    "value": 122,
+    "category": "kids"
+  },
+  {
+    "value": "62-68",
+    "category": "plusieurs tailles enfants"
+  },
+  {
+    "value": "74-80",
+    "category": "plusieurs tailles enfants"
+  },
+  {
+    "value": "86-92",
+    "category": "plusieurs tailles enfants"
+  },
+  {
+    "value": "92-98",
+    "category": "plusieurs tailles enfants"
+  },
+  {
+    "value": "98-104",
+    "category": "plusieurs tailles enfants"
+  },
+  {
+    "value": "104-110",
+    "category": "plusieurs tailles enfants"
+  },
+  {
+    "value": "116-122",
+    "category": "plusieurs tailles enfants"
+  },
+  {
+    "value": "36min",
+    "category": "tailles enfants accessoires"
+  },
+  {
+    "value": "13y",
+    "category": "tailles enfants accessoires"
+  },
+  {
+    "value": 38,
+    "category": "bonnets"
+  },
+  {
+    "value": 42,
+    "category": "bonnets"
+  },
+  {
+    "value": 48,
+    "category": "bonnets"
+  },
+  {
+    "value": 50,
+    "category": "bonnets"
+  },
+  {
+    "value": 54,
+    "category": "bonnets"
+  },
+  {
+    "value": 55,
+    "category": "bonnets"
+  },
+  {
+    "value": 60,
+    "category": "bonnets"
+  },
+  {
+    "value": "unique",
+    "category": "unique"
+  },
+  {
+    "value": "specific",
+    "category": "specific"
+  },
+  {
+    "value": "unique-kids",
+    "category": "unique"
+  },
+  {
+    "value": "unique-youth",
+    "category": "unique"
+  }
+]

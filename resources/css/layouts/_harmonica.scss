@@ -1,0 +1,319 @@
+.harmonica-bar {
+	position: fixed;
+	top: 0;
+	height: 50px;
+	width: 100vw;
+	z-index: 10;
+	background: lighten($light-grey, 10) 0% 0% no-repeat padding-box;
+	cursor: pointer;
+	color: $dark-text;
+	transition: color 0.2s, background 0.3s;
+	@include tablet {
+		height: 50px;
+	}
+	@include mobile {
+		height: 40px;
+	}
+	&:hover {
+		color: $white;
+		background: $dark-bg 0% 0% no-repeat padding-box;
+	}
+	&--active {
+		color: $white;
+		background: $dark-bg 0% 0% no-repeat padding-box;
+	}
+	&__title {
+		height: 50px;
+		vertical-align: middle;
+		padding-top: 15px;
+		text-transform: uppercase;
+		font: normal normal bold 16px/19px 'Barlow Condensed';
+		letter-spacing: 0.32px;
+		@include tablet {
+			height: 50px;
+			padding-top: 15px;
+		}
+		@include mobile {
+			height: 40px;
+			padding-top: 10px;
+		}
+		&--active {
+			position: absolute;
+			top: -50px;
+			color: $white;
+			width: 100%;
+			cursor: pointer;
+			@include tablet {
+				top: -50px;
+			}
+			@include mobile {
+				top: -40px;
+			}
+		}
+	}
+	&__close {
+		position: absolute;
+		top: -50px;
+		right: -40px;
+		color: $white;
+		width: 40px;
+		padding-top: 12px;
+		text-transform: uppercase;
+		font: normal normal bold 20px/27px 'Barlow Condensed';
+		letter-spacing: 0.32px;
+		@include tablet {
+			top: -44px;
+		}
+		@include mobile {
+			top: -44px;
+		}
+		button {
+			cursor: pointer;
+		}
+	}
+}
+
+.harmonica-menu {
+	position: fixed;
+	top: 0px;
+	left: 0;
+	z-index: 100;
+	width: 100vw;
+	height: 100%;
+	background: $dark-bg 0% 0% no-repeat padding-box;
+	padding: 50px;
+	display: none;
+	@include tablet {
+		padding: 40px;
+		padding-top: 50px;
+	}
+	@include mobile {
+		padding: 40px;
+	}
+	&__content {
+		position: relative;
+		background: $white 0% 0% no-repeat padding-box;
+		height: 100%;
+		width: 100%;
+		&__col {
+			border-right: 1px solid $light-grey;
+			height: 100%;
+			width: 12.5%; //To be updated depending on columns number
+			transition: width 0.5s;
+			cursor: pointer;
+			position: relative;
+			@include tablet {
+				height: 12.5%;
+				width: 100%;
+				transition: height 0.45s;
+				min-height: fit-content;
+				background: $white;
+			}
+			@include mobile {
+				height: 12.5%;
+				width: 100%;
+				transition: height 0.45s;
+				min-height: fit-content;
+				background: $white;
+			}
+			&__banner {
+				position: absolute;
+				top: 0;
+				width: 100%;
+				img, svg {
+					height: 21vh; 
+					width: 3vw;
+				}
+				@include tablet {
+					display: none;
+				}
+				@include mobile {
+					display: none;
+				}
+			}
+			&__title {
+				position: absolute;
+				top: 22vh;
+				width: 100%;
+				height: calc(100% - 21vh);
+				@include tablet {
+					top: 0;
+					height: 100%;
+					border-bottom: solid 1px lightgrey;
+				}
+				@include mobile {
+					top: 0;
+					height: 100%;
+					border-bottom: solid 1px lightgrey;
+				}
+				h3 {
+					transform: translate3d(-50%, -50%, 0) rotateZ(-90deg);
+					transform-origin: center;
+					min-width: calc(80vh - 100px);
+					text-align: center;
+					position: absolute;
+					left: 50%;
+					font: normal normal bold 52px/62px 'Barlow Condensed';
+					font-size: 4vh;
+					letter-spacing: 1.04px;
+					//text-transform: uppercase;
+					@include tablet {
+						transform: rotateZ(0deg);
+						font-size: 3vh;
+						left: 0;
+						width: 100%;
+						min-width: 250px;
+					}
+					@include mobile {
+						transform: rotateZ(0deg);
+						font-size: 3vh;
+						left: 0;
+						width: 100%;
+						min-width: 250px;
+					}
+				}
+				&--village {
+					color: $benu_village;
+				}
+				&--sis {
+					color: $benu_sis;
+				}
+				&--sloow {
+					color: $benu_sloow;
+				}
+				&--couture {
+					color: $benu_couture;
+				}
+				&--reuse {
+					color: $benu_reuse;
+				}
+				&--lasa {
+					color: $benu_lasa;
+				}
+				&--design {
+					color: $benu_design;
+				}
+				&--break {
+					color: $benu_break;
+				}
+			}
+			&__closed {
+				height: 100%;
+				position: relative;
+				//display: none;
+			}
+			&__open {
+				color: $white;
+				height: 100%;
+				overflow: hidden;
+				position: relative;
+				display: none;
+				width: 100%;
+				@include tablet {
+					height: fit-content;
+					width: 101%;
+				}
+				@include mobile {
+					height: fit-content;
+					width: 101%;
+				}
+				&__desc {
+					padding: 5% 12%;
+					padding-top: 30vh;
+					max-height: 100%;
+					@include tablet {
+						padding: 4% 6% 5% 6%;
+						max-height: 60vh;
+					}
+					@include mobile {
+						padding: 2% 6% 5% 6%;
+						max-height: 60vh;
+					}
+					h4 {
+						text-align: center;
+						font: normal normal bold 50px/40px 'Barlow Condensed';
+						font-size: 4vh;
+						letter-spacing: 1.04px;
+						@include tablet {
+							font: normal normal bold 52px/40px 'Barlow Condensed';
+							font-size: 3vh;
+						}
+						@include mobile {
+							font: normal normal bold 52px/40px 'Barlow Condensed';
+							font-size: 3vh;
+						}
+					}
+					&__text {
+						margin-top: 4vh;
+						margin-bottom: 6vh;
+						text-align: left;
+						font: normal normal normal 16px/26px 'Barlow Condensed';
+						font-size: 2vh;
+						letter-spacing: 0px;
+						//min-width: 23vw;
+						// overflow: auto;
+						min-height: 15vh;
+						@include tablet {
+							display: none;
+						}
+						@include mobile {
+							margin: 0;
+							display: none;
+						}
+						&--mobile {
+							display: none;
+							@include tablet {
+								display: block;
+								margin-bottom: 20px;
+								font: normal normal normal 14px/20px 'Barlow Condensed';
+								font-size: 2vh;
+							}
+							@include mobile {
+								display: block;
+								margin-bottom: 20px;
+								font: normal normal normal 14px/20px 'Barlow Condensed';
+								font-size: 2vh;
+							}
+						}
+					}
+					a {
+						font-size: 2vh;
+						display: inline-block;
+						@include tablet {
+							font-size: 2vh;
+							display: inline-block;
+						}
+						@include mobile {
+							font-size: 1.9vh;
+							display: inline-block;
+						}
+					}
+				}
+				&--village {
+					background: $benu_village 0% 0% no-repeat padding-box;
+				}
+				&--sis {
+					background: $benu_sis 0% 0% no-repeat padding-box;
+				}
+				&--sloow {
+					background: $benu_sloow 0% 0% no-repeat padding-box;
+				}
+				&--reuse {
+					background: $benu_reuse 0% 0% no-repeat padding-box;
+				}
+				&--couture {
+					background: $benu_couture 0% 0% no-repeat padding-box;
+				}
+				&--design {
+					background: $benu_design 0% 0% no-repeat padding-box;
+				}
+				&--lasa {
+					background: $benu_lasa 0% 0% no-repeat padding-box;
+				}
+				&--break {
+					background: $benu_break 0% 0% no-repeat padding-box;
+				}
+			}
+		}
+	}
+}
