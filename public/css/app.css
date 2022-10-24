@@ -414,7 +414,7 @@ input[type=checkbox]:focus {
   opacity: 0.9;
 }
 .slider-arrow--color-1 {
-  background: #401c1c;
+  background: #36443d;
   color: #FFFFFF;
   opacity: 0.5;
 }
@@ -457,7 +457,7 @@ input[type=checkbox]:focus {
 }
 
 .svg-primary {
-  fill: #2E1414;
+  fill: #2B3630;
   transition: fill 0.3s;
 }
 .svg-primary--active {
@@ -756,9 +756,9 @@ input[type=checkbox]:focus {
   background: #FFFFFF;
 }
 .btn-couture-plain--dark-hover:hover {
-  background: #2E1414;
+  background: #2B3630;
   color: #FFFFFF;
-  border-color: #2E1414;
+  border-color: #2B3630;
 }
 .btn-couture-plain--fit {
   height: -webkit-fit-content;
@@ -885,7 +885,7 @@ input[type=checkbox]:focus {
   }
 }
 .model-overview__footer p {
-  color: #2E1414;
+  color: #2B3630;
   text-align: left;
   font: normal normal 600 26px/28px "Barlow Condensed";
   letter-spacing: 0px;
@@ -1124,7 +1124,7 @@ input[type=checkbox]:focus {
   text-align: left;
   font: normal normal 500 14px/28px "Barlow";
   letter-spacing: 0px;
-  color: #2E1414;
+  color: #2B3630;
   opacity: 0.5;
 }
 .article-overview__footer__name {
@@ -1324,7 +1324,7 @@ input[type=checkbox]:focus {
   text-align: left;
   font: normal normal 500 14px/28px "Barlow";
   letter-spacing: 0px;
-  color: #2E1414;
+  color: #2B3630;
   opacity: 0.5;
 }
 @media (max-width: 767px) {
@@ -1669,7 +1669,7 @@ input[type=checkbox]:focus {
   text-align: left;
   font: normal normal 500 14px/28px "Barlow";
   letter-spacing: 0px;
-  color: #2E1414;
+  color: #2B3630;
   opacity: 0.5;
 }
 @media (max-width: 767px) {
@@ -1682,7 +1682,7 @@ input[type=checkbox]:focus {
   text-align: left;
   font: normal normal 600 26px/28px "Barlow Condensed";
   letter-spacing: 0px;
-  color: #2E1414;
+  color: #2B3630;
 }
 .sold-overview-wishlist__footer__price {
   margin-top: 4px;
@@ -1807,7 +1807,7 @@ input[type=checkbox]:focus {
   transform-origin: center center;
 }
 .pagination-index__chevron svg path {
-  fill: #2E1414;
+  fill: #2B3630;
 }
 .pagination-index__chevron--left svg {
   transform: scale(1.5) rotateZ(90deg);
@@ -1873,7 +1873,7 @@ input[type=checkbox]:focus {
   min-width: 100px;
 }
 .creations-navbar__menu__lists ul a {
-  color: #2E1414;
+  color: #2B3630;
   transition: all 0.2s ease-in-out;
 }
 .creations-navbar__menu__lists ul a:hover {
@@ -1901,11 +1901,11 @@ input[type=checkbox]:focus {
   margin-left: 15px;
 }
 .creations-navbar__nav__toggle:hover, .creations-navbar__nav__toggle-link:hover {
-  background-color: #2E1414;
+  background-color: #2B3630;
   color: white;
 }
 .creations-navbar__nav__toggle--active, .creations-navbar__nav__toggle-link--active {
-  background-color: #2E1414;
+  background-color: #2B3630;
   color: white;
 }
 
@@ -2160,7 +2160,7 @@ input[type=checkbox]:focus {
 }
 .header__main-menu__icons__lang-btn {
   background-color: #B9E9CD;
-  color: #2E1414;
+  color: #2B3630;
   text-transform: uppercase;
   border-radius: 5px;
   text-align: center;
@@ -2203,7 +2203,7 @@ input[type=checkbox]:focus {
   flex-wrap: nowrap;
   width: 190px;
   height: 50px;
-  color: #2E1414;
+  color: #2B3630;
   font-size: 1.05rem;
   font-weight: 500;
   padding: 0.65rem 1rem;
@@ -2376,7 +2376,7 @@ input[type=checkbox]:focus {
   padding-right: 0;
 }
 .header__top-nav__links__link {
-  color: #2E1414;
+  color: #2B3630;
   padding: 0.5rem;
   font: normal normal normal 18px/22px "Barlow Condensed";
   letter-spacing: 0.36px;
@@ -2592,7 +2592,7 @@ input[type=checkbox]:focus {
 }
 .header-simplified__main-menu__icons__lang-btn {
   background-color: #B9E9CD;
-  color: #2E1414;
+  color: #2B3630;
   text-transform: uppercase;
   border-radius: 5px;
   text-align: center;
@@ -2670,7 +2670,7 @@ input[type=checkbox]:focus {
   z-index: 10;
   background: #f3f3f3 0% 0% no-repeat padding-box;
   cursor: pointer;
-  color: #2E1414;
+  color: #2B3630;
   transition: color 0.2s, background 0.3s;
 }
 @media (min-width: 768px) and (max-width: 1080px) {
@@ -2685,11 +2685,11 @@ input[type=checkbox]:focus {
 }
 .harmonica-bar:hover {
   color: #FFFFFF;
-  background: #2E1414 0% 0% no-repeat padding-box;
+  background: #2B3630 0% 0% no-repeat padding-box;
 }
 .harmonica-bar--active {
   color: #FFFFFF;
-  background: #2E1414 0% 0% no-repeat padding-box;
+  background: #2B3630 0% 0% no-repeat padding-box;
 }
 .harmonica-bar__title {
   height: 50px;
@@ -2760,7 +2760,7 @@ input[type=checkbox]:focus {
   z-index: 100;
   width: 100vw;
   height: 100%;
-  background: #2E1414 0% 0% no-repeat padding-box;
+  background: #2B3630 0% 0% no-repeat padding-box;
   padding: 50px;
   display: none;
 }
@@ -3106,14 +3106,14 @@ input[type=checkbox]:focus {
   text-align: center;
   font: normal normal 400 12px/14px "Barlow Condensed";
   letter-spacing: 0px;
-  color: #2E1414;
+  color: #2B3630;
 }
 .lang-modal__block__btn {
   height: 50px;
   width: 50px;
   cursor: pointer;
   background-color: #B9E9CD;
-  color: #2E1414;
+  color: #2B3630;
   text-transform: uppercase;
   border-radius: 5px;
   text-align: center;
@@ -3126,7 +3126,7 @@ input[type=checkbox]:focus {
   text-align: left;
   font: normal normal 500 16px/19px "Barlow Condensed";
   letter-spacing: 0px;
-  color: #2E1414;
+  color: #2B3630;
   margin-bottom: 2px;
 }
 @media (max-width: 767px) {
@@ -3382,7 +3382,7 @@ input[type=checkbox]:focus {
 .article-sidebar__content__close-container:hover {
   width: 85px;
   max-width: 120px;
-  background: #2E1414;
+  background: #2B3630;
 }
 @media (min-width: 768px) and (max-width: 1080px) {
   .article-sidebar__content__close-container:hover {
@@ -3633,7 +3633,7 @@ input[type=checkbox]:focus {
   text-align: center;
   font: normal normal 500 14px/20px "Barlow";
   letter-spacing: 0px;
-  color: #2E1414;
+  color: #2B3630;
   padding: 10px;
   margin-bottom: 25px;
 }
@@ -3644,7 +3644,7 @@ input[type=checkbox]:focus {
   text-align: center;
   font: normal normal 500 14px/20px "Barlow";
   letter-spacing: 0px;
-  color: #2E1414;
+  color: #2B3630;
   padding: 10px;
   margin-bottom: 25px;
 }
@@ -3680,8 +3680,8 @@ input[type=checkbox]:focus {
 }
 .article-sidebar__content__cart-btn:hover {
   color: #FFFFFF;
-  background: #2E1414;
-  border-color: #2E1414;
+  background: #2B3630;
+  border-color: #2B3630;
 }
 .article-sidebar__content__size-check {
   text-align: center;
@@ -3828,7 +3828,7 @@ input[type=checkbox]:focus {
   width: 100vw;
   height: 100vh;
   z-index: 101;
-  background: #2E1414;
+  background: #2B3630;
   opacity: 0.7;
 }
 
@@ -3909,7 +3909,7 @@ input[type=checkbox]:focus {
 }
 .add-address-modal__close-container:hover {
   width: 85px;
-  background: #2E1414;
+  background: #2B3630;
 }
 @media (min-width: 768px) and (max-width: 1080px) {
   .add-address-modal__close-container:hover {
@@ -3984,7 +3984,7 @@ input[type=checkbox]:focus {
   text-align: left;
   font: normal normal 500 16px/36px "Barlow";
   letter-spacing: 0px;
-  color: #2E1414;
+  color: #2B3630;
 }
 @media (min-width: 768px) and (max-width: 1080px) {
   .footer__copyright {
@@ -4108,7 +4108,7 @@ input[type=checkbox]:focus {
   text-align: left;
   font: normal normal 600 28px/34px "Barlow Condensed";
   letter-spacing: 0px;
-  color: #2E1414;
+  color: #2B3630;
   margin-bottom: 45px;
 }
 @media (max-width: 767px) {
@@ -4121,7 +4121,7 @@ input[type=checkbox]:focus {
   text-align: left;
   font: normal normal 500 22px/46px "Barlow Condensed";
   letter-spacing: 0px;
-  color: #2E1414;
+  color: #2B3630;
 }
 @media (min-width: 1081px) and (max-width: 1249px) {
   .footer ul {
@@ -4242,7 +4242,7 @@ input[type=checkbox]:focus {
   text-align: center;
   font: normal normal 600 44px/53px "Barlow Condensed";
   letter-spacing: 0px;
-  color: #2E1414;
+  color: #2B3630;
   margin-bottom: 59px;
 }
 @media (min-width: 1081px) and (max-width: 1249px) {
@@ -4267,7 +4267,7 @@ input[type=checkbox]:focus {
   text-align: center;
   font: normal normal 500 16px/28px "Barlow";
   letter-spacing: 0px;
-  color: #2E1414;
+  color: #2B3630;
   margin-bottom: 80px;
 }
 @media (max-width: 767px) {
@@ -4330,7 +4330,7 @@ input[type=checkbox]:focus {
   margin-bottom: 70px;
   font: normal normal medium 16px/28px Barlow;
   letter-spacing: 0px;
-  color: #2E1414;
+  color: #2B3630;
   width: 50%;
 }
 @media (max-width: 767px) {
@@ -4375,7 +4375,7 @@ input[type=checkbox]:focus {
 .footer-all__txt {
   font: normal normal 300 44px/53px Barlow Condensed;
   letter-spacing: 0px;
-  color: #2E1414;
+  color: #2B3630;
 }
 .footer-all__txt--left {
   margin-left: 6vw;
@@ -4550,7 +4550,7 @@ input[type=checkbox]:focus {
   transition: color 0.2s;
 }
 .footer-legal__paragraph a:hover {
-  color: #2E1414;
+  color: #2B3630;
 }
 .footer-legal__highlight {
   padding: 30px;
@@ -4596,7 +4596,7 @@ input[type=checkbox]:focus {
   transition: color 0.2s;
 }
 .footer-medias__paragraph a:hover {
-  color: #2E1414;
+  color: #2B3630;
 }
 .footer-medias__highlight {
   padding: 30px;
@@ -4642,7 +4642,7 @@ input[type=checkbox]:focus {
   transition: color 0.2s;
 }
 .footer-info__paragraph a:hover {
-  color: #2E1414;
+  color: #2B3630;
 }
 .footer-info__highlight {
   padding: 30px;
@@ -4677,7 +4677,7 @@ input[type=checkbox]:focus {
   transition: color 0.2s;
 }
 .sitemap a:hover {
-  color: #2E1414;
+  color: #2B3630;
 }
 .sitemap__list--large {
   font: normal normal 600 22px/30px "Barlow";
@@ -4699,7 +4699,7 @@ input[type=checkbox]:focus {
   font: normal normal 500 16px/28px "Barlow";
 }
 .footer-conditions a:hover {
-  color: #2E1414;
+  color: #2B3630;
 }
 .footer-conditions li {
   margin-left: 10px;
@@ -4845,7 +4845,7 @@ input[type=checkbox]:focus {
   padding: 6px 12px;
   font: normal normal 500 18px/22px "Barlow Condensed";
   letter-spacing: 0.36px;
-  color: #2E1414;
+  color: #2B3630;
   border-radius: 8px;
   background: #B9E9CD 0% 0% no-repeat padding-box;
   transition: all 0.2s ease-in-out;
@@ -4876,7 +4876,7 @@ input[type=checkbox]:focus {
   text-align: left;
   font: normal normal bold 44px/53px "Barlow Condensed";
   letter-spacing: 0px;
-  color: #2E1414;
+  color: #2B3630;
   margin-bottom: 55px;
 }
 @media (min-width: 1081px) and (max-width: 1249px) {
@@ -4952,7 +4952,7 @@ input[type=checkbox]:focus {
   transition: color 0.2s;
 }
 .welcome-presentation__desc__link:hover {
-  color: #2E1414;
+  color: #2B3630;
 }
 @media (max-width: 767px) {
   .welcome-presentation__desc__link {
@@ -5031,7 +5031,7 @@ input[type=checkbox]:focus {
   text-align: left;
   font: normal normal 300 40px/48px "Barlow Condensed";
   letter-spacing: 0.36px;
-  color: #2E1414;
+  color: #2B3630;
 }
 @media (min-width: 1081px) and (max-width: 1249px) {
   .welcome-campaign__left__title-1 {
@@ -5189,7 +5189,7 @@ input[type=checkbox]:focus {
   text-align: center;
   font: normal normal 700 44px/53px "Barlow Condensed";
   letter-spacing: 0px;
-  color: #2E1414;
+  color: #2B3630;
   margin-bottom: 26px;
 }
 @media (min-width: 768px) and (max-width: 1080px) {
@@ -5206,7 +5206,7 @@ input[type=checkbox]:focus {
   text-align: center;
   font: normal normal 500 16px/28px "Barlow";
   letter-spacing: 0px;
-  color: #2E1414;
+  color: #2B3630;
   width: 45%;
   margin: auto;
   margin-bottom: 50px;
@@ -5244,7 +5244,7 @@ input[type=checkbox]:focus {
   text-align: center;
   font: normal normal 700 44px/53px "Barlow Condensed";
   letter-spacing: 0px;
-  color: #2E1414;
+  color: #2B3630;
 }
 @media (min-width: 768px) and (max-width: 1080px) {
   .welcome-others h3 {
@@ -5282,12 +5282,12 @@ input[type=checkbox]:focus {
   padding: 0px 15px;
 }
 .welcome-others__list a:hover {
-  color: #2E1414;
+  color: #2B3630;
 }
 .welcome-others__plus {
   height: 104px;
   width: 104px;
-  border: 5px solid #2E1414;
+  border: 5px solid #2B3630;
   border-radius: 50%;
   position: relative;
   margin: auto;
@@ -5431,7 +5431,7 @@ input[type=checkbox]:focus {
   text-transform: uppercase;
 }
 .side-mobile__toggler--general:hover {
-  background: #2E1414;
+  background: #2B3630;
   color: #FFFFFF;
 }
 .side-mobile__toggler--creation {
@@ -5632,7 +5632,7 @@ input[type=checkbox]:focus {
   cursor: pointer;
   font: normal normal 600 17px/22px "Barlow Condensed";
   letter-spacing: 0.36px;
-  color: #2E1414;
+  color: #2B3630;
   text-transform: uppercase;
   margin-bottom: -1px;
   padding-left: 8px;
@@ -5920,7 +5920,7 @@ input[type=checkbox]:focus {
   transition: color 0.2s;
 }
 .delivery__chapter__link:hover {
-  color: #2E1414;
+  color: #2B3630;
 }
 .delivery__chapter__img-container {
   width: 45%;
@@ -5970,7 +5970,7 @@ input[type=checkbox]:focus {
   color: grey;
 }
 .delivery__chapter__table th:nth-child(even) {
-  color: #2E1414;
+  color: #2B3630;
 }
 .delivery__chapter__table th:nth-child(1) {
   color: #27955B;
@@ -5982,10 +5982,10 @@ input[type=checkbox]:focus {
   color: grey;
 }
 .delivery__chapter__table__data-rows td:nth-child(even) {
-  color: #2E1414;
+  color: #2B3630;
 }
 .delivery__chapter__table__data-rows td:nth-child(1) {
-  color: #2E1414;
+  color: #2B3630;
 }
 .delivery__chapter__table__data-rows td {
   padding: 4px 10px;
@@ -6210,7 +6210,7 @@ input[type=checkbox]:focus {
   color: grey;
 }
 .sizes__chapter__table th:nth-child(even) {
-  color: #2E1414;
+  color: #2B3630;
 }
 .sizes__chapter__table th:nth-child(1) {
   color: #27955B;
@@ -6222,10 +6222,10 @@ input[type=checkbox]:focus {
   color: grey;
 }
 .sizes__chapter__table__data-rows td:nth-child(even) {
-  color: #2E1414;
+  color: #2B3630;
 }
 .sizes__chapter__table__data-rows td:nth-child(1) {
-  color: #2E1414;
+  color: #2B3630;
 }
 .sizes__chapter__table__data-rows td {
   padding: 4px 10px;
@@ -6364,7 +6364,7 @@ input[type=checkbox]:focus {
   transition: color 0.2s;
 }
 .return__chapter__link:hover {
-  color: #2E1414;
+  color: #2B3630;
 }
 .return__form__fieldset {
   text-align: left;
@@ -6675,7 +6675,7 @@ input[type=checkbox]:focus {
   text-align: center;
   font: normal normal 700 44px/53px "Barlow Condensed";
   letter-spacing: 0px;
-  color: #2E1414;
+  color: #2B3630;
   margin-bottom: 50px;
 }
 @media (max-width: 767px) {
@@ -6733,7 +6733,7 @@ input[type=checkbox]:focus {
 .contact__moreinfo {
   font-size: 1rem;
   line-height: 28px;
-  color: #2E1414;
+  color: #2B3630;
   font-family: "Barlow";
   font-weight: 500;
   margin-bottom: 40px;
@@ -6934,7 +6934,7 @@ input[type=checkbox]:focus {
   overflow: hidden;
 }
 .all-models__mobile-menu__opacifier {
-  background: #2E1414;
+  background: #2B3630;
   opacity: 0.6;
   position: absolute;
   top: 0;
@@ -7322,10 +7322,10 @@ input[type=checkbox]:focus {
   }
 }
 .model-pres__mobile-anchors a:hover {
-  color: #2E1414;
+  color: #2B3630;
 }
 .model-pres__mobile-anchors a:hover path {
-  fill: #2E1414;
+  fill: #2B3630;
 }
 .model-pres__mobile-anchors a svg {
   margin-left: 12px;
@@ -7558,10 +7558,10 @@ input[type=checkbox]:focus {
   }
 }
 .model-pres__desc__seemore a:hover {
-  color: #2E1414;
+  color: #2B3630;
 }
 .model-pres__desc__seemore a:hover path {
-  fill: #2E1414;
+  fill: #2B3630;
 }
 .model-pres__desc__seemore a svg {
   margin-left: 10px;
@@ -7571,7 +7571,7 @@ input[type=checkbox]:focus {
   padding: 25px 30px;
   border-radius: 8px;
   margin-bottom: 25px;
-  color: #2E1414;
+  color: #2B3630;
 }
 @media (max-width: 767px) {
   .model-pres__wiki-link {
@@ -7689,7 +7689,7 @@ input[type=checkbox]:focus {
   text-align: center;
   font: normal normal 700 44px/53px "Barlow Condensed";
   letter-spacing: 0px;
-  color: #2E1414;
+  color: #2B3630;
   margin-bottom: 26px;
 }
 @media (max-width: 767px) {
@@ -7753,7 +7753,7 @@ input[type=checkbox]:focus {
   text-align: center;
   font: normal normal 500 16px/28px "Barlow";
   letter-spacing: 0px;
-  color: #2E1414;
+  color: #2B3630;
   margin-bottom: 50px;
 }
 .model-request__link {
@@ -7788,7 +7788,7 @@ input[type=checkbox]:focus {
 .full-story {
   padding-top: 66px;
   padding-bottom: 80px;
-  color: #2E1414;
+  color: #2B3630;
   line-height: 2rem;
 }
 .full-story__title {
@@ -7816,7 +7816,7 @@ input[type=checkbox]:focus {
   font: normal normal 700 25px/32px "Barlow Condensed";
   margin-bottom: 30px;
   text-align: left;
-  color: #2E1414;
+  color: #2B3630;
 }
 .full-story__section-title {
   text-align: center;
@@ -8073,7 +8073,7 @@ input[type=checkbox]:focus {
 
 .about {
   padding-top: 66px;
-  color: #2E1414;
+  color: #2B3630;
   line-height: 2rem;
 }
 .about__title {
@@ -8756,7 +8756,7 @@ input[type=checkbox]:focus {
   transition: color 0.2s;
 }
 .all-news__link__title:hover {
-  color: #2E1414;
+  color: #2B3630;
 }
 .all-news__link__date {
   font: normal normal 500 12px/20px "Barlow";
@@ -8870,7 +8870,7 @@ input[type=checkbox]:focus {
   box-shadow: #B9E9CD 0 0 15px;
 }
 .single-news__prev-next__block:hover h3 {
-  color: #2E1414;
+  color: #2B3630;
 }
 .single-news__prev-next__block:hover .single-news__prev-next__block__chevron--left {
   padding-left: 0px;
@@ -9204,7 +9204,7 @@ input[type=checkbox]:focus {
     margin-bottom: 15px;
   }
   .dashboard__nav__link-mobile:hover {
-    background: #2E1414;
+    background: #2B3630;
   }
 }
 @media (max-width: 767px) {
@@ -9225,7 +9225,7 @@ input[type=checkbox]:focus {
     margin-bottom: 15px;
   }
   .dashboard__nav__link-mobile:hover {
-    background: #2E1414;
+    background: #2B3630;
   }
 }
 .dashboard__nav__link {
@@ -10061,7 +10061,7 @@ input[type=checkbox]:focus {
   transition: color 0.2s;
 }
 .dashboard-orders__details__summary__backlink:hover {
-  color: #2E1414;
+  color: #2B3630;
 }
 @media (min-width: 768px) and (max-width: 1080px) {
   .dashboard-orders__details__summary button, .dashboard-orders__details__summary a {
@@ -12453,7 +12453,7 @@ input[type=checkbox]:focus {
 }
 .cart-gift-modal__close-container:hover {
   width: 85px;
-  background: #2E1414;
+  background: #2B3630;
 }
 .cart-gift-modal__close {
   text-align: right;
@@ -12948,7 +12948,7 @@ input[type=checkbox]:focus {
 }
 .payment-tunnel__delivery label {
   z-index: 1;
-  color: #2E1414;
+  color: #2B3630;
   bottom: 30px;
   left: 0;
   transform: scale(0.8);
@@ -13368,7 +13368,7 @@ input[type=checkbox]:focus {
   cursor: pointer;
   font: normal normal 600 18px/22px "Barlow Condensed";
   letter-spacing: 0.36px;
-  color: #2E1414;
+  color: #2B3630;
   text-transform: uppercase;
   margin-bottom: -1px;
   padding-left: 10px;
@@ -13515,7 +13515,7 @@ input[type=checkbox]:focus {
   transition: all 0.3s;
 }
 .participate-give__collect-box__details a:hover {
-  color: #2E1414;
+  color: #2B3630;
 }
 
 .participate-partnership__title {
@@ -13896,7 +13896,7 @@ input[type=checkbox]:focus {
   left: 0;
   width: 100%;
   height: 100%;
-  background: #2E1414;
+  background: #2B3630;
   opacity: 0;
   z-index: 1;
 }
@@ -14167,7 +14167,7 @@ input[type=checkbox]:focus {
   left: 0;
   width: 100%;
   height: 100%;
-  background: #2E1414;
+  background: #2B3630;
   opacity: 0;
   z-index: -1;
 }
@@ -14387,7 +14387,7 @@ input[type=checkbox]:focus {
   left: 0;
   width: 100%;
   height: 100%;
-  background: #2E1414;
+  background: #2B3630;
   opacity: 0;
   z-index: 1;
 }
@@ -14438,7 +14438,7 @@ input[type=checkbox]:focus {
   transition: color 0.2s;
 }
 .single-campaign__section-3__txt__link:hover {
-  color: #2E1414;
+  color: #2B3630;
 }
 .single-campaign__section-3bis {
   padding-bottom: 50px;
@@ -14586,7 +14586,7 @@ input[type=checkbox]:focus {
   }
 }
 .single-campaign__section-4__quote--highlight {
-  color: #2E1414;
+  color: #2B3630;
 }
 .single-campaign__section-4__separator {
   width: 2px;
@@ -14730,7 +14730,7 @@ input[type=checkbox]:focus {
   }
 }
 .media-links__accordion__header:hover {
-  background: #2E1414;
+  background: #2B3630;
 }
 .media-links__accordion__header__title {
   margin-right: 15px;
