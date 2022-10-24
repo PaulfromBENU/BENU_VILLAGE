@@ -30,60 +30,6 @@
 			<ul>
 				<li class="sitemap__list sitemap__list--large"><a href="{{ route('home', ['locale' => app()->getLocale()]) }}">{{ __('footer.sitemap-home') }}</a></li>
 
-				<li class="sitemap__list sitemap__list--large"><a href="{{ route('model-'.app()->getLocale(), ['family' => 'clothes']) }}">{{ __('footer.sitemap-all-clothes') }}</a></li>
-				@foreach($clothes as $clothe)
-					<li class="sitemap__list sitemap__list--small">
-						<a href="{{ route('model-'.app()->getLocale(), ['name' => strtolower(str_replace(' ', '-', $clothe->name))]) }}">
-							{{ __('footer.sitemap-single-clothe') }} {{ $clothe->name }}
-						</a>
-						<ul>
-							@foreach($clothe->articles as $clothe_article)
-							<li class="pl-3" style="font-size: 1rem;">
-								<a href="{{ route('model-'.app()->getLocale(), ['name' => strtolower(str_replace(' ', '-', $clothe->name)), 'article' => strtolower($clothe_article->name)]) }}">
-									{{ $clothe_article->name }}
-								</a>
-							</li>
-							@endforeach
-						</ul>
-					</li>
-				@endforeach
-
-				<li class="sitemap__list sitemap__list--large"><a href="{{ route('model-'.app()->getLocale(), ['family' => 'accessories']) }}">{{ __('footer.sitemap-all-accessories') }}</a></li>
-				@foreach($accessories as $accessory)
-					<li class="sitemap__list sitemap__list--small">
-						<a href="{{ route('model-'.app()->getLocale(), ['name' => strtolower(str_replace(' ', '-', $accessory->name))]) }}">
-							{{ __('footer.sitemap-single-clothe') }} {{ $accessory->name }}
-						</a>
-						<ul>
-							@foreach($accessory->articles as $accessory_article)
-							<li class="pl-3" style="font-size: 1rem;">
-								<a href="{{ route('model-'.app()->getLocale(), ['name' => strtolower(str_replace(' ', '-', $accessory->name)), 'article' => strtolower($accessory_article->name)]) }}">
-									{{ $accessory_article->name }}
-								</a>
-							</li>
-							@endforeach
-						</ul>
-					</li>
-				@endforeach
-
-				<li class="sitemap__list sitemap__list--large"><a href="{{ route('model-'.app()->getLocale(), ['family' => 'home']) }}">{{ __('footer.sitemap-all-home-items') }}</a></li>
-				@foreach($home_items as $home_item)
-					<li class="sitemap__list sitemap__list--small">
-						<a href="{{ route('model-'.app()->getLocale(), ['name' => strtolower(str_replace(' ', '-', $home_item->name))]) }}">
-							{{ __('footer.sitemap-single-clothe') }} {{ $home_item->name }}
-						</a>
-						<ul>
-							@foreach($home_item->articles as $home_article)
-							<li class="pl-3" style="font-size: 1rem;">
-								<a href="{{ route('model-'.app()->getLocale(), ['name' => strtolower(str_replace(' ', '-', $home_item->name)), 'article' => strtolower($home_article->name)]) }}">
-									{{ $home_article->name }}
-								</a>
-							</li>
-							@endforeach
-						</ul>
-					</li>
-				@endforeach
-
 				<li class="sitemap__list sitemap__list--large"><a href="{{ route('vouchers-'.app()->getLocale()) }}">{{ __('footer.sitemap-vouchers') }}</a></li>
 
 				<li class="sitemap__list sitemap__list--large"><a href="{{ route('about-'.app()->getLocale()) }}">{{ __('footer.sitemap-about-us') }}</a></li>
@@ -178,9 +124,6 @@
 				<li class="sitemap__list sitemap__list--large"><a href="{{ route('footer.general-info-'.app()->getLocale()) }}">{{ __('footer.sitemap-general-infos') }}</a></li>
 
 				<li class="sitemap__list sitemap__list--large"><a href="{{ route('footer.medias-'.app()->getLocale()) }}">{{ __('footer.sitemap-medias') }}</a></li>
-
-				<li class="sitemap__list sitemap__list--large"><a href="{{ route('campaigns-'.app()->getLocale()) }}">{{ __('footer.sitemap-all-campaigns') }}</a></li>
-				<li class="sitemap__list sitemap__list--small"><a href="{{ route('campaign-single-'.app()->getLocale(), ['slug' => 'carte-blanche']) }}">{{ __('footer.sitemap-campaign-carte-blanche') }}</a></li>
 
 				<li class="sitemap__list sitemap__list--large"><a href="{{ route('dashboard', ['locale' => app()->getLocale()]) }}">{{ __('footer.sitemap-dashboard') }}</a></li>
 

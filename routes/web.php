@@ -71,8 +71,8 @@ if (app('env') == 'landing') {
 		'middleware' => 'setlocale'], function() {
 
 		// Models Pages
-		Route::get('/'.trans("slugs.models", [], "lu").'/{name?}', 'ModelController@show')->name('model-lu')->middleware('createcart');
-		Route::get('/'.trans("slugs.models", [], "lu").'/{name}/'.trans("slugs.sold", [], "lu"), 'ModelController@soldItems')->name('sold-lu');
+		// Route::get('/'.trans("slugs.models", [], "lu").'/{name?}', 'ModelController@show')->name('model-lu')->middleware('createcart');
+		// Route::get('/'.trans("slugs.models", [], "lu").'/{name}/'.trans("slugs.sold", [], "lu"), 'ModelController@soldItems')->name('sold-lu');
 		Route::get('/'.trans("slugs.vouchers", [], "lu"), 'GeneralController@showVouchers')->name('vouchers-lu')->middleware('createcart');
 
 		// Client Support
@@ -129,8 +129,8 @@ if (app('env') == 'landing') {
 		Route::get('/'.trans("slugs.sitemap", [], "lu"), 'GeneralController@showSiteMap')->name('footer.sitemap-lu');
 
 		// Campaigns
-		Route::get('/'.trans("slugs.campaigns", [], "lu"), 'GeneralController@showAllCampaigns')->name('campaigns-lu');
-		Route::get('/'.trans("slugs.campaigns", [], "lu").'/{slug}', 'GeneralController@showSingleCampaign')->name('campaign-single-lu');
+		// Route::get('/'.trans("slugs.campaigns", [], "lu"), 'GeneralController@showAllCampaigns')->name('campaigns-lu');
+		// Route::get('/'.trans("slugs.campaigns", [], "lu").'/{slug}', 'GeneralController@showSingleCampaign')->name('campaign-single-lu');
 	});
 
 	Route::group([
@@ -139,8 +139,8 @@ if (app('env') == 'landing') {
 	], function() {
 
 		// Models Pages
-		Route::get('/'.trans("slugs.models", [], "fr").'/{name?}', 'ModelController@show')->name('model-fr')->middleware('createcart');
-		Route::get('/'.trans("slugs.models", [], "fr").'/{name}/'.trans("slugs.sold", [], "fr"), 'ModelController@soldItems')->name('sold-fr');
+		// Route::get('/'.trans("slugs.models", [], "fr").'/{name?}', 'ModelController@show')->name('model-fr')->middleware('createcart');
+		// Route::get('/'.trans("slugs.models", [], "fr").'/{name}/'.trans("slugs.sold", [], "fr"), 'ModelController@soldItems')->name('sold-fr');
 		Route::get('/'.trans("slugs.vouchers", [], "fr"), 'GeneralController@showVouchers')->name('vouchers-fr')->middleware('createcart');
 
 		// Client Support
@@ -197,8 +197,8 @@ if (app('env') == 'landing') {
 		Route::get('/'.trans("slugs.sitemap", [], "fr"), 'GeneralController@showSiteMap')->name('footer.sitemap-fr');
 
 		// Campaigns
-		Route::get('/'.trans("slugs.campaigns", [], "fr"), 'GeneralController@showAllCampaigns')->name('campaigns-fr');
-		Route::get('/'.trans("slugs.campaigns", [], "fr").'/{slug}', 'GeneralController@showSingleCampaign')->name('campaign-single-fr');
+		// Route::get('/'.trans("slugs.campaigns", [], "fr"), 'GeneralController@showAllCampaigns')->name('campaigns-fr');
+		// Route::get('/'.trans("slugs.campaigns", [], "fr").'/{slug}', 'GeneralController@showSingleCampaign')->name('campaign-single-fr');
 
 		// Test and data importation pages - for admin only
 		Route::get('/test-mail', function() {
@@ -217,8 +217,8 @@ if (app('env') == 'landing') {
 		'middleware' => 'setlocale'], function() {
 
 		// Models Pages
-		Route::get('/'.trans("slugs.models", [], "en").'/{name?}', 'ModelController@show')->name('model-en')->middleware('createcart');
-		Route::get('/'.trans("slugs.models", [], "en").'/{name}/'.trans("slugs.sold", [], "en"), 'ModelController@soldItems')->name('sold-en');
+		// Route::get('/'.trans("slugs.models", [], "en").'/{name?}', 'ModelController@show')->name('model-en')->middleware('createcart');
+		// Route::get('/'.trans("slugs.models", [], "en").'/{name}/'.trans("slugs.sold", [], "en"), 'ModelController@soldItems')->name('sold-en');
 		Route::get('/'.trans("slugs.vouchers", [], "en"), 'GeneralController@showVouchers')->name('vouchers-en')->middleware('createcart');
 
 		// Client Support
@@ -275,8 +275,8 @@ if (app('env') == 'landing') {
 		Route::get('/'.trans("slugs.sitemap", [], "en"), 'GeneralController@showSiteMap')->name('footer.sitemap-en');
 
 		// Campaigns
-		Route::get('/'.trans("slugs.campaigns", [], "en"), 'GeneralController@showAllCampaigns')->name('campaigns-en');
-		Route::get('/'.trans("slugs.campaigns", [], "en").'/{slug}', 'GeneralController@showSingleCampaign')->name('campaign-single-en');
+		// Route::get('/'.trans("slugs.campaigns", [], "en"), 'GeneralController@showAllCampaigns')->name('campaigns-en');
+		// Route::get('/'.trans("slugs.campaigns", [], "en").'/{slug}', 'GeneralController@showSingleCampaign')->name('campaign-single-en');
 	});
 
 	Route::group([
@@ -284,8 +284,8 @@ if (app('env') == 'landing') {
 		'middleware' => 'setlocale'], function() {
 
 		// Models Pages
-		Route::get('/'.trans("slugs.models", [], "de").'/{name?}', 'ModelController@show')->name('model-de')->middleware('createcart');
-		Route::get('/'.trans("slugs.models", [], "de").'/{name}/'.trans("slugs.sold", [], "de"), 'ModelController@soldItems')->name('sold-de');
+		// Route::get('/'.trans("slugs.models", [], "de").'/{name?}', 'ModelController@show')->name('model-de')->middleware('createcart');
+		// Route::get('/'.trans("slugs.models", [], "de").'/{name}/'.trans("slugs.sold", [], "de"), 'ModelController@soldItems')->name('sold-de');
 		Route::get('/'.trans("slugs.vouchers", [], "de"), 'GeneralController@showVouchers')->name('vouchers-de')->middleware('createcart');
 
 		// Client Support
@@ -341,8 +341,8 @@ if (app('env') == 'landing') {
 		Route::get('/'.trans("slugs.sitemap", [], "de"), 'GeneralController@showSiteMap')->name('footer.sitemap-de');
 
 		// Campaigns
-		Route::get('/'.trans("slugs.campaigns", [], "de"), 'GeneralController@showAllCampaigns')->name('campaigns-de');
-		Route::get('/'.trans("slugs.campaigns", [], "de").'/{slug}', 'GeneralController@showSingleCampaign')->name('campaign-single-de');
+		// Route::get('/'.trans("slugs.campaigns", [], "de"), 'GeneralController@showAllCampaigns')->name('campaigns-de');
+		// Route::get('/'.trans("slugs.campaigns", [], "de").'/{slug}', 'GeneralController@showSingleCampaign')->name('campaign-single-de');
 	});
 
 	Route::group([
