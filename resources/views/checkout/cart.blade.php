@@ -55,7 +55,7 @@
 				{{ __('cart.no-article-for-the-moment') }}
 			</p>
 		@else
-			<h2 class="cart-content__banner cart-content__banner--couture">BENU COUTURE</h2>
+			<!-- <h2 class="cart-content__banner cart-content__banner--couture">BENU COUTURE</h2> -->
 			@livewire('cart.cart-articles', ['cart_id' => $cart_id])
 		@endif
 	</section>

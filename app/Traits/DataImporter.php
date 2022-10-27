@@ -56,8 +56,8 @@ trait DataImporter {
 
         if (env('APP_ENV') !== 'production') {
             // WARNING: will empty the table!! To be used with caution.
-            DB::connection('mysql')->table('article_care_recommendation')->truncate();
-            DB::connection('mysql')->table('article_composition')->truncate();
+            DB::connection('mysql_couture')->table('article_care_recommendation')->truncate();
+            DB::connection('mysql_couture')->table('article_composition')->truncate();
             CareRecommendation::truncate();
             Composition::truncate();
             Color::truncate();

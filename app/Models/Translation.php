@@ -10,4 +10,6 @@ class Translation extends Model
     use HasFactory;
 
     protected $guarded = [];
+
+    protected $connection = 'mysql_village';
 }

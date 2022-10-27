@@ -85,7 +85,7 @@ class GeneralController extends Controller
 
     public function showAbout()
     {
-        return view('about');
+        return view('header.pages.about');
     }
 
     public function showPartners()

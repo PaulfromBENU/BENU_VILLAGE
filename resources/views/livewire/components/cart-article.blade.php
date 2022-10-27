@@ -16,14 +16,14 @@
     <div class="col-span-2 cart-content__article__name tablet-hidden">
         @if($article->name == 'voucher')
         <h4>{{ __('cart.voucher') }}</h4>
-        <p class="mt-1 rounded-2xl bg-red-100 primary-color text-md pt-1 pb-1 pl-3 pr-3 absolute">
+        <p class="mt-1 rounded-2xl bg-green-100 primary-color text-md pt-1 pb-1 pl-3 pr-3 absolute">
             {{ __('cart.voucher-value') }} : {{ $article->carts()->where('carts.cart_id', session('cart_id'))->first()->pivot->value }}&euro;
         </p>
         @else
         <h4>{{ strtoupper($article->name) }}</h4>
         @endif
         @if($article->pending_shops()->where('filter_key', '<>', 'benu-esch')->count() > 0)
-        <button class=" mt-1 rounded-2xl bg-red-100 primary-color text-md pt-1 pb-1 pl-3 pr-3 hover:text-white hover:bg-gray-800 transition absolute" wire:click="showInfoModal">
+        <button class=" mt-1 rounded-2xl bg-green-100 primary-color text-md pt-1 pb-1 pl-3 pr-3 hover:text-white hover:bg-gray-800 transition absolute" wire:click="showInfoModal">
             {{ __('cart.in-pop-up-store') }} +
         </button>
         @endif
@@ -177,7 +177,7 @@
         @if($article->name == 'voucher')
         <div class="flex justify-start flex-wrap">
             <h4 class="mr-3" style="min-width: fit-content;">{{ __('cart.voucher') }}</h4>
-            <p class="mt-1 rounded-2xl bg-red-100 primary-color text-md pt-1 pb-1 pl-3 pr-3 mb-2" style="width: fit-content;">
+            <p class="mt-1 rounded-2xl bg-green-100 primary-color text-md pt-1 pb-1 pl-3 pr-3 mb-2" style="width: fit-content;">
                 {{ __('cart.voucher-value') }} : {{ $article->carts()->where('carts.cart_id', session('cart_id'))->first()->pivot->value }}&euro;
             </p>
         </div>
@@ -185,7 +185,7 @@
         <h4>{{ strtoupper($article->name) }}</h4>
         @endif
         @if($article->pending_shops()->where('filter_key', '<>', 'benu-esch')->count() > 0)
-        <button class=" mt-1 rounded-2xl bg-red-100 primary-color text-md pt-1 pb-1 pl-3 pr-3 hover:text-white hover:bg-gray-800 transition absolute" wire:click="showInfoModal">
+        <button class=" mt-1 rounded-2xl bg-green-100 primary-color text-md pt-1 pb-1 pl-3 pr-3 hover:text-white hover:bg-gray-800 transition absolute" wire:click="showInfoModal">
             {{ __('cart.in-pop-up-store') }} +
         </button>
         @endif

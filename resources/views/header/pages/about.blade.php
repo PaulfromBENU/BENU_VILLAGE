@@ -138,7 +138,7 @@
 								{{ __('about.section-2-txt-2-2') }}
 							</p>
 							<p class="about__general__content__info-section__txt__paragraph">
-								{{ __('about.section-2-txt-2-3') }} <a href="{{ route('model-'.app()->getLocale()) }}" class="primary-color hover:text-gray-800 transition" target="_blank" rel="noreferrer">{{ __('about.section-2-txt-2-link-1') }}</a> {{ __('about.section-2-txt-2-4') }} <a href="{{ route('client-service-'.app()->getLocale(), ['page' => __('slugs.services-shops')]) }}" class="primary-color hover:text-gray-800 transition" target="_blank" rel="noreferrer">{{ __('about.section-2-txt-2-link-2') }}</a> {{ __('about.section-2-txt-2-5') }}
+								{{ __('about.section-2-txt-2-3') }} <a href="https://couture.benu.lu/fr/creations" class="primary-color hover:text-gray-800 transition" target="_blank" rel="noreferrer">{{ __('about.section-2-txt-2-link-1') }}</a> {{ __('about.section-2-txt-2-4') }} <a href="{{ route('client-service-'.app()->getLocale(), ['page' => __('slugs.services-shops')]) }}" class="primary-color hover:text-gray-800 transition" target="_blank" rel="noreferrer">{{ __('about.section-2-txt-2-link-2') }}</a> {{ __('about.section-2-txt-2-5') }}
 							</p>
 						</div>
 					</div>
@@ -324,7 +324,7 @@
 								{{ __('about.section-4-txt-1-2') }} <a href="{{ route('header.participate-'.app()->getLocale(), ['page' => __('slugs.participate-give')]) }}#collect-points" target="_blank" rel="noreferrer" class="primary-color hover:text-gray-800 transition">{{ __('about.section-4-link-2') }}</a> {{ __('about.section-4-txt-1-2-end') }}
 							</p>
 							<p class="about__general__content__info-section__txt__paragraph">
-								{{ __('about.section-4-txt-1-3') }} <a href="{{ route('campaign-single-'.app()->getLocale(), ['slug' => 'carte-blanche']) }}" target="_blank" rel="noreferrer" class="primary-color hover:text-gray-800 transition">{{ __('about.section-4-link-3') }}</a>
+								{{ __('about.section-4-txt-1-3') }} <a href="https://couture.benu.lu/fr/campagnes-politiques/carte-blanche" target="_blank" rel="noreferrer" class="primary-color hover:text-gray-800 transition">{{ __('about.section-4-link-3') }}</a>
 							</p>
 						</div>
 					</div>

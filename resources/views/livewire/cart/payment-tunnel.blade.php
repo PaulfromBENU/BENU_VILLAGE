@@ -35,7 +35,7 @@
                 <label for="inshop_email">{{ __('forms.email') }}</label>
                 <input type="email" id="inshop_email" name="inshop_email" wire:model.defer="inshop_email" class="input-underline w-full" tabindex="3" minlength="2" maxlength="255">
             </div>
-            <div class="mt-6 pb-5" style="border-bottom: solid 1px #D41C1B;">
+            <div class="mt-6 pb-5" style="border-bottom: solid 1px #27955B;">
                 <label for="inshop_newsletter" class="inline-flex items-center">
                     <input id="inshop_newsletter" type="checkbox" class="rounded border-gray-300 text-red-600 shadow-sm" name="inshop_newsletter" value="1" tabindex="4" style="margin-top: 2px;">
                     <span class="ml-5">{{ __('forms.subscribe-to-newsletter') }}</span>
@@ -160,7 +160,7 @@
                         </button>
                     </div>
                 @elseif(!$delivery_address_chosen)
-                    <div class="mb-5 rounded-xl p-4 relative" style="border: #D41C1B solid 2px">
+                    <div class="mb-5 rounded-xl p-4 relative" style="border: #27955B solid 2px">
                         <h5 class="mb-2"><strong>{{ __('cart.payment-chosen-delivery-method') }}</strong></h5>
                         <div class="flex flex-col lg:flex-row justify-start lg:justify-between">
                             <p class="mb-1">
@@ -261,7 +261,7 @@
                         @endauth
                     @endif
                 @else
-                    <div class="mb-5 rounded-xl p-4 relative" style="border: #D41C1B solid 2px">
+                    <div class="mb-5 rounded-xl p-4 relative" style="border: #27955B solid 2px">
                         <h5 class="mb-2"><strong>{{ __('cart.payment-chosen-delivery-method') }}</strong></h5>
                         <div class="flex flex-col lg:flex-row jsutify-start lg:justify-between">
                             <p class="mb-1">
@@ -281,7 +281,7 @@
                         </div>
                     </div>
                     @if($delivery_method == 1)
-                    <div class="mb-5 rounded-xl p-4 relative" style="border: #D41C1B solid 2px">
+                    <div class="mb-5 rounded-xl p-4 relative" style="border: #27955B solid 2px">
                         <h5 class="mb-2"><strong>{{ __('cart.payment-chosen-delivery-address') }}</strong></h5>
                         <div class="flex flex-col lg:flex-row justify-start lg:justify-between">
                             <div class="mb-1 payment-tunnel__delivery__address w-full lg:w-2/3">
@@ -397,7 +397,7 @@
                             @endif
                         @endif
                     @else
-                    <div class="mb-5 rounded-xl p-4 relative" style="border: #D41C1B solid 2px">
+                    <div class="mb-5 rounded-xl p-4 relative" style="border: #27955B solid 2px">
                         <h5 class="mb-2"><strong>{{ __('cart.payment-chosen-invoice-address') }}</strong></h5>
                         <div class="flex flex-col lg:flex-row justify-start lg:justify-between">
                             <div class="mb-1 w-full lg:w-2/3">

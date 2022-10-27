@@ -10,7 +10,7 @@ class Composition extends Model
     use HasFactory;
 
     // Choice of the database
-    protected $connection = 'mysql';
+    protected $connection = 'mysql_couture';
 
     /**
      * The attributes that are mass assignable.
