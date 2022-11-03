@@ -7,8 +7,8 @@ use Livewire\WithFileUploads;
 
 use Intervention\Image\Facades\Image;
 
-use App\Models\NewsArticle;
-use App\Models\NewsArticleElement;
+use App\Models\NewsArticleCouture;
+use App\Models\NewsArticleElementCouture;
 
 class WriteNews extends Page
 {
@@ -101,15 +101,15 @@ class WriteNews extends Page
 
     public function refreshData()
     {
-        $this->pending_articles = NewsArticle::where('is_ready', '0')->orderBy('updated_at', 'desc')->get();
-        $this->online_articles = NewsArticle::where('is_ready', '1')->orderBy('updated_at', 'desc')->get();
+        $this->pending_articles = NewsArticleCouture::where('is_ready', '0')->orderBy('updated_at', 'desc')->get();
+        $this->online_articles = NewsArticleCouture::where('is_ready', '1')->orderBy('updated_at', 'desc')->get();
     }
 
     public function fillArticleData($article_id)
     {
         // Update all fields upon selection of a specific article for update
         $this->article_id = $article_id;
-        $news = NewsArticle::find($article_id);
+        $news = NewsArticleCouture::find($article_id);
         $this->article_title_fr = $news->title_fr;
         $this->article_title_de = $news->title_de;
         $this->article_title_lu = $news->title_lu;
@@ -185,7 +185,7 @@ class WriteNews extends Page
 
     public function sendOnline($article_id)
     {
-        $news = NewsArticle::find($article_id);
+        $news = NewsArticleCouture::find($article_id);
         $news->is_ready = 1;
         if ($news->save()) {
             $this->refreshData();
@@ -305,9 +305,9 @@ class WriteNews extends Page
     public function createNewArticle()
     {
         if ($this->article_id == 0) {
-            $news = new NewsArticle();
+            $news = new NewsArticleCouture();
         } else {
-            $news = NewsArticle::find($this->article_id);
+            $news = NewsArticleCouture::find($this->article_id);
         }
 
         // General data creation or update
@@ -434,7 +434,7 @@ class WriteNews extends Page
                 if ($news->elements()->where('position', $i + 1)->count() > 0) {
                     $element = $news->elements()->where('position', $i + 1)->first();
                 } else {
-                    $element = new NewsArticleElement();
+                    $element = new NewsArticleElementCouture();
                     $element->position = $i + 1;
                     $element->news_article_id = $news->id;
                 }
@@ -503,7 +503,7 @@ class WriteNews extends Page
 
     public function removeNews($article_id)
     {
-        $news = NewsArticle::find($article_id);
+        $news = NewsArticleCouture::find($article_id);
         $news->is_ready = 0;
         $news->save();
         $this->refreshData();
@@ -511,7 +511,7 @@ class WriteNews extends Page
 
     public function deleteNews($article_id)
     {
-        $news = NewsArticle::find($article_id);
+        $news = NewsArticleCouture::find($article_id);
         $news->delete();
         $this->refreshData();
     }

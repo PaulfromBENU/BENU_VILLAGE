@@ -4,7 +4,7 @@ namespace App\Http\Livewire\News;
 
 use Livewire\Component;
 
-use App\Models\NewsArticle;
+use App\Models\NewsArticleCouture;
 
 class AllNews extends Component
 {
@@ -16,7 +16,7 @@ class AllNews extends Component
     {
         // Tag in English used for filtering
         if ($tag !== 'none') {
-            $this->all_news = NewsArticle::query()
+            $this->all_news = NewsArticleCouture::query()
                             ->where('tag_1_'.session('locale'), $tag)
                             ->orWhere('tag_2_'.session('locale'), $tag)
                             ->orWhere('tag_3_'.session('locale'), $tag)
@@ -24,7 +24,7 @@ class AllNews extends Component
                             ->orderBy('updated_at', 'desc')
                             ->get();
         } else {
-            $this->all_news = NewsArticle::query()
+            $this->all_news = NewsArticleCouture::query()
                             ->where('is_ready', '1')
                             ->orderBy('updated_at', 'desc')
                             ->get();

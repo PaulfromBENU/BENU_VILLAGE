@@ -10,7 +10,7 @@ use Illuminate\Http\Response;
 use App\Models\Article;
 use App\Models\Creation;
 use App\Models\CreationCategory;
-use App\Models\NewsArticle;
+use App\Models\NewsArticleCouture;
 use App\Models\Partner;
 use App\Models\User;
 use App\Models\Media;
@@ -107,32 +107,32 @@ class GeneralController extends Controller
     {
         if ($slug == '') {
             if (auth()->check() && auth()->user()->role == 'admin') {
-                $all_news = NewsArticle::orderBy('updated_at', 'desc')->get();
+                $all_news = NewsArticleCouture::orderBy('updated_at', 'desc')->get();
             } else {
-                $all_news = NewsArticle::where('is_ready', '1')->orderBy('updated_at', 'desc')->get();
+                $all_news = NewsArticleCouture::where('is_ready', '1')->orderBy('updated_at', 'desc')->get();
             }
             return view('news', ['all_news' => $all_news]);
         }
 
-        if (NewsArticle::where('slug_'.app()->getLocale(), $slug)->where('is_ready', '1')->count() > 0) {
-            $news = NewsArticle::where('slug_'.app()->getLocale(), $slug)->first();
-            $previous_news = NewsArticle::where('created_at', '>', $news->created_at)
+        if (NewsArticleCouture::where('slug_'.app()->getLocale(), $slug)->where('is_ready', '1')->count() > 0) {
+            $news = NewsArticleCouture::where('slug_'.app()->getLocale(), $slug)->first();
+            $previous_news = NewsArticleCouture::where('created_at', '>', $news->created_at)
                                           ->where('is_ready', '1')
                                           ->orderBy('created_at', 'asc')
                                           ->first();
-            $next_news = NewsArticle::where('created_at', '<', $news->created_at)
+            $next_news = NewsArticleCouture::where('created_at', '<', $news->created_at)
                                       ->where('is_ready', '1')
                                       ->orderBy('created_at', 'desc')
                                       ->first();
             return view('news-single', ['news' => $news, 'previous_news' => $previous_news, 'next_news' => $next_news]);
-        } elseif (auth()->check() && auth()->user()->role == 'admin' && NewsArticle::where('slug_'.app()->getLocale(), $slug)->count() > 0) {
+        } elseif (auth()->check() && auth()->user()->role == 'admin' && NewsArticleCouture::where('slug_'.app()->getLocale(), $slug)->count() > 0) {
             // In stage or local, articles can be displayed for test even if not validated.
-            $news = NewsArticle::where('slug_'.app()->getLocale(), $slug)->first();
-            $previous_news = NewsArticle::where('created_at', '>', $news->created_at)
+            $news = NewsArticleCouture::where('slug_'.app()->getLocale(), $slug)->first();
+            $previous_news = NewsArticleCouture::where('created_at', '>', $news->created_at)
                                           ->where('is_ready', '1')
                                           ->orderBy('created_at', 'asc')
                                           ->first();
-            $next_news = NewsArticle::where('created_at', '<', $news->created_at)
+            $next_news = NewsArticleCouture::where('created_at', '<', $news->created_at)
                                       ->where('is_ready', '1')
                                       ->orderBy('created_at', 'desc')
                                       ->first();
@@ -375,7 +375,7 @@ class GeneralController extends Controller
         $clothes = $this->getAvailableCreations('clothes')->sortBy('name');
         $accessories = $this->getAvailableCreations('accessories')->sortBy('name');
         $home_items = $this->getAvailableCreations('home')->sortBy('name');
-        $news = NewsArticle::where('is_ready', '1')->orderBy('updated_at', 'desc')->get();
+        $news = NewsArticleCouture::where('is_ready', '1')->orderBy('updated_at', 'desc')->get();
         return view('footer.pages.sitemap', [
             'clothes' => $clothes, 
             'accessories' => $accessories, 

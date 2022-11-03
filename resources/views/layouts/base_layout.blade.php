@@ -113,7 +113,6 @@
 
 @section('footer')
 	@include('footer.connect')
-	<!-- @include('footer.learn_more') -->
 	@include('footer.more_questions')
 	@include('footer.all_infos')
 	@include('footer.footer')

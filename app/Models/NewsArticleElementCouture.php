@@ -5,15 +5,18 @@ namespace App\Models;
 use Illuminate\Database\Eloquent\Factories\HasFactory;
 use Illuminate\Database\Eloquent\Model;
 
-class NewsArticle extends Model
+class NewsArticleElementCouture extends Model
 {
     use HasFactory;
 
     // Choice of the database
     protected $connection = 'mysql_couture';
 
-    public function elements()
+    // Real table name
+    protected $table = 'news_article_elements';
+
+    public function news_article()
     {
-        return $this->hasMany(NewsArticleElement::class);
+        return $this->belongsTo(NewsArticleCouture::class);
     }
 }
