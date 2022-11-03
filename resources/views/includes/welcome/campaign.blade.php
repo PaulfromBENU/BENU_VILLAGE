@@ -8,8 +8,7 @@
 					<img src="{{ asset('media/pictures/campaigns/DSC09261006.png') }}" class="m-auto">
 				</div>
 				<div class="flex justify-center flex-wrap welcome-campaign__left__links">
-					<a href="{{ route('campaign-single-'.app()->getLocale(), ['slug' => 'carte-blanche']) }}" class="block btn-couture">{{ __('welcome.campaign-link-1') }}</a>
-					<!-- <a href="#" class="block btn-couture">{{ __('welcome.campaign-link-2') }}</a> -->
+
 				</div>
 			</div>
 		</div>

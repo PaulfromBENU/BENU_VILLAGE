@@ -408,18 +408,20 @@ class WriteNews extends Page
 
         // Main photo handling
         if($this->main_photo) {
-            $img = Image::make($this->main_photo);
-            $file_name = 'news-main-picture-'.$this->article_slug_en.'.'.$this->main_photo->getClientOriginalExtension();
-            if ($img->width() < $img->height()) {
-                $img->rotate(90);
-            }
-            $img->resize(1000, 850, function ($constraint) {
-                $constraint->aspectRatio();
-                $constraint->upsize();
-            });
+            if(!is_string($this->main_photo)) {
+                $img = Image::make($this->main_photo);
+                $file_name = 'news-main-picture-'.$this->article_slug_en.'.'.$this->main_photo->getClientOriginalExtension();
+                if ($img->width() < $img->height()) {
+                    $img->rotate(90);
+                }
+                $img->resize(1000, 850, function ($constraint) {
+                    $constraint->aspectRatio();
+                    $constraint->upsize();
+                });
 
-            if($img->save(public_path('images/pictures/news/'.$file_name))) {
-                $news->main_photo = $file_name;
+                if($img->save(public_path('images/pictures/news/'.$file_name))) {
+                    $news->main_photo = $file_name;
+                }
             }
         }
 
@@ -444,18 +446,20 @@ class WriteNews extends Page
 
                 // New article photo handling
                 if($this->element_photo_files[$i]) {
-                    $img = Image::make($this->element_photo_files[$i]);
-                    $file_name = 'news-additionnal-picture-'.$this->article_slug_en.'-'.$i.'.'.$this->element_photo_files[$i]->getClientOriginalExtension();
-                    if ($img->width() < $img->height()) {
-                        $img->rotate(90);
-                    }
-                    $img->resize(1000, 850, function ($constraint) {
-                        $constraint->aspectRatio();
-                        $constraint->upsize();
-                    });
+                    if(!is_string($this->element_photo_files[$i])) {
+                        $img = Image::make($this->element_photo_files[$i]);
+                        $file_name = 'news-additionnal-picture-'.$this->article_slug_en.'-'.$i.'.'.$this->element_photo_files[$i]->getClientOriginalExtension();
+                        if ($img->width() < $img->height()) {
+                            $img->rotate(90);
+                        }
+                        $img->resize(1000, 850, function ($constraint) {
+                            $constraint->aspectRatio();
+                            $constraint->upsize();
+                        });
 
-                    if($img->save(public_path('images/pictures/news/'.$file_name))) {
-                        $element->photo_file_name = $file_name;
+                        if($img->save(public_path('images/pictures/news/'.$file_name))) {
+                            $element->photo_file_name = $file_name;
+                        }
                     }
                 } else {
                     $element->photo_file_name = $this->element_photo_files[$i];
