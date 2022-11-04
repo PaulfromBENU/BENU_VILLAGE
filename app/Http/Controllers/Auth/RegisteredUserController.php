@@ -64,9 +64,15 @@ class RegisteredUserController extends Controller
         $user_exists = 0;
         $email_rule = 'unique:mysql_common.users';
         // Case user already existed, and was soft deleted
-        if (isset($request->email) && User::withTrashed()->where('email', $request->email)->count() > 0) {
+        // if (isset($request->email) && User::withTrashed()->where('email', $request->email)->count() > 0) {
+        //     $user_exists = 1;
+        //     $email_rule = "";
+        // }
+        if (isset($request->email) && User::where('email', $request->email)->count() > 0) {
             $user_exists = 1;
             $email_rule = "";
+        } elseif (isset($request->email) && User::withTrashed()->where('email', $request->email)->count() > 0) {
+            return redirect()->back()->with('account-deleted', 'This account has been deleted and cannot be reactivated. Please contact us if you need to restore your account.');
         }
 
         //Newsletter boolean to false if not checked
@@ -186,6 +192,9 @@ class RegisteredUserController extends Controller
                 'delete_feedback' => "",
             ]);
         } else {
+            return redirect()->back()->with('account-deleted', 'Account already exists. Please log in with your e-mail address and password.');
+
+            // To be used if trashed user should be restored - currently deactivated
             $user = User::withTrashed()->where('email', $request->email)->first();
             $user->restore();
             $user->update([
