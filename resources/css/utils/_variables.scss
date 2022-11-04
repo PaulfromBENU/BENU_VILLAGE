@@ -1,18 +1,36 @@
-// All colors
-$main-grey: #D0D0D0;
+// BENU colors
+$benu_village: #0F7E3D;
 $benu_reuse: #F9941D;
-$benu_village: #27955B;
-$benu_couture_text_color: #2B3630;
-$benu_couture_couleur_principale: #27955B;
-$benu_couture_couleur_principale_trans: #27955B1A;
-$benu_couture_couleur_principale_claire: #B9E9CD;
-$benu_couture_couleur_principale_medium: #27955B80;
 $benu_couture: #D41C1B;
 $benu_sis: #7BAC2A;
 $benu_break: #a1b2cf;
 $benu_sloow: #793162;
 $benu_lasa: #0079A7;
 $benu_design: #64422C;
+
+// Main colors for BENU VILLAGE
+$primary-color: $benu_village;
+$primary-color-transparent: rgba(15, 126, 61, 0.1);
+$primary-color-light: #E1F0E7;
+$primary-color-medium: rgba(15, 126, 61, 0.5);
+$text-bg-color: #122008;
+$dark-text: #122008;
+$dark-bg: #122008;
+$light-grey: #D0D0D0;
+$main-grey: #D0D0D0;
+$light-grey-transparent: rgba(208, 208, 208, 0.1);
+
+// $benu_couture_text_color: #2B3630;
+// $benu_couture_couleur_principale: $benu_village;
+// $benu_couture_couleur_principale_trans: rgba(15, 126, 61, 0.1);
+// $benu_couture_couleur_principale_claire: #E1F0E7;
+// $benu_couture_couleur_principale_medium: rgba(15, 126, 61, 0.5);
+
+// Secondary colors for BENU VILLAGE
+$white: #FFFFFF;
+$bg-light-grey: #F4F4F4;
+$sold-grey: #867576;
+$success-green: #E6F1EFFF;
 $unnamed-color-954927: #954927;
 $unnamed-color-ed86d1: #ED86D1;
 $unnamed-color-89e5ed: #89E5ED;
@@ -23,25 +41,10 @@ $unnamed-color-e06a52: #E06A52;
 $unnamed-color-80bab1: #80BAB1;
 $unnamed-color-58566a: #58566A;
 $unnamed-color-ff6b031a: #FF6B031A;
-$white: #FFFFFF;
 $unnamed-color-26254480: #26254480;
 $unnamed-color-2e1739: #2E1739;
 $unnamed-color-f9941d: #F9941D;
 $unnamed-color-262544: #262544;
-$bg-light-grey: #F4F4F4;
-$sold-grey: #867576;
-$success-green: #E6F1EFFF;
-
-// Colors for BENU COUTURE
-$primary-color: $benu_couture_couleur_principale;
-$primary-color-transparent: $benu_couture_couleur_principale_trans;
-$primary-color-light: $benu_couture_couleur_principale_claire;
-$primary-color-medium: $benu_couture_couleur_principale_medium;
-$text-bg-color: $benu_couture_text_color;
-$dark-text: $benu_couture_text_color;
-$dark-bg: $benu_couture_text_color;
-$light-grey: #D9D9D9;
-$light-grey-transparent: #D0D0D033;
 
 //Media queries breakpoints - inherited from TailwindCSS native breakpoints
 $tablet-width: 768px;
