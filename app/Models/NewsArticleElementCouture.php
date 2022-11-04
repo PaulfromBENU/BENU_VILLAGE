@@ -17,6 +17,6 @@ class NewsArticleElementCouture extends Model
 
     public function news_article()
     {
-        return $this->belongsTo(NewsArticleCouture::class);
+        return $this->belongsTo(NewsArticleCouture::class, 'news_article_id');
     }
 }

@@ -17,6 +17,6 @@ class NewsArticleCouture extends Model
 
     public function elements()
     {
-        return $this->hasMany(NewsArticleElementCouture::class);
+        return $this->hasMany(NewsArticleElementCouture::class, 'news_article_id');
     }
 }
