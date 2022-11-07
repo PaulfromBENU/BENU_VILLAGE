@@ -55,11 +55,6 @@
             </a>
         </li>
         <li>
-            <a href="{{ route('vouchers-'.app()->getLocale()) }}" class="side-mobile-link">
-                {!! __('welcome.side-menu-client-vouchers') !!}
-            </a>
-        </li>
-        <li>
             <a href="{{ route('client-service-'.app()->getLocale(), ['page' => __('slugs.services-contact')]) }}" class="side-mobile-link">
                 {!! __('welcome.side-menu-client-contact') !!}
             </a>

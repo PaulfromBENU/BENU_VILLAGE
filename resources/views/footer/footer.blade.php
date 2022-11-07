@@ -21,7 +21,6 @@
 			<div class="footer__lists__col">
 				<h4>{{ __('footer.footer-title-1') }}</h4>
 				<ul>
-					<!-- <li><a href="{{ route('vouchers-'.app()->getLocale()) }}">{{ __('footer.footer-list-1-2') }}</a></li> -->
 					<li><a href="{{ route('dashboard', ['locale' => app()->getLocale()]) }}">{{ __('footer.footer-list-1-3') }}</a></li>
 					<!-- <li><a href="{{ route('partners-'.app()->getLocale()) }}">{{ __('footer.footer-list-1-5') }}</a></li> -->
 					<li><a href="{{ route('header.participate-'.app()->getLocale()) }}">{{ __('footer.footer-list-1-6') }}</a></li>

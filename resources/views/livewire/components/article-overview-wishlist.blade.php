@@ -16,7 +16,8 @@
                 </div>
             </div>
             @endif
-            <img src="{{ asset('media/pictures/articles/'.$pictures[$current_picture_index]) }}" alt="Model {{ $article->creation->name }}">
+            <!-- <img src="{{ asset('media/pictures/articles/'.$pictures[$current_picture_index]) }}" alt="Model {{ $article->creation->name }}"> -->
+            <img src="https://couture.benu.lu/images/pictures/articles/{{ $pictures[$current_picture_index] }}" alt="Model {{ $article->creation->name }}">
             @if($pictures->count() > 1)
                 <div class="slider-arrow slider-arrow--color-2 slider-arrow--left" wire:click.prevent.stop="changePicture('left')">
                     <i class="fas fa-chevron-left"></i>
@@ -79,14 +80,7 @@
                 </p>
             </div>
             <div>
-                @if($sent_to_cart == 0)
-                <button class="btn-couture-plain btn-couture-plain--dark-hover article-overview-wishlist__footer__btn" wire:click.prevent.stop="addToCart">{{ __('sidebar.add-to-cart') }}</button>
-                @else
-                <!-- <p class="text-left mt-5">
-                    {{ __('vouchers.added-to-cart') }}
-                </p> -->
-                <a class="block btn-couture-plain btn-couture-plain--dark-hover btn-couture-plain--fit article-overview-wishlist__footer__btn" href="{{ route('cart-'.app()->getLocale()) }}">{{ __('sidebar.go-to-cart') }}</a>
-                @endif
+                
             </div>
         </div>
     </div>

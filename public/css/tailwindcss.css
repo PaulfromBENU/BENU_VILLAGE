@@ -1837,6 +1837,9 @@ select {
 .pr-0 {
   padding-right: 0px;
 }
+.pr-2 {
+  padding-right: 0.5rem;
+}
 .pb-1 {
   padding-bottom: 0.25rem;
 }
@@ -1845,9 +1848,6 @@ select {
 }
 .pr-3 {
   padding-right: 0.75rem;
-}
-.pr-2 {
-  padding-right: 0.5rem;
 }
 .pr-8 {
   padding-right: 2rem;

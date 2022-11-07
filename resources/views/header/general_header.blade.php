@@ -82,18 +82,9 @@
                         @livewire('components.dashboard-icon')
                     @endguest
                     <li class="tablet-hidden">
-                        @if(Route::has('client-service-'.app()->getLocale()))
                         <a href="{{ route('client-service-'.app()->getLocale(), ['page' => __('slugs.services-contact')]) }}" class="header__main-menu__icons__btn">
                             @svg('benu-icon-mail-contact')
                         </a>
-                        @else
-                        <a href="{{ route('client-service', ['locale' => app()->getLocale(), 'page' => __('slugs.services-contact')]) }}" class="header__main-menu__icons__btn">
-                            @svg('benu-icon-mail-contact')
-                        </a>
-                        @endif
-                    </li>
-                    <li class="tablet-hidden">
-                        @livewire('components.cart-header-icon')
                     </li>
                     <li class="header__main-menu__icons__lang-container">
                         <button class="header__main-menu__icons__lang-btn" id="lang-selector">

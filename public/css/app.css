@@ -1056,7 +1056,7 @@ input[type=checkbox]:focus {
   transition: all 0.2s ease-in-out;
 }
 .article-overview__cap--red {
-  background: #0F7E3D;
+  background: #D41C1B;
 }
 .article-overview__cap--grey {
   background: #D0D0D0;
@@ -1232,7 +1232,7 @@ input[type=checkbox]:focus {
   }
 }
 .article-overview-wishlist__cap--red {
-  background: #0F7E3D;
+  background: #D41C1B;
 }
 .article-overview-wishlist__cap--grey {
   background: #D0D0D0;
@@ -1310,7 +1310,7 @@ input[type=checkbox]:focus {
 }
 .article-overview-wishlist__footer__size {
   height: 20px;
-  background: #0F7E3D;
+  background: #D41C1B;
   border-radius: 12px;
   padding: 0px 20px;
   text-transform: uppercase;
@@ -1337,7 +1337,7 @@ input[type=checkbox]:focus {
   text-align: left;
   font: normal normal 600 26px/28px "Barlow Condensed";
   letter-spacing: 0px;
-  color: #0F7E3D;
+  color: #D41C1B;
 }
 .article-overview-wishlist__footer__price {
   margin-top: 4px;
@@ -1347,7 +1347,7 @@ input[type=checkbox]:focus {
 }
 .article-overview-wishlist__footer__heart {
   position: relative;
-  color: #0F7E3D;
+  color: #D41C1B;
 }
 @media (max-width: 767px) {
   .article-overview-wishlist__footer__heart {

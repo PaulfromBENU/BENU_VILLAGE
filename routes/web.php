@@ -73,7 +73,7 @@ if (app('env') == 'landing') {
 		// Models Pages
 		// Route::get('/'.trans("slugs.models", [], "lu").'/{name?}', 'ModelController@show')->name('model-lu')->middleware('createcart');
 		// Route::get('/'.trans("slugs.models", [], "lu").'/{name}/'.trans("slugs.sold", [], "lu"), 'ModelController@soldItems')->name('sold-lu');
-		Route::get('/'.trans("slugs.vouchers", [], "lu"), 'GeneralController@showVouchers')->name('vouchers-lu')->middleware('createcart');
+		// Route::get('/'.trans("slugs.vouchers", [], "lu"), 'GeneralController@showVouchers')->name('vouchers-lu')->middleware('createcart');
 
 		// Client Support
 		Route::get('/'.trans("slugs.client-support", [], "lu").'/{page?}', 'ContactController@showAll')->name('client-service-lu');
@@ -92,14 +92,14 @@ if (app('env') == 'landing') {
 		Route::get('/test-landing-lu', 'GeneralController@landingLu')->name('landing-lu');
 
 		// Cart and Payment Pages
-		Route::get('/'.trans("slugs.cart", [], "lu"), 'SaleController@showCart')->name('cart-lu')->middleware('createcart');
+		// Route::get('/'.trans("slugs.cart", [], "lu"), 'SaleController@showCart')->name('cart-lu')->middleware('createcart');
 
-		Route::get('/'.trans("slugs.payment", [], "lu"), 'SaleController@showPayment')->name('payment-lu');
-		Route::get('/'.trans("slugs.process-payment", [], "lu").'/{order}', 'SaleController@cardPayment')->name('payment-request-lu');
-		Route::get('/'.trans("slugs.process-paypal-payment", [], "lu").'/{order}', 'SaleController@paypalPayment')->name('payment-request-paypal-lu');
-		Route::post('/'.trans("slugs.payment-by-card", [], "lu"), 'SaleController@payByCard')->name('payment-process-lu');
-		Route::get('/'.trans("slugs.payment-validation", [], "lu").'/{order}', 'SaleController@validatePayment')->name('payment-validate-lu');
-		Route::get('/'.trans("slugs.processed-payment", [], "lu").'/{order}', 'SaleController@showValidPayment')->name('payment-processed-lu');
+		// Route::get('/'.trans("slugs.payment", [], "lu"), 'SaleController@showPayment')->name('payment-lu');
+		// Route::get('/'.trans("slugs.process-payment", [], "lu").'/{order}', 'SaleController@cardPayment')->name('payment-request-lu');
+		// Route::get('/'.trans("slugs.process-paypal-payment", [], "lu").'/{order}', 'SaleController@paypalPayment')->name('payment-request-paypal-lu');
+		// Route::post('/'.trans("slugs.payment-by-card", [], "lu"), 'SaleController@payByCard')->name('payment-process-lu');
+		// Route::get('/'.trans("slugs.payment-validation", [], "lu").'/{order}', 'SaleController@validatePayment')->name('payment-validate-lu');
+		// Route::get('/'.trans("slugs.processed-payment", [], "lu").'/{order}', 'SaleController@showValidPayment')->name('payment-processed-lu');
 
 		// Newsletter Pages
 		Route::get('/'.trans("slugs.newsletter-subscribe", [], "lu"), 'GeneralController@showNewsletter')->name('newsletter-lu');
@@ -141,7 +141,7 @@ if (app('env') == 'landing') {
 		// Models Pages
 		// Route::get('/'.trans("slugs.models", [], "fr").'/{name?}', 'ModelController@show')->name('model-fr')->middleware('createcart');
 		// Route::get('/'.trans("slugs.models", [], "fr").'/{name}/'.trans("slugs.sold", [], "fr"), 'ModelController@soldItems')->name('sold-fr');
-		Route::get('/'.trans("slugs.vouchers", [], "fr"), 'GeneralController@showVouchers')->name('vouchers-fr')->middleware('createcart');
+		// Route::get('/'.trans("slugs.vouchers", [], "fr"), 'GeneralController@showVouchers')->name('vouchers-fr')->middleware('createcart');
 
 		// Client Support
 		Route::get('/'.trans("slugs.client-support", [], "fr").'/{page?}', 'ContactController@showAll')->name('client-service-fr');
@@ -160,14 +160,14 @@ if (app('env') == 'landing') {
 		Route::get('/test-landing-fr', 'GeneralController@landingLu')->name('landing-fr');
 
 		// Cart and Payment Pages
-		Route::get('/'.trans("slugs.cart", [], "fr"), 'SaleController@showCart')->name('cart-fr')->middleware('createcart');
+		// Route::get('/'.trans("slugs.cart", [], "fr"), 'SaleController@showCart')->name('cart-fr')->middleware('createcart');
 
-		Route::get('/'.trans("slugs.payment", [], "fr"), 'SaleController@showPayment')->name('payment-fr');
-		Route::get('/'.trans("slugs.process-payment", [], "fr").'/{order}', 'SaleController@cardPayment')->name('payment-request-fr');
-		Route::get('/'.trans("slugs.process-paypal-payment", [], "fr").'/{order}', 'SaleController@paypalPayment')->name('payment-request-paypal-fr');
-		Route::post('/'.trans("slugs.payment-by-card", [], "fr"), 'SaleController@payByCard')->name('payment-process-fr');
-		Route::get('/'.trans("slugs.payment-validation", [], "fr").'/{order}', 'SaleController@validatePayment')->name('payment-validate-fr');
-		Route::get('/'.trans("slugs.processed-payment", [], "fr").'/{order}', 'SaleController@showValidPayment')->name('payment-processed-fr');
+		// Route::get('/'.trans("slugs.payment", [], "fr"), 'SaleController@showPayment')->name('payment-fr');
+		// Route::get('/'.trans("slugs.process-payment", [], "fr").'/{order}', 'SaleController@cardPayment')->name('payment-request-fr');
+		// Route::get('/'.trans("slugs.process-paypal-payment", [], "fr").'/{order}', 'SaleController@paypalPayment')->name('payment-request-paypal-fr');
+		// Route::post('/'.trans("slugs.payment-by-card", [], "fr"), 'SaleController@payByCard')->name('payment-process-fr');
+		// Route::get('/'.trans("slugs.payment-validation", [], "fr").'/{order}', 'SaleController@validatePayment')->name('payment-validate-fr');
+		// Route::get('/'.trans("slugs.processed-payment", [], "fr").'/{order}', 'SaleController@showValidPayment')->name('payment-processed-fr');
 
 		// Newsletter Pages
 		Route::get('/'.trans("slugs.newsletter-subscribe", [], "fr"), 'GeneralController@showNewsletter')->name('newsletter-fr');
@@ -219,7 +219,7 @@ if (app('env') == 'landing') {
 		// Models Pages
 		// Route::get('/'.trans("slugs.models", [], "en").'/{name?}', 'ModelController@show')->name('model-en')->middleware('createcart');
 		// Route::get('/'.trans("slugs.models", [], "en").'/{name}/'.trans("slugs.sold", [], "en"), 'ModelController@soldItems')->name('sold-en');
-		Route::get('/'.trans("slugs.vouchers", [], "en"), 'GeneralController@showVouchers')->name('vouchers-en')->middleware('createcart');
+		// Route::get('/'.trans("slugs.vouchers", [], "en"), 'GeneralController@showVouchers')->name('vouchers-en')->middleware('createcart');
 
 		// Client Support
 		Route::get('/'.trans("slugs.client-support", [], "en").'/{page?}', 'ContactController@showAll')->name('client-service-en');
@@ -238,14 +238,14 @@ if (app('env') == 'landing') {
 		Route::get('/test-landing-en', 'GeneralController@landingLu')->name('landing-en');
 
 		// Cart and Payment Pages
-		Route::get('/'.trans("slugs.cart", [], "en"), 'SaleController@showCart')->name('cart-en')->middleware('createcart');
+		// Route::get('/'.trans("slugs.cart", [], "en"), 'SaleController@showCart')->name('cart-en')->middleware('createcart');
 
-		Route::get('/'.trans("slugs.payment", [], "en"), 'SaleController@showPayment')->name('payment-en');
-		Route::get('/'.trans("slugs.process-payment", [], "en").'/{order}', 'SaleController@cardPayment')->name('payment-request-en');
-		Route::get('/'.trans("slugs.process-paypal-payment", [], "en").'/{order}', 'SaleController@paypalPayment')->name('payment-request-paypal-en');
-		Route::post('/'.trans("slugs.payment-by-card", [], "en"), 'SaleController@payByCard')->name('payment-process-en');
-		Route::get('/'.trans("slugs.payment-validation", [], "en").'/{order}', 'SaleController@validatePayment')->name('payment-validate-en');
-		Route::get('/'.trans("slugs.processed-payment", [], "en").'/{order}', 'SaleController@showValidPayment')->name('payment-processed-en');
+		// Route::get('/'.trans("slugs.payment", [], "en"), 'SaleController@showPayment')->name('payment-en');
+		// Route::get('/'.trans("slugs.process-payment", [], "en").'/{order}', 'SaleController@cardPayment')->name('payment-request-en');
+		// Route::get('/'.trans("slugs.process-paypal-payment", [], "en").'/{order}', 'SaleController@paypalPayment')->name('payment-request-paypal-en');
+		// Route::post('/'.trans("slugs.payment-by-card", [], "en"), 'SaleController@payByCard')->name('payment-process-en');
+		// Route::get('/'.trans("slugs.payment-validation", [], "en").'/{order}', 'SaleController@validatePayment')->name('payment-validate-en');
+		// Route::get('/'.trans("slugs.processed-payment", [], "en").'/{order}', 'SaleController@showValidPayment')->name('payment-processed-en');
 
 		// Newsletter Pages
 		Route::get('/'.trans("slugs.newsletter-subscribe", [], "en"), 'GeneralController@showNewsletter')->name('newsletter-en');
@@ -286,7 +286,7 @@ if (app('env') == 'landing') {
 		// Models Pages
 		// Route::get('/'.trans("slugs.models", [], "de").'/{name?}', 'ModelController@show')->name('model-de')->middleware('createcart');
 		// Route::get('/'.trans("slugs.models", [], "de").'/{name}/'.trans("slugs.sold", [], "de"), 'ModelController@soldItems')->name('sold-de');
-		Route::get('/'.trans("slugs.vouchers", [], "de"), 'GeneralController@showVouchers')->name('vouchers-de')->middleware('createcart');
+		// Route::get('/'.trans("slugs.vouchers", [], "de"), 'GeneralController@showVouchers')->name('vouchers-de')->middleware('createcart');
 
 		// Client Support
 		Route::get('/'.trans("slugs.client-support", [], "de").'/{page?}', 'ContactController@showAll')->name('client-service-de');
@@ -305,14 +305,14 @@ if (app('env') == 'landing') {
 		Route::get('/test-landing-de', 'GeneralController@landingLu')->name('landing-de');
 
 		// Cart and Payment Pages
-		Route::get('/'.trans("slugs.cart", [], "de"), 'SaleController@showCart')->name('cart-de')->middleware('createcart');
+		// Route::get('/'.trans("slugs.cart", [], "de"), 'SaleController@showCart')->name('cart-de')->middleware('createcart');
 
-		Route::get('/'.trans("slugs.payment", [], "de"), 'SaleController@showPayment')->name('payment-de');
-		Route::get('/'.trans("slugs.process-payment", [], "de").'/{order}', 'SaleController@cardPayment')->name('payment-request-de');
-		Route::get('/'.trans("slugs.process-paypal-payment", [], "de").'/{order}', 'SaleController@paypalPayment')->name('payment-request-paypal-de');
-		Route::post('/'.trans("slugs.payment-by-card", [], "de"), 'SaleController@payByCard')->name('payment-process-de');
-		Route::get('/'.trans("slugs.payment-validation", [], "de").'/{order}', 'SaleController@validatePayment')->name('payment-validate-de');
-		Route::get('/'.trans("slugs.processed-payment", [], "de").'/{order}', 'SaleController@showValidPayment')->name('payment-processed-de');
+		// Route::get('/'.trans("slugs.payment", [], "de"), 'SaleController@showPayment')->name('payment-de');
+		// Route::get('/'.trans("slugs.process-payment", [], "de").'/{order}', 'SaleController@cardPayment')->name('payment-request-de');
+		// Route::get('/'.trans("slugs.process-paypal-payment", [], "de").'/{order}', 'SaleController@paypalPayment')->name('payment-request-paypal-de');
+		// Route::post('/'.trans("slugs.payment-by-card", [], "de"), 'SaleController@payByCard')->name('payment-process-de');
+		// Route::get('/'.trans("slugs.payment-validation", [], "de").'/{order}', 'SaleController@validatePayment')->name('payment-validate-de');
+		// Route::get('/'.trans("slugs.processed-payment", [], "de").'/{order}', 'SaleController@showValidPayment')->name('payment-processed-de');
 
 		// Newsletter Pages
 		Route::get('/'.trans("slugs.newsletter-subscribe", [], "de"), 'GeneralController@showNewsletter')->name('newsletter-de');

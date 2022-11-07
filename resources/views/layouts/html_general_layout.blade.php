@@ -123,7 +123,6 @@
                             {!! __('welcome.nav-account') !!}
                         </p>
                     </a>
-                    @livewire('components.cart-mobile-icon')
                 </div>
 
                 <!-- Side menu for mobile -->
