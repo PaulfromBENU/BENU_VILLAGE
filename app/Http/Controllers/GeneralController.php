@@ -431,25 +431,8 @@ class GeneralController extends Controller
             // $this->createArticlesFromPictures();
             // $this->updateArticlesFromLouAndSophie();
 
-            // echo "*** Translations importation started ***<br/>";
-            // $this->importTranslations();
-
-            // VAT update -> 3% for kids
-            // echo "*** Updating VAT to 3% for kids clothes and accessories ***<br/>";
-            // $creations_to_be_updated = Creation::whereHas('creation_groups', function($query) {
-            //     return $query->where('filter_key', 'kids');
-            // })->get();
-
-            // foreach ($creations_to_be_updated as $creation) {
-            //     $creation->tva_value = 3;
-            //     $creation->save();
-            // }
-
-            // echo "*** VAT updated for kids! :) ***";
-
-            // echo "*** validating existing variations... ***";
-            // Article::where('checked', '1')->update(['to_be_validated' => '1']);
-            // echo "*** Existing variations updated! ***";
+            echo "*** Translations importation started ***<br/>";
+            $this->importTranslations();
 
             // echo "*** Importation process complete! :) ***<br/>";
         } else {

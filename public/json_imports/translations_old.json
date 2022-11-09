@@ -346,10 +346,10 @@
   {
     "page": "home",
     "key": "welcome.seo-title",
-    "de": "Das erste Upcycling Nähatelier in Luxemburg",
-    "fr": "Le premier atelier de couture Upcycling au Luxembourg",
-    "en": "The first Upcycling sewing atelier in Luxembourg",
-    "lu": "Den éischten UpCycling Schneideratelier zu Lëtzebuerg"
+    "de": "Das professionelle UpCycling Schneideratelier in Luxemburg",
+    "fr": "L'atelier de couture professionnel UpCycling au Luxembourg",
+    "en": "The professional UpCycling tailoring atelier in Luxembourg",
+    "lu": "De professionelle UpCycling Schneideratelier zu Lëtzebuerg"
   },
   {
     "page": "home",
@@ -378,7 +378,7 @@
   {
     "page": "histoire",
     "key": "about.full-story-seo-title",
-    "de": "Die Geschichte des UpCycling Nähateliers BENU COUTURE",
+    "de": "Die Geschichte des UpCycling Schneiderateliers BENU COUTURE",
     "fr": "L'histoire de l‘atelier de couture Upcycling BENU COUTURE",
     "en": "The story of the UpCycling sewing atelier BENU COUTURE",
     "lu": "D'Geschicht vum UpCycling Atelier BENU COUTURE"
@@ -442,10 +442,10 @@
   {
     "page": "à propos",
     "key": "about.seo-title",
-    "de": "Wie arbeitet das Team des Nähateliers BENU COUTURE?",
+    "de": "Wie arbeitet das Team des Schneiderateliers BENU COUTURE?",
     "fr": "Comment travaille l'équipe de l'atelier de couture BENU COUTURE ?",
     "en": "How does the team of the sewing atelier BENU COUTURE work?",
-    "lu": "Wie arbeitet das Team des Nähateliers BENU COUTURE?"
+    "lu": "Wie arbeitet das Team des Schneiderateliers BENU COUTURE?"
   },
   {
     "page": "à propos",
@@ -1394,7 +1394,7 @@
   {
     "page": "Home",
     "key": "welcome.pres-txt-3",
-    "de": "Die handgefertigte BENU Kreationen werden vor Ort im Schneideratelier entworfen und in verschiedenen Variationen produziert. Für die Produktion werden ausschließlich Stoffe unterschiedlicher, gebrauchter Kleidungsstücke und Textilien verwendet. Daher ist jedes Kleidungsstück einzigartig, ein Unikat! \nIndividuell gefertigte Kleidungsstücke aus Deinem gebrauchten Lieblingskleid oder -stoff können im BENU Shop in Esch-sur-Alzette in Auftrag gegeben werden.",
+    "de": "Die handgefertigte BENU Kreationen werden vor Ort im Schneideratelier entworfen und in verschiedenen Variationen produziert. Für die Produktion werden ausschließlich Stoffe unterschiedlicher, gebrauchter Kleider und Textilien verwendet. Daher ist jedes Kleidungsstück einzigartig, ein Unikat! \nIndividuell gefertigte Kreationen aus Deinem gebrauchten Lieblingskleid oder -stoff können im BENU Shop in Esch-sur-Alzette in Auftrag gegeben werden.",
     "fr": "Les créations artisanales de BENU sont conçues sur place, dans l'atelier de production, et déclinées en plusieurs variantes. Seuls les tissus provenant de vêtements et textiles d'occasion sont utilisés. C'est pour cela que chaque pièce est unique, exclusive ! Des créations individuelles, utilisant tes vieux vêtements ou tissus, peuvent être réalisées sur demande au BENU Shop à Esch-sur-Alzette.",
     "en": "The handcrafted BENU creations are designed on site in the tailor's studio and produced in different variations. Only fabrics from different, second-hand garments and textiles are chosen for production. Therefore, each garment is unique, one of a kind! \nIndividually made garments from your favourite used clothes or fabrics can be commissioned at the BENU Shop in Esch-sur-Alzette.",
     "lu": "Déi handgemaachte BENU Kreatioune ginn op der Plaz, am Schneideratelier entworf an a verschiddene Variante produzéiert. Fir d'Produktioun ginn exklusiv Stoffer vun ënnerschiddleche Second-Hand Kleeder an Textilie benotzt. Dowéinst ass all Kleedungsstéck eenzegaarteg, en \"Unikat\"! Du kanns individuell Kreatiounen, déi aus Dengen eegene Liblingskleeder oder Stoffer hiergestallt ginn, am BENU Shop zu Esch/Uelzecht an Optrag ginn."
@@ -13242,7 +13242,7 @@
   {
     "page": "conditions générales",
     "key": "footer.general-conditions-txt-1-7-2",
-    "de": "Aktuell berechnet BENU für eine Arbeitsstunde 30€, es sei denn, ein anderer Wert wird explizit ausgewiesen. Somit kann jeder, auf Basis des angegebenen Preises, die Arbeitszeit einer BENU Kreation bestimmen.",
+    "de": "Aktuell berechnet BENU für eine Arbeitsstunde 30€, es sei denn, ein anderer Wert wird explizit ausgewiesen. Somit kann jede:r auf Basis des angegebenen Preises, die Arbeitszeit einer BENU Kreation bestimmen.",
     "fr": "Actuellement, BENU facture une heure de travail 30€, à moins qu'une autre valeur ne soit explicitement indiquée. Ainsi, chacun peut déterminer, sur la base du prix indiqué, le temps de travail d'une création BENU.",
     "en": "Currently, BENU charges 30€ for a working hour, unless another value is explicitly stated. Thus, everyone can determine the working time of a BENU creation on the basis of the stated price.",
     "lu": "Aktuell berechent BENU 30€ fir eng Aarbechtsstonn, ausser en anere Wäert wier explizitt uginn. Esou ka jiddwereen, op Basis vum Präis deen uginn ass, d'Aarbechtszäit vun enger BENU Kreatioun bestëmmen."
@@ -15233,7 +15233,7 @@
   },
   {
     "page": "E-Mail automatique",
-    "key": "email.pdf-voucher-subject",
+    "key": "emails.pdf-voucher-subject",
     "de": "Dein BENU Gutschein ist da!",
     "fr": "Ton bon d’achat BENU est arrivé !",
     "en": "Your BENU voucher has arrived!",
@@ -15241,7 +15241,7 @@
   },
   {
     "page": "E-Mail automatique",
-    "key": "email.pdf-voucher-hello",
+    "key": "emails.pdf-voucher-hello",
     "de": "Hallo",
     "fr": "Bonjour",
     "en": "Hello",

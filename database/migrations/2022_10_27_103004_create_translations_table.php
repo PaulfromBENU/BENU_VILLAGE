@@ -16,6 +16,13 @@ return new class extends Migration
         Schema::connection('mysql_village')->create('translations', function (Blueprint $table) {
             $table->id();
             $table->timestamps();
+            $table->string('page');
+            $table->string('key');
+            $table->text('fr');
+            $table->text('en');
+            $table->text('de');
+            $table->text('lu');
+            $table->string('translation_key')->nullable();
         });
     }
 
