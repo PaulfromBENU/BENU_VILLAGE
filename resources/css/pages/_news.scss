@@ -23,8 +23,9 @@
 		font: normal normal 600 38px/45px 'Barlow Condensed';
 		letter-spacing: 0px;
 		margin-bottom: 25px;
-		padding-bottom: 10px;
-		text-align: left;
+		padding: 15px 20px;
+		border-radius: 8px;
+		color: white;
 		@include mobile {
 			font: normal normal 700 28px/34px 'Barlow Condensed';
 			margin-bottom: 20px;
@@ -32,12 +33,10 @@
 			padding-top: 10px;
 		}
 		&--village {
-			color: $benu-village;
-			border-bottom: solid 2px $benu-village;
+			background: $benu-village;
 		}
 		&--couture {
-			color: $benu-couture;
-			border-bottom: solid 2px $benu-couture;
+			background: $benu-couture;
 		}
 	}
 	&__subtitle {

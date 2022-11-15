@@ -8645,8 +8645,9 @@ input[type=checkbox]:focus {
   font: normal normal 600 38px/45px "Barlow Condensed";
   letter-spacing: 0px;
   margin-bottom: 25px;
-  padding-bottom: 10px;
-  text-align: left;
+  padding: 15px 20px;
+  border-radius: 8px;
+  color: white;
 }
 @media (max-width: 767px) {
   .all-news__origin {
@@ -8657,12 +8658,10 @@ input[type=checkbox]:focus {
   }
 }
 .all-news__origin--village {
-  color: #0F7E3D;
-  border-bottom: solid 2px #0F7E3D;
+  background: #0F7E3D;
 }
 .all-news__origin--couture {
-  color: #D41C1B;
-  border-bottom: solid 2px #D41C1B;
+  background: #D41C1B;
 }
 .all-news__subtitle {
   text-align: center;
