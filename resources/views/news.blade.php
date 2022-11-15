@@ -15,7 +15,7 @@
 			<div class="pl-5 pr-5">
 				>
 			</div>
-			<a href="{{ route('news-'.app()->getLocale()) }}" class="primary-color"><strong>{{ __('breadcrumbs.news') }}</strong></a>
+			<a href="{{ route('news-all-'.app()->getLocale()) }}" class="primary-color"><strong>{{ __('breadcrumbs.news') }}</strong></a>
 		</div>
 	</div>
 @endsection
@@ -27,7 +27,7 @@
 
 		@livewire('news.tag-filters')
 
-		@livewire('news.all-news', ['all_news' => $all_news])
+		@livewire('news.all-news')
 	</div>
 @endsection
 

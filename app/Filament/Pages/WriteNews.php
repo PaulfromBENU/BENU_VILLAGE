@@ -7,8 +7,8 @@ use Livewire\WithFileUploads;
 
 use Intervention\Image\Facades\Image;
 
-use App\Models\NewsArticleCouture;
-use App\Models\NewsArticleElementCouture;
+use App\Models\VillageInfo;
+use App\Models\VillageInfoElement;
 
 class WriteNews extends Page
 {
@@ -101,15 +101,15 @@ class WriteNews extends Page
 
     public function refreshData()
     {
-        $this->pending_articles = NewsArticleCouture::where('is_ready', '0')->orderBy('updated_at', 'desc')->get();
-        $this->online_articles = NewsArticleCouture::where('is_ready', '1')->orderBy('updated_at', 'desc')->get();
+        $this->pending_articles = VillageInfo::where('is_ready', '0')->orderBy('updated_at', 'desc')->get();
+        $this->online_articles = VillageInfo::where('is_ready', '1')->orderBy('updated_at', 'desc')->get();
     }
 
     public function fillArticleData($article_id)
     {
         // Update all fields upon selection of a specific article for update
         $this->article_id = $article_id;
-        $news = NewsArticleCouture::find($article_id);
+        $news = VillageInfo::find($article_id);
         $this->article_title_fr = $news->title_fr;
         $this->article_title_de = $news->title_de;
         $this->article_title_lu = $news->title_lu;
@@ -185,7 +185,7 @@ class WriteNews extends Page
 
     public function sendOnline($article_id)
     {
-        $news = NewsArticleCouture::find($article_id);
+        $news = VillageInfo::find($article_id);
         $news->is_ready = 1;
         if ($news->save()) {
             $this->refreshData();
@@ -305,9 +305,9 @@ class WriteNews extends Page
     public function createNewArticle()
     {
         if ($this->article_id == 0) {
-            $news = new NewsArticleCouture();
+            $news = new VillageInfo();
         } else {
-            $news = NewsArticleCouture::find($this->article_id);
+            $news = VillageInfo::find($this->article_id);
         }
 
         // General data creation or update
@@ -419,7 +419,7 @@ class WriteNews extends Page
                     $constraint->upsize();
                 });
 
-                if($img->save(public_path('images/pictures/news/'.$file_name))) {
+                if($img->save(public_path('media/pictures/news/'.$file_name))) {
                     $news->main_photo = $file_name;
                 }
             }
@@ -434,9 +434,9 @@ class WriteNews extends Page
                 if ($news->elements()->where('position', $i + 1)->count() > 0) {
                     $element = $news->elements()->where('position', $i + 1)->first();
                 } else {
-                    $element = new NewsArticleElementCouture();
+                    $element = new VillageInfoElement();
                     $element->position = $i + 1;
-                    $element->news_article_id = $news->id;
+                    $element->village_info_id = $news->id;
                 }
                 $element->type = $this->element_types[$i];
                 $element->content_fr = $this->element_contents_fr[$i];
@@ -457,7 +457,7 @@ class WriteNews extends Page
                             $constraint->upsize();
                         });
 
-                        if($img->save(public_path('images/pictures/news/'.$file_name))) {
+                        if($img->save(public_path('media/pictures/news/'.$file_name))) {
                             $element->photo_file_name = $file_name;
                         }
                     }
@@ -503,7 +503,7 @@ class WriteNews extends Page
 
     public function removeNews($article_id)
     {
-        $news = NewsArticleCouture::find($article_id);
+        $news = VillageInfo::find($article_id);
         $news->is_ready = 0;
         $news->save();
         $this->refreshData();
@@ -511,7 +511,7 @@ class WriteNews extends Page
 
     public function deleteNews($article_id)
     {
-        $news = NewsArticleCouture::find($article_id);
+        $news = VillageInfo::find($article_id);
         $news->delete();
         $this->refreshData();
     }

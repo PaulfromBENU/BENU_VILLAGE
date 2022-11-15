@@ -86,7 +86,8 @@ if (app('env') == 'landing') {
 		Route::get('/'.trans("slugs.partners", [], "lu"), 'GeneralController@showPartners')->name('partners-lu');
 
 		// News pages
-		Route::get('/'.trans("slugs.news", [], "lu").'/{slug?}', 'GeneralController@showNews')->name('news-lu');
+		Route::get('/'.trans("slugs.news", [], "lu"), 'NewsController@showAllNews')->name('news-all-lu');
+		Route::get('/'.trans("slugs.news", [], "lu").'/{origin}/{slug}', 'NewsController@showNews')->name('news-lu');
 
 		// Landing page
 		Route::get('/test-landing-lu', 'GeneralController@landingLu')->name('landing-lu');
@@ -154,7 +155,8 @@ if (app('env') == 'landing') {
 		Route::get('/'.trans("slugs.partners", [], "fr"), 'GeneralController@showPartners')->name('partners-fr');
 
 		// News pages
-		Route::get('/'.trans("slugs.news", [], "fr").'/{slug?}', 'GeneralController@showNews')->name('news-fr');
+		Route::get('/'.trans("slugs.news", [], "fr"), 'NewsController@showAllNews')->name('news-all-fr');
+		Route::get('/'.trans("slugs.news", [], "fr").'/{origin}/{slug}', 'NewsController@showNews')->name('news-fr');
 
 		// Landing page
 		Route::get('/test-landing-fr', 'GeneralController@landingLu')->name('landing-fr');
@@ -232,7 +234,8 @@ if (app('env') == 'landing') {
 		Route::get('/'.trans("slugs.partners", [], "en"), 'GeneralController@showPartners')->name('partners-en');
 
 		// News pages
-		Route::get('/'.trans("slugs.news", [], "en").'/{slug?}', 'GeneralController@showNews')->name('news-en');
+		Route::get('/'.trans("slugs.news", [], "en"), 'NewsController@showAllNews')->name('news-all-en');
+		Route::get('/'.trans("slugs.news", [], "en").'/{origin}/{slug}', 'NewsController@showNews')->name('news-en');
 
 		// Landing page
 		Route::get('/test-landing-en', 'GeneralController@landingLu')->name('landing-en');
@@ -299,7 +302,8 @@ if (app('env') == 'landing') {
 		Route::get('/'.trans("slugs.partners", [], "de"), 'GeneralController@showPartners')->name('partners-de');
 
 		// News pages
-		Route::get('/'.trans("slugs.news", [], "de").'/{slug?}', 'GeneralController@showNews')->name('news-de');
+		Route::get('/'.trans("slugs.news", [], "de"), 'NewsController@showAllNews')->name('news-all-de');
+		Route::get('/'.trans("slugs.news", [], "de").'/{origin}/{slug}', 'NewsController@showNews')->name('news-de');
 
 		// Landing page
 		Route::get('/test-landing-de', 'GeneralController@landingLu')->name('landing-de');

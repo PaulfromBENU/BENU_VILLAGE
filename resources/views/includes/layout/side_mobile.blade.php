@@ -20,7 +20,7 @@
             </a>
         </li>
         <li>
-            <a href="{{ route('news-'.app()->getLocale()) }}" class="side-mobile-link uppercase">
+            <a href="{{ route('news-all-'.app()->getLocale()) }}" class="side-mobile-link uppercase">
                 <strong>{!! __('welcome.side-menu-news') !!}</strong>
             </a>
         </li>

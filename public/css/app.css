@@ -8630,7 +8630,7 @@ input[type=checkbox]:focus {
   text-align: center;
   font: normal normal 600 44px/53px "Barlow Condensed";
   letter-spacing: 0px;
-  margin-bottom: 15px;
+  margin-bottom: 25px;
 }
 @media (max-width: 767px) {
   .all-news__title {
@@ -8639,6 +8639,30 @@ input[type=checkbox]:focus {
     padding-bottom: 20px;
     padding-top: 10px;
   }
+}
+.all-news__origin {
+  text-align: center;
+  font: normal normal 600 38px/45px "Barlow Condensed";
+  letter-spacing: 0px;
+  margin-bottom: 25px;
+  padding-bottom: 10px;
+  text-align: left;
+}
+@media (max-width: 767px) {
+  .all-news__origin {
+    font: normal normal 700 28px/34px "Barlow Condensed";
+    margin-bottom: 20px;
+    padding-bottom: 20px;
+    padding-top: 10px;
+  }
+}
+.all-news__origin--village {
+  color: #0F7E3D;
+  border-bottom: solid 2px #0F7E3D;
+}
+.all-news__origin--couture {
+  color: #D41C1B;
+  border-bottom: solid 2px #D41C1B;
 }
 .all-news__subtitle {
   text-align: center;

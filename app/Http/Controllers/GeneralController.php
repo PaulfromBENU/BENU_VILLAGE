@@ -14,6 +14,7 @@ use App\Models\NewsArticleCouture;
 use App\Models\Partner;
 use App\Models\User;
 use App\Models\Media;
+use App\Models\VillageInfo;
 use App\Mail\NewsletterConfirmation;
 use App\Mail\NewsletterConfirmationForAdmin;
 use App\Mail\NewsletterCancelConfirmationForAdmin;
@@ -101,45 +102,6 @@ class GeneralController extends Controller
         $vouchers = Article::where('name', 'voucher')->orderBy('voucher_type', 'asc')->get();
 
         return view('vouchers', ['vouchers' => $vouchers]);
-    }
-
-    public function showNews(string $slug = '')
-    {
-        if ($slug == '') {
-            if (auth()->check() && auth()->user()->role == 'admin') {
-                $all_news = NewsArticleCouture::orderBy('updated_at', 'desc')->get();
-            } else {
-                $all_news = NewsArticleCouture::where('is_ready', '1')->orderBy('updated_at', 'desc')->get();
-            }
-            return view('news', ['all_news' => $all_news]);
-        }
-
-        if (NewsArticleCouture::where('slug_'.app()->getLocale(), $slug)->where('is_ready', '1')->count() > 0) {
-            $news = NewsArticleCouture::where('slug_'.app()->getLocale(), $slug)->first();
-            $previous_news = NewsArticleCouture::where('created_at', '>', $news->created_at)
-                                          ->where('is_ready', '1')
-                                          ->orderBy('created_at', 'asc')
-                                          ->first();
-            $next_news = NewsArticleCouture::where('created_at', '<', $news->created_at)
-                                      ->where('is_ready', '1')
-                                      ->orderBy('created_at', 'desc')
-                                      ->first();
-            return view('news-single', ['news' => $news, 'previous_news' => $previous_news, 'next_news' => $next_news]);
-        } elseif (auth()->check() && auth()->user()->role == 'admin' && NewsArticleCouture::where('slug_'.app()->getLocale(), $slug)->count() > 0) {
-            // In stage or local, articles can be displayed for test even if not validated.
-            $news = NewsArticleCouture::where('slug_'.app()->getLocale(), $slug)->first();
-            $previous_news = NewsArticleCouture::where('created_at', '>', $news->created_at)
-                                          ->where('is_ready', '1')
-                                          ->orderBy('created_at', 'asc')
-                                          ->first();
-            $next_news = NewsArticleCouture::where('created_at', '<', $news->created_at)
-                                      ->where('is_ready', '1')
-                                      ->orderBy('created_at', 'desc')
-                                      ->first();
-            return view('news-single', ['news' => $news, 'previous_news' => $previous_news, 'next_news' => $next_news]);
-        }
-
-        return redirect()->route('news-'.app()->getLocale());
     }
 
     public function showNewsletter()
@@ -376,11 +338,12 @@ class GeneralController extends Controller
         $accessories = $this->getAvailableCreations('accessories')->sortBy('name');
         $home_items = $this->getAvailableCreations('home')->sortBy('name');
         $news = NewsArticleCouture::where('is_ready', '1')->orderBy('updated_at', 'desc')->get();
+        $news = $news->merge(VillageInfo::where('is_ready', '1')->orderBy('updated_at', 'desc')->get());
         return view('footer.pages.sitemap', [
             'clothes' => $clothes, 
             'accessories' => $accessories, 
             'home_items' => $home_items, 
-            'news' => $news,
+            'news' => $news->sortBy('updated_at', 'desc'),
         ]);
     }
 

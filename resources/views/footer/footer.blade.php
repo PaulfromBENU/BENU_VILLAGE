@@ -30,7 +30,7 @@
 			<div class="footer__lists__col">
 				<h4>{{ __('footer.footer-title-2') }}</h4>
 				<ul>
-					<li><a href="{{ route('news-'.app()->getLocale()) }}">{{ __('footer.footer-list-2-1') }}</a></li>
+					<li><a href="{{ route('news-all-'.app()->getLocale()) }}">{{ __('footer.footer-list-2-1') }}</a></li>
 					<li><a href="{{ route('about-'.app()->getLocale()) }}">{{ __('footer.footer-list-2-4') }}</a></li>
 					<li><a href="#">{{ __('footer.footer-list-2-5') }}</a></li>
 					<li><a href="{{ route('footer.general-conditions-'.app()->getLocale()) }}">{{ __('footer.footer-list-2-6') }}</a></li>

@@ -46,7 +46,7 @@
                         {{ __('header.participate') }}
                     </a>
 
-                    <a href="{{ route('news-'.app()->getLocale()) }}" class="header__main-nav__link @if(Route::currentRouteName() == 'news-'.app()->getLocale()) header__main-nav__link--active @endif">
+                    <a href="{{ route('news-all-'.app()->getLocale()) }}" class="header__main-nav__link @if(Route::currentRouteName() == 'news-'.app()->getLocale()) header__main-nav__link--active @endif">
                         {{ __('header.news') }}
                     </a>
 
