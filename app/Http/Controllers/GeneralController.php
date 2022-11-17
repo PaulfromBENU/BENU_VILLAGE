@@ -337,13 +337,15 @@ class GeneralController extends Controller
         $clothes = $this->getAvailableCreations('clothes')->sortBy('name');
         $accessories = $this->getAvailableCreations('accessories')->sortBy('name');
         $home_items = $this->getAvailableCreations('home')->sortBy('name');
-        $news = NewsArticleCouture::where('is_ready', '1')->orderBy('updated_at', 'desc')->get();
-        $news = $news->merge(VillageInfo::where('is_ready', '1')->orderBy('updated_at', 'desc')->get());
+        // $news = NewsArticleCouture::where('is_ready', '1')->orderBy('updated_at', 'desc')->get();
+        $couture_news = NewsArticleCouture::where('is_ready', '1')->orderBy('updated_at', 'desc')->get();
+        $village_news = VillageInfo::where('is_ready', '1')->orderBy('updated_at', 'desc')->get();
         return view('footer.pages.sitemap', [
             'clothes' => $clothes, 
             'accessories' => $accessories, 
             'home_items' => $home_items, 
-            'news' => $news->sortBy('updated_at', 'desc'),
+            'couture_news' => $couture_news,
+            'village_news' => $village_news,
         ]);
     }
 
