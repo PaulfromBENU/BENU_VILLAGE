@@ -10,7 +10,7 @@
 
     <!-- VILLAGE News -->
     <h2 class="all-news__origin all-news__origin--village">
-        VILLAGE
+        BENU VILLAGE
     </h2>
     <div class="flex justify-start flex-wrap mb-10">
         @if($village_news->count() == 0)
@@ -50,9 +50,11 @@
 
 
     <!-- COUTURE News -->
-    <h2 class="all-news__origin all-news__origin--couture">
-        COUTURE
-    </h2>
+    <a href="https://couture.benu.lu/fr/actualites" target="_blank">
+        <h2 class="all-news__origin all-news__origin--couture">
+            BENU COUTURE
+        </h2>
+    </a>
     <div class="flex justify-start flex-wrap mb-10">
         @if($couture_news->count() == 0)
         <p class="text-xl text-center w-full">
