@@ -113,7 +113,7 @@ if (app('env') == 'landing') {
 			Route::post('/store-newsletter', 'GeneralController@storeNewsletter')->name('newsletter-subscribe');
 
 			// Participate
-			Route::get('/'.trans("slugs.header-participate", [], $locale).'/{page?}', 'GeneralController@showParticipate')->name('header.participate-'.$locale);
+			Route::get('/'.trans("slugs.header-participate", [], $locale), 'GeneralController@showParticipate')->name('header.participate-'.$locale);
 
 			// Contact download for phone
 			Route::get('/'.trans("slugs.header-download-drop-off", [], $locale), 'GeneralController@downloadDropOff')->name('header.download-dropoff-'.$locale);

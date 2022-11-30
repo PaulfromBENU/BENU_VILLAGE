@@ -15,113 +15,99 @@
 			<div class="pl-5 pr-5">
 				>
 			</div>
-			<a href="{{ route('header.participate-'.app()->getLocale()) }}">{{ __('breadcrumbs.participate') }}</a>
-			<div class="pl-5 pr-5">
-				>
-			</div>
-			@switch($page)
-				@case(__('slugs.participate-badges'))
-					<a href="{{ route('header.participate-'.app()->getLocale(), ['page' => __('slugs.participate-badges')]) }}" class="primary-color"><strong>{{ __('breadcrumbs.badges') }}</strong></a>
-					@break
-
-				@case(__('slugs.participate-give'))
-					<a href="{{ route('header.participate-'.app()->getLocale(), ['page' => __('slugs.participate-give')]) }}" class="primary-color"><strong>{{ __('breadcrumbs.give-clothes') }}</strong></a>
-					@break
-
-				@case(__('slugs.participate-partnership'))
-					<a href="{{ route('header.participate-'.app()->getLocale(), ['page' => __('slugs.participate-partnership')]) }}" class="primary-color"><strong>{{ __('breadcrumbs.participate-partnership') }}</strong></a>
-					@break
-
-				@case(__('slugs.participate-smart'))
-					<a href="{{ route('header.participate-'.app()->getLocale(), ['page' => __('slugs.participate-smart')]) }}" class="primary-color"><strong>{{ __('breadcrumbs.participate-smart') }}</strong></a>
-					@break
-
-				<!-- @case(__('slugs.participate-sustainable'))
-					<a href="{{ route('header.participate-'.app()->getLocale(), ['page' => __('slugs.participate-sustainable')]) }}" class="primary-color"><strong>{{ __('breadcrumbs.participate-sustainable') }}</strong></a>
-					@break -->
-
-				@default
-					<a href="{{ route('header.participate-'.app()->getLocale(), ['page' => __('slugs.participate-badges')]) }}" class="primary-color"><strong>{{ __('breadcrumbs.badges') }}</strong></a>
-					@break
-			@endswitch
+			<a href="{{ route('header.participate-'.app()->getLocale()) }}" class="primary-color"><strong>{{ __('breadcrumbs.participate') }}</strong></a>
 		</div>
 	</div>
 @endsection
 
 @section('main-content')
-	<div class="benu-container text-center participate">
-		<h4 class="participate__subtitle">BENU COUTURE</h4>
-		<h2 class="participate__title">{{ __('participate.main-title') }}</h2>
-		<div class="participate__nav flex justify-start md:justify-center">
-			<div class="participate__nav__arrow participate__nav__arrow--left mobile-only">
-				@svg('chevron-down')
-			</div>
-			<a href="{{ route('header.participate-'.app()->getLocale(), ['page' => __('slugs.participate-badges')]) }}" class="participate__nav__link @if($page == '' || $page == __('slugs.participate-badges')) participate__nav__link--active @endif" id="participate-nav-faq">
-				{{ __('participate.nav-badges') }}
-			</a>
-			<a href="{{ route('header.participate-'.app()->getLocale(), ['page' => __('slugs.participate-give')]) }}" class="participate__nav__link @if($page == __('slugs.participate-give')) participate__nav__link--active @endif" id="participate-nav-delivery">
-				{{ __('participate.nav-give') }}
-			</a>
-			<a href="{{ route('header.participate-'.app()->getLocale(), ['page' => __('slugs.participate-partnership')]) }}" class="participate__nav__link @if($page == __('slugs.participate-partnership')) participate__nav__link--active @endif" id="participate-nav-sizes">
-				{{ __('participate.nav-partnership') }}
-			</a>
-			<a href="{{ route('header.participate-'.app()->getLocale(), ['page' => __('slugs.participate-smart')]) }}" class="participate__nav__link @if($page == __('slugs.participate-smart')) participate__nav__link--active @endif" id="participate-nav-return">
-				{{ __('participate.nav-smart') }}
-			</a>
-			<div class="participate__nav__arrow participate__nav__arrow--right mobile-only">
-				@svg('chevron-down')
-			</div>
-		</div>
-	</div>
+<section class="w-11/12 xl:w-3/5 m-auto full-story">
+	<h2 class="full-story__subtitle">{{ __('participate.toptitle') }}</h2>
+	<h1 class="full-story__title">{{ __('participate.title') }}</h1>
 
-	<div class="benu-container participate-section-container">
-		@switch($page)
-			@case(__('slugs.participate-badges'))
-				@include('includes.participate.badges')
-				@break
+	<p class="full-story__txt">
+		{{ __('participate.paragraph-0-1') }}
+	</p>
 
-			@case(__('slugs.participate-give'))
-				@include('includes.participate.give')
-				@break
+	<h3 class="full-story__lowtitle">{{ __('participate.subtitle-1') }}</h3>
 
-			@case(__('slugs.participate-partnership'))
-				@include('includes.participate.partnership')
-				@break
+	<p class="full-story__txt">
+		{{ __('participate.paragraph-1-1') }} <a href="https://www.facebook.com/benuvillageesch/" target="_blank" rel="noreferrer">{{ __('participate.paragraph-1-link-1') }}</a>, <a href="https://www.instagram.com/benu_village/" target="_blank" rel="noreferrer">{{ __('participate.paragraph-1-link-2') }}</a>, {{ __('participate.paragraph-1-2') }} <a href="{{ route('newsletter-'.app()->getLocale()) }}" target="_blank" rel="noreferrer">{{ __('participate.paragraph-1-link-3') }}</a>. {{ __('participate.paragraph-1-3') }}
+	</p>
 
-			@case(__('slugs.participate-smart'))
-				@include('includes.participate.smart')
-				@break
+	<p class="full-story__txt">
+		{{ __('participate.paragraph-1-4') }} <a href="{{ route('client-service-'.app()->getLocale(), ['page' => __('slugs.services-contact')]) }}" target="_blank" rel="noreferrer">{{ __('participate.paragraph-1-link-4') }}</a>
+	</p>
 
-			<!-- @case(__('slugs.participate-sustainable'))
-				@include('includes.participate.sustainable')
-				@break -->
+	<h3 class="full-story__lowtitle">{{ __('participate.subtitle-2') }}</h3>
 
-			@default
-				@include('includes.participate.badges')
-				@break
-		@endswitch
-	</div>
+	<p class="full-story__txt">
+		{{ __('participate.paragraph-2-1') }}
+	</p>
+
+	<p class="full-story__txt">
+		{{ __('participate.paragraph-2-2') }} <a href="{{ route('learn-more-'.app()->getLocale()) }}" target="_blank" rel="noreferrer">{{ __('participate.paragraph-2-link-1') }}</a> {{ __('participate.paragraph-2-3') }}
+	</p>
+
+	<p class="full-story__txt">
+		{{ __('participate.paragraph-2-4') }} <a href="{{ route('client-service-'.app()->getLocale(), ['page' => __('slugs.services-contact')]) }}" target="_blank" rel="noreferrer">{{ __('participate.paragraph-2-link-2') }}</a>
+	</p>
+
+	<h3 class="full-story__lowtitle">{{ __('participate.subtitle-3') }}</h3>
+
+	<p class="full-story__txt">
+		{{ __('participate.paragraph-3-1') }} <a href="{{ route('client-service-'.app()->getLocale(), ['page' => __('slugs.services-contact')]) }}" target="_blank" rel="noreferrer">{{ __('participate.paragraph-3-link-1') }}</a>
+	</p>
+
+	<p class="full-story__txt">
+		{{ __('participate.paragraph-3-2') }} <a href="https://www.facebook.com/benuvillageesch/" target="_blank" rel="noreferrer">{{ __('participate.paragraph-3-link-2') }}</a>, <a href="https://www.instagram.com/benu_village/" target="_blank" rel="noreferrer">{{ __('participate.paragraph-3-link-3') }}</a>, {{ __('participate.paragraph-3-3') }} <a href="{{ route('newsletter-'.app()->getLocale()) }}" target="_blank" rel="noreferrer">{{ __('participate.paragraph-3-link-4') }}</a>. {{ __('participate.paragraph-3-4') }}
+	</p>
+
+	<h3 class="full-story__lowtitle">{{ __('participate.subtitle-4') }}</h3>
+
+	<p class="full-story__txt">
+		{{ __('participate.paragraph-4-1') }} <a href="{{ route('client-service-'.app()->getLocale(), ['page' => __('slugs.services-contact')]) }}" target="_blank" rel="noreferrer">{{ __('participate.paragraph-4-link-1') }}</a>
+	</p>
+
+	<p class="full-story__txt">
+		{{ __('participate.paragraph-4-2') }} <a href="https://www.benureuse.lu/page/ich-mache-mit" target="_blank" rel="noreferrer">{{ __('participate.paragraph-4-link-2') }}</a> {{ __('participate.paragraph-4-3') }} <a href="https://couture.benu.lu/de/mitmachen" target="_blank" rel="noreferrer">{{ __('participate.paragraph-4-link-3') }}</a>
+	</p>
+
+
+	<h3 class="full-story__lowtitle">{{ __('participate.subtitle-5') }}</h3>
+
+	<p class="full-story__txt">
+		{{ __('participate.paragraph-5-1') }}
+	</p>
+
+	<p class="full-story__txt">
+		{{ __('participate.paragraph-5-2') }} <a href="{{ route('learn-more-'.app()->getLocale()) }}" target="_blank" rel="noreferrer">{{ __('participate.paragraph-5-link-1') }}</a> {{ __('participate.paragraph-5-3') }}
+	</p>
+
+	<p class="full-story__txt">
+		{{ __('participate.paragraph-5-4') }} <a href="{{ route('client-service-'.app()->getLocale(), ['page' => __('slugs.services-contact')]) }}" target="_blank" rel="noreferrer">{{ __('participate.paragraph-5-link-2') }}</a>
+	</p>
+
+	
+	<h3 class="full-story__lowtitle">{{ __('participate.subtitle-6') }}</h3>
+
+	<p class="full-story__txt">
+		{{ __('participate.paragraph-6-1') }} <a href="https://www.benureuse.lu" target="_blank" rel="noreferrer">{{ __('participate.paragraph-6-link-1') }}</a> {{ __('participate.paragraph-6-2') }}
+	</p>
+
+	<p class="full-story__txt">
+		{{ __('participate.paragraph-6-3') }} <a href="https://www.benureuse.lu" target="_blank" rel="noreferrer">{{ __('participate.paragraph-6-link-2') }}</a>
+	</p>
+
+	<p class="full-story__txt">
+		{{ __('participate.paragraph-6-4') }} <a href="https://www.benucouture.lu" target="_blank" rel="noreferrer">{{ __('participate.paragraph-6-link-3') }}</a> {{ __('participate.paragraph-6-5') }} <a href="https://couture.benu.lu/de/mitmachen/kleider-spenden" target="_blank" rel="noreferrer">{{ __('participate.paragraph-6-link-4') }}</a>
+	</p>
+
+	
+
+</section>
 @endsection
 
 @section('scripts')
-<script type="text/javascript">
-	$(function() {
-		$('.participate__nav__link').on('click', function() {
-			$('.participate__nav__link').removeClass('participate__nav__link--active');
-			$(this).addClass('participate__nav__link--active');
-		});
-	});
-</script>
-<script type="text/javascript">
-	$(function() {
-		$('.participate__nav__arrow--left').on('click', function() {
-			let leftPos = $('.participate__nav').scrollLeft();
-   			$(".participate__nav").animate({scrollLeft: leftPos - 100}, 'fast');
-		});
-		$('.participate__nav__arrow--right').on('click', function() {
-			let leftPos = $('.participate__nav').scrollLeft();
-   			$(".participate__nav").animate({scrollLeft: leftPos + 100}, 'fast');
-		});
-	});
-</script>
+
 @endsection

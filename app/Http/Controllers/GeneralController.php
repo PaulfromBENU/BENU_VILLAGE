@@ -217,35 +217,9 @@ class GeneralController extends Controller
         return view('footer.pages.legal');
     }
 
-    public function showParticipate($page = '')
+    public function showParticipate()
     {
-        // When changing locale while in a sub-section of the page, redirect to the page without parameter. Also handles random URI parameters.
-        if (!in_array($page, [
-            __('slugs.participate-badges'),
-            __('slugs.participate-give'),
-            __('slugs.participate-partnership'),
-            __('slugs.participate-smart'),
-            __('slugs.participate-sustainable'),
-            ''
-        ])) {
-            return redirect()->route('header.participate-'.app()->getLocale());
-        }
-
-        if ($page == __('slugs.participate-badges')) {
-            // Specific to badges section - initialize collection before if
-        }
-
-        if ($page == __('slugs.participate-give')) {
-            // Specific to give clothes section - initialize collection before if
-        }
-
-        if ($page == __('slugs.participate-partnership') || $page == '') {
-            
-        }
-
-        // $localized_desc_query = "description_".app()->getLocale();
-
-        return view('header.pages.participate', ['page' => $page]);
+        return view('header.pages.participate');
     }
 
 
