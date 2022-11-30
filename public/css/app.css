@@ -7871,6 +7871,13 @@ input[type=checkbox]:focus {
   margin-left: -1em;
   /* Also needed for space (tweak if needed) */
 }
+.full-story__bullets a {
+  color: #0F7E3D;
+  font-weight: 500;
+}
+.full-story__bullets a:hover {
+  text-decoration: underline;
+}
 .full-story__general {
   position: relative;
 }

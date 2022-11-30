@@ -8,7 +8,7 @@
 					<img src="{{ asset('media/pictures/welcome_picture_left.jpg') }}" class="m-auto">
 				</div>
 				<div class="flex justify-center flex-wrap welcome-campaign__left__links">
-					<a href="#" class="block btn-couture">{{ __('welcome.campaign-link-1') }}</a>
+					<a href="{{ route('learn-more-'.app()->getLocale()) }}" class="block btn-couture">{{ __('welcome.campaign-link-1') }}</a>
 				</div>
 			</div>
 		</div>

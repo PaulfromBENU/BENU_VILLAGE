@@ -364,6 +364,12 @@ class GeneralController extends Controller
     }
 
 
+    public function showLearnMore()
+    {
+        return view('learn-more');
+    }
+
+
     public function accessStage(Request $request)
     {
         if ($request->stage_password == 'benew') {
