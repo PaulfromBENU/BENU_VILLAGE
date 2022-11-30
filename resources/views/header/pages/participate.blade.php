@@ -103,8 +103,6 @@
 		{{ __('participate.paragraph-6-4') }} <a href="https://www.benucouture.lu" target="_blank" rel="noreferrer">{{ __('participate.paragraph-6-link-3') }}</a> {{ __('participate.paragraph-6-5') }} <a href="https://couture.benu.lu/de/mitmachen/kleider-spenden" target="_blank" rel="noreferrer">{{ __('participate.paragraph-6-link-4') }}</a>
 	</p>
 
-	
-
 </section>
 @endsection
 
