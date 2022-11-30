@@ -32,7 +32,7 @@
 				<ul>
 					<li><a href="{{ route('news-all-'.app()->getLocale()) }}">{{ __('footer.footer-list-2-1') }}</a></li>
 					<li><a href="{{ route('about-'.app()->getLocale()) }}">{{ __('footer.footer-list-2-4') }}</a></li>
-					<li><a href="#">{{ __('footer.footer-list-2-5') }}</a></li>
+					<li><a href="{{ route('learn-more-'.app()->getLocale()) }}">{{ __('footer.footer-list-2-5') }}</a></li>
 					<li><a href="{{ route('footer.general-conditions-'.app()->getLocale()) }}">{{ __('footer.footer-list-2-6') }}</a></li>
 					<li><a href="{{ route('footer.policy-'.app()->getLocale()) }}">{{ __('footer.footer-list-2-7') }}</a></li>
 					<li><a href="{{ route('footer.legal-'.app()->getLocale()) }}">{{ __('footer.footer-list-2-8') }}</a></li>
