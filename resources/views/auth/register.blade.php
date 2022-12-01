@@ -25,6 +25,10 @@
         <h3 class="register__subtitle">BENU COUTURE</h3>
         <h1 class="register__title">{!! __('auth.register-title') !!}</h1>
 
+        <p class="text-center mb-5 p-1">
+            {{ __('auth.register-subtitle-text') }}
+        </p>
+
         @if($errors->any())
 <!--             <div class="register__errors w-2/3 m-auto mt-5 mb-5">
                 {!! __('auth.register-error') !!}

@@ -8959,7 +8959,7 @@ input[type=checkbox]:focus {
   text-align: center;
   font: normal normal 700 44px/53px "Barlow Condensed";
   letter-spacing: 0px;
-  margin-bottom: 70px;
+  margin-bottom: 30px;
 }
 @media (max-width: 767px) {
   .register__title {
