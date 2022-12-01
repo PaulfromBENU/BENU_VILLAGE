@@ -70,13 +70,6 @@
 	                                {{ __('header.participate') }}
 	                            </a>
 	                        </li>
-	                        <li>|</li>
-	                        <li>
-	                            <!-- <a href="{{ route('vouchers-'.app()->getLocale()) }}">{{ __('header.vouchers') }}</a> -->
-	                            <a href="{{ route('vouchers-'.app()->getLocale()) }}" @if(Route::currentRouteName() == 'vouchers-'.app()->getLocale()) class="header__top-nav__links__link header__top-nav__links__link--active" @else class="header__top-nav__links__link" @endif>
-	                                {{ __('header.vouchers') }}
-	                            </a>
-	                        </li>
 	                    </ul>
 	                </nav>
 	                <div class="header__newsletter-btn">
@@ -184,9 +177,6 @@
 	                <!-- <a href="{{ route('model-'.app()->getLocale(), ['family' => 'home']) }}" class="creations-navbar__nav__toggle-link">
 	                    {{ __('header.house') }}
 	                </a> -->
-	                <a href="{{ route('vouchers-'.app()->getLocale()) }}" class="creations-navbar__nav__toggle-link">
-	                    {{ __('header.vouchers') }}
-	                </a>
 	            </nav>
 	        </div>
 	        @livewire('header.creations-menu')
