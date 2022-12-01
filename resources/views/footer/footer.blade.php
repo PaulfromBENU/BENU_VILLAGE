@@ -10,11 +10,6 @@
 				</a>
 			</div>
 			<div class="footer__sponsors__sponsor flex flex-col justify-center">
-				<a href="https://www.loschfondation.lu/" target="_blank" rel="noreferrer" class="block">
-					<img src="{{ asset('media/pictures/sponsors/fondation-losch.jpg') }}" />
-				</a>
-			</div>
-			<div class="footer__sponsors__sponsor flex flex-col justify-center">
 				<a href="https://meco.gouvernement.lu/fr.html" target="_blank" rel="noreferrer" class="block">
 					<img src="{{ asset('media/pictures/sponsors/logo_meco_lux.png') }}" />
 				</a>
@@ -22,6 +17,11 @@
 			<div class="footer__sponsors__sponsor flex flex-col justify-center">
 				<a href="https://mecdd.gouvernement.lu/fr.html" target="_blank" rel="noreferrer" class="block">
 					<img src="{{ asset('media/pictures/sponsors/ministere-luxembourg.jpg') }}" />
+				</a>
+			</div>
+			<div class="footer__sponsors__sponsor flex flex-col justify-center">
+				<a href="https://www.loschfondation.lu/" target="_blank" rel="noreferrer" class="block">
+					<img src="{{ asset('media/pictures/sponsors/fondation-losch.jpg') }}" />
 				</a>
 			</div>
 			<div class="footer__sponsors__sponsor flex flex-col justify-center">
