@@ -30,7 +30,7 @@
 	        </div>
 	        <a class="header__logo-container" href="{{ route('home', [app()->getLocale()]) }}">
 	            <!-- <img src="{{ asset('media/svg/logo_benu_couture.svg') }}" class="header__logo header__logo--desktop"> -->
-	            @svg('logo_benu_couture', 'header__logo header__logo--desktop')
+	            @svg('logo_benu_village', 'header__logo header__logo--desktop')
 	            <img src="{{ asset('media/svg/benu-icon-menu-scroll.svg') }}" class="header__logo header__logo--scroll">
 	            <img src="{{ asset('media/svg/benu-icon-menu-scroll.svg') }}" class="header__logo header__logo--mobile">
 	        </a>
@@ -95,7 +95,7 @@
 	                    <div>
 	                        
 	                    </div>
-	                    <a href="{{ route('news-'.app()->getLocale()) }}" class="header__main-nav__link @if(Route::currentRouteName() == 'news-'.app()->getLocale()) header__main-nav__link--active @endif" style="margin-left: 0;">
+	                    <a href="{{ route('news-all-'.app()->getLocale()) }}" class="header__main-nav__link @if(Route::currentRouteName() == 'news-all-'.app()->getLocale()) header__main-nav__link--active @endif" style="margin-left: 0;">
 	                        {{ __('header.news') }}
 	                    </a>
 
@@ -137,9 +137,6 @@
 	                        </a>
 	                        @endif
 	                    </li>
-	                    <li class="tablet-hidden">
-	                        @livewire('components.cart-header-icon')
-	                    </li>
 	                    <li class="header__main-menu__icons__lang-container">
 	                        <button class="header__main-menu__icons__lang-btn" id="lang-selector">
 	                            {{ strtoupper(app()->getLocale()) }}
@@ -174,12 +171,8 @@
 	                <div class="creations-navbar__nav__toggle flex" id="nav-toggle-home">
 	                    {{ __('header.house') }} @svg('chevron-down')
 	                </div>
-	                <!-- <a href="{{ route('model-'.app()->getLocale(), ['family' => 'home']) }}" class="creations-navbar__nav__toggle-link">
-	                    {{ __('header.house') }}
-	                </a> -->
 	            </nav>
 	        </div>
-	        @livewire('header.creations-menu')
 	    </div>
 	</header>
 

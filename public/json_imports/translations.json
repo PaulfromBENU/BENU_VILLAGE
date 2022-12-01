@@ -1,333 +1,5 @@
 [
   {
-    "page": "slug",
-    "key": "slugs.about",
-    "de": "ueber",
-    "fr": "a-propos",
-    "en": "about",
-    "lu": "iwwer"
-  },
-  {
-    "page": "slug",
-    "key": "slugs.news",
-    "de": "aktualitaeten",
-    "fr": "actualites",
-    "en": "news",
-    "lu": "neiegkeeten"
-  },
-  {
-    "page": "slug",
-    "key": "slugs.newsletter-subscribe",
-    "de": "newsletter-abonnieren",
-    "fr": "inscription-newsletter",
-    "en": "subscribe-to-the-newsletter",
-    "lu": "newsletter-abonéieren"
-  },
-  {
-    "page": "slug",
-    "key": "slugs.newsletter-unsubscribe",
-    "de": "newsletter-kündigen",
-    "fr": "desabonnement-a-la-newsletter",
-    "en": "unsubscribe-from-the-newsletter",
-    "lu": "newsletter-kënnegen"
-  },
-  {
-    "page": "slug",
-    "key": "slugs.header-participate",
-    "de": "mitmachen",
-    "fr": "participer",
-    "en": "participate",
-    "lu": "matmaachen"
-  },
-  {
-    "page": "slug",
-    "key": "slugs.header-download-drop-off",
-    "de": "kontakt-herunterladen",
-    "fr": "telechargement-du-contact",
-    "en": "download-contact",
-    "lu": "kontakt-eroflueden"
-  },
-  {
-    "page": "slug",
-    "key": "slugs.footer-legal-mentions",
-    "de": "impressum",
-    "fr": "mentions-legales",
-    "en": "legal-notices",
-    "lu": "legal-informatiounen"
-  },
-  {
-    "page": "slug",
-    "key": "slugs.footer-policy",
-    "de": "datenschutz",
-    "fr": "politique-de-confidentialite",
-    "en": "privacy-policy",
-    "lu": "dateschutz"
-  },
-  {
-    "page": "slug",
-    "key": "slugs.general-conditions",
-    "de": "nutzungsbedingungen",
-    "fr": "conditions-generales",
-    "en": "terms-of-use",
-    "lu": "gebrauchsbedengungen"
-  },
-  {
-    "page": "slug",
-    "key": "slugs.sitemap",
-    "de": "seitenuebersicht",
-    "fr": "plan-du-site",
-    "en": "site-map",
-    "lu": "saeiteniwwersiicht"
-  },
-  {
-    "page": "slug",
-    "key": "slugs.services-contact",
-    "de": "kontakt",
-    "fr": "contact",
-    "en": "contact",
-    "lu": "kontakt"
-  },
-  {
-    "page": "home",
-    "key": "welcome.seo-title",
-    "de": "",
-    "fr": "",
-    "en": "",
-    "lu": ""
-  },
-  {
-    "page": "home",
-    "key": "welcome.seo-description",
-    "de": "",
-    "fr": "",
-    "en": "",
-    "lu": ""
-  },
-  {
-    "page": "participer",
-    "key": "participate.seo-title",
-    "de": "",
-    "fr": "",
-    "en": "",
-    "lu": ""
-  },
-  {
-    "page": "participer",
-    "key": "participate.seo-description",
-    "de": "",
-    "fr": "",
-    "en": "",
-    "lu": ""
-  },
-  {
-    "page": "actualités",
-    "key": "news.all-seo-title",
-    "de": "",
-    "fr": "",
-    "en": "",
-    "lu": ""
-  },
-  {
-    "page": "actualités",
-    "key": "news.all-seo-desc",
-    "de": "",
-    "fr": "",
-    "en": "",
-    "lu": ""
-  },
-  {
-    "page": "à propos",
-    "key": "about.seo-title",
-    "de": "",
-    "fr": "",
-    "en": "",
-    "lu": ""
-  },
-  {
-    "page": "à propos",
-    "key": "about.seo-description",
-    "de": "",
-    "fr": "",
-    "en": "",
-    "lu": ""
-  },
-  {
-    "page": "connexion",
-    "key": "auth.login-seo-title",
-    "de": "Anmeldung",
-    "fr": "Connexion",
-    "en": "Log in",
-    "lu": "Aloggen"
-  },
-  {
-    "page": "connexion",
-    "key": "auth.login-seo-desc",
-    "de": "",
-    "fr": "",
-    "en": "",
-    "lu": ""
-  },
-  {
-    "page": "inscription",
-    "key": "auth.register-seo-title",
-    "de": "Konto eröffnen",
-    "fr": "Créer un compte",
-    "en": "Create account",
-    "lu": "Kont opmaachen"
-  },
-  {
-    "page": "inscription",
-    "key": "auth.register-seo-desc",
-    "de": "",
-    "fr": "",
-    "en": "",
-    "lu": ""
-  },
-  {
-    "page": "mot passe oublie",
-    "key": "auth.password-forgotten-seo-title",
-    "de": "Passwort vergessen",
-    "fr": "Mot de passe oublié",
-    "en": "Forgotten password",
-    "lu": "Passwuert vergiess"
-  },
-  {
-    "page": "mot passe oublie",
-    "key": "auth.password-forgotten-seo-description",
-    "de": "",
-    "fr": "",
-    "en": "",
-    "lu": ""
-  },
-  {
-    "page": "erreur",
-    "key": "welcome.error-seo-title",
-    "de": "Fehlermeldung",
-    "fr": "Message d'erreur",
-    "en": "Error message",
-    "lu": "Feeler Message"
-  },
-  {
-    "page": "erreur",
-    "key": "welcome.error-seo-description",
-    "de": "",
-    "fr": "",
-    "en": "",
-    "lu": ""
-  },
-  {
-    "page": "Compte",
-    "key": "dashboard.seo-title",
-    "de": "Mein BENU Konto",
-    "fr": "Mon compte BENU",
-    "en": "My BENU account",
-    "lu": "Mäi BENU Kont"
-  },
-  {
-    "page": "Compte",
-    "key": "dashboard.seo-description",
-    "de": "",
-    "fr": "",
-    "en": "",
-    "lu": ""
-  },
-  {
-    "page": "newsletter sub",
-    "key": "auth.newsletter-subscribe-seo-title",
-    "de": "Mit dem Newsletter die Neuigkeiten von BENU verfolgen",
-    "fr": "Suivre l'actualité de BENU avec la newsletter",
-    "en": "Follow the news from BENU with the BENU newsletter",
-    "lu": "Mam BENU Newsletter d'Neiegkeete vu BENU suivéieren"
-  },
-  {
-    "page": "newsletter sub",
-    "key": "auth.newsletter-subscribe-seo-desc",
-    "de": "",
-    "fr": "",
-    "en": "",
-    "lu": ""
-  },
-  {
-    "page": "newsletter can",
-    "key": "auth.newsletter-cancelled-seo-title",
-    "de": "BENU Newsletter kündigen",
-    "fr": "Se désabonner de la newsletter BENU",
-    "en": "Unsubscribe from the BENU newsletter",
-    "lu": "BENU Newsletter kënnegen"
-  },
-  {
-    "page": "newsletter can",
-    "key": "auth.newsletter-cancelled-seo-desc",
-    "de": "",
-    "fr": "",
-    "en": "",
-    "lu": ""
-  },
-  {
-    "page": "cond. générales",
-    "key": "footer.general-conditions-seo-title",
-    "de": "",
-    "fr": "",
-    "en": "",
-    "lu": ""
-  },
-  {
-    "page": "cond. générales",
-    "key": "footer.general-conditions-seo-description",
-    "de": "",
-    "fr": "",
-    "en": "",
-    "lu": ""
-  },
-  {
-    "page": "Datenschutz",
-    "key": "footer.policy-seo-title",
-    "de": "DSGVO: Schutz personenbezogener Daten",
-    "fr": "RGPD : Protection des données personnelles",
-    "en": "RGPD: Protection of personal data",
-    "lu": "DSGVO: Schutz vu perséinlechen Donnéeën"
-  },
-  {
-    "page": "Datenschutz",
-    "key": "footer.policy-seo-description",
-    "de": "",
-    "fr": "",
-    "en": "",
-    "lu": ""
-  },
-  {
-    "page": "Impressum",
-    "key": "footer.legal-seo-title",
-    "de": "",
-    "fr": "",
-    "en": "",
-    "lu": ""
-  },
-  {
-    "page": "Impressum",
-    "key": "footer.legal-seo-description",
-    "de": "",
-    "fr": "",
-    "en": "",
-    "lu": ""
-  },
-  {
-    "page": "Sitemap",
-    "key": "footer.sitemap-title",
-    "de": "",
-    "fr": "",
-    "en": "",
-    "lu": ""
-  },
-  {
-    "page": "Sitemap",
-    "key": "footer.sitemap-desc",
-    "de": "",
-    "fr": "",
-    "en": "",
-    "lu": ""
-  },
-  {
     "page": "Home",
     "key": "header.universe",
     "de": "Entdecke die BENU Welt",
@@ -473,227 +145,11 @@
   },
   {
     "page": "Home",
-    "key": "header.participate",
-    "de": "Mitmachen",
-    "fr": "Participer",
-    "en": "Participate",
-    "lu": "Matmaachen"
-  },
-  {
-    "page": "Home",
     "key": "header.newsletter",
     "de": "Abonniere unseren Newsletter",
     "fr": "S'inscrire à notre newsletter",
     "en": "Subscribe to our newsletter",
     "lu": "Eis Newsletter abonéieren"
-  },
-  {
-    "page": "Home",
-    "key": "header.news",
-    "de": "Aktualitäten",
-    "fr": "Actualités",
-    "en": "News",
-    "lu": "Neiegkeeten"
-  },
-  {
-    "page": "Home",
-    "key": "header.about",
-    "de": "Über BENU",
-    "fr": "À propos de BENU",
-    "en": "About BENU",
-    "lu": "Iwwer BENU"
-  },
-  {
-    "page": "Home",
-    "key": "breadcrumbs.about",
-    "de": "Über BENU",
-    "fr": "À propos de BENU",
-    "en": "About BENU",
-    "lu": "Iwwer BENU"
-  },
-  {
-    "page": "Home",
-    "key": "welcome.bar-title-1",
-    "de": "",
-    "fr": "",
-    "en": "",
-    "lu": ""
-  },
-  {
-    "page": "Home",
-    "key": "welcome.pres-title-1-1",
-    "de": "",
-    "fr": "",
-    "en": "",
-    "lu": ""
-  },
-  {
-    "page": "Home",
-    "key": "welcome.pres-txt-1",
-    "de": "",
-    "fr": "",
-    "en": "",
-    "lu": ""
-  },
-  {
-    "page": "Home",
-    "key": "welcome.pres-link-1",
-    "de": "",
-    "fr": "",
-    "en": "",
-    "lu": ""
-  },
-  {
-    "page": "Home",
-    "key": "welcome.bar-title-2",
-    "de": "",
-    "fr": "",
-    "en": "",
-    "lu": ""
-  },
-  {
-    "page": "Home",
-    "key": "welcome.pres-title-2-1",
-    "de": "",
-    "fr": "",
-    "en": "",
-    "lu": ""
-  },
-  {
-    "page": "Home",
-    "key": "welcome.pres-txt-2",
-    "de": "",
-    "fr": "",
-    "en": "",
-    "lu": ""
-  },
-  {
-    "page": "Home",
-    "key": "welcome.pres-link-2",
-    "de": "",
-    "fr": "",
-    "en": "",
-    "lu": ""
-  },
-  {
-    "page": "Home",
-    "key": "welcome.bar-title-3",
-    "de": "",
-    "fr": "",
-    "en": "",
-    "lu": ""
-  },
-  {
-    "page": "Home",
-    "key": "welcome.pres-title-3-1",
-    "de": "",
-    "fr": "",
-    "en": "",
-    "lu": ""
-  },
-  {
-    "page": "Home",
-    "key": "welcome.pres-txt-3",
-    "de": "",
-    "fr": "",
-    "en": "",
-    "lu": ""
-  },
-  {
-    "page": "Home",
-    "key": "welcome.pres-link-3",
-    "de": "",
-    "fr": "",
-    "en": "",
-    "lu": ""
-  },
-  {
-    "page": "Home",
-    "key": "welcome.bar-title-4",
-    "de": "",
-    "fr": "",
-    "en": "",
-    "lu": ""
-  },
-  {
-    "page": "Home",
-    "key": "welcome.pres-title-4-1",
-    "de": "",
-    "fr": "",
-    "en": "",
-    "lu": ""
-  },
-  {
-    "page": "Home",
-    "key": "welcome.pres-txt-4",
-    "de": "",
-    "fr": "",
-    "en": "",
-    "lu": ""
-  },
-  {
-    "page": "Home",
-    "key": "welcome.pres-link-4",
-    "de": "",
-    "fr": "",
-    "en": "",
-    "lu": ""
-  },
-  {
-    "page": "Home",
-    "key": "welcome.bar-title-5",
-    "de": "",
-    "fr": "",
-    "en": "",
-    "lu": ""
-  },
-  {
-    "page": "Home",
-    "key": "welcome.pres-title-5-1",
-    "de": "",
-    "fr": "",
-    "en": "",
-    "lu": ""
-  },
-  {
-    "page": "Home",
-    "key": "welcome.pres-txt-5",
-    "de": "",
-    "fr": "",
-    "en": "",
-    "lu": ""
-  },
-  {
-    "page": "Home",
-    "key": "welcome.pres-link-5",
-    "de": "",
-    "fr": "",
-    "en": "",
-    "lu": ""
-  },
-  {
-    "page": "Home",
-    "key": "welcome.campaign-title-1",
-    "de": "Das Ökodorf befindet sich im Aufbau!",
-    "fr": "L'écovillage est en cours de création !",
-    "en": "",
-    "lu": ""
-  },
-  {
-    "page": "Home",
-    "key": "welcome.campaign-title-2",
-    "de": "BENU VILLAGE",
-    "fr": "BENU VILLAGE",
-    "en": "BENU VILLAGE",
-    "lu": "BENU VILLAGE"
-  },
-  {
-    "page": "Home",
-    "key": "welcome.campaign-link-1",
-    "de": "Mehr erfahren",
-    "fr": "En savoir plus",
-    "en": "Learn more",
-    "lu": "Méi dozou"
   },
   {
     "page": "Home",
@@ -726,110 +182,6 @@
     "fr": "Contacte-nous",
     "en": "Get in touch with us",
     "lu": "Mell Dech bei eis"
-  },
-  {
-    "page": "Home",
-    "key": "footer.all-txt-1-1",
-    "de": "Alle",
-    "fr": "Toutes les",
-    "en": "All",
-    "lu": "All"
-  },
-  {
-    "page": "Home",
-    "key": "footer.all-txt-1-2",
-    "de": "Informationen",
-    "fr": "informations",
-    "en": "informations",
-    "lu": "d'Informatiounen"
-  },
-  {
-    "page": "Home",
-    "key": "footer.all-txt-2-1",
-    "de": "über",
-    "fr": "à propos de",
-    "en": "about",
-    "lu": "iwwer"
-  },
-  {
-    "page": "Home",
-    "key": "footer.all-story",
-    "de": "Über BENU",
-    "fr": "À propos de BENU",
-    "en": "About BENU",
-    "lu": "Iwwer BENU"
-  },
-  {
-    "page": "Home",
-    "key": "footer.all-chart",
-    "de": "Mitmachen",
-    "fr": "Participer",
-    "en": "Participate",
-    "lu": "Matmaachen"
-  },
-  {
-    "page": "Home",
-    "key": "footer.sponsors-title",
-    "de": "Wir danken unseren offiziellen Partnern!",
-    "fr": "Nous tenons à remercier nos partenaires officiels!",
-    "en": "We would like to thank our official partners!",
-    "lu": "Mir soen eisen offizielle Partner Merci!"
-  },
-  {
-    "page": "Home",
-    "key": "footer.footer-title-1",
-    "de": "Nützliches",
-    "fr": "Liens utiles",
-    "en": "Useful links",
-    "lu": "Nëtzlech Linken"
-  },
-  {
-    "page": "Home",
-    "key": "footer.footer-list-1-3",
-    "de": "Mein Konto",
-    "fr": "Mon compte",
-    "en": "My account",
-    "lu": "Mäi Kont"
-  },
-  {
-    "page": "Home",
-    "key": "footer.footer-list-1-6",
-    "de": "Mitmachen",
-    "fr": "Participer",
-    "en": "Participate",
-    "lu": "Matmaachen"
-  },
-  {
-    "page": "Home",
-    "key": "footer.footer-title-2",
-    "de": "BENU",
-    "fr": "BENU",
-    "en": "BENU",
-    "lu": "BENU"
-  },
-  {
-    "page": "Home",
-    "key": "footer.footer-list-2-1",
-    "de": "Aktualitäten",
-    "fr": "Actualités",
-    "en": "News",
-    "lu": "Neiegkeeten"
-  },
-  {
-    "page": "Home",
-    "key": "footer.footer-list-2-4",
-    "de": "Über BENU",
-    "fr": "À propos de BENU",
-    "en": "About BENU",
-    "lu": "Iwwer BENU"
-  },
-  {
-    "page": "",
-    "key": "footer.footer-list-2-5",
-    "de": "BENU VILLAGE",
-    "fr": "BENU VILLAGE",
-    "en": "BENU VILLAGE",
-    "lu": "BENU VILLAGE"
   },
   {
     "page": "Home",
@@ -894,70 +246,6 @@
     "fr": "Accueil",
     "en": "Homepage",
     "lu": "Startsäit"
-  },
-  {
-    "page": "Contact",
-    "key": "services.nav-contact",
-    "de": "Kontakt",
-    "fr": "Contact",
-    "en": "Contact",
-    "lu": "Kontakt"
-  },
-  {
-    "page": "Contact",
-    "key": "breadcrumbs.contact",
-    "de": "Kontakt",
-    "fr": "Contact",
-    "en": "Contact",
-    "lu": "Kontakt"
-  },
-  {
-    "page": "Contact",
-    "key": "services.contact-subtitle",
-    "de": "Du möchtest uns kontaktieren?",
-    "fr": "Tu veux nous contacter ?",
-    "en": "You want to contact us?",
-    "lu": "Du wëlls eis kontaktéieren?"
-  },
-  {
-    "page": "Contact",
-    "key": "services.contact-title",
-    "de": "Hier findest Du die Kontaktdaten von BENU COUTURE",
-    "fr": "Voici les coordonnées de BENU COUTURE",
-    "en": "Here you can find the contact details of BENU COUTURE",
-    "lu": "Hei sinn d'Kontaktdonnéeë vu BENU COUTURE"
-  },
-  {
-    "page": "Contact",
-    "key": "services.contact-opening-1",
-    "de": "Geöffnet von Montag bis Samstag außer an Feiertagen",
-    "fr": "Ouvert du lundi au samedi sauf jours fériés",
-    "en": "Open from monday to saturday except for public holidays",
-    "lu": "Op vu Méindes bis Samschdes ausser op Feierdeeg"
-  },
-  {
-    "page": "Contact",
-    "key": "services.contact-opening-2",
-    "de": "Montag und Samstag von 11:00 bis 17:30 Uhr",
-    "fr": "Lundi et samedi de 11h00 à 17h30",
-    "en": "Monday and saturday from 11:00 am to 5:30 pm",
-    "lu": "Méindes a Samschdes vun 11:00 bis 17:30 Auer"
-  },
-  {
-    "page": "Contact",
-    "key": "services.contact-opening-3",
-    "de": "Dienstag bis Freitag von 10:00 bis 18:00 Uhr",
-    "fr": "Mardi à vendredi de 10h00 à 18h00",
-    "en": "Tuesday to friday from 10:00 am to 6:00 pm",
-    "lu": "Dënschdes bis Freides vun 10:00 bis 18:00 Auer"
-  },
-  {
-    "page": "Contact",
-    "key": "services.contact-extra-txt",
-    "de": "Hast Du eine Frage zu Deiner Bestellung? Möchtest Du Deine Kreationen als Partner:in über BENU COUTURE verkaufen? Hast Du Deinen Wunschartikel nicht gefunden und wünschst eine bestimmte Kreation? Oder willst Du einfach mehr über BENU COUTURE erfahren?",
-    "fr": "Tu as une question concernant ta commande ? Tu souhaites vendre tes créations en tant que partenaire via BENU COUTURE ? Tu ne trouves pas ton bonheur et désires une création en particulier ? Ou tu veux simplement en savoir plus sur BENU COUTURE ?",
-    "en": "Do you have a question about your order? Would you like to sell your creations as a partner through BENU COUTURE? Haven't you found your desired article and would like a specific creation? Or do you simply want to know more about BENU COUTURE?",
-    "lu": "Hues Du eng Fro zu Denger Bestellung? Wëlls Du Deng Kreatiounen als Partner:in iwwer BENU COUTURE verkafen? Hues Du Däi Wonschartikel net fonnt a wënschs Dir eng bestëmmte Kreatioun? Oder wëlls Du einfach méi iwwer BENU COUTURE wëssen?"
   },
   {
     "page": "Contact",
@@ -1238,94 +526,6 @@
     "fr": "Nous nous réjouissons que tu souhaites t'abonner à la newsletter BENU ! Ta demande nous est parvenue avec succès et sera traitée dans les plus brefs délais. Tu recevras un e-mail de confirmation dès que ton abonnement à la newsletter sera effectif.",
     "en": "We are pleased that you want to subscribe to the BENU newsletter! Your request was successful and will be processed as soon as possible. You will receive a confirmation by e-mail as soon as your subscription to the newsletter has been completed.",
     "lu": "Mir freeën eis, datt s Du d'BENU Newsletter abonéiere wëlls! Deng Ufro ass erfollegräich bei eis ukomm a gëtt schnellstméiglech traitéiert. Du kriss eng Bestätegung per E-Mail, esoubal ewéi däin Abonement effektiv ass."
-  },
-  {
-    "page": "Actualités",
-    "key": "breadcrumbs.news",
-    "de": "Alle Neuigkeiten",
-    "fr": "Toutes les actualités",
-    "en": "All news",
-    "lu": "All d'Neiegkeeten"
-  },
-  {
-    "page": "Actualités",
-    "key": "breadcrumbs.news-example",
-    "de": "Alle Neuigkeiten",
-    "fr": "Toutes les actualités",
-    "en": "All news",
-    "lu": "All d'Neiegkeeten"
-  },
-  {
-    "page": "Actualités",
-    "key": "news.all-subtitle",
-    "de": "Neuigkeiten von BENU",
-    "fr": "Les actualités BENU",
-    "en": "BENU News",
-    "lu": "Neiegkeete vu BENU"
-  },
-  {
-    "page": "Actualités",
-    "key": "news.all-title",
-    "de": "Hier findest Du unsere aktuellen Nachrichten",
-    "fr": "Découvre les toutes dernières actualités ici",
-    "en": "Discover all our latest news here",
-    "lu": "Hei fënns Du eis aktuell Neiegkeeten"
-  },
-  {
-    "page": "Actualités",
-    "key": "news.news-small-title",
-    "de": "Neuigkeiten von BENU",
-    "fr": "Les actualités BENU",
-    "en": "BENU News",
-    "lu": "Neiegkeete vu BENU"
-  },
-  {
-    "page": "Actualités",
-    "key": "news.no-news-for-the-moment",
-    "de": "Im Moment gibt es keine Neuigkeiten",
-    "fr": "Il n'y a pas de nouvelles pour le moment",
-    "en": "There are no news at the moment",
-    "lu": "Am Moment ginn et keng Neiegkeeten"
-  },
-  {
-    "page": "Actualités",
-    "key": "news.tag-events",
-    "de": "Veranstaltungen",
-    "fr": "Evénements",
-    "en": "Events",
-    "lu": "Eventer"
-  },
-  {
-    "page": "Actualités",
-    "key": "news.tag-what-s-new",
-    "de": "Neuigkeiten",
-    "fr": "Quoi de neuf",
-    "en": "What's new",
-    "lu": "Neiegkeeten"
-  },
-  {
-    "page": "Actualités",
-    "key": "news.tag-environment",
-    "de": "",
-    "fr": "",
-    "en": "",
-    "lu": ""
-  },
-  {
-    "page": "Actualités",
-    "key": "news.previous-article",
-    "de": "Vorangegangener Artikel",
-    "fr": "Article précédent",
-    "en": "Previous article",
-    "lu": "Artikel virdrun"
-  },
-  {
-    "page": "Actualités",
-    "key": "news.next-article",
-    "de": "Nächster Artikel",
-    "fr": "Article suivant",
-    "en": "Next article",
-    "lu": "Nächsten Artikel"
   },
   {
     "page": "Compte",
@@ -2392,7 +1592,7 @@
     "lu": "Bezuelung ass ukomm"
   },
   {
-    "page": "order facture",
+    "page": "Mon compte",
     "key": "pdf.invoice-article",
     "de": "Artikel",
     "fr": "Articles",
@@ -2400,7 +1600,7 @@
     "lu": "Artikelen"
   },
   {
-    "page": "order facture",
+    "page": "Mon compte",
     "key": "pdf.invoice-voucher",
     "de": "Gutschein",
     "fr": "Bon d'achat",
@@ -2408,7 +1608,7 @@
     "lu": "Akafsbong"
   },
   {
-    "page": "order facture",
+    "page": "Mon compte",
     "key": "pdf.invoice-voucher-type",
     "de": "Ausführung:",
     "fr": "Format :",
@@ -2416,7 +1616,7 @@
     "lu": "Format:"
   },
   {
-    "page": "order facture",
+    "page": "Mon compte",
     "key": "pdf.invoice-voucher-type-clothe",
     "de": "Stoff",
     "fr": "Tissu",
@@ -2542,6 +1742,14 @@
     "fr": "Réduction Kulturpass",
     "en": "Discount Kulturpass",
     "lu": "Reduktioun Kulturpass"
+  },
+  {
+    "page": "Mon compte",
+    "key": "pdf.invoice-extra-discount",
+    "de": "Besonderer Rabatt",
+    "fr": "Remise exceptionnelle",
+    "en": "Exceptional discount",
+    "lu": "Aussergewéinlech Remise"
   },
   {
     "page": "Mon compte",
@@ -3240,7 +2448,7 @@
     "lu": "Adresszousaz"
   },
   {
-    "page": "Remarquen",
+    "page": "Mon compte",
     "key": "dashboard.remark",
     "de": "Anmerkungen",
     "fr": "Remarques",
@@ -3405,7 +2613,7 @@
     "de": "Dein Kulturpass ist bei BENU eingegangen. Wir werden ihn  überprüfen und anschließend Deinen Status anpassen.",
     "fr": "Votre Kulturpass a été reçu par BENU. Nous allons le vérifier et ensuite adapter votre statut.",
     "en": "Your Kulturpass has been received by BENU. We will check it and then adjust your status.",
-    "lu": ""
+    "lu": "BENU huet Däi Kulturpass kritt. Mir wäerten en iwwerpréiwen an Däi Status upassen."
   },
   {
     "page": "Mon compte",
@@ -3546,10 +2754,10 @@
   {
     "page": "mentions legals",
     "key": "footer.legal-txt-1",
-    "de": "Willkommen auf der Internetseite",
-    "fr": "Bienvenue sur le site Internet",
-    "en": "Welcome to the website",
-    "lu": "Wëllkomm op der Internetsäit"
+    "de": "Willkommen auf einer Internetseite von BENU Village Esch asbl .",
+    "fr": "Bienvenue sur un site Internet de BENU Village Esch asbl.",
+    "en": "Welcome to a website of BENU Village Esch asbl.",
+    "lu": "Wëllkomm op enger Internetsäit vu BENU Village Esch asbl."
   },
   {
     "page": "mentions legals",
@@ -3570,10 +2778,10 @@
   {
     "page": "mentions legals",
     "key": "footer.legal-highlight-1",
-    "de": "50, rue des Celtes  •  L-1318 Luxembourg  •  Tel. +352 2791 1949  •  www.benucouture.lu",
-    "fr": "50, rue des Celtes  •  L-1318 Luxembourg  •  Tel. +352 2791 1949  •  www.benucouture.lu",
-    "en": "50, rue des Celtes  •  L-1318 Luxembourg  •  Tel. +352 2791 1949  •  www.benucouture.lu",
-    "lu": "50, rue des Celtes  •  L-1318 Luxembourg  •  Tel. +352 2791 1949  •  www.benucouture.lu"
+    "de": "50, rue des Celtes  •  L-1318 Luxembourg  •  Tel. +352 2791 1949",
+    "fr": "50, rue des Celtes  •  L-1318 Luxembourg  •  Tel. +352 2791 1949",
+    "en": "50, rue des Celtes  •  L-1318 Luxembourg  •  Tel. +352 2791 1949",
+    "lu": "50, rue des Celtes  •  L-1318 Luxembourg  •  Tel. +352 2791 1949"
   },
   {
     "page": "mentions legals",
@@ -3654,38 +2862,6 @@
     "fr": "Le mot de passe fourni est incorrect.",
     "en": "The password entered is incorrect.",
     "lu": "D'Passwuert ass falsch."
-  },
-  {
-    "page": "Participer",
-    "key": "breadcrumbs.participate",
-    "de": "Mitmachen",
-    "fr": "Participer",
-    "en": "Participate",
-    "lu": "Matmaachen"
-  },
-  {
-    "page": "Participer",
-    "key": "participate.main-title",
-    "de": "Du kannst bei BENU mitmachen!",
-    "fr": "Tu peux participer à BENU !",
-    "en": "You can participate at BENU!",
-    "lu": "Du kanns bei BENU matmaachen!"
-  },
-  {
-    "page": "À propos",
-    "key": "about.subtitle-top",
-    "de": "Über BENU",
-    "fr": "À propos de BENU",
-    "en": "About BENU",
-    "lu": "Iwwer BENU"
-  },
-  {
-    "page": "À propos",
-    "key": "about.title-top",
-    "de": "Wer wir sind und was wir machen",
-    "fr": "Qui sommes-nous et que faisons-nous ?",
-    "en": "Who we are and what we do",
-    "lu": "Wee mir sinn a wat mir maachen"
   },
   {
     "page": "Confidentialité",
@@ -4602,7 +3778,7 @@
   {
     "page": "conditions générales",
     "key": "footer.general-conditions-txt-1-15-2",
-    "de": "Sollte eine Bestimmung dieser Nutzungsbedingungen unwirksam sein oder es werden, hat dies keinen Einfluss auf die Wirksamkeit der übrigen Geschäftsbedingungen.",
+    "de": "Sollte eine Bestimmung dieser Nutzungsbedingungen unwirksam sein oder werden, hat dies keinen Einfluss auf die Wirksamkeit der übrigen Nutzungsbedingungen.",
     "fr": "Si une disposition des présentes conditions d'utilisation est ou devient invalide, cela n'affecte pas la validité des autres conditions générales.",
     "en": "If any provision of these Terms of Use is or becomes invalid, this shall not affect the validity of the remaining Terms and Conditions.",
     "lu": "Sollt eng Bestëmmung vun dëse Gebrauchsbedéngungen ongülteg sinn oder ginn, esou gëtt doduerch d'Gültegkeet vun den iwweregbliwwene Geschäftsbedéngungen net beaflosst."
@@ -4634,7 +3810,7 @@
   {
     "page": "conditions générales",
     "key": "footer.general-conditions-txt-1-17-1",
-    "de": "Die Allgemeinen Geschäftsbedingungen (allgemeine Bestimmungen und spezielle Bestimmungen für die einzelnen Bereiche) unterliegen dem luxemburgischen Recht. Wir legen ausdrücklich Wert darauf, jeden Konflikt außergerichtlich beizulegen. Im Übrigen sind ausschließlich die luxemburgischen Gerichte zuständig.",
+    "de": "Die Allgemeinen Nutzungsbedingungen (allgemeine Bestimmungen und spezielle Bestimmungen für die einzelnen Bereiche) unterliegen dem luxemburgischen Recht. Wir legen ausdrücklich Wert darauf, jeden Konflikt außergerichtlich beizulegen. Im Übrigen sind ausschließlich die luxemburgischen Gerichte zuständig.",
     "fr": "Les conditions générales (dispositions générales et dispositions spéciales pour les différents secteurs) sont soumises au droit luxembourgeois. Nous attachons de l'importance au règlement extrajudiciaire de tout conflit. Pour le reste, seuls les tribunaux luxembourgeois sont compétents.",
     "en": "The general conditions (general provisions and specific provisions for the individual lines of business) are governed by Luxembourg law. We place value on the importance of settling any conflict out of court. In all other respects, the Luxembourg courts shall have exclusive jurisdiction.",
     "lu": "Déi allgemeng Geschäftsbedéngungen (allgemeng Bestëmmungen a speziell  fir déi eenzel Sparten) ënnerleeën de lëtzebuergesche Gesetzer. Mir leeë Wäert drop, all Konflikt aussergeriichtlech bäizeleeën. Fir de Rescht sinn ausschliisslech lëtzebuergesch Geriichter zoustänneg."
@@ -4782,182 +3958,6 @@
     "fr": "Si, malgré un traitement approprié, des défauts de qualité devaient apparaître, nous nous engageons, en cas de renvoi de l'article concerné, à le réparer gratuitement ou à le remplacer par un article équivalent. En cas d'ajustements individuels sans logo BENU, nous nécessitons la présentation de la facture. Dans le cas d'une création BENU COUTURE, la présentation de la facture n'est pas nécessaire.",
     "en": "Should quality defects occur despite proper handling, we undertake to rectify the defect free of charge or to provide a replacement of equal value if the item complained about is returned. In the case of individual adjustments without a BENU logo, we require the invoice for this. In the case of a BENU COUTURE creation, the invoice does not need to be submitted.",
     "lu": "Sollten, trotz adequater Behandlung Qualitéitsmängel optrieden, verflichte mir eis, bei Zeréckschécke vum concernéierten Artikel, dëse gratis ze flécken oder gläichwäerteg z'ersetzen. Bei individuellen Upassungen ouni BENU Logo brauche mir d'Rechnung. Wann et sech ëm eng BENU COUTURE Kreatioun handelt ass d'Virleeë vun der Rechnung net néideg."
-  },
-  {
-    "page": "sitemap",
-    "key": "breadcrumbs.sitemap",
-    "de": "Seitenübersicht",
-    "fr": "Plan du site",
-    "en": "Site map",
-    "lu": "Säiteniwwersiicht"
-  },
-  {
-    "page": "sitemap",
-    "key": "footer.sitemap-home",
-    "de": "Startseite",
-    "fr": "Accueil",
-    "en": "Homepage",
-    "lu": "Startsäit"
-  },
-  {
-    "page": "sitemap",
-    "key": "footer.sitemap-about-us",
-    "de": "Über BENU COUTURE",
-    "fr": "À propos de BENU COUTURE",
-    "en": "About BENU COUTURE",
-    "lu": "Iwwer BENU COUTURE"
-  },
-  {
-    "page": "sitemap",
-    "key": "footer.sitemap-client-service-contact",
-    "de": "Kontakt",
-    "fr": "Contact",
-    "en": "Contact",
-    "lu": "Kontakt"
-  },
-  {
-    "page": "sitemap",
-    "key": "footer.sitemap-all-news",
-    "de": "Aktualitäten",
-    "fr": "Actualités",
-    "en": "News",
-    "lu": "Neiegkeeten"
-  },
-  {
-    "page": "sitemap",
-    "key": "footer.sitemap-single-news",
-    "de": "Aktualität",
-    "fr": "Actualité",
-    "en": "New",
-    "lu": "Neiegkeet"
-  },
-  {
-    "page": "sitemap",
-    "key": "footer.sitemap-newsletter-subscribe",
-    "de": "Newsletter",
-    "fr": "Newsletter",
-    "en": "Newsletter",
-    "lu": "Newsletter"
-  },
-  {
-    "page": "sitemap",
-    "key": "footer.sitemap-participate",
-    "de": "Mitmachen",
-    "fr": "Participer",
-    "en": "Participate",
-    "lu": "Matmaachen"
-  },
-  {
-    "page": "sitemap",
-    "key": "footer.sitemap-legal-mentions",
-    "de": "Impressum",
-    "fr": "Mentions légales",
-    "en": "Legal notices",
-    "lu": "Legal Informatiounen"
-  },
-  {
-    "page": "sitemap",
-    "key": "footer.sitemap-policy",
-    "de": "Datenschutz",
-    "fr": "Politique de confidentialité",
-    "en": "Privacy policy",
-    "lu": "Dateschutz"
-  },
-  {
-    "page": "sitemap",
-    "key": "footer.sitemap-dashboard",
-    "de": "Mein Konto",
-    "fr": "Mon compte",
-    "en": "My account",
-    "lu": "Mäi Kont"
-  },
-  {
-    "page": "sitemap",
-    "key": "footer.sitemap-login",
-    "de": "In Deinem Konto anmelden",
-    "fr": "Te connecter à ton compte",
-    "en": "Log in to your account",
-    "lu": "An Däi Kont aloggen"
-  },
-  {
-    "page": "sitemap",
-    "key": "footer.sitemap-register",
-    "de": "Konto eröffnen",
-    "fr": "Créer un compte",
-    "en": "Create account",
-    "lu": "Kont opmaachen"
-  },
-  {
-    "page": "Version mobile",
-    "key": "WELCOME.MOBILE-MENU-BTN-MENU",
-    "de": "Menü",
-    "fr": "Menu",
-    "en": "Menu",
-    "lu": "Menü"
-  },
-  {
-    "page": "Version mobile",
-    "key": "welcome.nav-home",
-    "de": "Startseite",
-    "fr": "Accueil",
-    "en": "Homepage",
-    "lu": "Startsäit"
-  },
-  {
-    "page": "Version mobile",
-    "key": "welcome.nav-account",
-    "de": "Mein Konto",
-    "fr": "Mon compte",
-    "en": "My account",
-    "lu": "Mäi Kont"
-  },
-  {
-    "page": "Version mobile",
-    "key": "welcome.side-menu-home",
-    "de": "Startseite",
-    "fr": "Accueil",
-    "en": "Homepage",
-    "lu": "Startsäit"
-  },
-  {
-    "page": "Version mobile",
-    "key": "welcome.side-menu-news",
-    "de": "Aktualitäten",
-    "fr": "Actualités",
-    "en": "News",
-    "lu": "Neiegkeeten"
-  },
-  {
-    "page": "Version mobile",
-    "key": "welcome.side-menu-about",
-    "de": "Über BENU",
-    "fr": "À propos de BENU",
-    "en": "About BENU",
-    "lu": "Iwwer BENU"
-  },
-  {
-    "page": "Version mobile",
-    "key": "welcome.side-menu-client-participate",
-    "de": "Mitmachen",
-    "fr": "Participer",
-    "en": "Participate",
-    "lu": "Matmaachen"
-  },
-  {
-    "page": "Version mobile",
-    "key": "welcome.side-menu-client-contact",
-    "de": "Kontakt",
-    "fr": "Contact",
-    "en": "Contact",
-    "lu": "Kontakt"
-  },
-  {
-    "page": "Version mobile",
-    "key": "welcome.side-menu-client-newsletter",
-    "de": "Newsletter",
-    "fr": "Newsletter",
-    "en": "Newsletter",
-    "lu": "Newsletter"
   },
   {
     "page": "erreur",
@@ -5406,5 +4406,2061 @@
     "fr": "Ton équipe BENU",
     "en": "Your BENU team",
     "lu": "Deng BENU Ekipp"
+  },
+  {
+    "page": "E-Mail automatique",
+    "key": "emails.message-answer-subject",
+    "de": "Du hast eine Benachrichtigung in Deinem BENU Konto!",
+    "fr": "Tu as une notification dans ton compte BENU!",
+    "en": "You have a notification in your BENU account",
+    "lu": "Du hues eng Noriicht an Dengem BENU Konto!"
+  },
+  {
+    "page": "E-Mail automatique",
+    "key": "emails.message-answer-hello",
+    "de": "Hallo",
+    "fr": "Bonjour",
+    "en": "Hello",
+    "lu": "Moien"
+  },
+  {
+    "page": "E-Mail automatique",
+    "key": "emails.message-answer-txt-1",
+    "de": "Du hast uns über das Kontaktformular auf einer der BENU Internetseiten eine Nachricht geschickt! Vielen Dank!",
+    "fr": "Tu nous as envoyé un message en utilisant le formulaire de contact sur l'un des sites Internet de BENU! Merci beaucoup !",
+    "en": "You have sent us a message via the contact form on one of the BENU websites! Thank you very much!",
+    "lu": "Du hues eis iwwer de Kontaktformulaire op enger vun de BENU Internetsäiten eng Noriicht geschéckt! Villmools Merci!"
+  },
+  {
+    "page": "E-Mail automatique",
+    "key": "emails.message-answer-txt-2",
+    "de": "Unsere Antwort findest Du in Deinem BENU Konto unter \"Meine Mitteilungen\".",
+    "fr": "Tu trouveras notre réponse dans ton compte BENU sous \"Mes communications“.",
+    "en": "You will find our answer in your BENU account under \"my messages\".",
+    "lu": "Eis Äntwert fënns Du an Dengem BENU Konto ënnert \"Meng Noriichten\"."
+  },
+  {
+    "page": "E-Mail automatique",
+    "key": "emails.message-answer-conclusion-1",
+    "de": "Mit besten BENU Grüßen",
+    "fr": "Avec nos meilleures salutations BENU",
+    "en": "With best BENU greetings",
+    "lu": "Mat beschte BENU Gréiss"
+  },
+  {
+    "page": "E-Mail automatique",
+    "key": "emails.message-answer-signature",
+    "de": "Dein BENU Team",
+    "fr": "Ton équipe BENU",
+    "en": "Your BENU team",
+    "lu": "Deng BENU Ekipp"
+  },
+  {
+    "page": "slug",
+    "key": "slugs.about",
+    "de": "ueber",
+    "fr": "a-propos",
+    "en": "about",
+    "lu": "iwwer"
+  },
+  {
+    "page": "slug",
+    "key": "slugs.news",
+    "de": "aktualitaeten",
+    "fr": "actualites",
+    "en": "news",
+    "lu": "neiegkeeten"
+  },
+  {
+    "page": "slug",
+    "key": "slugs.newsletter-subscribe",
+    "de": "newsletter-abonnieren",
+    "fr": "inscription-newsletter",
+    "en": "subscribe-to-the-newsletter",
+    "lu": "newsletter-abonéieren"
+  },
+  {
+    "page": "slug",
+    "key": "slugs.newsletter-unsubscribe",
+    "de": "newsletter-kündigen",
+    "fr": "desabonnement-a-la-newsletter",
+    "en": "unsubscribe-from-the-newsletter",
+    "lu": "newsletter-kënnegen"
+  },
+  {
+    "page": "slug",
+    "key": "slugs.header-participate",
+    "de": "mitmachen",
+    "fr": "participer",
+    "en": "participate",
+    "lu": "matmaachen"
+  },
+  {
+    "page": "slug",
+    "key": "slugs.header-download-drop-off",
+    "de": "kontakt-herunterladen",
+    "fr": "telechargement-du-contact",
+    "en": "download-contact",
+    "lu": "kontakt-eroflueden"
+  },
+  {
+    "page": "slug",
+    "key": "slugs.footer-legal-mentions",
+    "de": "impressum",
+    "fr": "mentions-legales",
+    "en": "legal-notices",
+    "lu": "legal-informatiounen"
+  },
+  {
+    "page": "slug",
+    "key": "slugs.footer-policy",
+    "de": "datenschutz",
+    "fr": "politique-de-confidentialite",
+    "en": "privacy-policy",
+    "lu": "dateschutz"
+  },
+  {
+    "page": "slug",
+    "key": "slugs.general-conditions",
+    "de": "nutzungsbedingungen",
+    "fr": "conditions-generales",
+    "en": "terms-of-use",
+    "lu": "gebrauchsbedengungen"
+  },
+  {
+    "page": "slug",
+    "key": "slugs.sitemap",
+    "de": "seitenuebersicht",
+    "fr": "plan-du-site",
+    "en": "site-map",
+    "lu": "saeiteniwwersiicht"
+  },
+  {
+    "page": "slug",
+    "key": "slugs.services-contact",
+    "de": "kontakt",
+    "fr": "contact",
+    "en": "contact",
+    "lu": "kontakt"
+  },
+  {
+    "page": "home",
+    "key": "welcome.seo-title",
+    "de": "",
+    "fr": "",
+    "en": "",
+    "lu": ""
+  },
+  {
+    "page": "home",
+    "key": "welcome.seo-description",
+    "de": "",
+    "fr": "",
+    "en": "",
+    "lu": ""
+  },
+  {
+    "page": "participer",
+    "key": "participate.seo-title",
+    "de": "",
+    "fr": "",
+    "en": "",
+    "lu": ""
+  },
+  {
+    "page": "participer",
+    "key": "participate.seo-description",
+    "de": "",
+    "fr": "",
+    "en": "",
+    "lu": ""
+  },
+  {
+    "page": "actualités",
+    "key": "news.all-seo-title",
+    "de": "",
+    "fr": "",
+    "en": "",
+    "lu": ""
+  },
+  {
+    "page": "actualités",
+    "key": "news.all-seo-desc",
+    "de": "",
+    "fr": "",
+    "en": "",
+    "lu": ""
+  },
+  {
+    "page": "à propos",
+    "key": "about.seo-title",
+    "de": "",
+    "fr": "",
+    "en": "",
+    "lu": ""
+  },
+  {
+    "page": "à propos",
+    "key": "about.seo-description",
+    "de": "",
+    "fr": "",
+    "en": "",
+    "lu": ""
+  },
+  {
+    "page": "connexion",
+    "key": "auth.login-seo-title",
+    "de": "Anmeldung",
+    "fr": "Connexion",
+    "en": "Log in",
+    "lu": "Aloggen"
+  },
+  {
+    "page": "connexion",
+    "key": "auth.login-seo-desc",
+    "de": "",
+    "fr": "",
+    "en": "",
+    "lu": ""
+  },
+  {
+    "page": "inscription",
+    "key": "auth.register-seo-title",
+    "de": "Konto eröffnen",
+    "fr": "Créer un compte",
+    "en": "Create account",
+    "lu": "Kont opmaachen"
+  },
+  {
+    "page": "inscription",
+    "key": "auth.register-seo-desc",
+    "de": "",
+    "fr": "",
+    "en": "",
+    "lu": ""
+  },
+  {
+    "page": "mot passe oublie",
+    "key": "auth.password-forgotten-seo-title",
+    "de": "Passwort vergessen",
+    "fr": "Mot de passe oublié",
+    "en": "Forgotten password",
+    "lu": "Passwuert vergiess"
+  },
+  {
+    "page": "mot passe oublie",
+    "key": "auth.password-forgotten-seo-description",
+    "de": "",
+    "fr": "",
+    "en": "",
+    "lu": ""
+  },
+  {
+    "page": "erreur",
+    "key": "welcome.error-seo-title",
+    "de": "Fehlermeldung",
+    "fr": "Message d'erreur",
+    "en": "Error message",
+    "lu": "Feeler Message"
+  },
+  {
+    "page": "erreur",
+    "key": "welcome.error-seo-description",
+    "de": "",
+    "fr": "",
+    "en": "",
+    "lu": ""
+  },
+  {
+    "page": "Compte",
+    "key": "dashboard.seo-title",
+    "de": "Mein BENU Konto",
+    "fr": "Mon compte BENU",
+    "en": "My BENU account",
+    "lu": "Mäi BENU Kont"
+  },
+  {
+    "page": "Compte",
+    "key": "dashboard.seo-description",
+    "de": "",
+    "fr": "",
+    "en": "",
+    "lu": ""
+  },
+  {
+    "page": "newsletter sub",
+    "key": "auth.newsletter-subscribe-seo-title",
+    "de": "Mit dem Newsletter die Neuigkeiten von BENU verfolgen",
+    "fr": "Suivre l'actualité de BENU avec la newsletter",
+    "en": "Follow the news from BENU with the BENU newsletter",
+    "lu": "Mam BENU Newsletter d'Neiegkeete vu BENU suivéieren"
+  },
+  {
+    "page": "newsletter sub",
+    "key": "auth.newsletter-subscribe-seo-desc",
+    "de": "",
+    "fr": "",
+    "en": "",
+    "lu": ""
+  },
+  {
+    "page": "newsletter can",
+    "key": "auth.newsletter-cancelled-seo-title",
+    "de": "BENU Newsletter kündigen",
+    "fr": "Se désabonner de la newsletter BENU",
+    "en": "Unsubscribe from the BENU newsletter",
+    "lu": "BENU Newsletter kënnegen"
+  },
+  {
+    "page": "newsletter can",
+    "key": "auth.newsletter-cancelled-seo-desc",
+    "de": "",
+    "fr": "",
+    "en": "",
+    "lu": ""
+  },
+  {
+    "page": "cond. générales",
+    "key": "footer.general-conditions-seo-title",
+    "de": "",
+    "fr": "",
+    "en": "",
+    "lu": ""
+  },
+  {
+    "page": "cond. générales",
+    "key": "footer.general-conditions-seo-description",
+    "de": "",
+    "fr": "",
+    "en": "",
+    "lu": ""
+  },
+  {
+    "page": "Datenschutz",
+    "key": "footer.policy-seo-title",
+    "de": "DSGVO: Schutz personenbezogener Daten",
+    "fr": "RGPD : Protection des données personnelles",
+    "en": "RGPD: Protection of personal data",
+    "lu": "DSGVO: Schutz vu perséinlechen Donnéeën"
+  },
+  {
+    "page": "Datenschutz",
+    "key": "footer.policy-seo-description",
+    "de": "",
+    "fr": "",
+    "en": "",
+    "lu": ""
+  },
+  {
+    "page": "Impressum",
+    "key": "footer.legal-seo-title",
+    "de": "",
+    "fr": "",
+    "en": "",
+    "lu": ""
+  },
+  {
+    "page": "Impressum",
+    "key": "footer.legal-seo-description",
+    "de": "",
+    "fr": "",
+    "en": "",
+    "lu": ""
+  },
+  {
+    "page": "Sitemap",
+    "key": "footer.sitemap-title",
+    "de": "",
+    "fr": "",
+    "en": "",
+    "lu": ""
+  },
+  {
+    "page": "Sitemap",
+    "key": "footer.sitemap-desc",
+    "de": "",
+    "fr": "",
+    "en": "",
+    "lu": ""
+  },
+  {
+    "page": "Home",
+    "key": "header.participate",
+    "de": "Mitmachen",
+    "fr": "Participer",
+    "en": "Participate",
+    "lu": "Matmaachen"
+  },
+  {
+    "page": "Home",
+    "key": "header.news",
+    "de": "Aktualitäten",
+    "fr": "Actualités",
+    "en": "News",
+    "lu": "Neiegkeeten"
+  },
+  {
+    "page": "Home",
+    "key": "header.about",
+    "de": "Über BENU",
+    "fr": "À propos de BENU",
+    "en": "About BENU",
+    "lu": "Iwwer BENU"
+  },
+  {
+    "page": "Home",
+    "key": "breadcrumbs.about",
+    "de": "Über BENU",
+    "fr": "À propos de BENU",
+    "en": "About BENU",
+    "lu": "Iwwer BENU"
+  },
+  {
+    "page": "Home",
+    "key": "welcome.bar-title-1",
+    "de": "Sozial",
+    "fr": "Social",
+    "en": "Social",
+    "lu": "Sozial"
+  },
+  {
+    "page": "Home",
+    "key": "welcome.pres-title-1-1",
+    "de": "Soziales Miteinander in den BENU Werkstätten",
+    "fr": "La cohabitation sociale dans les ateliers BENU",
+    "en": "Social interaction in the BENU workshops",
+    "lu": "Déi sozial Communautéit an de BENU Atelieren"
+  },
+  {
+    "page": "Home",
+    "key": "welcome.pres-txt-1",
+    "de": "BENU setzt sich für Integration, Inklusion und gleiche Rechte für alle ein. Ein Drittel der Arbeitsplätze im BENU VILLAGE ist für Personen reserviert, die auf dem Arbeitsmarkt benachteiligt sind oder eines besonderen Schutzes bedürfen. BENU integriert z. B. Langzeitarbeitslose, Flüchtlinge und Asylbewerber:innen, Jugendliche ohne Berufserfahrung sowie nationale und internationale Freiwillige. Darüber hinaus bietet BENU Ausbildungsplätze an und gibt Praktikanten die Möglichkeit, die Arbeitswelt kennenzulernen.",
+    "fr": "BENU s'engage pour l'intégration, l'inclusion et l'égalité des droits pour tous. Un tiers des postes de travail de BENU VILLAGE sont réservés à des personnes défavorisées sur le marché du travail ou nécessitant une protection particulière. BENU intègre par exemple des chômeurs de longue durée, des réfugiés et des demandeurs d'asile, des jeunes sans expérience professionnelle ainsi que des volontaires nationaux et internationaux. En outre, BENU propose des places d’apprentissage et donne aux stagiaires la possibilité de découvrir le monde du travail.",
+    "en": "BENU is committed to integration, inclusion and equal rights for all. One third of the jobs at BENU VILLAGE are reserved for people who are disadvantaged in the labour market or in need of some special protection. BENU integrates, for instance, the long-term unemployed, refugees and asylum seekers, young people without work experience, and national and international volunteers. In addition, BENU offers apprenticeships and gives interns the opportunity to get to know the world of work.",
+    "lu": "BENU setzt sech fir Integratioun, Inclusioun an déi selwecht Rechter fir jiddereen an. Een Drëttel vun den Aarbechtsplazen am BENU VILLAGE si fir Persoune reservéiert, déi op dem Aarbechtsmarché benodeelegt sinn oder e besonnesche Schutz brauchen. BENU integréiert z.B Laangzäit-Aarbechtslosen, Refugié:en an Asylbewerber:innen, Jugendlecher ouni  Beruffserfarung, esou ewéi national an international Benevollen. Doriwwer eraus bitt BENU Ausbildungsplazen un a gëtt Stagiairen d’Méiglechkeet, d’Aarbechtswelt kennenzeléieren."
+  },
+  {
+    "page": "Home",
+    "key": "welcome.pres-link-1",
+    "de": "Ein bunt gemischtes Team arbeitet im BENU VILLAGE!",
+    "fr": "Une équipe hétéroclite travaille au BENU VILLAGE!",
+    "en": "A colourful team works in the BENU VILLAGE!",
+    "lu": "Eng wonnerbar divers Ekipp schafft am BENU VILLAGE!"
+  },
+  {
+    "page": "Home",
+    "key": "welcome.bar-title-2",
+    "de": "Ökologisch",
+    "fr": "Écologique",
+    "en": "Ecological",
+    "lu": "Ekologesch"
+  },
+  {
+    "page": "Home",
+    "key": "welcome.pres-title-2-1",
+    "de": "Ökologische Exzellenz in allen Bereichen",
+    "fr": "L'excellence écologique à tous les niveaux",
+    "en": "Ecological excellence in all areas",
+    "lu": "Ekologesch Exzellenz an alle Beräicher"
+  },
+  {
+    "page": "Home",
+    "key": "welcome.pres-txt-2",
+    "de": "Das Ökodorf BENU VILLAGE entsteht in nachhaltiger Bauweise mit maximaler Nutzung gebrauchter Materialien. Der Ressourcenverbrauch wird durch ein nachhaltiges Energie- und Regenwasserkonzept optimiert. Als innovatives Pilotprojekt zur Kreislaufwirtschaft sucht BENU in all seinen Aktivitäten kontinuierlich nach Verbesserungen: sei es bei der Reduzierung des Abfalls, dem Nutzen traditioneller Techniken oder der Entwicklung neuer Lösungen.",
+    "fr": "L'écovillage BENU VILLAGE est construit de manière durable, en recourant par exemple  à une utilisation maximale de matériaux usagés. La consommation des ressources est optimisée grâce à un concept durable d'énergie et d'eau de pluie. En tant que projet pilote innovant en matière d'économie circulaire, BENU cherche continuellement à s'améliorer dans toutes ses activités: qu'il s'agisse de réduire les déchets, d'utiliser des techniques traditionnelles ou de développer de nouvelles solutions.",
+    "en": "The BENU VILLAGE ecovillage is built using sustainable construction methods, by resorting, for instance, to used materials whenever it is possible. Our resource consumption is optimised through a sustainable energy and rainwater concept. As an innovative pilot project for the circular economy, BENU is continuously looking for improvements in all its activities: be it in reducing waste, using traditional techniques or developing new solutions.",
+    "lu": "D’Ekodorf BENU VILLAGE gëtt nohalteg gebaut, andeems beispillsweis maximal op gebrauchte Materialien zeréckgegraff gëtt. De Ressourcëverbrauch gëtt duerch en nohaltegt Energie- a Reewaasserkonzept optiméiert. Als innovative Pilotprojet zur Kreeslafwirtschaft sicht BENU bei all sengen Aktivitéite kontinuéierlech no Verbesserungsméiglechkeeten: sief et bei der Reduzéierung vum Offall, dem Notze vun traditionellen Techniken oder der Entwécklung vun neie Léisungen."
+  },
+  {
+    "page": "Home",
+    "key": "welcome.pres-link-2",
+    "de": "Entdecke BENU VILLAGE als innovatives Pilotprojekt!",
+    "fr": "Découvre BENU VILLAGE en tant que projet pilote innovant!",
+    "en": "Discover BENU VILLAGE as an innovative pilot project!",
+    "lu": "Entdeck BENU VILLAGE als innovative Pilotprojet!"
+  },
+  {
+    "page": "Home",
+    "key": "welcome.bar-title-3",
+    "de": "Lokal",
+    "fr": "Local",
+    "en": "Local",
+    "lu": "Lokal"
+  },
+  {
+    "page": "Home",
+    "key": "welcome.pres-title-3-1",
+    "de": "Lokale Produktion und lokale Aktivitäten",
+    "fr": "Production locale et activités locales",
+    "en": "Local production and local activities",
+    "lu": "Lokal Produktioun a lokal Aktivitéiten"
+  },
+  {
+    "page": "Home",
+    "key": "welcome.pres-txt-3",
+    "de": "Alle BENU Kreationen werden vor Ort im BENU VILLAGE entworfen und hergestellt. Die lokale Produktion garantiert handwerkliche Qualität und faire Arbeitsbedingungen, spart Ressourcen und reduziert Transportwege. Lokal aktiv sein heißt auch, Teil des Stadtlebens von Esch-sur-Alzette sein! BENU arbeitet mit lokalen Vereinen und Anwohner:innen zusammen, setzt sich für eine soziale Stadtentwicklung ein und unterstützt die Stadt bei der Umsetzung ihrer Klimapakt-Ziele.",
+    "fr": "Toutes les créations BENU sont conçues et fabriquées localement au BENU VILLAGE. La production locale garantit une qualité artisanale et des conditions de travail équitables, économise les ressources et réduit les distances de transport. Être actif localement - pour nous, cela signifie aussi faire partie de la vie urbaine d'Esch-sur-Alzette! BENU collabore avec des associations locales et des riverains, s'engage pour un développement urbain social et soutient la ville dans la réalisation de ses objectifs en matière de pacte climatique.",
+    "en": "All BENU creations are designed and manufactured locally at BENU VILLAGE. Local production guarantees craftsmanship and fair working conditions, saves resources and reduces transport distances. \nBeing locally active also means being part of the city life of Esch-sur-Alzette! BENU works with local associations and residents, promotes social urban development and supports the city in implementing its climate pact goals.",
+    "lu": "All BENU Kreatioune ginn op der Plaz am BENU VILLAGE entworf a produzéiert. Déi lokal Produktioun garantéiert handwierklech Qualitéit a fair Aarbechtskonditiounen, spuert Ressourcen a reduzéiert Transportweeër. Lokal aktiv sinn heescht och, en Deel vum Stadliewe vun Esch-Uelzecht ze sinn! BENU schafft mat lokale Veräiner a Residenten zesummen, setzt sech fir eng sozial Stadentwécklung an an ënnerstëtzt d’Stad Esch-Uelzecht bei der Ëmsetzung vun hire Klimapakt-Ziler."
+  },
+  {
+    "page": "Home",
+    "key": "welcome.pres-link-3",
+    "de": "Komm zu uns und erfahre mehr!",
+    "fr": "Rejoins-nous et apprends-en plus!",
+    "en": "Join us and find out more!",
+    "lu": "Komm bei eis a gëff nach méi gewuer!"
+  },
+  {
+    "page": "Home",
+    "key": "welcome.bar-title-4",
+    "de": "Transparent",
+    "fr": "Transparent",
+    "en": "Transparent",
+    "lu": "Transparent"
+  },
+  {
+    "page": "Home",
+    "key": "welcome.pres-title-4-1",
+    "de": "Transparente Kommunikation und Information",
+    "fr": "Communication et information transparentes",
+    "en": "Transparent communication and information",
+    "lu": "Transparent Kommunikatioun an Informatioun"
+  },
+  {
+    "page": "Home",
+    "key": "welcome.pres-txt-4",
+    "de": "BENU ist ein innovatives Pilotprojekt der sozio-ökologischen Kreislaufwirtschaft. Recherchen und Diskussionen mit Fachleuten und interessierten Personen helfen uns bei der fortlaufenden Weiterentwicklung von BENU. Transparente Kommunikation bedeutet für uns sowohl das Aufzeigen von Handlungsmöglichkeiten, als auch von Grenzen. Es ist uns wichtig, über unsere Arbeit zu informieren: warum machen wir etwas? Wie arbeiten wir? Welche Möglichkeiten haben wir? BENU möchte Menschen inspirieren!",
+    "fr": "BENU est un projet pilote innovant d'économie circulaire socio-écologique. Des recherches et des discussions avec des experts et des personnes intéressées nous aident à développer continuellement BENU. Pour nous, une communication transparente signifie aussi bien mettre en évidence les possibilités d'action que les limites. Il est important pour nous d'informer sur notre travail: pourquoi faisons-nous quelque chose? Comment travaillons-nous? Quelles sont nos possibilités? BENU veut inspirer les gens!",
+    "en": "BENU is an innovative pilot project of the socio-ecological circular economy. Research and discussions with experts and interested people help us in the continuous development of BENU. For us, transparent communication means pointing out possibilities for action, as well as limits. It is important for us to inform about our work: why do we do something? How do we work? What possibilities do we have? BENU wants to inspire people!",
+    "lu": "BENU ass en innovative Pilotprojet vun der sozio-ekologescher Kreeslafwirtschaft. Recherchen an Diskussioune mat Fachleit an intresséierte Persounen hëllefen eis bei der konstanter Weiderentwécklung vu BENU. Transparent Kommunikatioun heescht fir eis, esou wuel eis Handlungsoptiounen, ewéi och eis Grenze kloer ze ënnersträichen. Et ass eis wichteg, iwwer eis Aarbecht ze informéieren: firwat maache mir eppes? Wéi schaffe mir? Wat fir eng Méiglechkeeten hu mir? BENU wëll d’Leit inspiréieren!"
+  },
+  {
+    "page": "Home",
+    "key": "welcome.pres-link-4",
+    "de": "Komm uns im BENU VILLAGE besuchen!",
+    "fr": "Viens nous rendre visite au BENU VILLAGE!",
+    "en": "Come and visit us at BENU VILLAGE!",
+    "lu": "Komm eis an de BENU VILLAGE besichen!"
+  },
+  {
+    "page": "Home",
+    "key": "welcome.bar-title-5",
+    "de": "Partizipativ",
+    "fr": "Participatif",
+    "en": "Participative",
+    "lu": "Participativ"
+  },
+  {
+    "page": "Home",
+    "key": "welcome.pres-title-5-1",
+    "de": "Kooperation und Zusammenarbeit",
+    "fr": "Coopération et collaboration",
+    "en": "Cooperation and collaboration",
+    "lu": "Kooperatioun an Zesummenaarbecht"
+  },
+  {
+    "page": "Home",
+    "key": "welcome.pres-txt-5",
+    "de": "BENU VILLAGE ist ein Ort der Begegnung. Ob jung oder alt, ob als Privatpersonen, Verein oder Unternehmen - wir laden ein, bei BENU mitzumachen. BENU bietet Beratung, Workshops und unterschiedliche Aktivitäten an. Das partizipative Kunstprojekt BENU METAMORPHOSE bringt darüber hinaus Freiwillige mit Künstler:innen aus verschiedenen Kulturkreisen zusammen. Für Menschen, die ihren Beitrag zur nachhaltigen Veränderung unseres Konsumverhaltens leisten möchten, bietet BENU REUSE - unsere Austausch-Plattform für gebrauchte Gegenstände - die ideale Möglichkeit.",
+    "fr": "BENU VILLAGE est un lieu de rencontre. Que vous soyez jeune ou moins jeune, que vous soyez un particulier, une association ou une entreprise, nous vous invitons à participer à BENU. BENU propose des conseils, des ateliers et différentes activités. Le projet artistique participatif BENU METAMORPHOSE réunit en outre des bénévoles et des artistes issus de différents milieux culturels. Pour ceux qui souhaitent contribuer à un changement durable de nos habitudes de consommation, BENU REUSE - notre plateforme d'échange d'objets usagés - constitue la solution idéale.",
+    "en": "BENU VILLAGE is a place where encounters happen. Young or old, private individuals, associations or companies - we invite you to join BENU. BENU offers advice, workshops and various activities. The participatory art project BENU METAMORPHOSE also brings together volunteers and artists from different cultural backgrounds. For people who want to contribute to a sustainable change in our consumption behaviour, BENU REUSE - exchange platform for used objects - is an ideal opportunity.",
+    "lu": "BENU VILLAGE ass eng Plaz vun der Renconter. Ob jonk oder al, als Privatpersoun, Veräin oder Entreprise - mir invitéieren, bei BENU matzemaachen. BENU bitt Berodung, Workshops an ënnerschiddlech Aktivitéiten un. De participative Konschtprojet BENU METAMORPHOSE bréngt doriwwer eraus Fräiwëlleger mat Kënschtler:innen aus verschiddene Kulturkreesser zesummen. Fir Mënschen, déi hiren Deel zu enger nohalteger Verännerung vun eisem Konsumverhale bäidroe wëllen, stellt BENU REUSE - eis Austausch-Plattform fir gebrauchten Objeten - déi ideal Méiglechkeet duer."
+  },
+  {
+    "page": "Home",
+    "key": "welcome.pres-link-5",
+    "de": "Auch Du kannst mitmachen!",
+    "fr": "Toi aussi, tu peux y participer !",
+    "en": "You too can join in!",
+    "lu": "Och Du kanns matmaachen!"
+  },
+  {
+    "page": "Home",
+    "key": "about.toptitle",
+    "de": "",
+    "fr": "",
+    "en": "",
+    "lu": ""
+  },
+  {
+    "page": "Home",
+    "key": "about.title",
+    "de": "",
+    "fr": "",
+    "en": "",
+    "lu": ""
+  },
+  {
+    "page": "Home",
+    "key": "about.subtitle-1",
+    "de": "Ein Ort, der die Menschen bewegt - warum BENU?",
+    "fr": "Un lieu qui fait bouger les gens - pourquoi BENU?",
+    "en": "A place that moves people - why BENU?",
+    "lu": "Eng Plaz, déi Mënsche beweegt - firwat BENU?"
+  },
+  {
+    "page": "Home",
+    "key": "about.paragraph-1-1",
+    "de": "Auf der Suche nach “korrekten”, “gerechten”, “sauberen” Produkten und Leistungen tauchen viele Fragen auf. Intransparenz, wohin man auch schaut. Was taugt ein Label? Wie ordentlich sind die Arbeitsbedingungen bei der Herstellung von Produkten und Nahrungsmitteln? Welche Alternativen gibt es, bevor ich ein Produkt endgültig entsorgen muss? Ist eine Produktion, die keine neuen Ressourcen verbraucht, möglich?",
+    "fr": "Lors de la recherche de produits et de services \"corrects\", „justes\" ou \"propres\", de nombreuses questions surgissent. On constate un manque de transparence partout. Que vaut exactement un label? Les conditions de travail lors de la fabrication des produits et des aliments sont-elles correctes? Quelles sont les alternatives à l’élimination d’un produit? Une production qui ne consomme pas de nouvelles ressources est-elle possible?",
+    "en": "While looking for \"correct\", „fair\" or \"clean\" products and services, many questions arise. There is intransparency wherever you look. What exactly is a label good for? How proper are the working conditions in the production of goods and food? What alternatives to the disposal of a product are actually available to me? Is it even possible to produce without consuming new resources?",
+    "lu": "Op der Sich no “korrekten”, “gerechten”, “proppere” Produiten a Leeschtungen dauche vill Froen op. Intransparenz, egal wouhin een och kuckt. Wat bréngt eigentlech e Label? Wéi sinn d’Aarbechtsbedéngunge bei der Hierstellung vu Produiten a Liewensmëttel? Wéi eng Alternativen zur Entsuergung vun engem Produit sti mir eigentlech zur Verfügung? Ass et iwwerhaapt méiglech, eppes ze produzéieren, ouni Ressourcen ze verbrauchen?"
+  },
+  {
+    "page": "Home",
+    "key": "about.paragraph-1-2",
+    "de": "Diese und ähnliche Fragen beschäftigen uns seit Jahren.",
+    "fr": "Ces questions et beaucoup d'autres nous préoccupent depuis des années.",
+    "en": "These and similar questions have been on our minds for years.",
+    "lu": "Dës an änlech Froe beschäftegen eis zanter ville Joren."
+  },
+  {
+    "page": "Home",
+    "key": "about.paragraph-1-3",
+    "de": "Kritisieren und diskutieren ist gut. Handeln und Antworten finden ist besser…",
+    "fr": "Critiquer et discuter, c'est bien - mais agir et trouver des réponses est encore mieux...",
+    "en": "Criticising and discussing is good - however, acting and finding answers is better...",
+    "lu": "Kritiséieren an diskutéieren ass gutt; aktiv ginn an Äntwerte fannen ass besser…"
+  },
+  {
+    "page": "Home",
+    "key": "about.paragraph-1-4",
+    "de": "Aus dieser Erkenntnis heraus entstand die Idee von BENU. Im Jahr 2017 wurde schließlich die  BENU Village Esch asbl gegründet und der Weg für BENU VILLAGE bereitet: dem ersten Ökodorf in Luxemburg und der Großregion! Hier findest Du Antworten, und vor allem Alternativen.",
+    "fr": "C'est de ce constat qu'est née en 2015 l'idée de BENU VILLAGE: le premier écovillage au Luxembourg et dans la Grande Région! Ici, tu trouves des réponses - et surtout des alternatives.",
+    "en": "This realisation gave birth to the idea of BENU VILLAGE in 2015: the first ecovillage in Luxembourg and the Greater Region! Here you will find answers and - above all - alternatives.",
+    "lu": "Aus dëser Erkenntnis eraus ass am Joer 2015 d’Iddi vu BENU VILLAGE entstanen: dem éischten Ekoduerf zu Lëtzebuerg an an der Groussregioun! Hei fënns du Äntwerten a virun allem Alternativen."
+  },
+  {
+    "page": "Home",
+    "key": "about.paragraph-1-5",
+    "de": "BENU VILLAGE ist ein Ort für viele unterschiedliche Aktivitäten, die im Einklang mit ökologischen und sozialen Werten stehen.",
+    "fr": "BENU VILLAGE est un lieu où de nombreuses activités différentes se déroulent, toutes en accord avec des valeurs écologiques et sociales.",
+    "en": "BENU VILLAGE is a place where many different projects and activities happen, all of which are in harmony with ecological and social values.",
+    "lu": "BENU VILLAGE ass eng Plaz, wou vill ënnerschiddlech Aktivitéiten a Projeten um Programm stinn, déi all am Aklang mat ekologeschen a soziale Wäerter stinn."
+  },
+  {
+    "page": "Home",
+    "key": "about.paragraph-1-link-4",
+    "de": "Hier",
+    "fr": "Ici",
+    "en": "Here",
+    "lu": "Hei"
+  },
+  {
+    "page": "Home",
+    "key": "about.paragraph-1-6",
+    "de": "erfährst Du mehr über BENU VILLAGE!",
+    "fr": "tu en apprendras plus sur BENU VILLAGE !",
+    "en": "you can find out more about BENU VILLAGE!",
+    "lu": "gëss Du méi iwwer BENU VILLAGE gewuer!"
+  },
+  {
+    "page": "Home",
+    "key": "about.subtitle-2",
+    "de": "Was ist die Rolle der BENU Village Esch asbl?",
+    "fr": "Quel est le rôle de BENU Village Esch asbl?",
+    "en": "What is the role of BENU Village Esch asbl?",
+    "lu": "Wat ass d’Roll vun der BENU Village Esch asbl?"
+  },
+  {
+    "page": "Home",
+    "key": "about.paragraph-2-1",
+    "de": "Die BENU Village Esch asbl ist ein Vereinigung ohne Gewinnzwecke. Sie begleitet BENU bei der Konzeption, der Realisierung und der Kommunikation des Ökodorfes BENU VILLAGE in der Stadt Esch-sur-Alzette im Süden des Großherzogtums Luxemburg.",
+    "fr": "BENU Village Esch asbl est une association sans but lucratif. Elle accompagne BENU dans la conception, la réalisation et la communication de l'écovillage BENU VILLAGE dans la ville d’Esch-sur-Alzette au sud du Grand-Duché de Luxembourg.",
+    "en": "BENU Village Esch asbl is a non-profit association. It accompanies BENU in the conception, realisation and communication of the BENU VILLAGE ecovillage in the city of Esch-sur-Alzette in the south of the Grand-Duchy of Luxembourg.",
+    "lu": "D’BENU Village Esch asbl ass eng Organisatioun ouni lukrativen Zweck. Si begleet BENU bei der Konzeptioun, der Realiséierung an der Kommunikatioun vum Ekoduerf BENU VILLAGE an der Stad Esch-Uelzecht."
+  },
+  {
+    "page": "Home",
+    "key": "about.paragraph-2-2",
+    "de": "Ermöglicht wird die Realisierung von BENU VILLAGE durch die großzügige Unterstützung der Stadt Esch-sur-Alzette. Weitere engagierte Förderer sind das Ministerium für Umwelt, Klima und nachhaltige Entwicklung, das Wirtschaftsministerium, die Oeuvre Nationale de Secours Grande-Duchesse Charlotte und die Fondation André Losch.",
+    "fr": "La réalisation de BENU VILLAGE est rendue possible grâce au généreux soutien de la ville d'Esch-sur-Alzette. D'autres soutiens engagés constituent le Ministère de l'Environnement, du Climat et du Développement durable, le Ministère de l’Économie, l'Œuvre Nationale de Secours Grande-Duchesse Charlotte et la Fondation André Losch.",
+    "en": "The realisation of BENU VILLAGE is made possible by the generous support of the city of Esch-sur-Alzette. Other committed sponsors are the Ministry of Environment, Climate and Sustainable Development, the Ministry of Economy, the Oeuvre Nationale de Secours Grande-Duchesse Charlotte and the Fondation André Losch.",
+    "lu": "D’Ëmsetzung vu BENU VILLAGE gëtt duerch déi generéis Ënnerstëtzung vun der Stad Esch-Uelzecht erméiglecht. Weideren, wäertvolle Support kréie mir vum Ministère de l’Environnement, du Climat et du Développement Durable, dem Ministère de l’Économie et du Commerce, der Oeuvre Nationale de Secours Grande-Duchesse Charlotte an der Fondation André Losch."
+  },
+  {
+    "page": "Home",
+    "key": "about.paragraph-2-3",
+    "de": "Doch die BENU Village Esch asbl unterstützt und begleitet nicht nur den Bau von BENU VILLAGE - sie sucht auch nach neuen Wegen. BENU Village Esch asbl initiiert und begleitet Pilotprojekte und nachhaltige Aktivitäten. Alle BENU Aktivitäten und Projekte basieren auf den folgenden Werten:",
+    "fr": "Cependant, BENU Village Esch asbl ne se contente pas de soutenir et d'accompagner la construction de BENU VILLAGE - elle cherche aussi de nouvelles voies. BENU Village Esch asbl lance et accompagne des projets pilotes et des activités durables. Toutes les activités et projets de BENU sont basés sur les valeurs suivantes:",
+    "en": "However, BENU Village Esch asbl does not only support and accompany the construction of BENU VILLAGE - it also looks for new ways to go. In this light, BENU Village Esch asbl initiates and accompanies pilot projects and sustainable activities. All BENU activities and projects are based on the following values:",
+    "lu": "D’BENU Village Esch asbl ënnerstëtzt a begleet net just den Opbau vum BENU VILLAGE - se sicht och no neie Weeër. BENU Village Esch asbl initiéiert a begleet Pilotprojeten an nohalteg Aktivitéiten. All BENU Aktivitéit oder Projet baséiert op dëse Wäerter:"
+  },
+  {
+    "page": "Home",
+    "key": "about.paragraph-2-4",
+    "de": "Transparenz",
+    "fr": "transparence",
+    "en": "transparency",
+    "lu": "Transparenz"
+  },
+  {
+    "page": "Home",
+    "key": "about.paragraph-2-5",
+    "de": "soziale Verantwortung",
+    "fr": "responsabilité sociale",
+    "en": "social responsibility",
+    "lu": "sozial Verantwortung"
+  },
+  {
+    "page": "Home",
+    "key": "about.paragraph-2-6",
+    "de": "lokale Produktion",
+    "fr": "production locale",
+    "en": "local production",
+    "lu": "lokal Produktioun"
+  },
+  {
+    "page": "Home",
+    "key": "about.paragraph-2-7",
+    "de": "ökologische Exzellenz",
+    "fr": "l'excellence écologique",
+    "en": "ecological excellence",
+    "lu": "ekologesch Exzellenz"
+  },
+  {
+    "page": "Home",
+    "key": "about.subtitle-3",
+    "de": "Woher kommt eigentlich der Name „BENU“?",
+    "fr": "D'où vient le nom „BENU“?",
+    "en": "Where does the name „BENU“ actually come from?",
+    "lu": "Wouhier kennt eigentlech den Numm „BENU“?"
+  },
+  {
+    "page": "Home",
+    "key": "about.paragraph-3-1",
+    "de": "„BENU“ wird ausgesprochen wie der englische Ausdruck ‘Be New!’, und bedeutet ‘Sei Neu!’. Der BENU Vogel, der auf unserem Logo zu sehen ist, entspringt der ägyptischen Mythologie und wurde - meist in Form eines Reihers - bereits in den ägyptischen Pyramiden dargestellt. Er ist der Vorfahre des griechischen Phönix, dieses wunderschönen roten Vogels, der am Ende seines Lebenszyklus verbrennt oder stirbt, um aus seiner Asche immer wieder neu zu erstehen.",
+    "fr": "„BENU“ se prononce comme l'expression anglaise 'Be New!', et signifie 'sois nouveau'! L'oiseau BENU, qui figure sur notre logo, est issu de la mythologie égyptienne et était déjà représenté - généralement sous la forme d'un héron - dans les pyramides égyptiennes. Il est soit-disant l'ancêtre du phénix grec, ce magnifique oiseau rouge qui, à la fin de son cycle de vie, se consume ou meurt pour renaître à chaque fois de ses cendres.",
+    "en": "„BENU“ is pronounced like the English expression 'Be New'. The BENU bird, which can be seen on our logo, originates from Egyptian mythology and was already depicted - usually in the form of a heron - in the Egyptian pyramids. We could say it is the ancestor of the Greek phoenix, this beautiful red bird that burns or dies at the end of its life cycle, only to be reborn again and again from its ashes.",
+    "lu": "„BENU“ gëtt ausgeschwat ewéi den engleschen Ausdrock ‘Be New!’, a bedeit ‘Sief nei!’. De BENU Villchen, deen op eisem Logo ze gesinn ass, entspréngt der ägyptescher Mythologie a gouf - meeschtens an der Gestalt vun engem Reier - schonn an den ägyptesche Pyramiden duergestallt. En ass souzesoen de Virgänger vum griichesche Phönix, dësem wonnerschéinen, roude Villchen, deen zum Schluss vu sengem Liewenszyklus verbrennt, fir aus sengen Äschen ëmmer nees nei ze entstoen."
+  },
+  {
+    "page": "Home",
+    "key": "about.paragraph-3-2",
+    "de": "Das Bild des Phönix’ symbolisiert die Gesamtidee von BENU!",
+    "fr": "L'image du phénix symbolise l'idée générale de BENU!",
+    "en": "The image of the phoenix symbolises the overall idea of BENU!",
+    "lu": "D’Bild vum Phönix symboliséiert d’Iddi vu BENU!"
+  },
+  {
+    "page": "Home",
+    "key": "about.paragraph-3-3",
+    "de": "BENU hat sich einer konsequenten sozio-ökologischen Kreislaufwirtschaft verschrieben. Wiederverwendung, UpCycling, „Aus alt mach neu“, …. Ständig suchen wir nach Möglichkeiten, Bestehendes weiter zu verwenden und weniger neue Ressourcen zu verbrauchen.",
+    "fr": "BENU s'engage dans une économie circulaire socio-écologique cohérente. Réutilisation, UpCycling, \"faire du neuf avec du vieux\", .... Nous cherchons en permanence des possibilités de réutiliser ce qui existe déjà, et de consommer moins de nouvelles ressources.",
+    "en": "BENU is committed to a consistent socio-ecological circular economy. Reuse, UpCycling, \"make something new from something old“, .... We are constantly looking for ways to reuse existing things, and to use fewer new resources.",
+    "lu": "BENU huet sech enger konsequenter, sozio-ekologescher Kreeslafwirtschaft verschriwwen. Recyclage, UpCycling, „aus al maach nei“, …. Ëmmer nees siche mir no Méiglechkeeten, eppes weider ze gebrauchen a manner nei Ressourcen ze verbrauchen."
+  },
+  {
+    "page": "Home",
+    "key": "about.paragraph-3-4",
+    "de": "Bleib auch Du gespannt, und lass Dich mitreißen von der Innovationskraft unseres UpCyclingdorfes, das als professionelle (Kunst-)Bühne für zahlreiche Aktivitäten Platz bietet. Hier findest Du lokales und innovatives Essen, sozialverantwortliche Kleidung, die vor Ort  entwickelt, hergestellt und verkauft wird, und vieles, vieles mehr!",
+    "fr": "Alors reste curieux et laisse-toi emporter par la force d'innovation de notre village UpCycling, qui devient progressivement la scène artistique et professionnelle pour de nombreuses activités. Tu peux y trouver de la nourriture locale et innovante, des vêtements socialement responsables conçus, fabriqués et vendus sur place, et bien d'autres choses encore!",
+    "en": "So stay tuned and let yourself be carried away by the innovative power of our UpCycling Village, which progressively becomes a professional (art) stage for numerous activities. Here, you will find local and innovative food, as well as socially responsible clothing that is designed, made and sold locally, and much, much more!",
+    "lu": "Bleif och Du gespaant a looss Dech begeeschtere vun der Innovatiounskraaft vun eisem UpCycling-Duerf, dat sech progressiv als professionell (Konscht-) Bün vu villen ënnerschiddlechen Aktivitéiten entwéckelt. Hei fënns Du lokaalt an innovatiivt Iessen, sozialverantwortlecht Gezei, wat direkt op der Plaz entworf, produzéiert a verkaf gëtt, a nach villes, villes méi!"
+  },
+  {
+    "page": "Home",
+    "key": "about.paragraph-3-5",
+    "de": "Folge BENU auf",
+    "fr": "Suis BENU sur",
+    "en": "Follow BENU on",
+    "lu": "Bleif mat BENU iwwer"
+  },
+  {
+    "page": "Home",
+    "key": "about.paragraph-3-link-1",
+    "de": "Facebook",
+    "fr": "Facebook",
+    "en": "Facebook",
+    "lu": "Facebook"
+  },
+  {
+    "page": "Home",
+    "key": "about.paragraph-3-6",
+    "de": "und",
+    "fr": "et",
+    "en": "and",
+    "lu": "an"
+  },
+  {
+    "page": "Home",
+    "key": "about.paragraph-3-link-2",
+    "de": "Instagram",
+    "fr": "Instagram",
+    "en": "Instagram",
+    "lu": "Instagram"
+  },
+  {
+    "page": "Home",
+    "key": "about.paragraph-3-7",
+    "de": "oder melde Dich für den",
+    "fr": "ou inscris-toi à la",
+    "en": "or sign up for the",
+    "lu": "a Kontakt, oder mell Dech fir den"
+  },
+  {
+    "page": "Home",
+    "key": "about.paragraph-3-link-3",
+    "de": "Newsletter",
+    "fr": "newsletter",
+    "en": "newsletter",
+    "lu": "Newsletter"
+  },
+  {
+    "page": "Home",
+    "key": "about.paragraph-3-8",
+    "de": "an, den wir regelmäßig verschicken, um über aktuelle Aktivitäten und Projekte von BENU zu informieren.",
+    "fr": "que nous envoyons régulièrement, pour te tenir au courant des activités et projets actuels de BENU.",
+    "en": "that we send out regularly to inform you about BENU's current activities and projects.",
+    "lu": "un, dee mir reegelméisseg verschécken, fir iwwer aktuell Aktivitéiten a Projete vu BENU ze informéieren."
+  },
+  {
+    "page": "Home",
+    "key": "participate.toptitle",
+    "de": "",
+    "fr": "",
+    "en": "",
+    "lu": ""
+  },
+  {
+    "page": "Home",
+    "key": "participate.title",
+    "de": "Auch Du kannst bei BENU mitmachen!",
+    "fr": "Tu peux participer à BENU toi aussi!",
+    "en": "You can participate in BENU as well!",
+    "lu": "Och Du kanns bei BENU matmaachen!"
+  },
+  {
+    "page": "Home",
+    "key": "participate.paragraph-0-1",
+    "de": "Wir freuen uns über Dein Interesse an BENU. Schön, dass Du mitmachen möchtest! Es gibt viele Möglichkeiten, ein Teil von BENU zu werden. Du kannst z.B. …",
+    "fr": "Nous nous réjouissons de ton intérêt pour BENU, et nous sommes heureux que tu veuilles participer! Il existe de nombreuses possibilités de faire partie de BENU. Tu peux par exemple ...",
+    "en": "We are pleased that you are interested in BENU, and glad that you want to participate! There are many possibilities to become part of BENU. You can for example...",
+    "lu": "Mir freeën eis iwwer Däin Intressi u BENU an doriwwer, dass Du bei eis matmaache wëlls! Et gëtt vill Méiglechkeeten, wéi s Du en Deel vu BENU kanns ginn. Du kanns z.B …"
+  },
+  {
+    "page": "Home",
+    "key": "participate.subtitle-1",
+    "de": "Als Freiwillige:r helfen",
+    "fr": "Aider en tant que bénévole",
+    "en": "Help as a volunteer",
+    "lu": "Als Benevole hëllefen"
+  },
+  {
+    "page": "Home",
+    "key": "participate.paragraph-1-1",
+    "de": "Du kannst uns z.B. bei der Gestaltung des Ökodorfes BENU VILLAGE helfen. Aber auch bei der Unterstützung des BENU Teams bei Veranstaltungen oder anderen Aktivitäten ist Unterstützung willkommen! Regelmäßig machen wir Aufrufe zur Mithilfe auf",
+    "fr": "Que ce soit en participant à l'aménagement de l'écovillage BENU VILLAGE ou en aidant l'équipe BENU lors d'événements ou d'autres activités. Nous lançons régulièrement des appels à l'aide sur",
+    "en": "Whether it's by helping to build the BENU VILLAGE or by helping the BENU team at events or other activities: we regularly call for help on",
+    "lu": "Ob bei der Gestaltung vum Ekoduerf BENU VILLAGE oder bei der Ënnerstëtzung vum BENU Team bei den Evenementer oder aneren Aktivitéiten: mir froe reegelméisseg no Hëllef, andeems mir en Opruff op"
+  },
+  {
+    "page": "Home",
+    "key": "participate.paragraph-1-link-1",
+    "de": "Facebook,",
+    "fr": "Facebook,",
+    "en": "Facebook,",
+    "lu": "Facebook,"
+  },
+  {
+    "page": "Home",
+    "key": "participate.paragraph-1-link-2",
+    "de": "Instagram",
+    "fr": "Instagram",
+    "en": "Instagram",
+    "lu": "Instagram"
+  },
+  {
+    "page": "Home",
+    "key": "participate.paragraph-1-2",
+    "de": "oder im",
+    "fr": "ou dans la",
+    "en": "or in the",
+    "lu": "oder am"
+  },
+  {
+    "page": "Home",
+    "key": "participate.paragraph-1-link-3",
+    "de": "BENU Newsletter.",
+    "fr": "BENU Newsletter.",
+    "en": "BENU Newsletter.",
+    "lu": "BENU Newsletter."
+  },
+  {
+    "page": "Home",
+    "key": "participate.paragraph-1-3",
+    "de": "BENU bietet jungen Erwachsenen außerdem die Möglichkeit, im Rahmen des Freiwilligendienstes (Service volontaire) vielseitige, praktische Erfahrungen im sozialen Bereich zu machen.",
+    "fr": "BENU offre également aux jeunes adultes la possibilité d'acquérir une expérience pratique et variée dans le domaine social, notamment dans le cadre du Service volontaire.",
+    "en": "BENU also offers young adults the opportunity to gain practical and varied experience in the social area, especially within the framework of the „Service volontaire“.",
+    "lu": "BENU offréiert Jonken och d’Méiglechkeet, am Kontext vum Fräiwëllegendéngscht (Service volontaire) verschidde praktesch Erfarungen am soziale Beräich ze maachen."
+  },
+  {
+    "page": "Home",
+    "key": "participate.paragraph-1-4",
+    "de": "Wenn Du bei BENU als Freiwillige:r mitwirken möchtest,",
+    "fr": "Si tu souhaites faire du bénévolat chez BENU,",
+    "en": "If you are interested in volunteering at BENU,",
+    "lu": "Wann s Du bei BENU als Benevole matmaache wëlls,"
+  },
+  {
+    "page": "Home",
+    "key": "participate.paragraph-1-link-4",
+    "de": "dann melde Dich bei uns!",
+    "fr": "contacte-nous !",
+    "en": "please contact us!",
+    "lu": "da mell Dech bei eis!"
+  },
+  {
+    "page": "Home",
+    "key": "participate.subtitle-2",
+    "de": "Ein Teil von BENU VILLAGE werden",
+    "fr": "Faire partie de BENU VILLAGE",
+    "en": "Become part of BENU VILLAGE",
+    "lu": "En Deel vu BENU VILLAGE ginn"
+  },
+  {
+    "page": "Home",
+    "key": "participate.paragraph-2-1",
+    "de": "Das neue Ökodorf BENU VILLAGE in Esch-sur-Alzette ist ein Ort für unterschiedliche Aktivitäten, die im Einklang mit ökologischen und sozialen Werten stehen. BENU lebt vom Miteinander, vom Austausch und von der Kooperation.",
+    "fr": "Le nouvel écovillage BENU VILLAGE à Esch-sur-Alzette est un lieu d'activités diverses, en accord avec des valeurs écologiques et sociales. BENU vit de la communauté, de l'échange et de la coopération.",
+    "en": "The new ecovillage BENU VILLAGE in Esch-sur-Alzette is a place for various activities in accordance with ecological and social values. BENU thrives on community, exchange and cooperation.",
+    "lu": "Dat neit Ekoduerf BENU VILLAGE zu Esch-Uelzecht ass eng Plaz, wou ganz ënnerschiddlech Aktivitéiten, déi all am Aklang mat ekologeschen a soziale Wäerter sinn, stattfannen. BENU lieft vun der Gemeinschaft, dem Austausch an der Kooperatioun."
+  },
+  {
+    "page": "Home",
+    "key": "participate.paragraph-2-2",
+    "de": "Auch Du kannst Dich mit Deiner eigenen Initiative, Firma oder Firmenidee im",
+    "fr": "Toi aussi, tu peux t'installer au",
+    "en": "You can set up in the",
+    "lu": "Och Du kanns Dech mat Denger eegener Initiative, Denger Firma oder Denger Iddi am"
+  },
+  {
+    "page": "Home",
+    "key": "participate.paragraph-2-link-1",
+    "de": "BENU VILLAGE",
+    "fr": "BENU VILLAGE",
+    "en": "BENU VILLAGE",
+    "lu": "BENU VILLAGE"
+  },
+  {
+    "page": "Home",
+    "key": "participate.paragraph-2-3",
+    "de": "niederlassen!",
+    "fr": "avec ta propre initiative, ton entreprise ou ton idée d'entreprise !",
+    "en": "with your own initiative, your business or your business idea as well!",
+    "lu": "installéieren!"
+  },
+  {
+    "page": "Home",
+    "key": "participate.paragraph-2-4",
+    "de": "Du hast Interesse?",
+    "fr": "Tu es intéressé(e)?",
+    "en": "Are you interested?",
+    "lu": "Du bass intresséiert?"
+  },
+  {
+    "page": "Home",
+    "key": "participate.paragraph-2-link-2",
+    "de": "Dann kontaktiere uns!",
+    "fr": "Alors contacte-nous !",
+    "en": "Then contact us!",
+    "lu": "Da kontaktéier eis!"
+  },
+  {
+    "page": "Home",
+    "key": "participate.subtitle-3",
+    "de": "Aktiv teilnehmen",
+    "fr": "Participer activement",
+    "en": "Take an active part",
+    "lu": "Aktiv matmaachen"
+  },
+  {
+    "page": "Home",
+    "key": "participate.paragraph-3-1",
+    "de": "BENU organisiert Workshops und Aktivitäten zu unterschiedlichen Themen. Wir bieten  Interessierten darüber hinaus die Möglichkeit, an partizipativen Projekten - wie BENU METAMORPHOSE - teilzunehmen. Mit diesem Projekt wird das Ökodorf BENU VILLAGE in seinen Außen- und Innenbereichen künstlerisch gestaltet. Auch Du kannst mitmachen!",
+    "fr": "BENU organise des ateliers et des activités par rapport à des thèmes différents. Nous offrons en outre aux personnes intéressées la possibilité de prendre part à des projets participatifs - tels que BENU METAMORPHOSE. Dans le cadre de ce projet, les espaces extérieurs et intérieurs de l'écovillage BENU VILLAGE sont aménagés de manière artistique. Toi aussi, tu peux y participer!",
+    "en": "BENU organises workshops and activities on different topics. In addition, we offer interested people the opportunity to take part in participatory projects - such as BENU METAMORPHOSE. This project pursues the artistic design of the outdoor and indoor areas of  the BENU VILLAGE. You can participate, too!",
+    "lu": "BENU organiséiert Workshops an Aktivitéiten zu ënnerschiddlechen Themen. Mir bidden Intresséierten doriwwer eraus d’Méiglechkeet, u participative Projeten - ewéi dem BENU METAMORPHOSE - deel ze huelen. Zil vun dësem Projet ass et, d’Ekoduerf BENU VILLAGE a senge Baussen- a Banneberäicher kënschtleresch ze gestalten.  Och Du kanns matmaachen!"
+  },
+  {
+    "page": "Home",
+    "key": "participate.paragraph-3-link-1",
+    "de": "Melde Dich bei uns!",
+    "fr": "N'hésite pas à nous contacter !",
+    "en": "Don't hesitate to contact us!",
+    "lu": "Mell Dech bei eis!"
+  },
+  {
+    "page": "Home",
+    "key": "participate.paragraph-3-2",
+    "de": "Aktuelle Termine und Aktivitäten findest Du auch auf",
+    "fr": "Tu trouveras également les dates et activités actuelles sur",
+    "en": "You can also find the current dates and activities on",
+    "lu": "Aktuell Datumer an Aktivitéite fënns Du och op"
+  },
+  {
+    "page": "Home",
+    "key": "participate.paragraph-3-link-2",
+    "de": "Facebook,",
+    "fr": "Facebook,",
+    "en": "Facebook,",
+    "lu": "Facebook,"
+  },
+  {
+    "page": "Home",
+    "key": "participate.paragraph-3-link-3",
+    "de": "Instragram",
+    "fr": "Instragram",
+    "en": "Instragram",
+    "lu": "Instragram"
+  },
+  {
+    "page": "Home",
+    "key": "participate.paragraph-3-3",
+    "de": "oder im",
+    "fr": "ou dans la",
+    "en": "or in the",
+    "lu": "oder am"
+  },
+  {
+    "page": "Home",
+    "key": "participate.paragraph-3-link-4",
+    "de": "BENU Newsletter.",
+    "fr": "BENU Newsletter.",
+    "en": "BENU Newsletter.",
+    "lu": "BENU Newsletter."
+  },
+  {
+    "page": "Home",
+    "key": "participate.paragraph-3-4",
+    "de": "Wir freuen uns auf Dich!",
+    "fr": "Nous nous réjouissons de te rencontrer!",
+    "en": "We are looking forward to meeting you!",
+    "lu": "Mir freeën eis op Dech!"
+  },
+  {
+    "page": "Home",
+    "key": "participate.subtitle-4",
+    "de": "Informationen und Ideen einbringen",
+    "fr": "Apporter des informations et des idées",
+    "en": "Contribute with information and ideas",
+    "lu": "Informatiounen an Iddien abréngen"
+  },
+  {
+    "page": "Home",
+    "key": "participate.paragraph-4-1",
+    "de": "Du verfügst über fundierte Kenntnisse im Bereich der Nachhaltigkeit, hast Zugang zu entsprechenden Studien und möchtest Dich an der Diskussion und Gestaltung der Ideen von BENU beteiligen? Dann mach mit und bring Deine Erfahrungen ein!",
+    "fr": "Tu disposes de connaissances approfondies dans le domaine de la durabilité, tu as accès aux études correspondantes et tu souhaites participer à la discussion et à la conception des idées BENU? Alors participe et apporte ton expérience!",
+    "en": "Do you have some in-depth knowledge in relation to sustainability, as well as access to relevant studies, and want to participate in the discussion and development of BENU ideas? Then participate and bring your experience!",
+    "lu": "Du hues ëmfangräicht Wëssen am Beräich Nohaltegkeet, den Zougang zu den entspriechenden Etüden a wëlls Dech un der Diskussioun an der Gestaltung vun de BENU Iddie bedeelegen? Da maach roueg mat a bréng Deng Erfarung mat an!"
+  },
+  {
+    "page": "Home",
+    "key": "participate.paragraph-4-link-1",
+    "de": "Melde Dich bei uns!",
+    "fr": "N'hésite pas à nous contacter !",
+    "en": "Do not hesitate to contact us!",
+    "lu": "Mell Dech bei eis!"
+  },
+  {
+    "page": "Home",
+    "key": "participate.paragraph-4-2",
+    "de": "Wenn Du BENU mit Informationen zu den Themen „nachhaltige Kleidung“ oder „Wiederverwendung“ weiterhelfen kannst, gewinnst Du vielleicht sogar ein BENU Brain Siegel! Näheres hierzu erfährst Du auf",
+    "fr": "Si tu peux aider BENU avec des informations sur les thèmes \"vêtements durables\" ou \"réutilisation\", tu pourras peut-être même gagner un label BENU Brain! Tu trouveras plus d'informations sur",
+    "en": "If you can help BENU with information on the topics \"sustainable clothing\" or \"reuse\", you might even win a BENU Brain label! You can find more information on",
+    "lu": "Wann s Du BENU mat Informatiounen zu den Theme „nohaltegt Gezei“ oder „weidere Gebrauch“ weiderhëllefe kanns, gewënns Du vläicht esouguer e BENU Brain Badge! Méi Informatiounen dozou fënns Du op"
+  },
+  {
+    "page": "Home",
+    "key": "participate.paragraph-4-link-2",
+    "de": "benureuse.lu",
+    "fr": "benureuse.lu",
+    "en": "benureuse.lu",
+    "lu": "benureuse.lu"
+  },
+  {
+    "page": "Home",
+    "key": "participate.paragraph-4-3",
+    "de": "und",
+    "fr": "et",
+    "en": "et",
+    "lu": "a"
+  },
+  {
+    "page": "Home",
+    "key": "participate.paragraph-4-link-3",
+    "de": "benucouture.lu.",
+    "fr": "benucouture.lu.",
+    "en": "benucouture.lu.",
+    "lu": "benucouture.lu."
+  },
+  {
+    "page": "Home",
+    "key": "participate.subtitle-5",
+    "de": "Partner:in werden",
+    "fr": "Devenir partenaire",
+    "en": "Become a partner",
+    "lu": "Partner:in ginn"
+  },
+  {
+    "page": "Home",
+    "key": "participate.paragraph-5-1",
+    "de": "Du arbeitest wie wir im UpCycling und produzierst z.B. Kleidung, Textilien oder Möbel, ohne Neuware zu verwenden? Du teilst die Werte und Überzeugungen von BENU? Deine Produkte werden regional - d.h in einem Umkreis von 300 km von Esch-sur-Alzette - hergestellt?",
+    "fr": "Comme nous, tu es actif dans le domaine de l'UpCycling et tu produis par exemple des vêtements, des textiles ou des meubles sans utiliser de produits neufs? Tu partages les valeurs et les convictions de BENU? Tes produits sont fabriqués localement, c'est-à-dire dans un rayon de 300 km autour d'Esch-sur-Alzette?",
+    "en": "Like us, you are active in the UpCycling domain and produce for example clothes, textiles or furniture without using any new products? Do you share the values and convictions of BENU? Are your products produced locally, i.e. within a 300 km radius of Esch-sur-Alzette?",
+    "lu": "Du bass ewéi mir am Beräich vum UpCycling aktiv a produzéiers z.B Gezei, Textilien oder Miwwelen, ouni Neies ze gebrauchen? Du deels d’Wäerter an d’Iwwerzeegunge vu BENU? Deng Produite gi regional - d.h an engem Ëmkrees vun 300km vun Esch-Uelzecht - produzéiert?"
+  },
+  {
+    "page": "Home",
+    "key": "participate.paragraph-5-2",
+    "de": "Wenn Du exklusiv im ReUse, in der Transformation und im UpCycling produzierst, dann bist Du bei uns genau richtig. BENU hilft Dir beim Vermarkten! Wir bieten Dir an, Deine Produkte in unserem",
+    "fr": "Si tu produis exclusivement en ReUse, en Transformation et en UpCycling, alors tu es à la bonne adresse chez nous. BENU t'aide à commercialiser tes produits! Nous te proposons de les vendre dans notre",
+    "en": "If you produce exclusively in ReUse, Transformation and UpCycling, then you are at the right address with us. BENU helps you to market your products! We offer you to either sell them in our",
+    "lu": "Wann s Du exklusiv am ReUse, an der Transformatioun an am UpCycling produzéiers, da bass Du bei eis genau richteg. BENU hëlleft Dir beim Verkaf! Mir bidden Dir un, Deng Produiten an eisem"
+  },
+  {
+    "page": "Home",
+    "key": "participate.paragraph-5-link-1",
+    "de": "Online-Shop",
+    "fr": "boutique en ligne",
+    "en": "online-shop",
+    "lu": "Online-Shop"
+  },
+  {
+    "page": "Home",
+    "key": "participate.paragraph-5-3",
+    "de": "oder im Shop im BENU VILLAGE zu verkaufen, oder sie gemeinsam mit uns auf unseren Events auszustellen.",
+    "fr": "ou notre Shop au BENU VILLAGE ou de les exposer avec nous lors de nos événements.",
+    "en": "or in the shop in BENU VILLAGE, or to exhibit them together with us at our events.",
+    "lu": "oder dem Shop am BENU VILLAGE ze verkafen, oder se zesumme mat eis op eisen Evenementer auszestellen."
+  },
+  {
+    "page": "Home",
+    "key": "participate.paragraph-5-4",
+    "de": "Hast Du Interesse?",
+    "fr": "Tu es intéressé(e)?",
+    "en": "Are you interested?",
+    "lu": "Du hues Interessi?"
+  },
+  {
+    "page": "Home",
+    "key": "participate.paragraph-5-link-2",
+    "de": "Wir freuen uns auf Deine Nachricht!",
+    "fr": "Nous nous réjouissons de recevoir ton message!",
+    "en": "We look forward to hearing from you!",
+    "lu": "Mir freeën eis op Deng Noriicht!"
+  },
+  {
+    "page": "Home",
+    "key": "participate.subtitle-6",
+    "de": "Dinge wieder verwenden und weitergeben",
+    "fr": "Réutiliser et donner des choses",
+    "en": "Reuse and donate things",
+    "lu": "Saachen nach eng Kéier gebrauchen a weiderginn"
+  },
+  {
+    "page": "Home",
+    "key": "participate.paragraph-6-1",
+    "de": "Du bist eine Privatperson oder Unternehmer:in und hast gut erhaltene, gebrauchte Gegenstände oder Materialien, für die Du keine Verwendung mehr hast? Dann biete die Sachen über",
+    "fr": "Tu es un:e particulier:ère ou un:e entrepreneur:e et tu as des objets ou du matériel d'occasion en bon état dont tu n'as plus l'utilité? Alors tu peux les télécharger sur",
+    "en": "Are you a private person or a businessman/businesswoman and have second-hand objects or materials in good condition that you no longer need? Then donate them on",
+    "lu": "Du bass eng Privatpersoun oder Entrepreneur/Entrepreneuse an hues intakt Second-Hand Objeten a Materialien, déi s Du net méi gebrauche kanns? Da bitt d’Saachen op"
+  },
+  {
+    "page": "Home",
+    "key": "participate.paragraph-6-link-1",
+    "de": "BENU REUSE",
+    "fr": "BENU REUSE",
+    "en": "BENU REUSE",
+    "lu": "BENU REUSE"
+  },
+  {
+    "page": "Home",
+    "key": "participate.paragraph-6-2",
+    "de": "an und gib sie an interessierte Abnehmer:innen weiter. Und nicht nur das: Du kannst bei BENU REUSE auch gebrauchte Gegenstände für Deinen Bedarf suchen und zu Dir nach Hause bestellen.",
+    "fr": "et les donner à des intéressé:es. Tu peux aussi y chercher des objets d'occasion pour tes propres besoins et les commander à ton domicile.",
+    "en": "and give them to interested recipients. On BENU REUSE, you can also find and order second-hand items for your own needs.",
+    "lu": "un a gëff se un Intresséierter weider. Net just dat: Du kanns bei BENU REUSE och gebraucht Objete fir Däin eegene Gebrauch fannen a bestellen."
+  },
+  {
+    "page": "Home",
+    "key": "participate.paragraph-6-3",
+    "de": "Alles Wissenswerte über die Vermittlungsplattform BENU REUSE erfährst Du",
+    "fr": "Pour en savoir plus sur la plateforme d'échange BENU REUSE, clique",
+    "en": "To find out more about the BENU REUSE exchange platform, click",
+    "lu": "All wichteg Informatiounen iwwer d’Vermëttlungsplattform BENU REUSE kriss Du"
+  },
+  {
+    "page": "Home",
+    "key": "participate.paragraph-6-link-2",
+    "de": "hier.",
+    "fr": "ici.",
+    "en": "here.",
+    "lu": "hei."
+  },
+  {
+    "page": "Home",
+    "key": "participate.paragraph-6-4",
+    "de": "Für unsere",
+    "fr": "Pour nos créations UpCycling",
+    "en": "For our",
+    "lu": "Fir eis"
+  },
+  {
+    "page": "Home",
+    "key": "participate.paragraph-6-link-3",
+    "de": "BENU COUTURE",
+    "fr": "BENU COUTURE",
+    "en": "BENU COUTURE",
+    "lu": "BENU COUTURE"
+  },
+  {
+    "page": "Home",
+    "key": "participate.paragraph-6-5",
+    "de": "UpCycling-Kreationen werden gebrauchte Kleidung und Stoffe verarbeitet, die uns von Privatpersonen überlassen werden. Wenn Du Altkleider oder gebrauchte Textilien an BENU COUTURE spenden möchtest, wende Dich bitte an eine de",
+    "fr": "nous utilisons des vêtements et des tissus usagés que des particuliers nous ont donné. Si tu souhaites faire  un don de vieux vêtements ou de textiles usagés à BENU COUTURE, adresse-toi à l'un des",
+    "en": "UpCycling creations, we use clothes and fabrics that are entrusted to us by private individuals. If you would like to donate old clothes or textiles to BENU COUTURE, please go to one of our",
+    "lu": "UpCycling-Kreatioune gi gebrauchte Kleeder a Stoffer verschafft, déi mir vu Privatpersoune kritt hunn. Wann s Du gebrauchte Kleeder oder Textilien u BENU COUTURE spende wëlls, da kontaktéier wannechgelift eng vun eise"
+  },
+  {
+    "page": "Home",
+    "key": "participate.paragraph-6-link-4",
+    "de": "BENU Sammelstellen.",
+    "fr": "points de collecte BENU .",
+    "en": "BENU collection points.",
+    "lu": "BENU Sammelplazen."
+  },
+  {
+    "page": "Home",
+    "key": "breadcrumbs.learn-more",
+    "de": "",
+    "fr": "",
+    "en": "",
+    "lu": ""
+  },
+  {
+    "page": "Home",
+    "key": "campaigns.full-toptitle",
+    "de": "Das Ökodorf befindet sich im Aufbau!",
+    "fr": "L'écovillage est en construction !",
+    "en": "The ecovillage is under construction!",
+    "lu": "D’Ekoduerf as am vollen Opbau!"
+  },
+  {
+    "page": "Home",
+    "key": "campaigns.full-title",
+    "de": "BENU VILLAGE",
+    "fr": "BENU VILLAGE",
+    "en": "BENU VILLAGE",
+    "lu": "BENU VILLAGE"
+  },
+  {
+    "page": "Home",
+    "key": "campaigns.full-paragraph-0-1",
+    "de": "… eine ehemalige innerstädtische Brache direkt neben dem Zentrum, im Ortsteil „Grenz“ der Stadt Esch-sur-Alzette im Süden Luxemburgs, zwischen der Rue d’Audun und dem Boulevard Prince Henri:  Hier entsteht BENU VILLAGE!",
+    "fr": "... une ancienne friche urbaine juste à côté du centre, dans le quartier \"Grenz\" de la ville d'Esch-sur-Alzette au sud du Luxembourg, entre la rue d'Audun et le boulevard Prince Henri: c'est là que BENU VILLAGE voit le jour!",
+    "en": "... a former inner-city wasteland right next to the centre, in the \"Grenz\" district of the city of Esch-sur-Alzette in the south of Luxembourg, between Rue d'Audun and Boulevard Prince Henri: this is where BENU VILLAGE is being built!",
+    "lu": ""
+  },
+  {
+    "page": "Home",
+    "key": "campaigns.full-paragraph-0-2",
+    "de": "Das rund 1500 qm große Grundstück wurde der BENU Village Esch asbl von der Stadt Esch-sur-Alzette überlassen, um hier das erste Ökodorf in Luxemburg und in der Großregion aufzubauen.",
+    "fr": "Ce terrain d'environ 1800 m² a été cédé à BENU Village Esch asbl par la ville d’Esch-sur-Alzette afin d'y créer le premier écovillage du Luxembourg et de la Grande Région.",
+    "en": "The city of Esch-sur-Alzette has given BENU Village Esch asbl a plot of around 1800 square metres to build the first ecovillage in Luxembourg and the Greater Region.",
+    "lu": ""
+  },
+  {
+    "page": "Home",
+    "key": "campaigns.full-paragraph-0-3",
+    "de": "Die Realisierung von BENU VILLAGE wird durch die großzügige Unterstützung der Stadt Esch-sur-Alzette ermöglicht! Weitere engagierte Förderer sind das Ministerium für Umwelt, Klima und nachhaltige Entwicklung, das Wirtschaftsministerium, die Oeuvre Nationale de Secours Grande-Duchesse Charlotte und die Fondation André Losch.",
+    "fr": "La réalisation du projet BENU VILLAGE est d’ailleurs rendue possible grâce au généreux soutien de la ville d'Esch-sur-Alzette! Le Ministère de l'Environnement, du Climat et du Développement durable, ainsi que le Ministère de l’Économie, l'Œuvre Nationale de Secours Grande-Duchesse Charlotte et la Fondation André Losch en constituent d’autres sources de support engagés.",
+    "en": "The realisation of BENU VILLAGE is made possible by the generous support of the City of Esch-sur-Alzette! The Ministry of Environment, Climate and Sustainable Development, as well as the Ministry of Economy, the Oeuvre Nationale de Secours Grande-Duchesse Charlotte and the Fondation André Losch constitute other valuable sources of support.",
+    "lu": ""
+  },
+  {
+    "page": "Home",
+    "key": "campaigns.full-paragraph-0-4",
+    "de": "Wir danken all unseren Unterstützer:innen für ihr großartiges Engagement!",
+    "fr": "Nous les remercions pour leur engagement formidable!",
+    "en": "We thank all our supporters for their impressive commitment!",
+    "lu": ""
+  },
+  {
+    "page": "Home",
+    "key": "campaigns.full-subtitle-1",
+    "de": "Was ist überhaupt ein Ökodorf?",
+    "fr": "Qu'est-ce qu'un écovillage ?",
+    "en": "What is an ecovillage?",
+    "lu": ""
+  },
+  {
+    "page": "Home",
+    "key": "campaigns.full-paragraph-1-1",
+    "de": "Bei einem Ökodorf handelt es sich um einen Standort, der seine gesamten Aktivitäten auf Nachhaltigkeit, Kooperation und Partizipation basiert.",
+    "fr": "Un écovillage est un projet dont toutes les activités sont basées sur la durabilité, la coopération et la participation.",
+    "en": "An ecovillage is a project that bases all its activities on sustainability, cooperation and participation.",
+    "lu": ""
+  },
+  {
+    "page": "Home",
+    "key": "campaigns.full-paragraph-1-2",
+    "de": "Als Plattform der sozio-ökologischen Kreislaufwirtschaft setzt das Ökodorf BENU VILLAGE konsequent auf Prinzipien des UpCyclings, der lokalen Produktion und Kollaboration, sowie auf soziale und ökologische Werte. BENU VILLAGE ist Teil des Stadtlebens der Stadt Esch-sur-Alzette und gibt in verschiedenen Bereichen innovative Impulse:",
+    "fr": "En tant que plateforme d'économie circulaire socio-écologique, l'écovillage BENU VILLAGE mise systématiquement sur les principes de l'UpCycling, de la production locale et de la collaboration, ainsi que sur des valeurs sociales et écologiques. BENU VILLAGE fait partie de la vie urbaine de la ville d'Esch-sur-Alzette et offre des impulsions innovantes dans différents domaines:",
+    "en": "As a platform of the socio-ecological circular economy, the BENU VILLAGE ecovillage consistently relies on principles of upcycling, local production and collaboration, as well as social and ecological values. BENU VILLAGE is part of the urban life of the city of Esch-sur-Alzette and provides innovative impulses in various areas:",
+    "lu": ""
+  },
+  {
+    "page": "Home",
+    "key": "campaigns.full-paragraph-1-3",
+    "de": "Optimierung und Innovation des Energie- und Ressourcenverbrauchs",
+    "fr": "Optimisation et innovation d’énergie et de ressources",
+    "en": "Optimisation and innovation of energy and resource consumption.",
+    "lu": ""
+  },
+  {
+    "page": "Home",
+    "key": "campaigns.full-paragraph-1-4",
+    "de": "Schaffung eines Pilotprojektes zur Kreislaufwirtschaft",
+    "fr": "Création d’un projet pilote d’économie circulaire",
+    "en": "Creation of a pilot project for the circular economy",
+    "lu": ""
+  },
+  {
+    "page": "Home",
+    "key": "campaigns.full-paragraph-1-5",
+    "de": "Förderung der Sozialen Stadtentwicklung",
+    "fr": "Promouvoir le développement social urbain",
+    "en": "Promoting social urban development",
+    "lu": ""
+  },
+  {
+    "page": "Home",
+    "key": "campaigns.full-paragraph-1-6",
+    "de": "Gewährleistung einer transparenten Kommunikation",
+    "fr": "Assurer une communication transparente",
+    "en": "Ensuring transparent communication",
+    "lu": ""
+  },
+  {
+    "page": "Home",
+    "key": "campaigns.full-paragraph-1-7",
+    "de": "Von den Anfängen bis zum Ökodorf…",
+    "fr": "Les débuts de l'écovillage...",
+    "en": "From the beginnings to the ecovillage...",
+    "lu": ""
+  },
+  {
+    "page": "Home",
+    "key": "campaigns.full-subtitle-2",
+    "de": "Im April 2019 starteten die Arbeiten am Pilotbau BENU PROVISORIUM mit dem Ziel, erste praktische Erfahrungen unter anderem im Bereich der nachhaltigen Dämmung zu sammeln. Dieses erste Bauprojekt wurde im Oktober 2019 fertiggestellt.",
+    "fr": "En avril 2019, les travaux du projet pilote BENU PROVISORIUM ont débuté dans le but d'acquérir une première expérience pratique au niveau d’une isolation durable. Ce premier projet de construction a été achevé en octobre 2019.",
+    "en": "In April 2019, work started on the BENU PROVISORIUM pilot project with the aim of gaining initial practical experience, especially in terms of sustainable insulation. This first construction project was completed in October 2019.",
+    "lu": ""
+  },
+  {
+    "page": "Home",
+    "key": "campaigns.full-paragraph-2-1",
+    "de": "Das PROVISORIUM beherbergte bis Oktober 2022 das professionelle Schneider-Atelier BENU COUTURE, welches UpCycling Mode aus gebrauchten Kleidern entwirft, produziert und im eigenen Laden verkauft.",
+    "fr": "Le bâtiment provisoire a accueilli jusqu'en octobre 2022 l'atelier de couture professionnel BENU COUTURE, qui conçoit et produit des vêtements UpCycling à partir de tissus usagés, et qui les vend dans son propre magasin.",
+    "en": "Until October 2022, the provisional building housed the professional tailoring studio BENU COUTURE, which designs, produces and sells upcycled fashion made from used clothes in its own shop.",
+    "lu": ""
+  },
+  {
+    "page": "Home",
+    "key": "campaigns.full-paragraph-2-2",
+    "de": "Im November 2022 ist",
+    "fr": "En novembre 2022,",
+    "en": "In November 2022,",
+    "lu": ""
+  },
+  {
+    "page": "Home",
+    "key": "campaigns.full-paragraph-2-link-1",
+    "de": "BENU COUTURE",
+    "fr": "BENU COUTURE",
+    "en": "BENU COUTURE",
+    "lu": ""
+  },
+  {
+    "page": "Home",
+    "key": "campaigns.full-paragraph-2-3",
+    "de": "in das Ökodorf umgezogen. Und die Fertigstellung von BENU VILLAGE ist im vollen Gang…. ! Bald werden hier weitere BENU Aktivitäten ihren Platz finden:",
+    "fr": "a déménagé dans l'écovillage. L'achèvement de BENU VILLAGE est donc en cours, et d'autres activités BENU s'y dérouleront bientôt :",
+    "en": "moved to the ecovillage. The completion of BENU VILLAGE is thus in full swing, and more BENU activities will soon take place here:",
+    "lu": ""
+  },
+  {
+    "page": "Home",
+    "key": "campaigns.full-paragraph-2-4",
+    "de": "das innovative und nachhaltige Restaurant",
+    "fr": "le restaurant innovant et durable",
+    "en": "the innovative and sustainable restaurant",
+    "lu": ""
+  },
+  {
+    "page": "Home",
+    "key": "campaigns.full-paragraph-2-link-2",
+    "de": "BENU SLOOW",
+    "fr": "BENU SLOOW",
+    "en": "BENU SLOOW",
+    "lu": ""
+  },
+  {
+    "page": "Home",
+    "key": "campaigns.full-paragraph-2-5",
+    "de": "der Ausstellungs- und Verkaufsraum für UpCycling-Kreationen von BENU und seinen externen Partnern BENU LaSA",
+    "fr": "l’espace d'exposition et de vente des créations UpCycling de BENU COUTURE et de ses partenaires externes BENU LaSA",
+    "en": "the exhibition and sales space for UpCycling creations by BENU COUTURE and its external partners BENU LaSA",
+    "lu": ""
+  },
+  {
+    "page": "Home",
+    "key": "campaigns.full-paragraph-2-6",
+    "de": "die UpCycling-Möbelwerkstatt BENU FORM",
+    "fr": "l’atelier de meubles UpCycling BENU FORM",
+    "en": "the UpCycling furniture workshop BENU FORM",
+    "lu": ""
+  },
+  {
+    "page": "Home",
+    "key": "campaigns.full-paragraph-2-7",
+    "de": "das Hotelzimmer BENU BREAK",
+    "fr": "la chambre d'hôtel BENU BREAK",
+    "en": "the hotel room BENU BREAK",
+    "lu": ""
+  },
+  {
+    "page": "Home",
+    "key": "campaigns.full-paragraph-2-8",
+    "de": "Außerdem BENU VILLAGE Räume vorgesehen, die an andere Initiativen weiter vermietet werden. Interessiert? Dann melde Dich",
+    "fr": "Le BENU VILLAGE prévoit en outre des espaces qui seront sous-loués à d'autres initiatives. Tu es intéressé(e)? Alors inscris-toi",
+    "en": "In the BENU VILLAGE, there are also rooms that can be rented out to other initiatives. Are you interested? Then get in touch",
+    "lu": ""
+  },
+  {
+    "page": "Home",
+    "key": "campaigns.full-paragraph-2-link-3",
+    "de": "hier.",
+    "fr": "ici.",
+    "en": "here.",
+    "lu": ""
+  },
+  {
+    "page": "Home",
+    "key": "campaigns.full-subtitle-3",
+    "de": "Und was ist das Besondere am BENU VILLAGE?",
+    "fr": "Quelle est la particularité de BENU VILLAGE?",
+    "en": "What is special about BENU VILLAGE?",
+    "lu": ""
+  },
+  {
+    "page": "Home",
+    "key": "campaigns.full-paragraph-3-1",
+    "de": "BENU VILLAGE wird mit möglichst wenigen neuen Materialien aufgebaut. Es ist ein Ort, an dem wir ständig nach Möglichkeiten suchen, den Ressourcenverbrauch weiter zu reduzieren und Abfall zu vermeiden. Ein Ort, an dem wir kontinuierlich den ökologischen und den sozialen Fußabdruck verbessern. Ein Ort, an dem hochwertige und kreative Produkte hergestellt werden, die sich durch ihre Nachhaltigkeit auszeichnen.",
+    "fr": "BENU VILLAGE est construit avec un minimum de nouveaux matériaux. Il s’agit d’un lieu où nous cherchons constamment de nouveaux moyens de réduire encore davantage la consommation de ressources et d'éviter les déchets; d’un lieu où nous améliorons continuellement l'empreinte écologique et sociale, et où sont proposés des produits et des services à la fois de qualité et créatifs, qui se distinguent notamment par leur durabilité.",
+    "en": "BENU VILLAGE is built with as few new materials as possible. It is a place where we are constantly looking for new ways to further reduce resource consumption and avoid waste. A place where we continuously improve the environmental and social footprint. A place where creative, high-quality products and services are offered and which stand out for their sustainability.",
+    "lu": ""
+  },
+  {
+    "page": "Home",
+    "key": "campaigns.full-paragraph-3-2",
+    "de": "Die Konstruktion des Ökodorfes erfolgt nach dem Prinzip der nachhaltigen Kreislaufwirtschaft. Alle neuen Gebäudeteile bestehen aus alten, wiederverwendeten Schiffscontainern, die keine Zulassung mehr für den Hochseebetrieb haben. Für den Ausbau kommen abgebaute Materialien von anderen Bauprojekten und Restbestände von Partner-Betrieben zum Einsatz. Die Container-Bauweise erlaubt es, Bodenverdichtung und Versiegelung zu minimieren. Durch die Verwendung versickerungsfähiger Beläge im Außenbereich werden außerdem negative Veränderungen des Wasserkreislaufs reduziert. Das Regenwasser wird gesammelt und im BENU VILLAGE für Toilettenspülungen und die Bewässerung des Gartens verwendet. Für das Ökodorf kommen zudem ein autonomes Heiz-/Kühlsystem mit wiederverwendeten Sonnenpanelen und Luftwärmetauschern, sowie ein experimenteller, mobiler Großwasserspeicher zum Einsatz.",
+    "fr": "La construction de l'écovillage suit le principe de l'économie circulaire durable. Toutes les nouvelles parties du bâtiment sont constituées d'anciens conteneurs maritimes réutilisés qui n'avaient plus l'autorisation d'être utilisés en haute mer. Pour l'aménagement, on utilise des matériaux démontés d'autres projets de construction et des restes d'entreprises partenaires. L’utilisation des conteneurs dans notre construction nous permet de minimiser le compactage et l'imperméabilisation des sols, et le revêtement extérieur qui permet l'infiltration réduit en outre les modifications négatives du cycle de l'eau. L'eau de pluie est collectée et utilisée ensuite dans le BENU VILLAGE pour les chasses d'eau et l'arrosage du jardin. L'écovillage utilise également un système de chauffage/refroidissement autonome avec des panneaux solaires réutilisés et des échangeurs d'air, ainsi qu'un réservoir d'eau mobile expérimental de grande capacité.",
+    "en": "The construction of the ecovillage follows the principle of sustainable circular economy. All new parts of the building are made of old, reused shipping containers that were lacking approval for offshore use. Dismantled materials from other construction projects, as well as leftover materials from partner companies, are used for the finishing. The container construction method makes it possible to minimise soil compaction and sealing, and the use of infiltration-capable pavements in the outdoor area reduces negative changes in the water cycle. Rainwater is collected and then used in the BENU VILLAGE for flushing toilets and watering the garden. The ecovillage also uses an autonomous heating/cooling system with reused solar panels and air heat exchangers, as well as an experimental, mobile large-scale water storage tank.",
+    "lu": ""
+  },
+  {
+    "page": "Home",
+    "key": "campaigns.full-paragraph-3-3",
+    "de": "Als Ergebnis zahlreicher Recherchen und Diskussionen sowohl intern als auch extern mit Expert:innen, ist es beim Bau des Ökodorfes gelungen, fast gänzlich auf den Einsatz von umweltbelastenden Materialien wie beispielsweise Beton, Bitumen, Gips oder Silikon   zu verzichten. Der ökologische Fußabdruck dieser Materialien, die mittlerweile wie selbstverständlich zum Basisrepertoire des Baus gehören, ist erheblich, während das Wiederverwertungspotential dagegen bescheiden ist.",
+    "fr": "Suite à de nombreuses recherches et discussions aux niveaux internes et externes - en consultant les conseils d’experts - nous avons réussi à construire notre écovillage en évitant presque entièrement le recours aux matériaux polluants tels que le béton, le bitume, le plâtre ou le silicone. L'empreinte écologique de ces matériaux, qui font partie du soi-disant „répertoire de base de la construction“, est considérable, alors que leur potentiel de recyclage est modeste.",
+    "en": "As a result of numerous researches and discussions both on the internal and external level - relying on expert advice - we have succeeded in building our ecovillage almost entirely without the use of environmentally harmful materials such as concrete, bitumen, plaster or silicone. The ecological footprint of these materials, which apparently are now part of the „basic repertoire of construction“, is considerable, while the recycling potential is modest, to say the least.",
+    "lu": ""
+  },
+  {
+    "page": "Home",
+    "key": "campaigns.full-paragraph-3-4",
+    "de": "Die Mühe hat sich indes gelohnt:",
+    "fr": "L'effort en valait toutefois la peine:",
+    "en": "The effort, however, has been worthwhile:",
+    "lu": ""
+  },
+  {
+    "page": "Home",
+    "key": "campaigns.full-paragraph-3-5",
+    "de": "Für den Bau werden nahezu ausschließlich gebrauchtes Metall und Holz verwendet. Partiell kommt auch Stroh aus der Region zum Einsatz.",
+    "fr": "Pour la construction, on utilise presque exclusivement du métal et du bois usagé, tout comme de la paille provenant de la région.",
+    "en": "Almost exclusively, we relied on used metal and wood for the construction; partially, straw from the region came into use as well.",
+    "lu": ""
+  },
+  {
+    "page": "Home",
+    "key": "campaigns.full-paragraph-2-link-2",
+    "de": "",
+    "fr": "",
+    "en": "",
+    "lu": ""
+  },
+  {
+    "page": "Home",
+    "key": "campaigns.full-paragraph-3-6",
+    "de": "Die Außen-Dämmung der Schiffscontainer besteht aus einer Mischung aus „Miscanthus“ (Chinaschilf) aus der unmittelbaren Region sowie chemisch unverändertem Kalk. Im Rahmen des Pilotbaus PROVISORIUM wurden bereits umfangreiche Erfahrungen bei der Umsetzung dieser nachhaltigen Bauweise gemacht. Beim Rückbau lässt sich das Material als organischer Dünger klima- und umweltneutral weiterverwenden.",
+    "fr": "L’isolation extérieure des conteneurs maritimes est constituée d'un mélange de \"miscanthus\" (roseau de Chine) provenant de la région immédiate et de chaux non modifiée chimiquement; heureusement, le projet pilote PROVISORIUM nous a déjà permis d'acquérir une expérience assez fondée dans la mise en œuvre de ce type de construction durable. Lors de sa déconstruction, les matériaux peuvent être réutilisés comme engrais organique, sans avoir un impact sur le climat et l’environnement.",
+    "en": "The exterior insulation of the shipping containers consists of a mixture of \"miscanthus\" (Chinese reed) from the surrounding regions and chemically unmodified lime. Within the framework of the PROVISORIUM pilot project, some extensive experience in terms of the implementation of this sustainable construction method could be gained. When deconstructed, the material can be reused as organic fertiliser in a climate- and environmentally neutral way.",
+    "lu": ""
+  },
+  {
+    "page": "Home",
+    "key": "campaigns.full-paragraph-3-7",
+    "de": "Die Fassaden werden mit Lehm verputzt, der direkt vor Ort gewonnen wurde.",
+    "fr": "Les façades sont enduites d'argile, extraite directement sur place.",
+    "en": "The façades are plastered with clay, which was extracted directly on site.",
+    "lu": ""
+  },
+  {
+    "page": "Home",
+    "key": "campaigns.full-paragraph-3-8",
+    "de": "In den Innenräumen kommt Hanf als Akustik- und Wärmeisolierung zum Einsatz. Die Verwendung von Lehm trägt positiv zum Raumklima bei.",
+    "fr": "À l'intérieur, le chanvre est utilisé comme isolant acoustique et thermique. L'utilisation de l'argile contribue positivement au climat intérieur.",
+    "en": "In the interiors, hemp is used as acoustic and thermal insulation. The use of clay contributes positively to the indoor climate.",
+    "lu": ""
+  },
+  {
+    "page": "Home",
+    "key": "campaigns.full-paragraph-3-9",
+    "de": "Doch das ist noch nicht alles!",
+    "fr": "Mais ce n'est pas tout!",
+    "en": "But that is not all!",
+    "lu": ""
+  },
+  {
+    "page": "Home",
+    "key": "campaigns.full-paragraph-3-10",
+    "de": "Mit dem Projekt BENU METAMORPHOSE wird das Ökodorf in seinen Außen- und Innenbereichen auf partizipative Weise künstlerisch gestaltet. …. lokale Naturmaterialien, vermeintlicher „Abfall“, eine schöne Portion Kreativität :) und begeisterte Menschen… mehr braucht es nicht! BENU VILLAGE wartet auf eine gemeischaftliche Transformation in all seinen Ecken, Nischen und Flächen.",
+    "fr": "Avec le projet BENU METAMORPHOSE, l'écovillage sera aménagé de manière artistique et participative dans ses espaces extérieurs et intérieurs: des matériaux naturels locaux, des soi-disant „déchets\", une belle dose de créativité :) et des gens enthousiastes... il n'en faut pas plus! BENU VILLAGE attend une transformation communautaire dans tous ses coins, niches et surfaces.",
+    "en": "With the BENU METAMORPHOSE project, the outdoor and indoor areas of the ecovillage are being artistically designed in a participatory way: local natural materials, supposed \"waste\", a nice dose of creativity :) and enthusiastic people... that's all it takes! BENU VILLAGE is waiting for a community transformation in all its corners, niches and spaces.",
+    "lu": ""
+  },
+  {
+    "page": "Home",
+    "key": "campaigns.full-paragraph-3-11",
+    "de": "Auch Du kannst bei der Gestaltung von BENU VILLAGE mitmachen!",
+    "fr": "Toi aussi, tu peux participer à la création de BENU VILLAGE!",
+    "en": "You can take part in the creation of BENU VILLAGE as well!",
+    "lu": ""
+  },
+  {
+    "page": "Home",
+    "key": "campaigns.full-paragraph-3-link-1",
+    "de": "Melde Dich bei uns!",
+    "fr": "N'hésite pas à nous contacter!",
+    "en": "Get in touch with us!",
+    "lu": ""
+  },
+  {
+    "page": "Home",
+    "key": "campaigns.full-paragraph-3-12",
+    "de": "Lass uns BENU VILLAGE zu einem Ort des Miteinander, der Integration und der Zusammenarbeit machen. Einem Ort, der die Menschen bewegt.",
+    "fr": "Faisons de BENU VILLAGE un lieu de cohabitation, d'intégration et de collaboration. Un lieu qui fait bouger les gens.",
+    "en": "Let's make BENU VILLAGE a place of togetherness, integration and collaboration. A place that moves people.",
+    "lu": ""
+  },
+  {
+    "page": "Home",
+    "key": "welcome.campaign-title-1",
+    "de": "Das Ökodorf befindet sich im Aufbau!",
+    "fr": "L'écovillage est en cours de création !",
+    "en": "The ecovillage is under construction!",
+    "lu": "D’Ekoduerf as am vollen Opbau!"
+  },
+  {
+    "page": "Home",
+    "key": "welcome.campaign-title-2",
+    "de": "BENU VILLAGE",
+    "fr": "BENU VILLAGE",
+    "en": "BENU VILLAGE",
+    "lu": "BENU VILLAGE"
+  },
+  {
+    "page": "Home",
+    "key": "welcome.campaign-link-1",
+    "de": "Mehr erfahren",
+    "fr": "En savoir plus",
+    "en": "Learn more",
+    "lu": "Méi dozou"
+  },
+  {
+    "page": "Home",
+    "key": "footer.all-txt-1-1",
+    "de": "Alle",
+    "fr": "Toutes les",
+    "en": "All",
+    "lu": "All"
+  },
+  {
+    "page": "Home",
+    "key": "footer.all-txt-1-2",
+    "de": "Informationen",
+    "fr": "informations",
+    "en": "informations",
+    "lu": "d'Informatiounen"
+  },
+  {
+    "page": "Home",
+    "key": "footer.all-txt-2-1",
+    "de": "über",
+    "fr": "à propos de",
+    "en": "about",
+    "lu": "iwwer"
+  },
+  {
+    "page": "Home",
+    "key": "footer.all-story",
+    "de": "Über BENU",
+    "fr": "À propos de BENU",
+    "en": "About BENU",
+    "lu": "Iwwer BENU"
+  },
+  {
+    "page": "Home",
+    "key": "footer.all-chart",
+    "de": "Mitmachen",
+    "fr": "Participer",
+    "en": "Participate",
+    "lu": "Matmaachen"
+  },
+  {
+    "page": "Home",
+    "key": "footer.sponsors-title",
+    "de": "Wir danken unseren offiziellen Partnern!",
+    "fr": "Nous tenons à remercier nos partenaires officiels!",
+    "en": "We would like to thank our official partners!",
+    "lu": "Mir soen eisen offizielle Partner Merci!"
+  },
+  {
+    "page": "Home",
+    "key": "footer.footer-title-1",
+    "de": "Nützliches",
+    "fr": "Liens utiles",
+    "en": "Useful links",
+    "lu": "Nëtzlech Linken"
+  },
+  {
+    "page": "Home",
+    "key": "footer.footer-list-1-3",
+    "de": "Mein Konto",
+    "fr": "Mon compte",
+    "en": "My account",
+    "lu": "Mäi Kont"
+  },
+  {
+    "page": "Home",
+    "key": "footer.footer-list-1-6",
+    "de": "Mitmachen",
+    "fr": "Participer",
+    "en": "Participate",
+    "lu": "Matmaachen"
+  },
+  {
+    "page": "Home",
+    "key": "footer.footer-title-2",
+    "de": "BENU",
+    "fr": "BENU",
+    "en": "BENU",
+    "lu": "BENU"
+  },
+  {
+    "page": "Home",
+    "key": "footer.footer-list-2-1",
+    "de": "Aktualitäten",
+    "fr": "Actualités",
+    "en": "News",
+    "lu": "Neiegkeeten"
+  },
+  {
+    "page": "Home",
+    "key": "footer.footer-list-2-4",
+    "de": "Über BENU",
+    "fr": "À propos de BENU",
+    "en": "About BENU",
+    "lu": "Iwwer BENU"
+  },
+  {
+    "page": "Home",
+    "key": "footer.footer-list-2-5",
+    "de": "BENU VILLAGE",
+    "fr": "BENU VILLAGE",
+    "en": "BENU VILLAGE",
+    "lu": "BENU VILLAGE"
+  },
+  {
+    "page": "Contact",
+    "key": "services.nav-contact",
+    "de": "Kontakt",
+    "fr": "Contact",
+    "en": "Contact",
+    "lu": "Kontakt"
+  },
+  {
+    "page": "Contact",
+    "key": "breadcrumbs.contact",
+    "de": "Kontakt",
+    "fr": "Contact",
+    "en": "Contact",
+    "lu": "Kontakt"
+  },
+  {
+    "page": "Contact",
+    "key": "services.contact-subtitle",
+    "de": "Du möchtest uns kontaktieren?",
+    "fr": "Tu veux nous contacter ?",
+    "en": "You want to contact us?",
+    "lu": "Du wëlls eis kontaktéieren?"
+  },
+  {
+    "page": "Contact",
+    "key": "services.contact-title",
+    "de": "Hier findest Du die Kontaktdaten von BENU",
+    "fr": "Voici les coordonnées de BENU",
+    "en": "Here you can find the contact details of BENU",
+    "lu": "Hei sinn d'Kontaktdonnéeë vu BENU"
+  },
+  {
+    "page": "Contact",
+    "key": "services.contact-opening-1",
+    "de": "Wir sind werktags von 9:00 bis 17:00 Uhr für Dich erreichbar.",
+    "fr": "Tu peux nous joindre en semaine de 9h00 à 17h00.",
+    "en": "You can reach us during the week from 9:00 a.m. to 5:00 p.m.",
+    "lu": "Du kanns eis wärend der Woch vun 9:00 bis 17:00 Auer erreechen."
+  },
+  {
+    "page": "Contact",
+    "key": "services.contact-opening-2",
+    "de": "",
+    "fr": "",
+    "en": "",
+    "lu": ""
+  },
+  {
+    "page": "Contact",
+    "key": "services.contact-opening-3",
+    "de": "",
+    "fr": "",
+    "en": "",
+    "lu": ""
+  },
+  {
+    "page": "Contact",
+    "key": "services.contact-extra-txt",
+    "de": "Hast Du Fragen? Möchtest Du als Freiwillige:r helfen oder  als Partner:in mit BENU zusammenarbeiten? Hast Du Interesse, Dich im BENU VILLAGE mit Deiner Firma niederzulassen? Oder willst Du einfach mehr über BENU erfahren und uns besuchen?",
+    "fr": "Tu as une question concernant……Ou tu veux simplement en savoir plus sur BENU ?",
+    "en": "Do you have a question about BENU? ……..Or do you simply want to know more about BENU?",
+    "lu": "Hues Du eng Fro zu BENU? ……Oder wëlls Du einfach méi iwwer BENU wëssen?"
+  },
+  {
+    "page": "Actualités",
+    "key": "news.all-explanation",
+    "de": "Bei BENU und im BENU VILLAGE tut sich so Einiges. Lass Dich überraschen! Die Neuigkeiten aus unserer UpCycling-Schneiderei sowie Aktuelles zum Thema Kleidung und Nachhaltigkeit findest Du in der Rubrik BENU COUTURE.",
+    "fr": "",
+    "en": "",
+    "lu": ""
+  },
+  {
+    "page": "Actualités",
+    "key": "breadcrumbs.news",
+    "de": "Alle Neuigkeiten",
+    "fr": "Toutes les actualités",
+    "en": "All news",
+    "lu": "All d'Neiegkeeten"
+  },
+  {
+    "page": "Actualités",
+    "key": "breadcrumbs.news-example",
+    "de": "Alle Neuigkeiten",
+    "fr": "Toutes les actualités",
+    "en": "All news",
+    "lu": "All d'Neiegkeeten"
+  },
+  {
+    "page": "Actualités",
+    "key": "news.all-subtitle",
+    "de": "Neuigkeiten von BENU",
+    "fr": "Les actualités BENU",
+    "en": "BENU News",
+    "lu": "Neiegkeete vu BENU"
+  },
+  {
+    "page": "Actualités",
+    "key": "news.all-title",
+    "de": "Hier findest Du unsere aktuellen Nachrichten",
+    "fr": "Découvre les toutes dernières actualités ici",
+    "en": "Discover all our latest news here",
+    "lu": "Hei fënns Du eis aktuell Neiegkeeten"
+  },
+  {
+    "page": "Actualités",
+    "key": "news.news-small-title",
+    "de": "Neuigkeiten von BENU",
+    "fr": "Les actualités BENU",
+    "en": "BENU News",
+    "lu": "Neiegkeete vu BENU"
+  },
+  {
+    "page": "Actualités",
+    "key": "news.no-news-for-the-moment",
+    "de": "Im Moment gibt es keine Neuigkeiten",
+    "fr": "Il n'y a pas de nouvelles pour le moment",
+    "en": "There are no news at the moment",
+    "lu": "Am Moment ginn et keng Neiegkeeten"
+  },
+  {
+    "page": "Actualités",
+    "key": "news.tag-events",
+    "de": "Veranstaltungen",
+    "fr": "Evénements",
+    "en": "Events",
+    "lu": "Eventer"
+  },
+  {
+    "page": "Actualités",
+    "key": "news.tag-what-s-new",
+    "de": "Neuigkeiten",
+    "fr": "Quoi de neuf",
+    "en": "What's new",
+    "lu": "Neiegkeeten"
+  },
+  {
+    "page": "Actualités",
+    "key": "news.previous-article",
+    "de": "Vorangegangener Artikel",
+    "fr": "Article précédent",
+    "en": "Previous article",
+    "lu": "Artikel virdrun"
+  },
+  {
+    "page": "Actualités",
+    "key": "news.next-article",
+    "de": "Nächster Artikel",
+    "fr": "Article suivant",
+    "en": "Next article",
+    "lu": "Nächsten Artikel"
+  },
+  {
+    "page": "Participer",
+    "key": "breadcrumbs.participate",
+    "de": "Mitmachen",
+    "fr": "Participer",
+    "en": "Participate",
+    "lu": "Matmaachen"
+  },
+  {
+    "page": "Participer",
+    "key": "participate.main-title",
+    "de": "Du kannst bei BENU mitmachen!",
+    "fr": "Tu peux participer à BENU !",
+    "en": "You can participate at BENU!",
+    "lu": "Du kanns bei BENU matmaachen!"
+  },
+  {
+    "page": "Participer",
+    "key": "news.all-explanation",
+    "de": "",
+    "fr": "",
+    "en": "",
+    "lu": ""
+  },
+  {
+    "page": "À propos",
+    "key": "about.subtitle-top",
+    "de": "Über BENU",
+    "fr": "À propos de BENU",
+    "en": "About BENU",
+    "lu": "Iwwer BENU"
+  },
+  {
+    "page": "À propos",
+    "key": "about.title-top",
+    "de": "Wer wir sind und was wir machen",
+    "fr": "Qui sommes-nous et que faisons-nous ?",
+    "en": "Who we are and what we do",
+    "lu": "Wee mir sinn a wat mir maachen"
+  },
+  {
+    "page": "sitemap",
+    "key": "breadcrumbs.sitemap",
+    "de": "Seitenübersicht",
+    "fr": "Plan du site",
+    "en": "Site map",
+    "lu": "Säiteniwwersiicht"
+  },
+  {
+    "page": "sitemap",
+    "key": "footer.sitemap-home",
+    "de": "Startseite",
+    "fr": "Accueil",
+    "en": "Homepage",
+    "lu": "Startsäit"
+  },
+  {
+    "page": "sitemap",
+    "key": "footer.sitemap-about-us",
+    "de": "Über BENU",
+    "fr": "À propos de BENU",
+    "en": "About BENU",
+    "lu": "Iwwer BENU"
+  },
+  {
+    "page": "sitemap",
+    "key": "footer.sitemap-client-service-contact",
+    "de": "Kontakt",
+    "fr": "Contact",
+    "en": "Contact",
+    "lu": "Kontakt"
+  },
+  {
+    "page": "sitemap",
+    "key": "footer.sitemap-all-news",
+    "de": "Aktualitäten",
+    "fr": "Actualités",
+    "en": "News",
+    "lu": "Neiegkeeten"
+  },
+  {
+    "page": "sitemap",
+    "key": "footer.sitemap-single-news",
+    "de": "Aktualität",
+    "fr": "Actualité",
+    "en": "New",
+    "lu": "Neiegkeet"
+  },
+  {
+    "page": "sitemap",
+    "key": "footer.sitemap-newsletter-subscribe",
+    "de": "Newsletter",
+    "fr": "Newsletter",
+    "en": "Newsletter",
+    "lu": "Newsletter"
+  },
+  {
+    "page": "sitemap",
+    "key": "footer.sitemap-participate",
+    "de": "Mitmachen",
+    "fr": "Participer",
+    "en": "Participate",
+    "lu": "Matmaachen"
+  },
+  {
+    "page": "sitemap",
+    "key": "footer.sitemap-legal-mentions",
+    "de": "Impressum",
+    "fr": "Mentions légales",
+    "en": "Legal notices",
+    "lu": "Legal Informatiounen"
+  },
+  {
+    "page": "sitemap",
+    "key": "footer.sitemap-policy",
+    "de": "Datenschutz",
+    "fr": "Politique de confidentialité",
+    "en": "Privacy policy",
+    "lu": "Dateschutz"
+  },
+  {
+    "page": "sitemap",
+    "key": "footer.sitemap-dashboard",
+    "de": "Mein Konto",
+    "fr": "Mon compte",
+    "en": "My account",
+    "lu": "Mäi Kont"
+  },
+  {
+    "page": "sitemap",
+    "key": "footer.sitemap-login",
+    "de": "In Deinem Konto anmelden",
+    "fr": "Te connecter à ton compte",
+    "en": "Log in to your account",
+    "lu": "An Däi Kont aloggen"
+  },
+  {
+    "page": "sitemap",
+    "key": "footer.sitemap-register",
+    "de": "Konto eröffnen",
+    "fr": "Créer un compte",
+    "en": "Create account",
+    "lu": "Kont opmaachen"
+  },
+  {
+    "page": "Version mobile",
+    "key": "WELCOME.MOBILE-MENU-BTN-MENU",
+    "de": "Menü",
+    "fr": "Menu",
+    "en": "Menu",
+    "lu": "Menü"
+  },
+  {
+    "page": "Version mobile",
+    "key": "welcome.nav-home",
+    "de": "Startseite",
+    "fr": "Accueil",
+    "en": "Homepage",
+    "lu": "Startsäit"
+  },
+  {
+    "page": "Version mobile",
+    "key": "welcome.nav-account",
+    "de": "Mein Konto",
+    "fr": "Mon compte",
+    "en": "My account",
+    "lu": "Mäi Kont"
+  },
+  {
+    "page": "Version mobile",
+    "key": "welcome.side-menu-home",
+    "de": "Startseite",
+    "fr": "Accueil",
+    "en": "Homepage",
+    "lu": "Startsäit"
+  },
+  {
+    "page": "Version mobile",
+    "key": "welcome.side-menu-news",
+    "de": "Aktualitäten",
+    "fr": "Actualités",
+    "en": "News",
+    "lu": "Neiegkeeten"
+  },
+  {
+    "page": "Version mobile",
+    "key": "welcome.side-menu-about",
+    "de": "Über BENU",
+    "fr": "À propos de BENU",
+    "en": "About BENU",
+    "lu": "Iwwer BENU"
+  },
+  {
+    "page": "Version mobile",
+    "key": "welcome.side-menu-client-participate",
+    "de": "Mitmachen",
+    "fr": "Participer",
+    "en": "Participate",
+    "lu": "Matmaachen"
+  },
+  {
+    "page": "Version mobile",
+    "key": "welcome.side-menu-client-contact",
+    "de": "Kontakt",
+    "fr": "Contact",
+    "en": "Contact",
+    "lu": "Kontakt"
+  },
+  {
+    "page": "Version mobile",
+    "key": "welcome.side-menu-client-newsletter",
+    "de": "Newsletter",
+    "fr": "Newsletter",
+    "en": "Newsletter",
+    "lu": "Newsletter"
   }
 ]

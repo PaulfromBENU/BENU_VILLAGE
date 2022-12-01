@@ -138,6 +138,9 @@ if (app('env') == 'landing') {
 			// Campaigns
 			// Route::get('/'.trans("slugs.campaigns", [], "lu"), 'GeneralController@showAllCampaigns')->name('campaigns-lu');
 			// Route::get('/'.trans("slugs.campaigns", [], "lu").'/{slug}', 'GeneralController@showSingleCampaign')->name('campaign-single-lu');
+
+			// Data Importation
+			Route::get('/import-data', 'GeneralController@startImport')->name('data-import-'.$locale);
 		});
 	}
 
