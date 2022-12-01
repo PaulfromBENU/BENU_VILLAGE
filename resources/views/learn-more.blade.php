@@ -102,7 +102,7 @@
 	</p>
 
 	<ul class="full-story__bullets">
-		<li>{{ __('campaigns.full-paragraph-3-5') }} <a href="https://www.benusloow.lu">{{ __('campaigns.full-paragraph-2-link-2') }}</a></li>
+		<li>{{ __('campaigns.full-paragraph-3-5') }}</li>
 		<li>{{ __('campaigns.full-paragraph-3-6') }}</li>
 		<li>{{ __('campaigns.full-paragraph-3-7') }}</li>
 		<li>{{ __('campaigns.full-paragraph-3-8') }}</li>
