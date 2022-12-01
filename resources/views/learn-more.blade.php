@@ -56,10 +56,13 @@
 		<li>{{ __('campaigns.full-paragraph-1-4') }}</li>
 		<li>{{ __('campaigns.full-paragraph-1-5') }}</li>
 		<li>{{ __('campaigns.full-paragraph-1-6') }}</li>
-		<li>{{ __('campaigns.full-paragraph-1-7') }}</li>
 	</ul>
 
-	<h3 class="full-story__lowtitle">{{ __('campaigns.full-subtitle-2') }}</h3>
+	<h3 class="full-story__lowtitle">{{ __('campaigns.full-paragraph-1-7') }}</h3>
+
+	<p class="full-story__txt">
+		{{ __('campaigns.full-subtitle-2') }}
+	</p>
 
 	<p class="full-story__txt">
 		{{ __('campaigns.full-paragraph-2-1') }}
