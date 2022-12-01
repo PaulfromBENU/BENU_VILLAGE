@@ -60,26 +60,6 @@
 				<li class="sitemap__list sitemap__list--large"><a href="{{ route('newsletter-'.app()->getLocale()) }}">{{ __('footer.sitemap-newsletter-subscribe') }}</a></li>
 
 				<li class="sitemap__list sitemap__list--large"><a href="{{ route('header.participate-'.app()->getLocale()) }}">{{ __('footer.sitemap-participate') }}</a></li>
-				<li class="sitemap__list sitemap__list--small">
-					<a href="{{ route('header.participate-'.app()->getLocale(), ['page' => __('slugs.participate-badges')]) }}">
-						{{ __('footer.sitemap-participate-badges') }}
-					</a>
-				</li>
-				<li class="sitemap__list sitemap__list--small">
-					<a href="{{ route('header.participate-'.app()->getLocale(), ['page' => __('slugs.participate-give')]) }}">
-						{{ __('footer.sitemap-participate-give') }}
-					</a>
-				</li>
-				<li class="sitemap__list sitemap__list--small">
-					<a href="{{ route('header.participate-'.app()->getLocale(), ['page' => __('slugs.participate-partnership')]) }}">
-						{{ __('footer.sitemap-participate-partnership') }}
-					</a>
-				</li>
-				<li class="sitemap__list sitemap__list--small">
-					<a href="{{ route('header.participate-'.app()->getLocale(), ['page' => __('slugs.participate-smart')]) }}">
-						{{ __('footer.sitemap-participate-smart') }}
-					</a>
-				</li>
 
 				<li class="sitemap__list sitemap__list--large"><a href="{{ route('footer.legal-'.app()->getLocale()) }}">{{ __('footer.sitemap-legal-mentions') }}</a></li>
 
