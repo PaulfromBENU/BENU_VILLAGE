@@ -25,7 +25,7 @@
         <h3 class="register__subtitle">BENU COUTURE</h3>
         <h1 class="register__title">{!! __('auth.register-title') !!}</h1>
 
-        <p class="text-center mb-5 p-1">
+        <p class="text-center mb-5 p-1 w-3/4 lg:w-1/2 font-medium m-auto">
             {{ __('auth.register-subtitle-text') }}
         </p>
 
