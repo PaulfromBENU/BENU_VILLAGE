@@ -58,7 +58,7 @@
   {
     "page": "Home",
     "key": "header.couture-desc",
-    "de": "Dies ist die erste UpCycling-Nähwerkstatt in Luxemburg! Wir bieten einzigartige Stücke an, die in Luxemburg aus alten Kleidungsstücken entworfen und hergestellt werden. BENU COUTURE, das sind lustige, farbenfrohe und ansprechende Kleidungsstücke, die Kinder und Erwachsene von XS bis 5XL einkleiden. Du kannst Deine Kleidung auch Deinen eigenen Ideen entsprechend umgestalten!",
+    "de": "Dies ist die erste UpCycling-Schneiderei in Luxemburg! Wir bieten einzigartige Stücke an, die in Luxemburg aus alten Kleidungsstücken entworfen und hergestellt werden. BENU COUTURE, das sind lustige, farbenfrohe und ansprechende Kleidungsstücke, die Kinder und Erwachsene von XS bis 5XL einkleiden. Du kannst Deine Kleidung auch Deinen eigenen Ideen entsprechend umgestalten!",
     "fr": "C’est le premier atelier de couture UpCycling au Luxembourg ! Nous proposons des pièces uniques, conçues et produites au Luxembourg à partir de vieux vêtements. BENU COUTURE, ce sont des vêtements gais, colorés et attrayants qui habillent les enfants et les adultes du XS au 5XL. Tu peux aussi remodeler tes vêtements selon tes propres idées !",
     "en": "This is the first UpCycling sewing workshop in Luxembourg! We offer unique pieces designed and produced in Luxembourg using old clothes. BENU COUTURE offers fun, colourful and pleasing clothing for children and adults from XS to 5XL. You can also transform your clothes according to your own ideas!",
     "lu": "Dëst ass den éischten UpCycling-Schneideratelier zu Lëtzebuerg! Mir bidden eenzegaarteg Stécker un, déi zu Lëtzebuerg aus alem Gezei entworf a produzéiert ginn. BENU COUTURE, dat si lëschteg, faarweg an uspriechend Kleedungsstécker fir Kanner an Erwuessener vun XS bis 5XL. Du kanns Deng Kleeder och no Dengen eegenen Iddie modifizéieren!"
@@ -4978,18 +4978,18 @@
   {
     "page": "Home",
     "key": "about.toptitle",
-    "de": "",
-    "fr": "",
-    "en": "",
-    "lu": ""
+    "de": "Über BENU",
+    "fr": "À propos de BENU",
+    "en": "All you need to know",
+    "lu": "Alles, wat s Du wësse muss"
   },
   {
     "page": "Home",
     "key": "about.title",
-    "de": "",
-    "fr": "",
-    "en": "",
-    "lu": ""
+    "de": "Alles, was Du wissen musst",
+    "fr": "Tout ce qu’il faut savoir",
+    "en": "A place that moves people - why BENU?",
+    "lu": "Eng Plaz, déi Mënsche beweegt - firwat BENU?"
   },
   {
     "page": "Home",
@@ -5130,10 +5130,10 @@
   {
     "page": "Home",
     "key": "about.paragraph-3-1",
-    "de": "„BENU“ wird ausgesprochen wie der englische Ausdruck ‘Be New!’, und bedeutet ‘Sei Neu!’. Der BENU Vogel, der auf unserem Logo zu sehen ist, entspringt der ägyptischen Mythologie und wurde - meist in Form eines Reihers - bereits in den ägyptischen Pyramiden dargestellt. Er ist der Vorfahre des griechischen Phönix, dieses wunderschönen roten Vogels, der am Ende seines Lebenszyklus verbrennt oder stirbt, um aus seiner Asche immer wieder neu zu erstehen.",
-    "fr": "„BENU“ se prononce comme l'expression anglaise 'Be New!', et signifie 'sois nouveau'! L'oiseau BENU, qui figure sur notre logo, est issu de la mythologie égyptienne et était déjà représenté - généralement sous la forme d'un héron - dans les pyramides égyptiennes. Il est soit-disant l'ancêtre du phénix grec, ce magnifique oiseau rouge qui, à la fin de son cycle de vie, se consume ou meurt pour renaître à chaque fois de ses cendres.",
+    "de": "„BENU“ wird ausgesprochen wie der englische Ausdruck ‘Be New!’ und bedeutet ‘Sei Neu!’. Der BENU Vogel, der auf unserem Logo zu sehen ist, entspringt der ägyptischen Mythologie und wurde - meist in Form eines Reihers - bereits in den ägyptischen Pyramiden dargestellt. Er ist der Vorfahre des griechischen Phönix, dieses wunderschönen roten Vogels, der am Ende seines Lebenszyklus verbrennt oder stirbt, um aus seiner Asche immer wieder neu zu erstehen.",
+    "fr": "„BENU“ se prononce comme l'expression anglaise 'Be New!' et signifie 'sois nouveau'! L'oiseau BENU, qui figure sur notre logo, est issu de la mythologie égyptienne et était déjà représenté - généralement sous la forme d'un héron - dans les pyramides égyptiennes. Il est soit-disant l'ancêtre du phénix grec, ce magnifique oiseau rouge qui, à la fin de son cycle de vie, se consume ou meurt pour renaître à chaque fois de ses cendres.",
     "en": "„BENU“ is pronounced like the English expression 'Be New'. The BENU bird, which can be seen on our logo, originates from Egyptian mythology and was already depicted - usually in the form of a heron - in the Egyptian pyramids. We could say it is the ancestor of the Greek phoenix, this beautiful red bird that burns or dies at the end of its life cycle, only to be reborn again and again from its ashes.",
-    "lu": "„BENU“ gëtt ausgeschwat ewéi den engleschen Ausdrock ‘Be New!’, a bedeit ‘Sief nei!’. De BENU Villchen, deen op eisem Logo ze gesinn ass, entspréngt der ägyptescher Mythologie a gouf - meeschtens an der Gestalt vun engem Reier - schonn an den ägyptesche Pyramiden duergestallt. En ass souzesoen de Virgänger vum griichesche Phönix, dësem wonnerschéinen, roude Villchen, deen zum Schluss vu sengem Liewenszyklus verbrennt, fir aus sengen Äschen ëmmer nees nei ze entstoen."
+    "lu": "„BENU“ gëtt ausgeschwat ewéi den engleschen Ausdrock ‘Be New!’ a bedeit ‘Sief nei!’. De BENU Villchen, deen op eisem Logo ze gesinn ass, entspréngt der ägyptescher Mythologie a gouf - meeschtens an der Gestalt vun engem Reier - schonn an den ägyptesche Pyramiden duergestallt. En ass souzesoen de Virgänger vum griichesche Phönix, dësem wonnerschéinen, roude Villchen, deen zum Schluss vu sengem Liewenszyklus verbrennt, fir aus sengen Äschen ëmmer nees nei ze entstoen."
   },
   {
     "page": "Home",
@@ -5146,10 +5146,10 @@
   {
     "page": "Home",
     "key": "about.paragraph-3-3",
-    "de": "BENU hat sich einer konsequenten sozio-ökologischen Kreislaufwirtschaft verschrieben. Wiederverwendung, UpCycling, „Aus alt mach neu“, …. Ständig suchen wir nach Möglichkeiten, Bestehendes weiter zu verwenden und weniger neue Ressourcen zu verbrauchen.",
-    "fr": "BENU s'engage dans une économie circulaire socio-écologique cohérente. Réutilisation, UpCycling, \"faire du neuf avec du vieux\", .... Nous cherchons en permanence des possibilités de réutiliser ce qui existe déjà, et de consommer moins de nouvelles ressources.",
-    "en": "BENU is committed to a consistent socio-ecological circular economy. Reuse, UpCycling, \"make something new from something old“, .... We are constantly looking for ways to reuse existing things, and to use fewer new resources.",
-    "lu": "BENU huet sech enger konsequenter, sozio-ekologescher Kreeslafwirtschaft verschriwwen. Recyclage, UpCycling, „aus al maach nei“, …. Ëmmer nees siche mir no Méiglechkeeten, eppes weider ze gebrauchen a manner nei Ressourcen ze verbrauchen."
+    "de": "BENU hat sich einer konsequenten sozio-ökologischen Kreislaufwirtschaft verschrieben. Wiederverwendung, UpCycling, „Aus alt mach neu“ …. Ständig suchen wir nach Möglichkeiten, Bestehendes weiter zu verwenden und weniger neue Ressourcen zu verbrauchen.",
+    "fr": "BENU s'engage dans une économie circulaire socio-écologique cohérente. Réutilisation, UpCycling, \"faire du neuf avec du vieux” .... Nous cherchons en permanence des possibilités de réutiliser ce qui existe déjà, et de consommer moins de nouvelles ressources.",
+    "en": "BENU is committed to a consistent socio-ecological circular economy. Reuse, UpCycling, \"make something new from something old“ …. We are constantly looking for ways to reuse existing things, and to use fewer new resources.",
+    "lu": "BENU huet sech enger konsequenter, sozio-ekologescher Kreeslafwirtschaft verschriwwen. Recyclage, UpCycling, „aus al maach nei“ …. Ëmmer nees siche mir no Méiglechkeeten, eppes weider ze gebrauchen a manner nei Ressourcen ze verbrauchen."
   },
   {
     "page": "Home",
@@ -5172,7 +5172,7 @@
     "key": "about.paragraph-3-link-1",
     "de": "Facebook",
     "fr": "Facebook",
-    "en": "Facebook",
+    "en": "facebook",
     "lu": "Facebook"
   },
   {
@@ -5188,7 +5188,7 @@
     "key": "about.paragraph-3-link-2",
     "de": "Instagram",
     "fr": "Instagram",
-    "en": "Instagram",
+    "en": "instagram",
     "lu": "Instagram"
   },
   {
@@ -5210,7 +5210,7 @@
   {
     "page": "Home",
     "key": "about.paragraph-3-8",
-    "de": "an, den wir regelmäßig verschicken, um über aktuelle Aktivitäten und Projekte von BENU zu informieren.",
+    "de": "an. Wir verschicken ihn regelmäßig, um über aktuelle Aktivitäten und Projekte von BENU zu informieren.",
     "fr": "que nous envoyons régulièrement, pour te tenir au courant des activités et projets actuels de BENU.",
     "en": "that we send out regularly to inform you about BENU's current activities and projects.",
     "lu": "un, dee mir reegelméisseg verschécken, fir iwwer aktuell Aktivitéiten a Projete vu BENU ze informéieren."
@@ -5218,10 +5218,10 @@
   {
     "page": "Home",
     "key": "participate.toptitle",
-    "de": "",
-    "fr": "",
-    "en": "",
-    "lu": ""
+    "de": "Mitmachen macht Spaß!",
+    "fr": "Participer fait du plaisir!",
+    "en": "Participating is fun!",
+    "lu": "Matmaache mécht Spaass!"
   },
   {
     "page": "Home",
@@ -5258,10 +5258,10 @@
   {
     "page": "Home",
     "key": "participate.paragraph-1-link-1",
-    "de": "Facebook,",
-    "fr": "Facebook,",
-    "en": "Facebook,",
-    "lu": "Facebook,"
+    "de": "Facebook",
+    "fr": "Facebook",
+    "en": "Facebook",
+    "lu": "Facebook"
   },
   {
     "page": "Home",
@@ -5282,10 +5282,10 @@
   {
     "page": "Home",
     "key": "participate.paragraph-1-link-3",
-    "de": "BENU Newsletter.",
-    "fr": "BENU Newsletter.",
-    "en": "BENU Newsletter.",
-    "lu": "BENU Newsletter."
+    "de": "BENU Newsletter",
+    "fr": "BENU Newsletter",
+    "en": "BENU Newsletter",
+    "lu": "BENU Newsletter"
   },
   {
     "page": "Home",
@@ -5514,26 +5514,26 @@
   {
     "page": "Home",
     "key": "participate.paragraph-5-2",
-    "de": "Wenn Du exklusiv im ReUse, in der Transformation und im UpCycling produzierst, dann bist Du bei uns genau richtig. BENU hilft Dir beim Vermarkten! Wir bieten Dir an, Deine Produkte in unserem",
-    "fr": "Si tu produis exclusivement en ReUse, en Transformation et en UpCycling, alors tu es à la bonne adresse chez nous. BENU t'aide à commercialiser tes produits! Nous te proposons de les vendre dans notre",
-    "en": "If you produce exclusively in ReUse, Transformation and UpCycling, then you are at the right address with us. BENU helps you to market your products! We offer you to either sell them in our",
-    "lu": "Wann s Du exklusiv am ReUse, an der Transformatioun an am UpCycling produzéiers, da bass Du bei eis genau richteg. BENU hëlleft Dir beim Verkaf! Mir bidden Dir un, Deng Produiten an eisem"
+    "de": "Wenn Du exklusiv im ReUse, in der Transformation und im UpCycling produzierst, dann bist Du bei uns genau richtig. BENU hilft Dir beim Vermarkten! Wir bieten Dir an, Deine Produkte in unserem Online-Shop oder im Shop im",
+    "fr": "Si tu produis exclusivement en ReUse, en Transformation et en UpCycling, alors tu es à la bonne adresse chez nous. BENU t'aide à commercialiser tes produits! Nous te proposons de les vendre dans notre boutique en ligne ou notre Shop au",
+    "en": "If you produce exclusively in ReUse, Transformation and UpCycling, then you are at the right address with us. BENU helps you to market your products! We offer you to either sell them in our online-shop or in the shop in",
+    "lu": "Wann s Du exklusiv am ReUse, an der Transformatioun an am UpCycling produzéiers, da bass Du bei eis genau richteg. BENU hëlleft Dir beim Verkaf! Mir bidden Dir un, Deng Produiten an eisem Online-Shop oder dem Shop am"
   },
   {
     "page": "Home",
     "key": "participate.paragraph-5-link-1",
-    "de": "Online-Shop",
-    "fr": "boutique en ligne",
-    "en": "online-shop",
-    "lu": "Online-Shop"
+    "de": "BENU VILLAGE",
+    "fr": "BENU VILLAGE",
+    "en": "BENU VILLAGE",
+    "lu": "BENU VILLAGE"
   },
   {
     "page": "Home",
     "key": "participate.paragraph-5-3",
-    "de": "oder im Shop im BENU VILLAGE zu verkaufen, oder sie gemeinsam mit uns auf unseren Events auszustellen.",
-    "fr": "ou notre Shop au BENU VILLAGE ou de les exposer avec nous lors de nos événements.",
-    "en": "or in the shop in BENU VILLAGE, or to exhibit them together with us at our events.",
-    "lu": "oder dem Shop am BENU VILLAGE ze verkafen, oder se zesumme mat eis op eisen Evenementer auszestellen."
+    "de": "zu verkaufen, oder sie gemeinsam mit uns auf unseren Events auszustellen.",
+    "fr": "ou de les exposer avec nous lors de nos événements.",
+    "en": "or to exhibit them together with us at our events.",
+    "lu": "ze verkafen, oder se zesumme mat eis op eisen Evenementer auszestellen."
   },
   {
     "page": "Home",
@@ -5618,7 +5618,7 @@
   {
     "page": "Home",
     "key": "participate.paragraph-6-5",
-    "de": "UpCycling-Kreationen werden gebrauchte Kleidung und Stoffe verarbeitet, die uns von Privatpersonen überlassen werden. Wenn Du Altkleider oder gebrauchte Textilien an BENU COUTURE spenden möchtest, wende Dich bitte an eine de",
+    "de": "UpCycling-Kreationen werden gebrauchte Kleidung und Stoffe verarbeitet, die uns von Privatpersonen überlassen werden. Wenn Du Altkleider oder gebrauchte Textilien an BENU COUTURE spenden möchtest, wende Dich bitte an eine der",
     "fr": "nous utilisons des vêtements et des tissus usagés que des particuliers nous ont donné. Si tu souhaites faire  un don de vieux vêtements ou de textiles usagés à BENU COUTURE, adresse-toi à l'un des",
     "en": "UpCycling creations, we use clothes and fabrics that are entrusted to us by private individuals. If you would like to donate old clothes or textiles to BENU COUTURE, please go to one of our",
     "lu": "UpCycling-Kreatioune gi gebrauchte Kleeder a Stoffer verschafft, déi mir vu Privatpersoune kritt hunn. Wann s Du gebrauchte Kleeder oder Textilien u BENU COUTURE spende wëlls, da kontaktéier wannechgelift eng vun eise"
@@ -5634,10 +5634,10 @@
   {
     "page": "Home",
     "key": "breadcrumbs.learn-more",
-    "de": "",
-    "fr": "",
-    "en": "",
-    "lu": ""
+    "de": "BENU VILLAGE",
+    "fr": "BENU VILLAGE",
+    "en": "BENU VILLAGE",
+    "lu": "BENU VILLAGE"
   },
   {
     "page": "Home",
@@ -5661,7 +5661,7 @@
     "de": "… eine ehemalige innerstädtische Brache direkt neben dem Zentrum, im Ortsteil „Grenz“ der Stadt Esch-sur-Alzette im Süden Luxemburgs, zwischen der Rue d’Audun und dem Boulevard Prince Henri:  Hier entsteht BENU VILLAGE!",
     "fr": "... une ancienne friche urbaine juste à côté du centre, dans le quartier \"Grenz\" de la ville d'Esch-sur-Alzette au sud du Luxembourg, entre la rue d'Audun et le boulevard Prince Henri: c'est là que BENU VILLAGE voit le jour!",
     "en": "... a former inner-city wasteland right next to the centre, in the \"Grenz\" district of the city of Esch-sur-Alzette in the south of Luxembourg, between Rue d'Audun and Boulevard Prince Henri: this is where BENU VILLAGE is being built!",
-    "lu": ""
+    "lu": "… en eemolegt innerstädtescht Broochland direkt nieft dem Zentrum, am Grenz-Véierel vun der Stad Esch-Uelzecht am Süde vu Lëtzebuerg, tëscht der Rue d’Audun an dem Boulevard Prince Henri: Hei entsteet BENU VILLAGE!"
   },
   {
     "page": "Home",
@@ -5669,7 +5669,7 @@
     "de": "Das rund 1500 qm große Grundstück wurde der BENU Village Esch asbl von der Stadt Esch-sur-Alzette überlassen, um hier das erste Ökodorf in Luxemburg und in der Großregion aufzubauen.",
     "fr": "Ce terrain d'environ 1800 m² a été cédé à BENU Village Esch asbl par la ville d’Esch-sur-Alzette afin d'y créer le premier écovillage du Luxembourg et de la Grande Région.",
     "en": "The city of Esch-sur-Alzette has given BENU Village Esch asbl a plot of around 1800 square metres to build the first ecovillage in Luxembourg and the Greater Region.",
-    "lu": ""
+    "lu": "Dat ass e ronn 1800qm groussen Terrain, deen der BENU Village Esch asbl vun der Stad Esch-Uelzecht zur Verfügung gestallt ginn ass, fir op dëser Plaz dat éischt Ekoduerf vu Lëtzebuerg an der Groussregioun opzebauen."
   },
   {
     "page": "Home",
@@ -5677,7 +5677,7 @@
     "de": "Die Realisierung von BENU VILLAGE wird durch die großzügige Unterstützung der Stadt Esch-sur-Alzette ermöglicht! Weitere engagierte Förderer sind das Ministerium für Umwelt, Klima und nachhaltige Entwicklung, das Wirtschaftsministerium, die Oeuvre Nationale de Secours Grande-Duchesse Charlotte und die Fondation André Losch.",
     "fr": "La réalisation du projet BENU VILLAGE est d’ailleurs rendue possible grâce au généreux soutien de la ville d'Esch-sur-Alzette! Le Ministère de l'Environnement, du Climat et du Développement durable, ainsi que le Ministère de l’Économie, l'Œuvre Nationale de Secours Grande-Duchesse Charlotte et la Fondation André Losch en constituent d’autres sources de support engagés.",
     "en": "The realisation of BENU VILLAGE is made possible by the generous support of the City of Esch-sur-Alzette! The Ministry of Environment, Climate and Sustainable Development, as well as the Ministry of Economy, the Oeuvre Nationale de Secours Grande-Duchesse Charlotte and the Fondation André Losch constitute other valuable sources of support.",
-    "lu": ""
+    "lu": "D’Ëmsetzung vu BENU VILLAGE gëtt duerch déi generéis Ënnerstëtzung vun der Stad Esch-Uelzecht erméiglecht. Weideren, wäertvolle Support kréie mir vum Ministère de l’Environnement, du Climat et du Développement Durable, dem Ministère de l’Économie et du Commerce, der Oeuvre Nationale de Secours Grande-Duchesse Charlotte an der Fondation André Losch."
   },
   {
     "page": "Home",
@@ -5685,7 +5685,7 @@
     "de": "Wir danken all unseren Unterstützer:innen für ihr großartiges Engagement!",
     "fr": "Nous les remercions pour leur engagement formidable!",
     "en": "We thank all our supporters for their impressive commitment!",
-    "lu": ""
+    "lu": "Mir soen all eisen Ënnerstëtzer:inne Merci fir hire formidabelen Engagement!"
   },
   {
     "page": "Home",
@@ -5693,7 +5693,7 @@
     "de": "Was ist überhaupt ein Ökodorf?",
     "fr": "Qu'est-ce qu'un écovillage ?",
     "en": "What is an ecovillage?",
-    "lu": ""
+    "lu": "Wat ass iwwerhapt en Ekoduerf?"
   },
   {
     "page": "Home",
@@ -5701,7 +5701,7 @@
     "de": "Bei einem Ökodorf handelt es sich um einen Standort, der seine gesamten Aktivitäten auf Nachhaltigkeit, Kooperation und Partizipation basiert.",
     "fr": "Un écovillage est un projet dont toutes les activités sont basées sur la durabilité, la coopération et la participation.",
     "en": "An ecovillage is a project that bases all its activities on sustainability, cooperation and participation.",
-    "lu": ""
+    "lu": "Bei engem Ekoduerf geet et ëm e Projet, deen all seng Aktivitéiten op Nohaltegkeet, Kooperatioun a Participatioun baséiert."
   },
   {
     "page": "Home",
@@ -5709,7 +5709,7 @@
     "de": "Als Plattform der sozio-ökologischen Kreislaufwirtschaft setzt das Ökodorf BENU VILLAGE konsequent auf Prinzipien des UpCyclings, der lokalen Produktion und Kollaboration, sowie auf soziale und ökologische Werte. BENU VILLAGE ist Teil des Stadtlebens der Stadt Esch-sur-Alzette und gibt in verschiedenen Bereichen innovative Impulse:",
     "fr": "En tant que plateforme d'économie circulaire socio-écologique, l'écovillage BENU VILLAGE mise systématiquement sur les principes de l'UpCycling, de la production locale et de la collaboration, ainsi que sur des valeurs sociales et écologiques. BENU VILLAGE fait partie de la vie urbaine de la ville d'Esch-sur-Alzette et offre des impulsions innovantes dans différents domaines:",
     "en": "As a platform of the socio-ecological circular economy, the BENU VILLAGE ecovillage consistently relies on principles of upcycling, local production and collaboration, as well as social and ecological values. BENU VILLAGE is part of the urban life of the city of Esch-sur-Alzette and provides innovative impulses in various areas:",
-    "lu": ""
+    "lu": "Als Plattform vun der sozio-ekologescher Kreeslafwirtschaft setzt d’Ekoduerf BENU VILLAGE konsequent op Prinzippien vum UpCycling, der lokaler Produktioun a Kollaboratioun, esou ewéi op sozial an ekologesch Wäerter. BENU VILLAGE ass en Deel vum Stadliewe vun der Stad Esch-Uelzecht a gëtt an de verschiddenste Beräicher innovativ Impulser:"
   },
   {
     "page": "Home",
@@ -5717,7 +5717,7 @@
     "de": "Optimierung und Innovation des Energie- und Ressourcenverbrauchs",
     "fr": "Optimisation et innovation d’énergie et de ressources",
     "en": "Optimisation and innovation of energy and resource consumption.",
-    "lu": ""
+    "lu": "Optimiséierung an Innovatioun vum Energie- a Ressourcëverbrauch"
   },
   {
     "page": "Home",
@@ -5725,7 +5725,7 @@
     "de": "Schaffung eines Pilotprojektes zur Kreislaufwirtschaft",
     "fr": "Création d’un projet pilote d’économie circulaire",
     "en": "Creation of a pilot project for the circular economy",
-    "lu": ""
+    "lu": "Erschafe vun engem Kreeslafwirtschaft-Pilotprojet"
   },
   {
     "page": "Home",
@@ -5733,7 +5733,7 @@
     "de": "Förderung der Sozialen Stadtentwicklung",
     "fr": "Promouvoir le développement social urbain",
     "en": "Promoting social urban development",
-    "lu": ""
+    "lu": "Fërderung vun der sozialer Stadentwécklung"
   },
   {
     "page": "Home",
@@ -5741,7 +5741,7 @@
     "de": "Gewährleistung einer transparenten Kommunikation",
     "fr": "Assurer une communication transparente",
     "en": "Ensuring transparent communication",
-    "lu": ""
+    "lu": "Garantie vun enger transparenter Kommunikatioun"
   },
   {
     "page": "Home",
@@ -5749,7 +5749,7 @@
     "de": "Von den Anfängen bis zum Ökodorf…",
     "fr": "Les débuts de l'écovillage...",
     "en": "From the beginnings to the ecovillage...",
-    "lu": ""
+    "lu": "Vum Ufank bis bei d’Ekoduerf …"
   },
   {
     "page": "Home",
@@ -5757,7 +5757,7 @@
     "de": "Im April 2019 starteten die Arbeiten am Pilotbau BENU PROVISORIUM mit dem Ziel, erste praktische Erfahrungen unter anderem im Bereich der nachhaltigen Dämmung zu sammeln. Dieses erste Bauprojekt wurde im Oktober 2019 fertiggestellt.",
     "fr": "En avril 2019, les travaux du projet pilote BENU PROVISORIUM ont débuté dans le but d'acquérir une première expérience pratique au niveau d’une isolation durable. Ce premier projet de construction a été achevé en octobre 2019.",
     "en": "In April 2019, work started on the BENU PROVISORIUM pilot project with the aim of gaining initial practical experience, especially in terms of sustainable insulation. This first construction project was completed in October 2019.",
-    "lu": ""
+    "lu": "Ab Abrëll 2019 hunn d’Aarbechten um Pilotprojet PROVISORIUM ugefaangen, mat dem Zil, éischt praktesch Erfarunge virun allem am Beräich vun der nohalteger Isolatioun ze sammelen. Dësen éischte Bauprojet ass am Oktober 2019 fäerdeg ginn."
   },
   {
     "page": "Home",
@@ -5765,15 +5765,15 @@
     "de": "Das PROVISORIUM beherbergte bis Oktober 2022 das professionelle Schneider-Atelier BENU COUTURE, welches UpCycling Mode aus gebrauchten Kleidern entwirft, produziert und im eigenen Laden verkauft.",
     "fr": "Le bâtiment provisoire a accueilli jusqu'en octobre 2022 l'atelier de couture professionnel BENU COUTURE, qui conçoit et produit des vêtements UpCycling à partir de tissus usagés, et qui les vend dans son propre magasin.",
     "en": "Until October 2022, the provisional building housed the professional tailoring studio BENU COUTURE, which designs, produces and sells upcycled fashion made from used clothes in its own shop.",
-    "lu": ""
+    "lu": "Am PROVISORIUM war bis Enn Oktober 2022 eise professionelle Schneideratelier BENU COUTURE, deen UpCycling-Moud aus gebrauchtem Stoft designt, produzéiert an och am eegene Buttek verkeeft."
   },
   {
     "page": "Home",
     "key": "campaigns.full-paragraph-2-2",
     "de": "Im November 2022 ist",
-    "fr": "En novembre 2022,",
-    "en": "In November 2022,",
-    "lu": ""
+    "fr": "En novembre 2022",
+    "en": "In November 2022",
+    "lu": "Am November 2022 ass"
   },
   {
     "page": "Home",
@@ -5781,7 +5781,7 @@
     "de": "BENU COUTURE",
     "fr": "BENU COUTURE",
     "en": "BENU COUTURE",
-    "lu": ""
+    "lu": "BENU COUTURE"
   },
   {
     "page": "Home",
@@ -5789,7 +5789,7 @@
     "de": "in das Ökodorf umgezogen. Und die Fertigstellung von BENU VILLAGE ist im vollen Gang…. ! Bald werden hier weitere BENU Aktivitäten ihren Platz finden:",
     "fr": "a déménagé dans l'écovillage. L'achèvement de BENU VILLAGE est donc en cours, et d'autres activités BENU s'y dérouleront bientôt :",
     "en": "moved to the ecovillage. The completion of BENU VILLAGE is thus in full swing, and more BENU activities will soon take place here:",
-    "lu": ""
+    "lu": "an d’Ekoduerf geplënnert. De Finissage vu BENU VILLAGE leeft also op Héichtouren, a geschwë wäerte weider BENU Aktivitéiten hei stattfannen an ugebuede ginn:"
   },
   {
     "page": "Home",
@@ -5797,7 +5797,7 @@
     "de": "das innovative und nachhaltige Restaurant",
     "fr": "le restaurant innovant et durable",
     "en": "the innovative and sustainable restaurant",
-    "lu": ""
+    "lu": "den innovativen an nohaltege Restaurant"
   },
   {
     "page": "Home",
@@ -5811,9 +5811,9 @@
     "page": "Home",
     "key": "campaigns.full-paragraph-2-5",
     "de": "der Ausstellungs- und Verkaufsraum für UpCycling-Kreationen von BENU und seinen externen Partnern BENU LaSA",
-    "fr": "l’espace d'exposition et de vente des créations UpCycling de BENU COUTURE et de ses partenaires externes BENU LaSA",
-    "en": "the exhibition and sales space for UpCycling creations by BENU COUTURE and its external partners BENU LaSA",
-    "lu": ""
+    "fr": "l’espace d'exposition et de vente des créations UpCycling de BENU et de ses partenaires externes BENU LaSA",
+    "en": "the exhibition and sales space for UpCycling creations by BENU and its external partners BENU LaSA",
+    "lu": "den Ausstellungs- a Verkafsraum fir UpCycling-Kreatioune vu BENU a sengen externe Partner BENU LaSA"
   },
   {
     "page": "Home",
@@ -5821,7 +5821,7 @@
     "de": "die UpCycling-Möbelwerkstatt BENU FORM",
     "fr": "l’atelier de meubles UpCycling BENU FORM",
     "en": "the UpCycling furniture workshop BENU FORM",
-    "lu": ""
+    "lu": "den UpCycling-Miwwelatelier BENU FORM"
   },
   {
     "page": "Home",
@@ -5829,7 +5829,7 @@
     "de": "das Hotelzimmer BENU BREAK",
     "fr": "la chambre d'hôtel BENU BREAK",
     "en": "the hotel room BENU BREAK",
-    "lu": ""
+    "lu": "d’Hotelszëmmer BENU BREAK"
   },
   {
     "page": "Home",
@@ -5837,7 +5837,7 @@
     "de": "Außerdem BENU VILLAGE Räume vorgesehen, die an andere Initiativen weiter vermietet werden. Interessiert? Dann melde Dich",
     "fr": "Le BENU VILLAGE prévoit en outre des espaces qui seront sous-loués à d'autres initiatives. Tu es intéressé(e)? Alors inscris-toi",
     "en": "In the BENU VILLAGE, there are also rooms that can be rented out to other initiatives. Are you interested? Then get in touch",
-    "lu": ""
+    "lu": "Am BENU VILLAGE sinn doriwwer eraus och nach Raim virgesinn, déi un aner Initiative verlount wäerte ginn. Du bass intresséiert? Da mell dech"
   },
   {
     "page": "Home",
@@ -5845,7 +5845,7 @@
     "de": "hier.",
     "fr": "ici.",
     "en": "here.",
-    "lu": ""
+    "lu": "hei."
   },
   {
     "page": "Home",
@@ -5853,7 +5853,7 @@
     "de": "Und was ist das Besondere am BENU VILLAGE?",
     "fr": "Quelle est la particularité de BENU VILLAGE?",
     "en": "What is special about BENU VILLAGE?",
-    "lu": ""
+    "lu": "Wat ass besonnesch um BENU VILLAGE?"
   },
   {
     "page": "Home",
@@ -5861,7 +5861,7 @@
     "de": "BENU VILLAGE wird mit möglichst wenigen neuen Materialien aufgebaut. Es ist ein Ort, an dem wir ständig nach Möglichkeiten suchen, den Ressourcenverbrauch weiter zu reduzieren und Abfall zu vermeiden. Ein Ort, an dem wir kontinuierlich den ökologischen und den sozialen Fußabdruck verbessern. Ein Ort, an dem hochwertige und kreative Produkte hergestellt werden, die sich durch ihre Nachhaltigkeit auszeichnen.",
     "fr": "BENU VILLAGE est construit avec un minimum de nouveaux matériaux. Il s’agit d’un lieu où nous cherchons constamment de nouveaux moyens de réduire encore davantage la consommation de ressources et d'éviter les déchets; d’un lieu où nous améliorons continuellement l'empreinte écologique et sociale, et où sont proposés des produits et des services à la fois de qualité et créatifs, qui se distinguent notamment par leur durabilité.",
     "en": "BENU VILLAGE is built with as few new materials as possible. It is a place where we are constantly looking for new ways to further reduce resource consumption and avoid waste. A place where we continuously improve the environmental and social footprint. A place where creative, high-quality products and services are offered and which stand out for their sustainability.",
-    "lu": ""
+    "lu": "BENU VILLAGE Gëtt mat méiglechst wéinegen neie Materialien opgebaut. Et ass eng Plaz, wou mir ëmmer nees no neie Méiglechkeete sichen, fir de Ressourcëverbrauch weider ze reduzéieren an Offall ze vermeiden. Eng Plaz, wou kontinuéierlech den ekologeschen a sozialen Foussofdrock verbessert gëtt, a wou esou wuel héichwäerteg, ewéi och kreativ Produiten a Leeschtungen offréiert ginn, déi sech duerch hir Nohaltegkeet auszeechnen."
   },
   {
     "page": "Home",
@@ -5869,7 +5869,7 @@
     "de": "Die Konstruktion des Ökodorfes erfolgt nach dem Prinzip der nachhaltigen Kreislaufwirtschaft. Alle neuen Gebäudeteile bestehen aus alten, wiederverwendeten Schiffscontainern, die keine Zulassung mehr für den Hochseebetrieb haben. Für den Ausbau kommen abgebaute Materialien von anderen Bauprojekten und Restbestände von Partner-Betrieben zum Einsatz. Die Container-Bauweise erlaubt es, Bodenverdichtung und Versiegelung zu minimieren. Durch die Verwendung versickerungsfähiger Beläge im Außenbereich werden außerdem negative Veränderungen des Wasserkreislaufs reduziert. Das Regenwasser wird gesammelt und im BENU VILLAGE für Toilettenspülungen und die Bewässerung des Gartens verwendet. Für das Ökodorf kommen zudem ein autonomes Heiz-/Kühlsystem mit wiederverwendeten Sonnenpanelen und Luftwärmetauschern, sowie ein experimenteller, mobiler Großwasserspeicher zum Einsatz.",
     "fr": "La construction de l'écovillage suit le principe de l'économie circulaire durable. Toutes les nouvelles parties du bâtiment sont constituées d'anciens conteneurs maritimes réutilisés qui n'avaient plus l'autorisation d'être utilisés en haute mer. Pour l'aménagement, on utilise des matériaux démontés d'autres projets de construction et des restes d'entreprises partenaires. L’utilisation des conteneurs dans notre construction nous permet de minimiser le compactage et l'imperméabilisation des sols, et le revêtement extérieur qui permet l'infiltration réduit en outre les modifications négatives du cycle de l'eau. L'eau de pluie est collectée et utilisée ensuite dans le BENU VILLAGE pour les chasses d'eau et l'arrosage du jardin. L'écovillage utilise également un système de chauffage/refroidissement autonome avec des panneaux solaires réutilisés et des échangeurs d'air, ainsi qu'un réservoir d'eau mobile expérimental de grande capacité.",
     "en": "The construction of the ecovillage follows the principle of sustainable circular economy. All new parts of the building are made of old, reused shipping containers that were lacking approval for offshore use. Dismantled materials from other construction projects, as well as leftover materials from partner companies, are used for the finishing. The container construction method makes it possible to minimise soil compaction and sealing, and the use of infiltration-capable pavements in the outdoor area reduces negative changes in the water cycle. Rainwater is collected and then used in the BENU VILLAGE for flushing toilets and watering the garden. The ecovillage also uses an autonomous heating/cooling system with reused solar panels and air heat exchangers, as well as an experimental, mobile large-scale water storage tank.",
-    "lu": ""
+    "lu": "D’Konstruktioun vum Ekoduerf gëtt nom Prinzip vun der nohalteger Kreeslafwirtschaft realiséiert. All  déi nei Gebai-Deeler bestinn aus ale Schëffscontaineren, déi keng Erlabnis méi fir deen Zweck haten, fir dee se ursprénglech geduecht waren. Fir den Ausbau kommen ofgebaute Materialien vun anere Bauprojeten, esou ewéi Reschter vu Partner-Betriber an den Asaz. Déi sougenannte „Container-Bauweis“ erlaabt eng Minimiséierung vun der Buedemverdichtung a -versigelung. Duerch d’Benotze vu waasserduerchlässege Buedembeleeg am Bausseberäich gëtt och den negativen Impakt op de Waasserkreeslaf reduzéiert. D’Reewaasser Gëtt gesammelt an dann am BENU VILLAGE fir d’Toiletten an d’Bewässerung vum Gaart benotzt. Am Ekoduerf kommen doriwwer eraus en autonomen Heiz-/Killsystem mat gebrauchte Solarpanels a sougenannte „Luftwärmetauschern“, an en experimentellen, mobillen Grousswaasserspäicher an den Asaz."
   },
   {
     "page": "Home",
@@ -5877,7 +5877,7 @@
     "de": "Als Ergebnis zahlreicher Recherchen und Diskussionen sowohl intern als auch extern mit Expert:innen, ist es beim Bau des Ökodorfes gelungen, fast gänzlich auf den Einsatz von umweltbelastenden Materialien wie beispielsweise Beton, Bitumen, Gips oder Silikon   zu verzichten. Der ökologische Fußabdruck dieser Materialien, die mittlerweile wie selbstverständlich zum Basisrepertoire des Baus gehören, ist erheblich, während das Wiederverwertungspotential dagegen bescheiden ist.",
     "fr": "Suite à de nombreuses recherches et discussions aux niveaux internes et externes - en consultant les conseils d’experts - nous avons réussi à construire notre écovillage en évitant presque entièrement le recours aux matériaux polluants tels que le béton, le bitume, le plâtre ou le silicone. L'empreinte écologique de ces matériaux, qui font partie du soi-disant „répertoire de base de la construction“, est considérable, alors que leur potentiel de recyclage est modeste.",
     "en": "As a result of numerous researches and discussions both on the internal and external level - relying on expert advice - we have succeeded in building our ecovillage almost entirely without the use of environmentally harmful materials such as concrete, bitumen, plaster or silicone. The ecological footprint of these materials, which apparently are now part of the „basic repertoire of construction“, is considerable, while the recycling potential is modest, to say the least.",
-    "lu": ""
+    "lu": "Als Resultat vu ville Recherchen an Diskussiounen op internem an externem Niveau, am Gespréich mat Extert:innen, ass et eis beim Bau vun eisem Ekoduerf gelongen, bal komplett op den Asaz vun ëmweltbelaaschtende Materialien ewéi Betong, Bitumen, Gips oder Silikon ze verzichten. Den ekologesche Foussofdrock vun dëse Materialien, déi mëttlerweil ewéi selbstverständlech zum Standardrepertoire vum Bauen gehéieren, ass enorm - d’Potenzial, fir se ze recycelen, ass dofir awer erschreckend geréng."
   },
   {
     "page": "Home",
@@ -5885,7 +5885,7 @@
     "de": "Die Mühe hat sich indes gelohnt:",
     "fr": "L'effort en valait toutefois la peine:",
     "en": "The effort, however, has been worthwhile:",
-    "lu": ""
+    "lu": "Déi vill Méi huet sech awer gelount:"
   },
   {
     "page": "Home",
@@ -5893,7 +5893,7 @@
     "de": "Für den Bau werden nahezu ausschließlich gebrauchtes Metall und Holz verwendet. Partiell kommt auch Stroh aus der Region zum Einsatz.",
     "fr": "Pour la construction, on utilise presque exclusivement du métal et du bois usagé, tout comme de la paille provenant de la région.",
     "en": "Almost exclusively, we relied on used metal and wood for the construction; partially, straw from the region came into use as well.",
-    "lu": ""
+    "lu": "Fir de Bau goufe quasi just gebraucht Metall an Holz benotzt. Partiell ass och Stréi aus der Regioun an den Asaz komm."
   },
   {
     "page": "Home",
@@ -5901,7 +5901,7 @@
     "de": "Die Außen-Dämmung der Schiffscontainer besteht aus einer Mischung aus „Miscanthus“ (Chinaschilf) aus der unmittelbaren Region sowie chemisch unverändertem Kalk. Im Rahmen des Pilotbaus PROVISORIUM wurden bereits umfangreiche Erfahrungen bei der Umsetzung dieser nachhaltigen Bauweise gemacht. Beim Rückbau lässt sich das Material als organischer Dünger klima- und umweltneutral weiterverwenden.",
     "fr": "L’isolation extérieure des conteneurs maritimes est constituée d'un mélange de \"miscanthus\" (roseau de Chine) provenant de la région immédiate et de chaux non modifiée chimiquement; heureusement, le projet pilote PROVISORIUM nous a déjà permis d'acquérir une expérience assez fondée dans la mise en œuvre de ce type de construction durable. Lors de sa déconstruction, les matériaux peuvent être réutilisés comme engrais organique, sans avoir un impact sur le climat et l’environnement.",
     "en": "The exterior insulation of the shipping containers consists of a mixture of \"miscanthus\" (Chinese reed) from the surrounding regions and chemically unmodified lime. Within the framework of the PROVISORIUM pilot project, some extensive experience in terms of the implementation of this sustainable construction method could be gained. When deconstructed, the material can be reused as organic fertiliser in a climate- and environmentally neutral way.",
-    "lu": ""
+    "lu": "D’Isolatioun vun de Schëffscontainer besteet baussen aus enger Mëschung aus „Miscanthus“ (Chinaschilf) aus der direkter Ëmgéigend, esou ewéi aus chemesch onverännertem Kallek. Am Kontext vum Pilotprojet PROVISORIUM goufe scho wäertvoll Erfarungen am Beräich vun der Ëmsetzung vun dëser nohalteger Aart a Weis, fir ze bauen, gemaach. Beim Ofrappe léisst sech dëst Material an der Form vun organeschem Dünger klima- an ëmweltneutral nees gebrauchen."
   },
   {
     "page": "Home",
@@ -5909,7 +5909,7 @@
     "de": "Die Fassaden werden mit Lehm verputzt, der direkt vor Ort gewonnen wurde.",
     "fr": "Les façades sont enduites d'argile, extraite directement sur place.",
     "en": "The façades are plastered with clay, which was extracted directly on site.",
-    "lu": ""
+    "lu": "D’Fassade gi mat Leem direkt vun der Plaz verbotzt."
   },
   {
     "page": "Home",
@@ -5917,7 +5917,7 @@
     "de": "In den Innenräumen kommt Hanf als Akustik- und Wärmeisolierung zum Einsatz. Die Verwendung von Lehm trägt positiv zum Raumklima bei.",
     "fr": "À l'intérieur, le chanvre est utilisé comme isolant acoustique et thermique. L'utilisation de l'argile contribue positivement au climat intérieur.",
     "en": "In the interiors, hemp is used as acoustic and thermal insulation. The use of clay contributes positively to the indoor climate.",
-    "lu": ""
+    "lu": "Bannen an de Raim kennt Hanf als Akustik- an Hëtztisoléierung an den Asaz. De Gebrauch vu Leem wierkt sech doriwwer eraus och positiv op d’Klima an de Raim aus."
   },
   {
     "page": "Home",
@@ -5925,7 +5925,7 @@
     "de": "Doch das ist noch nicht alles!",
     "fr": "Mais ce n'est pas tout!",
     "en": "But that is not all!",
-    "lu": ""
+    "lu": "Mee dat ass nach net alles!"
   },
   {
     "page": "Home",
@@ -5933,7 +5933,7 @@
     "de": "Mit dem Projekt BENU METAMORPHOSE wird das Ökodorf in seinen Außen- und Innenbereichen auf partizipative Weise künstlerisch gestaltet. …. lokale Naturmaterialien, vermeintlicher „Abfall“, eine schöne Portion Kreativität :) und begeisterte Menschen… mehr braucht es nicht! BENU VILLAGE wartet auf eine gemeischaftliche Transformation in all seinen Ecken, Nischen und Flächen.",
     "fr": "Avec le projet BENU METAMORPHOSE, l'écovillage sera aménagé de manière artistique et participative dans ses espaces extérieurs et intérieurs: des matériaux naturels locaux, des soi-disant „déchets\", une belle dose de créativité :) et des gens enthousiastes... il n'en faut pas plus! BENU VILLAGE attend une transformation communautaire dans tous ses coins, niches et surfaces.",
     "en": "With the BENU METAMORPHOSE project, the outdoor and indoor areas of the ecovillage are being artistically designed in a participatory way: local natural materials, supposed \"waste\", a nice dose of creativity :) and enthusiastic people... that's all it takes! BENU VILLAGE is waiting for a community transformation in all its corners, niches and spaces.",
-    "lu": ""
+    "lu": "Mat dem Projet BENU METAMORPHOSE Gëtt d’Ekoduerf an de Bannen- an Bausseberäicher op eng participativ Aart a Weis kënschtleresch gestalt: lokal Naturmaterialien, „Offall“, eng gutt Portioun Kreativitéit :) a begeeschtert Leit … méi brauche mir dofir net! BENU VILLAGE waart op eng gemeinschaftlech Transformatioun an all sengen Ecker, Nischen a Flächen."
   },
   {
     "page": "Home",
@@ -5941,7 +5941,7 @@
     "de": "Auch Du kannst bei der Gestaltung von BENU VILLAGE mitmachen!",
     "fr": "Toi aussi, tu peux participer à la création de BENU VILLAGE!",
     "en": "You can take part in the creation of BENU VILLAGE as well!",
-    "lu": ""
+    "lu": "Och Du kanns bei der Gestaltung vu BENU VILLAGE matmaachen!"
   },
   {
     "page": "Home",
@@ -5949,7 +5949,7 @@
     "de": "Melde Dich bei uns!",
     "fr": "N'hésite pas à nous contacter!",
     "en": "Get in touch with us!",
-    "lu": ""
+    "lu": "Mell Dech bei eis!"
   },
   {
     "page": "Home",
@@ -5957,7 +5957,7 @@
     "de": "Lass uns BENU VILLAGE zu einem Ort des Miteinander, der Integration und der Zusammenarbeit machen. Einem Ort, der die Menschen bewegt.",
     "fr": "Faisons de BENU VILLAGE un lieu de cohabitation, d'intégration et de collaboration. Un lieu qui fait bouger les gens.",
     "en": "Let's make BENU VILLAGE a place of togetherness, integration and collaboration. A place that moves people.",
-    "lu": ""
+    "lu": "Looss eis BENU VILLAGE zu enger Plaz vun der Gemeinschaft, der Integratioun an der Zesummenaarbecht maachen. Enger Plaz, déi d’Leit beweegt."
   },
   {
     "page": "Home",
@@ -6145,19 +6145,19 @@
   },
   {
     "page": "Contact",
-    "key": "services.contact-extra-txt",
+    "key": "auth.register-subtitle-text",
     "de": "Hast Du Fragen? Möchtest Du als Freiwillige:r helfen oder  als Partner:in mit BENU zusammenarbeiten? Hast Du Interesse, Dich im BENU VILLAGE mit Deiner Firma niederzulassen? Oder willst Du einfach mehr über BENU erfahren und uns besuchen?",
-    "fr": "Tu as une question concernant……Ou tu veux simplement en savoir plus sur BENU ?",
-    "en": "Do you have a question about BENU? ……..Or do you simply want to know more about BENU?",
-    "lu": "Hues Du eng Fro zu BENU? ……Oder wëlls Du einfach méi iwwer BENU wëssen?"
+    "fr": "Tu as des questions? Veux-tu aider en tant que bénévole, ou collaborer avec BENU en tant que partenaire ? Es-tu intéressé(e) à t'installer avec ton entreprise au BENU VILLAGE ? Ou veux-tu simplement en savoir plus sur BENU et nous rendre visite ?",
+    "en": "Do you have any questions? Would you like to help as a volunteer or work with BENU as a partner? Are you interested in setting up your company in the BENU VILLAGE? Or do you simply want to learn more about BENU and visit us?",
+    "lu": "Hues Du eng Fro zu BENU? Wëlls Du eis als Benevole hëllefen oder als Partner:in mat eis zesummeschaffen? Bass Du drun intresséiert, Dech mat Denger Entreprise am BENU VILLAGE ze installéieren? Oder wëlls Du einfach méi iwwer BENU gewuer ginn an eis besichen?"
   },
   {
     "page": "Actualités",
     "key": "news.all-explanation",
     "de": "Bei BENU und im BENU VILLAGE tut sich so Einiges. Lass Dich überraschen! Die Neuigkeiten aus unserer UpCycling-Schneiderei sowie Aktuelles zum Thema Kleidung und Nachhaltigkeit findest Du in der Rubrik BENU COUTURE.",
-    "fr": "",
-    "en": "",
-    "lu": ""
+    "fr": "Il se passent beaucoup de choses chez BENU et au BENU VILLAGE. Laisse-toi surprendre! Tu trouveras les nouveautés de notre atelier de couture UpCycling, ainsi que les actualités sur les vêtements et le développement durable dans la rubrique BENU COUTURE.",
+    "en": "There's a lot going on at BENU and in the BENU VILLAGE. Let us surprise you! You can find the latest news from our UpCycling tailor shop, as well as news about clothing and sustainability, in the BENU COUTURE section.",
+    "lu": "Bei BENU an am BENU VILLAGE ass vill lass. Looss Dech iwwerraschen! Neiegkeeten aus eisem UpCycling-Schneideratelier, esou ewéi Aktuelles zum Thema Gezei an Nohaltegkeet fënns Du ënnert der Rubrik BENU COUTURE."
   },
   {
     "page": "Actualités",
@@ -6254,30 +6254,6 @@
     "fr": "Tu peux participer à BENU !",
     "en": "You can participate at BENU!",
     "lu": "Du kanns bei BENU matmaachen!"
-  },
-  {
-    "page": "Participer",
-    "key": "news.all-explanation",
-    "de": "",
-    "fr": "",
-    "en": "",
-    "lu": ""
-  },
-  {
-    "page": "À propos",
-    "key": "about.subtitle-top",
-    "de": "Über BENU",
-    "fr": "À propos de BENU",
-    "en": "About BENU",
-    "lu": "Iwwer BENU"
-  },
-  {
-    "page": "À propos",
-    "key": "about.title-top",
-    "de": "Wer wir sind und was wir machen",
-    "fr": "Qui sommes-nous et que faisons-nous ?",
-    "en": "Who we are and what we do",
-    "lu": "Wee mir sinn a wat mir maachen"
   },
   {
     "page": "sitemap",

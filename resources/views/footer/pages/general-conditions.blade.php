@@ -27,8 +27,8 @@
 			{{ __('footer.general-conditions-txt-1') }}
 		</p>
 		<ul>
-			<li class="flex">@svg('list_cintre') <p><a href="{{ route('home', ['locale' => app()->getLocale()]) }}">{{ __('footer.general-conditions-link-1') }}</a> (<a href="{{ route('home', ['locale' => app()->getLocale()]) }}">{{ __('footer.general-conditions-link-2') }}</a>)</p></li>
-			<li class="flex">@svg('list_cintre') <p><a href="https://benu.lu">{{ __('footer.general-conditions-link-3') }}</a></p></li>
+			<li><span class="primary-color pr-3">•</span><a href="https://couture.benu.lu">{{ __('footer.general-conditions-link-1') }}</a> (<a href="https://www.benucouture.lu">{{ __('footer.general-conditions-link-2') }}</a>)</li>
+			<li><span class="primary-color pr-3">•</span><a href="https://www.benu.lu">{{ __('footer.general-conditions-link-3') }}</a></li>
 			<!-- <li><a href="{{ route('home', ['locale' => app()->getLocale()]) }}">{{ __('footer.general-conditions-link-1') }}</a> (<a href="{{ route('home', ['locale' => app()->getLocale()]) }}">{{ __('footer.general-conditions-link-2') }}</a>)</li> -->
 			<!-- <li><a href="https://benu.lu">{{ __('footer.general-conditions-link-3') }}</a></li> -->
 		</ul>
@@ -60,7 +60,7 @@
 		</p>
 		<ul>
 			@for($i = 1; $i <= 4; $i ++)
-			<li class="flex footer-conditions__paragraph">@svg('list_cintre') <p>{{ __('footer.general-conditions-txt-1-2-'.(1 + $i)) }}</p></li>
+			<li class="footer-conditions__paragraph"><span class="primary-color pr-3">•</span> {{ __('footer.general-conditions-txt-1-2-'.(1 + $i)) }}</li>
 			<!-- <li class="footer-conditions__paragraph">
 				{{ __('footer.general-conditions-txt-1-2-'.(1 + $i)) }}
 			</li> -->
@@ -84,7 +84,7 @@
 		</p>
 		<ul>
 			@for($i = 1; $i <= 2; $i ++)
-			<li class="flex footer-conditions__paragraph">@svg('list_cintre') <p>{{ __('footer.general-conditions-txt-1-4-'.(1 + $i)) }}</p></li>
+			<li class="footer-conditions__paragraph"><span class="primary-color pr-3">•</span> {{ __('footer.general-conditions-txt-1-4-'.(1 + $i)) }}</li>
 			<!-- <li class="footer-conditions__paragraph">
 				{{ __('footer.general-conditions-txt-1-4-'.(1 + $i)) }}
 			</li> -->
