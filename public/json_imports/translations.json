@@ -544,6 +544,14 @@
     "lu": "Hei kanns Du Däi Kont opmaachen!"
   },
   {
+    "page": "",
+    "key": "auth.register-subtitle-text",
+    "de": "Mit Deinem  BENU Konto kannst Du Deine Aktivitäten auf den  verschiedenen Internetseiten von BENU Village Esch asbl einsehen und verwalten.",
+    "fr": "Avec ton compte BENU, tu peux consulter et de gérer tes activités sur les différents sites Internet de BENU Village Esch asbl.",
+    "en": "With your BENU account, you can view and manage your activities on the different BENU Village Esch asbl websites.",
+    "lu": "Mat Dengem  BENU Konto kanns Du Deng Aktivitéiten op deenen ënnerschiddlechen Internetsäite vu BENU Village Esch asbl kucken a verwalten."
+  },
+  {
     "page": "Compte",
     "key": "forms.password",
     "de": "Gib hier bitte ein Passwort ein",
@@ -689,11 +697,43 @@
   },
   {
     "page": "Compte",
-    "key": "forms.register-conditions-conf",
-    "de": "Ich stimme den allgemeinen Geschäftsbedingungen und den Datenschutzrichtlinien von BENU COUTURE zu",
-    "fr": "J’accepte les conditions générales et la politique de confidentialité de BENU COUTURE",
-    "en": "I accept the general conditions and the privacy policy of BENU COUTURE",
-    "lu": "Ech stëmmen den allgemenge Geschäftsbedéngungen an den Dateschutzrichtlinne vu BENU COUTURE zou"
+    "key": "forms.register-conditions-conf-1",
+    "de": "Ich stimme den",
+    "fr": "J’accepte les",
+    "en": "I accept the",
+    "lu": "Ech stëmmen den"
+  },
+  {
+    "page": "Compte",
+    "key": "forms.register-conditions-conf-2",
+    "de": "allgemeinen Geschäftsbedingungen",
+    "fr": "conditions générales",
+    "en": "general conditions",
+    "lu": "allgemenge Geschäftsbedéngungen"
+  },
+  {
+    "page": "Compte",
+    "key": "forms.register-conditions-conf-3",
+    "de": "und den",
+    "fr": "et la",
+    "en": "and the",
+    "lu": "an den"
+  },
+  {
+    "page": "Compte",
+    "key": "forms.register-conditions-conf-4",
+    "de": "Datenschutzrichtlinien",
+    "fr": "politique de confidentialité",
+    "en": "privacy policy",
+    "lu": "Dateschutzrichtlinne"
+  },
+  {
+    "page": "Compte",
+    "key": "forms.register-conditions-conf-5",
+    "de": "von BENU zu",
+    "fr": "de BENU",
+    "en": "of BENU",
+    "lu": "vu BENU zou"
   },
   {
     "page": "Compte",
