@@ -75,7 +75,7 @@ return [
     |
     */
 
-    'brand' => 'BENU COUTURE',//env('APP_NAME', 'BENU'),
+    'brand' => 'BENU VILLAGE',//env('APP_NAME', 'BENU'),
 
     /*
     |--------------------------------------------------------------------------

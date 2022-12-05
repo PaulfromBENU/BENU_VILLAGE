@@ -2,7 +2,7 @@
 	<div class="footer-learnmore__block">
 		<img src="{{ asset('media/pictures/benu-couture-illustration-footer1.png') }}">
 		<h3>
-			<span class="primary-color">BENU COUTURE</span> {{ __('footer.more-title-1') }}
+			<span class="primary-color">BENU VILLAGE</span> {{ __('footer.more-title-1') }}
 		</h3>
 		<p>
 			{{ __('footer.more-txt-1') }}
@@ -14,7 +14,7 @@
 	<div class="footer-learnmore__block">
 		<img src="{{ asset('media/pictures/benu-couture-illustration-footer2.png') }}">
 		<h3>
-			{{ __('footer.more-title-2') }} <span class="primary-color">BENU COUTURE</span>
+			{{ __('footer.more-title-2') }} <span class="primary-color">BENU VILLAGE</span>
 		</h3>
 		<p>
 			{{ __('footer.more-txt-2') }}

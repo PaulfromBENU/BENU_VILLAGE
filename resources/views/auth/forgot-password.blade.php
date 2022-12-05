@@ -26,7 +26,7 @@ noindex, nofollow
 
 @section('main-content')
     <section class="benu-container login">
-        <h3 class="login__subtitle">BENU COUTURE</h3>
+        <h3 class="login__subtitle">BENU</h3>
         @if(session('status') == null)
         <h1 class="login__title">{{ __('auth.password-forgotten-title-1') }} <br/>{{ __('auth.password-forgotten-title-2') }}</h1>
 

@@ -26,7 +26,7 @@ noindex, nofollow
 
 @section('main-content')
     <section class="benu-container login">
-        <h3 class="login__subtitle">BENU COUTURE</h3>
+        <h3 class="login__subtitle">BENU</h3>
         <h1 class="login__title">{{ __('auth.password-reset-title-1') }} <br/>{{ __('auth.password-reset-title-2') }}</h1>
 
         <form method="POST" action="{{ route('password.update', ['locale' => app()->getLocale()]) }}" class="w-1/4 m-auto mb-10">

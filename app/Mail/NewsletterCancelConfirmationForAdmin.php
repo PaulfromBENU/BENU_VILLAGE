@@ -34,6 +34,6 @@ class NewsletterCancelConfirmationForAdmin extends Mailable
      */
     public function build()
     {
-        return $this->from(config('mail.mailers.smtp_admin.sender'), 'BENU')->subject('! Annulation inscription newsletter depuis BENU COUTURE')->view('emails.newsletter-cancellation-for-admin');
+        return $this->from(config('mail.mailers.smtp_admin.sender'), 'BENU')->subject('! Annulation inscription newsletter depuis BENU VILLAGE')->view('emails.newsletter-cancellation-for-admin');
     }
 }
