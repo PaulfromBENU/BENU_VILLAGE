@@ -1,10 +1,10 @@
 <section class="benu-container welcome-presentation">
     <div class="welcome-presentation__illustration">
-        <img src="{{ asset('media/pictures/benu-village-illustration-slide1-ecologique-pattern-OK.jpg') }}" class="welcome-illustration-1 welcome-presentation__img">
-        <img src="{{ asset('media/pictures/benu-village-illustration-slide2-local-pattern-OK.jpg') }}" class="welcome-illustration-2 welcome-presentation__img">
-        <img src="{{ asset('media/pictures/benu-village-illustration-slide3-participatif-pattern-OK.jpg') }}" class="welcome-illustration-3 welcome-presentation__img">
+        <img src="{{ asset('media/pictures/benu-village-illustration-slide5-social-pattern-OK.jpg') }}" class="welcome-illustration-1 welcome-presentation__img">
+        <img src="{{ asset('media/pictures/benu-village-illustration-slide1-ecologique-pattern-OK.jpg') }}" class="welcome-illustration-2 welcome-presentation__img">
+        <img src="{{ asset('media/pictures/benu-village-illustration-slide2-local-pattern-OK.jpg') }}" class="welcome-illustration-3 welcome-presentation__img">
         <img src="{{ asset('media/pictures/benu-village-illustration-slide4-transparent-pattern-OK.jpg') }}" class="welcome-illustration-4 welcome-presentation__img">
-        <img src="{{ asset('media/pictures/benu-village-illustration-slide5-social-pattern-OK.jpg') }}" class="welcome-illustration-5 welcome-presentation__img">
+        <img src="{{ asset('media/pictures/benu-village-illustration-slide3-participatif-pattern-OK.jpg') }}" class="welcome-illustration-5 welcome-presentation__img">
     </div>
     <div class="welcome-presentation__desc">
         <div class="flex justify-start welcome-presentation__desc__bar">
