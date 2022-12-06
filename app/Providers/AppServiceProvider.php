@@ -6,8 +6,11 @@ use Illuminate\Support\ServiceProvider;
 use Illuminate\Validation\Rules\Password;
 use Illuminate\Support\Facades\Blade;
 use Laravel\Cashier\Cashier;
+use Illuminate\Support\Facades\Schema;
 
 use Filament\Facades\Filament;
+
+use App\Models\InstagramPicture;
 
 class AppServiceProvider extends ServiceProvider
 {
@@ -30,6 +33,7 @@ class AppServiceProvider extends ServiceProvider
     {
         //View::share('youVarName', [1, 2, 3]);
 
+        // Custom password conditions
         Password::defaults(function () {
             $rule = Password::min(8);
 
@@ -39,6 +43,7 @@ class AppServiceProvider extends ServiceProvider
             return $rule->mixedCase();// ->uncompromised();
         });
 
+        // Filament handling
         Filament::registerStyles([
             asset('css/app.css'),
         ]);
@@ -54,6 +59,7 @@ class AppServiceProvider extends ServiceProvider
             ]);
         });
 
+        // Custom Blade @inshop
         Blade::directive('inshop', function () {
             return "<?php if(auth()->check() && auth()->user()->role == 'vendor'): ?>";
         });
@@ -61,5 +67,11 @@ class AppServiceProvider extends ServiceProvider
         Blade::directive('endinshop', function () {
             return "<?php endif ?>";
         });
+
+        // Generate Instagram pictures for footer on all pages
+        if (Schema::connection('mysql_common')->hasTable('instagram_pictures')) {
+            $insta_links =  InstagramPicture::where('is_village', '1')->orderBy('created_at', 'desc')->limit(15, 0)->get();
+            view()->share('insta_links', $insta_links);
+        }
     }
 }
