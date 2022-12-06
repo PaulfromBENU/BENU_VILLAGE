@@ -14,7 +14,7 @@
             <div class="flex justify-between header__top-menu tablet-hidden">
                 <nav class="header__top-nav flex justify-start">
                     <div>
-                        <a href="{{ route('home', [app()->getLocale()]) }}" class="header__home-title">BENU VILLAGE</a>
+                        <a href="{{ route('learn-more-'.app()->getLocale()) }}" class="header__home-title">BENU VILLAGE</a>
                     </div>
                     <ul class="flex justify-start header__top-nav__links tablet-hidden">
                         
