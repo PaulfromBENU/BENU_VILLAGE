@@ -1,0 +1,42 @@
+{
+    "barlow": {
+        "normal": "barlow_normal_49f415989af5ad2e7c25896c1283eaee"
+    },
+    "barlow regular": {
+        "normal": "barlow_regular_normal_5744a9886d57b269899082fd7a95e70d"
+    },
+    "barlow regular italic": {
+        "italic": "barlow_regular_italic_italic_5744a9886d57b269899082fd7a95e70d"
+    },
+    "barlow medium": {
+        "normal": "barlow_medium_normal_8a422921bb7f47a5da6769c1ba2ec5f4"
+    },
+    "barlow semibold": {
+        "normal": "barlow_semibold_normal_f02e28ce42971d295da50087af480568"
+    },
+    "barlow medium italic": {
+        "normal": "barlow_medium_italic_normal_bbc3c40568af8f03ac024e26dff9c595"
+    },
+    "barlow condensed regular": {
+        "normal": "barlow_condensed_regular_normal_7f5c80b5c3c0c6e11f4abeb4c3a7ae8b"
+    },
+    "barlow condensed medium": {
+        "normal": "barlow_condensed_medium_normal_536fe4a773e4f61438a0ac9aecdd19b6"
+    },
+    "barlow condensed medium italic": {
+        "normal": "barlow_condensed_medium_italic_normal_cda341085ef7aff11bec96e1c98b31ac"
+    },
+    "barlow condensed semibold": {
+        "normal": "barlow_condensed_semibold_normal_a1a5d1c13e48ca9b55b2168383e8d57e"
+    },
+    "barlow condensed light italic": {
+        "normal": "barlow_condensed_light_italic_normal_6f5bd502287948c6d407f91df1938a16"
+    },
+    "barlow condensed": {
+        "normal": "barlow_condensed_normal_e68a5a484759254dab85731d494c69e6",
+        "300_italic": "barlow_condensed_300_italic_6f5bd502287948c6d407f91df1938a16",
+        "500": "barlow_condensed_500_b2abbdaa32d82391c115a7f73f0a4b0b",
+        "500_italic": "barlow_condensed_500_italic_5392d0d46d31583dc8163e296c8a0198",
+        "600": "barlow_condensed_600_0ff29c531f13e46945e06f41d5dab8d3"
+    }
+}
