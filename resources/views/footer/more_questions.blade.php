@@ -10,10 +10,10 @@
 			</div>
 		</div>
 		<div class="footer-more__illustration footer-more__illustration--left mobile-hidden">
-			<img src="{{ asset('media/pictures/benu-couture-illustration-footer-left.png') }}">
+			<img src="{{ asset('media/pictures/benu-village-illustration-footer-left.png') }}">
 		</div>
 		<div class="footer-more__illustration footer-more__illustration--right mobile-hidden">
-			<img src="{{ asset('media/pictures/benu-couture-illustration-footer-right.png') }}">
+			<img src="{{ asset('media/pictures/benu-village-illustration-footer-right.png') }}">
 		</div>
 	</div>
 </section>
