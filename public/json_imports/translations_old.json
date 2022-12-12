@@ -1002,10 +1002,10 @@
   {
     "page": "Connexion",
     "key": "auth.login-no-account",
-    "de": "Noch kein BENU COUTURE Konto?",
-    "fr": "Pas encore de compte BENU COUTURE ?",
-    "en": "No BENU COUTURE account yet?",
-    "lu": "Nach kee BENU COUTURE Kont?"
+    "de": "Noch kein BENU Konto?",
+    "fr": "Pas encore de compte BENU ?",
+    "en": "No BENU account yet?",
+    "lu": "Nach kee BENU Kont?"
   },
   {
     "page": "Connexion",
@@ -1014,6 +1014,14 @@
     "fr": "Tu peux créer ton compte ici",
     "en": "You can create your account here",
     "lu": "Hei kanns Du Däi Kont opmaachen"
+  },
+  {
+    "page": "Connexion",
+    "key": "auth.register-subtitle-text",
+    "de": "Mit Deinem  BENU Konto kannst Du Deine Aktivitäten auf den unterschiedlichen Internetseiten von BENU Village Esch asbl einsehen und verwalten.",
+    "fr": "Avec ton compte BENU, tu peux consulter et de gérer tes activités sur les différents sites Internet de BENU Village Esch asbl.",
+    "en": "With your BENU account, you can view and manage your activities on the different BENU Village Esch asbl websites.",
+    "lu": "Mat Dengem  BENU Konto kanns Du Deng Aktivitéiten op deenen ënnerschiddlechen Internetsäite vu BENU Village Esch asbl kucken a verwalten."
   },
   {
     "page": "Connexion",
@@ -2698,10 +2706,10 @@
   {
     "page": "Mon compte",
     "key": "dashboard.delete-account-txt-1",
-    "de": "Schade, dass Du Dein Konto löschen möchtest! Wenn Du später doch wieder bei BENU mitmachen möchtest, kannst Du jederzeit ein neues Konto eröffnen. Du hilfst uns BENU COUTURE zu verbessern, wenn Du uns erklärst, warum Du Dein Konto löschen möchtest. Vielen Dank!",
-    "fr": "Dommage que tu souhaites supprimer ton compte ! Si tu as envie de rejoindre BENU ultérieurement, tu peux rouvrir un compte à tout moment. En nous expliquant pourquoi tu souhaites supprimer ton compte, tu nous aides à améliorer BENU COUTURE. Merci beaucoup !",
-    "en": "It's a pity that you want to delete your account! If you want to join BENU again later, you can open a new account at any time. You will help us to improve BENU COUTURE if you explain why you want to delete your account. Thank you very much!",
-    "lu": "Schued datt s Du Däi Kont läsche wëlls! Wann s Du méi spéit nach eng Kéier bei BENU wëlls bäitrieden, kanns Du zu all Moment en neie Kont opmaachen. Du hëllefs eis BENU COUTURE ze verbessere wann s Du eis erkläers, firwat s Du däi Kont läsche wëlls. Villmools Merci!"
+    "de": "Schade, dass Du Dein Konto löschen möchtest! Wenn Du später doch wieder bei BENU mitmachen möchtest, kannst Du jederzeit ein neues Konto eröffnen. Du hilfst uns BENU zu verbessern, wenn Du uns erklärst, warum Du Dein Konto löschen möchtest. Vielen Dank!",
+    "fr": "Dommage que tu souhaites supprimer ton compte ! Si tu as envie de rejoindre BENU ultérieurement, tu peux rouvrir un compte à tout moment. En nous expliquant pourquoi tu souhaites supprimer ton compte, tu nous aides à améliorer BENU. Merci beaucoup !",
+    "en": "It's a pity that you want to delete your account! If you want to join BENU again later, you can open a new account at any time. You will help us to improve BENU if you explain why you want to delete your account. Thank you very much!",
+    "lu": "Schued datt s Du Däi Kont läsche wëlls! Wann s Du méi spéit nach eng Kéier bei BENU wëlls bäitrieden, kanns Du zu all Moment en neie Kont opmaachen. Du hëllefs eis BENU ze verbessere wann s Du eis erkläers, firwat s Du däi Kont läsche wëlls. Villmools Merci!"
   },
   {
     "page": "Mon compte",
@@ -3378,10 +3386,10 @@
   {
     "page": "conditions générales",
     "key": "footer.general-conditions-txt-1-5-14",
-    "de": "Die während des Bestellvorgangs angegebenen personenbezogenen Daten können nach dem Anklicken des Buttons \"Bestätigen\" (Payconiq/Digicash, Überweisung) bzw. \"Zahlung bestätigen\" (Kreditkarte, PayPal) nicht mehr geändert oder korrigiert werden. Wenn die Bestellung erfolgreich übermittelt wurde, erhält der/die Kunde/in eine automatische Bestätigungs-E-Mail. Diese Nachricht bestätigt, dass die Bestellung bei BENU COUTURE eingegangen ist. Ein Kaufvertrag zwischen BENU Village Esch asbl und dem/der Kunde/in kommt erst mit dem Zahlungseingang zustande.",
-    "fr": "Les données personnelles fournies lors du processus de commande ne peuvent plus être ni modifiées ni corrigées après avoir cliqué sur le bouton \"Confirmer\" (Payconiq/Digicash, virement) ou \"Confirmer le paiement\" (carte de crédit, PayPal). Si la commande a été transmise avec succès, le·la client·e reçoit un e-mail de confirmation automatique. Ce message confirme que la commande a bien été reçue par BENU COUTURE. Un contrat de vente entre BENU Village Esch asbl et le·la client·e n'est conclu qu'après réception du paiement.",
-    "en": "The personal data provided during the ordering process can no longer be changed or corrected after clicking the button \"Confirm\" (Payconiq/Digicash, bank transfer) or \"Confirm payment\" (credit card, PayPal). If the order has been successfully submitted, the customer will receive an automatic confirmation e-mail. This message confirms that the order has been received by BENU COUTURE. A purchase contract between BENU Village Esch asbl and the customer is only concluded upon receipt of payment.",
-    "lu": "Déi perséinlech Donnéeën déi wärend dem Bestellprozess matgedeelt gi sinn, kënnen no Uklicke vum Knäppche \"Bestätegen\" (Payconiq/Digicash, Iwwerweisung) oder \"Bezuelung bestätegen\" (Kreditkaart, PayPal), net méi geännert oder verbessert ginn. Wann d'Bestellung erfollegräich iwwermëttelt gouf, kritt de/d'Client:e eng automatesch Bestätegungs-E-Mail. Dës Noriicht bestätegt, datt d'Bestellung bei BENU COUTURE ukomm ass. E Kafvertrag tëschent BENU Village Esch asbl an dem/der Client:e gëtt eréischt dann ofgeschloss, wann d'Bezuelung ukomm ass."
+    "de": "Die während des Bestellvorgangs angegebenen personenbezogenen Daten können nach dem Anklicken des Buttons \"Bestätigen\" (Payconiq/Digicash, Überweisung) bzw. \"Zahlung bestätigen\" (Kreditkarte, PayPal) nicht mehr geändert oder korrigiert werden. Wenn die Bestellung erfolgreich übermittelt wurde, erhält der/die Kunde/in eine automatische Bestätigungs-E-Mail. Diese Nachricht bestätigt, dass die Bestellung bei BENU eingegangen ist. Ein Kaufvertrag zwischen BENU Village Esch asbl und dem/der Kunde/in kommt erst mit dem Zahlungseingang zustande.",
+    "fr": "Les données personnelles fournies lors du processus de commande ne peuvent plus être ni modifiées ni corrigées après avoir cliqué sur le bouton \"Confirmer\" (Payconiq/Digicash, virement) ou \"Confirmer le paiement\" (carte de crédit, PayPal). Si la commande a été transmise avec succès, le·la client·e reçoit un e-mail de confirmation automatique. Ce message confirme que la commande a bien été reçue par BENU. Un contrat de vente entre BENU Village Esch asbl et le·la client·e n'est conclu qu'après réception du paiement.",
+    "en": "The personal data provided during the ordering process can no longer be changed or corrected after clicking the button \"Confirm\" (Payconiq/Digicash, bank transfer) or \"Confirm payment\" (credit card, PayPal). If the order has been successfully submitted, the customer will receive an automatic confirmation e-mail. This message confirms that the order has been received by BENU. A purchase contract between BENU Village Esch asbl and the customer is only concluded upon receipt of payment.",
+    "lu": "Déi perséinlech Donnéeën déi wärend dem Bestellprozess matgedeelt gi sinn, kënnen no Uklicke vum Knäppche \"Bestätegen\" (Payconiq/Digicash, Iwwerweisung) oder \"Bezuelung bestätegen\" (Kreditkaart, PayPal), net méi geännert oder verbessert ginn. Wann d'Bestellung erfollegräich iwwermëttelt gouf, kritt de/d'Client:e eng automatesch Bestätegungs-E-Mail. Dës Noriicht bestätegt, datt d'Bestellung bei BENU ukomm ass. E Kafvertrag tëschent BENU Village Esch asbl an dem/der Client:e gëtt eréischt dann ofgeschloss, wann d'Bezuelung ukomm ass."
   },
   {
     "page": "conditions générales",
@@ -4867,9 +4875,9 @@
     "page": "Home",
     "key": "welcome.pres-title-1-1",
     "de": "Soziales Miteinander in den BENU Werkstätten",
-    "fr": "La cohabitation sociale dans les ateliers BENU",
+    "fr": "Cohabitation sociale dans les ateliers BENU",
     "en": "Social interaction in the BENU workshops",
-    "lu": "Déi sozial Communautéit an de BENU Atelieren"
+    "lu": "Soziaalt Zesummesinn an de BENU Atelieren"
   },
   {
     "page": "Home",
@@ -6185,7 +6193,7 @@
   },
   {
     "page": "Contact",
-    "key": "auth.register-subtitle-text",
+    "key": "services.contact-extra-txt",
     "de": "Hast Du Fragen? Möchtest Du als Freiwillige:r helfen oder  als Partner:in mit BENU zusammenarbeiten? Hast Du Interesse, Dich im BENU VILLAGE mit Deiner Firma niederzulassen? Oder willst Du einfach mehr über BENU erfahren und uns besuchen?",
     "fr": "Tu as des questions? Veux-tu aider en tant que bénévole, ou collaborer avec BENU en tant que partenaire ? Es-tu intéressé(e) à t'installer avec ton entreprise au BENU VILLAGE ? Ou veux-tu simplement en savoir plus sur BENU et nous rendre visite ?",
     "en": "Do you have any questions? Would you like to help as a volunteer or work with BENU as a partner? Are you interested in setting up your company in the BENU VILLAGE? Or do you simply want to learn more about BENU and visit us?",
@@ -6298,6 +6306,14 @@
   {
     "page": "sitemap",
     "key": "breadcrumbs.sitemap",
+    "de": "BENU VILLAGE - Das Ökodorf in Luxemburg",
+    "fr": "BENU VILLAGE - L'écovillage au Luxembourg",
+    "en": "BENU VILLAGE - The Ecovillage in Luxembourg",
+    "lu": "BENU VILLAGE - D’Ekodorf ze Lëtzbuerg"
+  },
+  {
+    "page": "sitemap",
+    "key": "footer.sitemap-title",
     "de": "Seitenübersicht",
     "fr": "Plan du site",
     "en": "Site map",

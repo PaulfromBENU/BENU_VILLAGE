@@ -547,7 +547,7 @@
     "page": "",
     "key": "auth.register-subtitle-text",
     "de": "Mit Deinem  BENU Konto kannst Du Deine Aktivitäten auf den  verschiedenen Internetseiten von BENU Village Esch asbl einsehen und verwalten.",
-    "fr": "Avec ton compte BENU, tu peux consulter et de gérer tes activités sur les différents sites Internet de BENU Village Esch asbl.",
+    "fr": "Avec ton compte BENU, tu peux consulter et gérer tes activités sur les différents sites Internet de BENU Village Esch asbl.",
     "en": "With your BENU account, you can view and manage your activities on the different BENU Village Esch asbl websites.",
     "lu": "Mat Dengem  BENU Konto kanns Du Deng Aktivitéiten op deenen ënnerschiddlechen Internetsäite vu BENU Village Esch asbl kucken a verwalten."
   },
@@ -4594,7 +4594,7 @@
   {
     "page": "home",
     "key": "welcome.seo-title",
-    "de": "",
+    "de": "BENU VILLAGE das erste Ökodorf in Luxemburg",
     "fr": "",
     "en": "",
     "lu": ""
@@ -4610,10 +4610,10 @@
   {
     "page": "participer",
     "key": "participate.seo-title",
-    "de": "",
-    "fr": "",
-    "en": "",
-    "lu": ""
+    "de": "Du kannst bei BENU mitmachen",
+    "fr": "Tu peux participer à BENU",
+    "en": "You can participate to BENU",
+    "lu": "Du kanns bei BENU matmaachen"
   },
   {
     "page": "participer",
@@ -4626,7 +4626,7 @@
   {
     "page": "actualités",
     "key": "news.all-seo-title",
-    "de": "",
+    "de": "Neuigkeiten aus dem Ökodorf BENU VILLAGE",
     "fr": "",
     "en": "",
     "lu": ""
@@ -4642,7 +4642,7 @@
   {
     "page": "à propos",
     "key": "about.seo-title",
-    "de": "",
+    "de": "BENU",
     "fr": "",
     "en": "",
     "lu": ""
@@ -5403,7 +5403,7 @@
     "page": "Home",
     "key": "participate.paragraph-2-4",
     "de": "Du hast Interesse?",
-    "fr": "Tu es intéressé(e)?",
+    "fr": "Tu es intéressé:e?",
     "en": "Are you interested?",
     "lu": "Du bass intresséiert?"
   },
@@ -5450,18 +5450,18 @@
   {
     "page": "Home",
     "key": "participate.paragraph-3-link-2",
-    "de": "Facebook,",
-    "fr": "Facebook,",
-    "en": "Facebook,",
-    "lu": "Facebook,"
+    "de": "Facebook",
+    "fr": "Facebook",
+    "en": "Facebook",
+    "lu": "Facebook"
   },
   {
     "page": "Home",
     "key": "participate.paragraph-3-link-3",
-    "de": "Instragram",
-    "fr": "Instragram",
-    "en": "Instragram",
-    "lu": "Instragram"
+    "de": "Instagram",
+    "fr": "Instagram",
+    "en": "Instagram",
+    "lu": "Instagram"
   },
   {
     "page": "Home",
@@ -5587,7 +5587,7 @@
     "page": "Home",
     "key": "participate.paragraph-5-4",
     "de": "Hast Du Interesse?",
-    "fr": "Tu es intéressé(e)?",
+    "fr": "Tu es intéressé:e?",
     "en": "Are you interested?",
     "lu": "Du hues Interessi?"
   },
@@ -5883,7 +5883,7 @@
     "page": "Home",
     "key": "campaigns.full-paragraph-2-8",
     "de": "Außerdem BENU VILLAGE Räume vorgesehen, die an andere Initiativen weiter vermietet werden. Interessiert? Dann melde Dich",
-    "fr": "Le BENU VILLAGE prévoit en outre des espaces qui seront sous-loués à d'autres initiatives. Tu es intéressé(e)? Alors inscris-toi",
+    "fr": "Le BENU VILLAGE prévoit en outre des espaces qui seront sous-loués à d'autres initiatives. Tu es intéressé:e? Alors inscris-toi",
     "en": "In the BENU VILLAGE, there are also rooms that can be rented out to other initiatives. Are you interested? Then get in touch",
     "lu": "Am BENU VILLAGE sinn doriwwer eraus och nach Raim virgesinn, déi un aner Initiative verlount wäerte ginn. Du bass intresséiert? Da mell dech"
   },
@@ -6195,9 +6195,9 @@
     "page": "Contact",
     "key": "services.contact-extra-txt",
     "de": "Hast Du Fragen? Möchtest Du als Freiwillige:r helfen oder  als Partner:in mit BENU zusammenarbeiten? Hast Du Interesse, Dich im BENU VILLAGE mit Deiner Firma niederzulassen? Oder willst Du einfach mehr über BENU erfahren und uns besuchen?",
-    "fr": "Tu as des questions? Veux-tu aider en tant que bénévole, ou collaborer avec BENU en tant que partenaire ? Es-tu intéressé(e) à t'installer avec ton entreprise au BENU VILLAGE ? Ou veux-tu simplement en savoir plus sur BENU et nous rendre visite ?",
+    "fr": "Tu as des questions? Veux-tu aider en tant que bénévole, ou collaborer avec BENU en tant que partenaire? Es-tu intéressé:e à t'installer avec ton entreprise au BENU VILLAGE ? Ou veux-tu simplement en savoir plus sur BENU et nous rendre visite?",
     "en": "Do you have any questions? Would you like to help as a volunteer or work with BENU as a partner? Are you interested in setting up your company in the BENU VILLAGE? Or do you simply want to learn more about BENU and visit us?",
-    "lu": "Hues Du eng Fro zu BENU? Wëlls Du eis als Benevole hëllefen oder als Partner:in mat eis zesummeschaffen? Bass Du drun intresséiert, Dech mat Denger Entreprise am BENU VILLAGE ze installéieren? Oder wëlls Du einfach méi iwwer BENU gewuer ginn an eis besichen?"
+    "lu": "Hues Du eng Fro iwwer BENU? Wëlls Du eis als Benevol hëllefen oder als Partner:in mat eis zesummeschaffen? Bass Du drun intresséiert, Dech mat Denger Entreprise am BENU VILLAGE ze installéieren? Oder wëlls Du einfach méi iwwer BENU gewuer ginn an eis besichen?"
   },
   {
     "page": "Actualités",
@@ -6309,7 +6309,7 @@
     "de": "BENU VILLAGE - Das Ökodorf in Luxemburg",
     "fr": "BENU VILLAGE - L'écovillage au Luxembourg",
     "en": "BENU VILLAGE - The Ecovillage in Luxembourg",
-    "lu": "BENU VILLAGE - D’Ekodorf ze Lëtzbuerg"
+    "lu": "BENU VILLAGE - D’Ekoduerf zu Lëtzebuerg"
   },
   {
     "page": "sitemap",
