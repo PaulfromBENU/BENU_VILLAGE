@@ -1749,7 +1749,10 @@ input[type=checkbox]:focus {
 @media (max-width: 767px) {
   .breadcrumbs {
     margin-top: 1px;
-    height: 60px;
+    height: -webkit-fit-content;
+    height: -moz-fit-content;
+    height: fit-content;
+    min-height: 60px;
   }
 }
 .breadcrumbs__content {
@@ -1765,10 +1768,16 @@ input[type=checkbox]:focus {
   .breadcrumbs__content {
     font: normal normal 500 14px/17px "Barlow";
     padding-top: 20px;
+    padding-bottom: 15px;
   }
 }
 .breadcrumbs__content a {
   transition: all 0.2s ease-in-out;
+}
+@media (max-width: 767px) {
+  .breadcrumbs__content a {
+    padding-bottom: 6px;
+  }
 }
 .breadcrumbs__content a:hover {
   text-decoration: underline;

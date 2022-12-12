@@ -23,7 +23,7 @@ $localized_label = "link_label_".app()->getLocale();
 
 @section('breadcrumbs')
 	<div class="breadcrumbs pattern-bg">
-		<div class="benu-container breadcrumbs__content flex justify-start">
+		<div class="benu-container breadcrumbs__content flex justify-start flex-wrap">
 			<a href="{{ route('home', [app()->getLocale()]) }}">{{ __('breadcrumbs.home') }}</a>
 			<div class="pl-5 pr-5">
 				>

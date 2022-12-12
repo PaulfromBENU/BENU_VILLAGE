@@ -1,9 +1,8 @@
 <div id="side-mobile" class="side-mobile mobile-only benu-container">
     <div class="flex justify-around flex-wrap">
-        <div id="mobile-general-menu-toggle" class="side-mobile__toggler side-mobile__toggler--general">
+        <!-- <div id="mobile-general-menu-toggle" class="side-mobile__toggler side-mobile__toggler--general">
             {{ __('welcome.mobile-menu-btn-menu') }}
-            <!-- Menu -->
-        </div>
+        </div> -->
     </div>
     <ul class="side-mobile__links mt-4" id="side-mobile-general-links">
         <li>
