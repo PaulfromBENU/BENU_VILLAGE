@@ -82,7 +82,7 @@
                         @livewire('components.dashboard-icon')
                     @endguest
                     <li class="tablet-hidden">
-                        <a href="{{ route('client-service-'.app()->getLocale(), ['page' => __('slugs.services-contact')]) }}" class="header__main-menu__icons__btn">
+                        <a href="{{ route('client-service-'.app()->getLocale()) }}" class="header__main-menu__icons__btn">
                             @svg('benu-icon-mail-contact')
                         </a>
                     </li>

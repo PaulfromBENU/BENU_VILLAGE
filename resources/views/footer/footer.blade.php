@@ -75,7 +75,7 @@
 					<br/><span class="primary-color">+352 27 91 19 49</span>
 				</p>
 				<ul style="margin-bottom: 45px;">
-					<li><a href="{{ route('client-service-'.app()->getLocale(), ['page' => __('slugs.services-contact')]) }}">{{ __('footer.footer-contact') }}</a></li>
+					<li><a href="{{ route('client-service-'.app()->getLocale()) }}">{{ __('footer.footer-contact') }}</a></li>
 				</ul>
 				<h4>{{ __('footer.footer-title-5') }}</h4>
 				<div class="flex justify-start">
