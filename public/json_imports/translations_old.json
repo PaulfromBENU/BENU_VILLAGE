@@ -42,9 +42,9 @@
   {
     "page": "Home",
     "key": "header.sloow-desc",
-    "de": "Weil Ernährung und Lebensmittelverschwendung Themen sind, die uns am Herzen liegen, haben wir BENU SLOOW gegründet. Das erste \n \"Rescued Food\"-Restaurant der Großregion bietet eine Bio-Küche an, die originell und vor allem nachhaltig ist!\nEine neue, umfangreichere Website wird im Winter 2023 eingerichtet. Mehr dazu hier:",
-    "fr": "Parce que l’alimentation et le gaspillage alimentaire sont des sujets qui nous tiennent à cœur, nous avons créé BENU SLOOW. Le premier restaurant \"Rescued Food\" de la Grande Région propose une cuisine bio, originale, mais surtout durable !\nUn nouveau site plus complet sera mis en place à l'hiver 2023. Pour en savoir plus :",
-    "en": "Food and food waste are subjects that are close to our hearts. That's why we have created BENU SLOOW. The first \"Rescued Food\" restaurant in the Greater Region offers organic, original and above all, sustainable dishes!\nA new, more complete website will be launched in winter 2023. For more information:",
+    "de": "Weil Ernährung und Lebensmittelverschwendung Themen sind, die uns am Herzen liegen, haben wir BENU SLOOW gegründet. Das erste \n \"Rescued Food\"-Restaurant der Großregion bietet eine Bio-Küche an, die originell und vor allem nachhaltig ist!\nEine neue, umfangreichere Website wird im Winter 2022 eingerichtet. Mehr dazu hier:",
+    "fr": "Parce que l’alimentation et le gaspillage alimentaire sont des sujets qui nous tiennent à cœur, nous avons créé BENU SLOOW. Le premier restaurant \"Rescued Food\" de la Grande Région propose une cuisine bio, originale, mais surtout durable !\nUn nouveau site plus complet sera mis en place à l'hiver 2022. Pour en savoir plus :",
+    "en": "Food and food waste are subjects that are close to our hearts. That's why we have created BENU SLOOW. The first \"Rescued Food\" restaurant in the Greater Region offers organic, original and above all, sustainable dishes!\nA new, more complete website will be launched in winter 2022. For more information:",
     "lu": "Well Ernärung a Liewensmëttelverschwendung Theeme sinn, déi eis um Häerze leien, hu mir BENU SLOOW gegrënnt. Den éischte \"Rescued Food\" Restaurant an der Groussregioun, bitt eng Bio-Kichen un, originell a virun allem nohalteg! \nEng méi informatiounsräich Internetsäit wäert am Wanter 2022 ageriicht ginn. Méi dozou hei:"
   },
   {
@@ -4504,6 +4504,294 @@
     "lu": "Deng BENU Ekipp"
   },
   {
+    "page": "participer",
+    "key": "participate.seo-title",
+    "de": "Du kannst bei BENU mitmachen",
+    "fr": "Tu peux participer à BENU",
+    "en": "You can participate to BENU",
+    "lu": "Du kanns bei BENU matmaachen"
+  },
+  {
+    "page": "participer",
+    "key": "participate.seo-description",
+    "de": "Auch Du kannst bei Aktivitäten von BENU mitmachen und die sozio-ökologische Kreislaufwirtschaft in Luxemburg voranzubringen!",
+    "fr": "Toi aussi, tu peux participer aux activités de BENU et faire avancer l'économie circulaire socio-écologique au Luxembourg !",
+    "en": "You too can get involved in BENU activities and promote the socio-ecological circular economy in Luxembourg!",
+    "lu": "Och Du kanns bei Aktivitéite vu BENU matmaachen an déi sozio-ekologesch Kreeslafwirtschaft zu Lëtzebuerg weiderbréngen!"
+  },
+  {
+    "page": "bons d'achat",
+    "key": "vouchers.seo-title",
+    "de": "Nachhaltig und fair verschenken mit BENU Gutscheinen",
+    "fr": "Offrir un bon d'achat BENU comme cadeau durable et équitable",
+    "en": "Make a sustainable and fair gift with BENU vouchers",
+    "lu": "Schenk nohalteg a fair mat BENU Bongen"
+  },
+  {
+    "page": "bons d'achat",
+    "key": "vouchers.seo-description",
+    "de": "Du machst gern Geschenke und legst Wert auf deren Nachhaltigkeit? Dann ist der BENU Geschenkgutschein wie für Dich gemacht!",
+    "fr": "Tu aimes faire des cadeaux et tu tiens à ce qu'ils soient durables ? Alors le chèque-cadeau BENU est fait pour toi!",
+    "en": "Do you like giving gifts and value sustainability? Then our BENU gift voucher is made for you!",
+    "lu": "Du méchs gäre Kaddoen a lees Wäert op Nohaltegkeet? Dann ass eise BENU Bong wéi fir Dech gemaach!"
+  },
+  {
+    "page": "connexion",
+    "key": "auth.login-seo-title",
+    "de": "Anmeldung",
+    "fr": "Connexion",
+    "en": "Log in",
+    "lu": "Aloggen"
+  },
+  {
+    "page": "connexion",
+    "key": "auth.login-seo-desc",
+    "de": "Du hast bereits ein BENU Konto? Melde Dich an und schau Dir unsere neuesten Upcycling-Kreationen an!",
+    "fr": "Tu as déjà un compte BENU? Connecte-toi et découvre nos dernières créations UpCycling!",
+    "en": "You already have a BENU account? Sign up and check out our latest UpCycling creations!",
+    "lu": "Du hues schonn ee BENU Konto? Da mell Dech un a kuck Dir eis nei Upcycling-Kreatiounen un!"
+  },
+  {
+    "page": "inscription",
+    "key": "auth.register-seo-title",
+    "de": "BENU Konto eröffnen",
+    "fr": "Créer un compte BENU",
+    "en": "Create account BENU",
+    "lu": "BENU Kont opmaachen"
+  },
+  {
+    "page": "inscription",
+    "key": "auth.register-seo-desc",
+    "de": "Du möchtest öfter bei uns vorbeischauen? Mit einem BENU Konto ist das Bestellen schneller und einfacher!",
+    "fr": "Tu veux passer plus souvent chez nous? Avec un compte BENU, commander est plus rapide et plus facile!",
+    "en": "Do you intend to visit us more often? With a BENU account, ordering is quicker and easier!",
+    "lu": "Du wëlls eis méi dacks besichen? Mat engem BENU Konto geet d’Bestelle méi séier a méi einfach!"
+  },
+  {
+    "page": "mot passe oublie",
+    "key": "auth.password-forgotten-seo-title",
+    "de": "Passwort vergessen",
+    "fr": "Mot de passe oublié",
+    "en": "Forgotten password",
+    "lu": "Passwuert vergiess"
+  },
+  {
+    "page": "mot passe oublie",
+    "key": "auth.password-forgotten-seo-description",
+    "de": "",
+    "fr": "",
+    "en": "",
+    "lu": ""
+  },
+  {
+    "page": "erreur",
+    "key": "welcome.error-seo-title",
+    "de": "Fehlermeldung",
+    "fr": "Message d'erreur",
+    "en": "Error message",
+    "lu": "Feeler Message"
+  },
+  {
+    "page": "erreur",
+    "key": "welcome.error-seo-description",
+    "de": "",
+    "fr": "",
+    "en": "",
+    "lu": ""
+  },
+  {
+    "page": "Compte",
+    "key": "dashboard.seo-title",
+    "de": "Mein BENU Konto",
+    "fr": "Mon compte BENU",
+    "en": "My BENU account",
+    "lu": "Mäi BENU Kont"
+  },
+  {
+    "page": "Compte",
+    "key": "dashboard.seo-description",
+    "de": "",
+    "fr": "",
+    "en": "",
+    "lu": ""
+  },
+  {
+    "page": "panier",
+    "key": "cart.seo-title",
+    "de": "Mein BENU Warenkorb",
+    "fr": "Mon panier BENU",
+    "en": "My BENU basket",
+    "lu": "Mäi BENU Akafskierfchen"
+  },
+  {
+    "page": "panier",
+    "key": "cart.seo-description",
+    "de": "Deine Auswahl an BENU Artikeln auf einen Blick",
+    "fr": "Ta sélection d'articles BENU en un coup d'œil",
+    "en": "Your choice of BENU items at a glance",
+    "lu": "Deng Auswiel u BENU Artikelen"
+  },
+  {
+    "page": "tunnel d'achat paiement",
+    "key": "payment.seo-title",
+    "de": "Bezahlung",
+    "fr": "Paiement",
+    "en": "Payment",
+    "lu": "Bezuelung"
+  },
+  {
+    "page": "tunnel d'achat paiement",
+    "key": "payment.seo-description",
+    "de": "",
+    "fr": "",
+    "en": "",
+    "lu": ""
+  },
+  {
+    "page": "après paiement",
+    "key": "payment.seo-title-payment-complete",
+    "de": "Bestellung eingegangen",
+    "fr": "Commande reçue",
+    "en": "Order received",
+    "lu": "Bestellung ass ukomm"
+  },
+  {
+    "page": "après paiement",
+    "key": "payment.seo-description-payment-complete",
+    "de": "",
+    "fr": "",
+    "en": "",
+    "lu": ""
+  },
+  {
+    "page": "paiement carte Paypal",
+    "key": "payment.process-seo-title",
+    "de": "Bezahlung per PayPal",
+    "fr": "Paiement par PayPal",
+    "en": "Payment via PayPal",
+    "lu": "Bezuelung mat PayPal"
+  },
+  {
+    "page": "paiement carte Paypal",
+    "key": "payment.process-seo-description",
+    "de": "",
+    "fr": "",
+    "en": "",
+    "lu": ""
+  },
+  {
+    "page": "newsletter sub",
+    "key": "auth.newsletter-subscribe-seo-title",
+    "de": "Mit dem Newsletter die Neuigkeiten von BENU verfolgen",
+    "fr": "Suivre l'actualité de BENU avec la newsletter",
+    "en": "Follow the news from BENU with the BENU newsletter",
+    "lu": "Mam BENU Newsletter d'Neiegkeete vu BENU suivéieren"
+  },
+  {
+    "page": "newsletter sub",
+    "key": "auth.newsletter-subscribe-seo-desc",
+    "de": "Gut informiert sein heißt nicht, alles zu wissen, sondern das, worauf es ankommt - zum Beispiel, was in unserer Newsletter steht!",
+    "fr": "Être bien informé ne signifie pas savoir tout, mais savoir ce qui compte - comme le contenu de notre bulletin d'information, par exemple!",
+    "en": "Being well informed is not about knowing everything, but knowing about what matters - like our newsletter’s content, for example!",
+    "lu": "Gutt informéiert sinn heescht net, alles ze wëssen, mee dat ze wëssen, wat wichteg ass - ewéi zum Beispill alles, wat an eisem Newsletter steet!"
+  },
+  {
+    "page": "newsletter can",
+    "key": "auth.newsletter-cancelled-seo-title",
+    "de": "BENU Newsletter kündigen",
+    "fr": "Se désabonner de la newsletter BENU",
+    "en": "Unsubscribe from the BENU newsletter",
+    "lu": "BENU Newsletter kënnegen"
+  },
+  {
+    "page": "newsletter can",
+    "key": "auth.newsletter-cancelled-seo-desc",
+    "de": "",
+    "fr": "",
+    "en": "",
+    "lu": ""
+  },
+  {
+    "page": "médias",
+    "key": "footer.medias-seo-title",
+    "de": "Medienberichte über BENU in Luxemburg",
+    "fr": "Reportages médiatiques sur BENU au Luxembourg",
+    "en": "Media reports about BENU in Luxembourg",
+    "lu": "Medieberichter iwwer BENU zu Lëtzebuerg"
+  },
+  {
+    "page": "médias",
+    "key": "footer.medias-seo-description",
+    "de": "Die Erfolgsgeschichte nachhaltiger Produkte made in Luxembourg: BENU in den sozialen Netzwerken, im Radio, der Zeitung und im Fernsehen.",
+    "fr": "La réussite des produits durables made in Luxembourg: BENU sur les réseaux sociaux, à la radio, dans les journaux et à la télévision.",
+    "en": "The success story of sustainable products made in Luxembourg: BENU on social networks, on the radio, in the newspaper and on television.",
+    "lu": "De Succès vun nohaltege Produiten made in Luxembourg: BENU an de soziale Medien, am Radio, an der Zeitung an op der Tëlee."
+  },
+  {
+    "page": "cond. générales",
+    "key": "footer.general-conditions-seo-title",
+    "de": "Allgemeine Nutzungsbedingungen der BENU Internetseiten",
+    "fr": "Conditions générales d'utilisation des pages Internet BENU",
+    "en": "General terms of use of the BENU websites",
+    "lu": "Allgemeng Gebrauchsbedéngunge vun de BENU Internetsäiten"
+  },
+  {
+    "page": "cond. générales",
+    "key": "footer.general-conditions-seo-description",
+    "de": "Erfahre mehr über die Bedingungen und Modalitäten der Serviceleistungen von BENU Village Esch asbl.",
+    "fr": "En savoir plus sur les conditions et les modalités des services BENU Village Esch asbl.",
+    "en": "Find out more about the terms and conditions of our BENU VILLAGE Esch asbl services.",
+    "lu": "Hei gëss du méi iwwer d’Bedéngungen an d’Modalitéite vun de Servicer vu BENU VILLAGE Esch asbl gewuer."
+  },
+  {
+    "page": "Datenschutz",
+    "key": "footer.policy-seo-title",
+    "de": "DSGVO: Schutz personenbezogener Daten",
+    "fr": "RGPD: Protection des données personnelles",
+    "en": "RGPD: Protection of personal data",
+    "lu": "DSGVO: Schutz vu perséinlechen Donnéeën"
+  },
+  {
+    "page": "Datenschutz",
+    "key": "footer.policy-seo-description",
+    "de": "BENU legt nicht nur Wert auf Transparenz in Sachen Kommunikation - auch der verantwortungsvolle Umgang mit Deinen Daten liegt uns am Herzen.",
+    "fr": "La transparence en matière de communication nous tient à coeur - exactement comme le traitement responsable de tes données.",
+    "en": "BENU not only attaches importance to transparency regarding communication - the responsible handling of your data is also dear to our hearts.",
+    "lu": "BENU leet net just Wäert op Transparenz bei der Kommunikatioun - de responsabelen Ëmgang mat Dengen Donnéeën ass eis genau esou wichteg."
+  },
+  {
+    "page": "Impressum",
+    "key": "footer.legal-seo-title",
+    "de": "Impressum der Internetseiten von BENU",
+    "fr": "Mentions légales du site Internet BENU",
+    "en": "Legal notice of the BENU website",
+    "lu": "Legal Informatiounen zu de BENU Internetsäiten"
+  },
+  {
+    "page": "Impressum",
+    "key": "footer.legal-seo-description",
+    "de": "Die BENU Village Esch asbl begleitet BENU bei Konzeption, Realisierung und Kommunikation des Ökodorfes BENU VILLAGE.",
+    "fr": "BENU Village Esch asbl assiste BENU dans la conception, la réalisation et la communication de l'écovillage BENU VILLAGE.",
+    "en": "BENU Village Esch asbl assists BENU in the conception, realisation and communication of the ecovillage BENU VILLAGE.",
+    "lu": "BENU VILLAGE Esch asbl begleet BENU bei der Konzeptioun, der Realiséierung an der Kommunikatioun vum Ekoduerf BENU VILLAGE."
+  },
+  {
+    "page": "Sitemap",
+    "key": "footer.sitemap-title",
+    "de": "Seitenübersicht der Internetseiten von BENU",
+    "fr": "Aperçu des pages du site Internet de BENU",
+    "en": "Site map of the BENU websites",
+    "lu": "Iwwersiicht vun de BENU Internetsäiten"
+  },
+  {
+    "page": "Sitemap",
+    "key": "footer.sitemap-desc",
+    "de": "BENU COUTURE designt, produziert und verkauft in Luxemburg nachhaltige UpCycling-Kleidung in “Haute Couture”-Qualität.",
+    "fr": "BENU COUTURE conçoit, produit et vend des vêtements durables UpCycling de qualité haute couture au Luxembourg.",
+    "en": "BENU COUTURE designs, produces and sells sustainable UpCycling clothes in haute couture quality.",
+    "lu": "BENU COUTURE designt, produzéiert a verkeeft nohalteg UpCycling-Kleeder an Haute Couture-Qualitéit zu Lëtzebuerg."
+  },
+  {
     "page": "slug",
     "key": "slugs.about",
     "de": "ueber",
@@ -4592,244 +4880,84 @@
     "lu": "kontakt"
   },
   {
+    "page": "slug",
+    "key": "slugs.learn-more",
+    "de": "benu-village",
+    "fr": "benu-village",
+    "en": "benu-village",
+    "lu": "benu-village"
+  },
+  {
+    "page": "slug",
+    "key": "slugs.client-support",
+    "de": "kontakt",
+    "fr": "contact",
+    "en": "contact",
+    "lu": "kontakt"
+  },
+  {
     "page": "home",
     "key": "welcome.seo-title",
-    "de": "BENU VILLAGE das erste Ökodorf in Luxemburg",
-    "fr": "",
-    "en": "",
-    "lu": ""
+    "de": "BENU VILLAGE - das erste Ökodorf in Luxemburg und Umgebung",
+    "fr": "BENU VILLAGE - le premier écovillage au Luxembourg",
+    "en": "BENU VILLAGE - Luxembourg's first ecovillage",
+    "lu": "BENU VILLAGE - dat éischt Ekoduerf zu Lëtzebuerg"
   },
   {
     "page": "home",
     "key": "welcome.seo-description",
-    "de": "",
-    "fr": "",
-    "en": "",
-    "lu": ""
-  },
-  {
-    "page": "participer",
-    "key": "participate.seo-title",
-    "de": "Du kannst bei BENU mitmachen",
-    "fr": "Tu peux participer à BENU",
-    "en": "You can participate to BENU",
-    "lu": "Du kanns bei BENU matmaachen"
-  },
-  {
-    "page": "participer",
-    "key": "participate.seo-description",
-    "de": "",
-    "fr": "",
-    "en": "",
-    "lu": ""
+    "de": "BENU organisiert partizipative, kreative und pädagogische Aktivitäten rund um das Thema der sozial-ökologischen Kreislaufwirtschaft.",
+    "fr": "BENU organise des activités participatives, créatives et pédagogiques par rapport au sujet de l'économie circulaire socio-écologique.",
+    "en": "BENU organises participatory, creative and educational activities about the social-ecological circular economy.",
+    "lu": "BENU organiséiert participativ, kreativ a pedagogesch Aktivitéiten zum Thema sozio-ekologesch Kreeslafwirtschaft."
   },
   {
     "page": "actualités",
     "key": "news.all-seo-title",
     "de": "Neuigkeiten aus dem Ökodorf BENU VILLAGE",
-    "fr": "",
-    "en": "",
-    "lu": ""
+    "fr": "Actualités de l'écovilllage BENU VILLAGE",
+    "en": "News from the ecovillage BENU VILLAGE",
+    "lu": "Neiegkeeten aus dem Ekoduerf BENU VILLAGE"
   },
   {
     "page": "actualités",
     "key": "news.all-seo-desc",
-    "de": "",
-    "fr": "",
-    "en": "",
-    "lu": ""
+    "de": "Es gibt Neuigkeiten aus dem BENU VILLAGE! Lass Dich von aktuellen Informationen zu Nachhaltigkeit und Kreislaufwirtschaft überraschen.",
+    "fr": "Il y a des nouvelles du BENU VILLAGE ! Laisse-toi surprendre par les informations actuelles sur la durabilité et l'économie circulaire.",
+    "en": "There is news from the BENU VILLAGE! Let us surprise you with the latest information on sustainability and the circular economy.",
+    "lu": "Et gëtt Neiegkeeten aus dem BENU VILLAGE! Looss Dech vun aktuellen Informatiounen zum Thema Nohaltegkeet a Kreeslafwirtschaft iwwerraschen."
   },
   {
     "page": "à propos",
     "key": "about.seo-title",
-    "de": "BENU",
-    "fr": "",
-    "en": "",
-    "lu": ""
+    "de": "Ökologische und soziale Aktivitäten im BENU VILLAGE",
+    "fr": "Activités écologiques et sociales au BENU VILLAGE",
+    "en": "Ecological and social activities at BENU VILLAGE",
+    "lu": "Ekologesch a sozial Aktivitéiten am BENU VILLAGE"
   },
   {
     "page": "à propos",
     "key": "about.seo-description",
-    "de": "",
-    "fr": "",
-    "en": "",
-    "lu": ""
+    "de": "Als erstes Ökodorf in Luxemburg und in der Großregion bietet BENU VILLAGE partizipative, kreative und nachhaltige Aktivitäten.",
+    "fr": "En tant que premier écovillage au Luxembourg et dans la Grande Région, BENU VILLAGE propose des activités participatives, créatives et durables.",
+    "en": "As the first ecovillage in Luxembourg and the Greater Region, BENU VILLAGE offers participatory, creative and sustainable activities.",
+    "lu": "Als éischt Ekoduerf zu Lëtzebuerg an an der Groussregioun bitt BENU VILLAGE participativ, kreativ an nohalteg Aktivitéiten."
   },
   {
-    "page": "connexion",
-    "key": "auth.login-seo-title",
-    "de": "Anmeldung",
-    "fr": "Connexion",
-    "en": "Log in",
-    "lu": "Aloggen"
+    "page": "BENU VILLAGE",
+    "key": "campaigns.all-seo-title",
+    "de": "Das Ökodorf BENU VILLAGE ist im Entstehen",
+    "fr": "L'écovillage BENU VILLAGE est en train de se construire",
+    "en": "The BENU VILLAGE ecovillage is in the making",
+    "lu": "D'Ekoduerf BENU VILLAGE ass amgaangen ze Entstoen"
   },
   {
-    "page": "connexion",
-    "key": "auth.login-seo-desc",
-    "de": "",
-    "fr": "",
-    "en": "",
-    "lu": ""
-  },
-  {
-    "page": "inscription",
-    "key": "auth.register-seo-title",
-    "de": "Konto eröffnen",
-    "fr": "Créer un compte",
-    "en": "Create account",
-    "lu": "Kont opmaachen"
-  },
-  {
-    "page": "inscription",
-    "key": "auth.register-seo-desc",
-    "de": "",
-    "fr": "",
-    "en": "",
-    "lu": ""
-  },
-  {
-    "page": "mot passe oublie",
-    "key": "auth.password-forgotten-seo-title",
-    "de": "Passwort vergessen",
-    "fr": "Mot de passe oublié",
-    "en": "Forgotten password",
-    "lu": "Passwuert vergiess"
-  },
-  {
-    "page": "mot passe oublie",
-    "key": "auth.password-forgotten-seo-description",
-    "de": "",
-    "fr": "",
-    "en": "",
-    "lu": ""
-  },
-  {
-    "page": "erreur",
-    "key": "welcome.error-seo-title",
-    "de": "Fehlermeldung",
-    "fr": "Message d'erreur",
-    "en": "Error message",
-    "lu": "Feeler Message"
-  },
-  {
-    "page": "erreur",
-    "key": "welcome.error-seo-description",
-    "de": "",
-    "fr": "",
-    "en": "",
-    "lu": ""
-  },
-  {
-    "page": "Compte",
-    "key": "dashboard.seo-title",
-    "de": "Mein BENU Konto",
-    "fr": "Mon compte BENU",
-    "en": "My BENU account",
-    "lu": "Mäi BENU Kont"
-  },
-  {
-    "page": "Compte",
-    "key": "dashboard.seo-description",
-    "de": "",
-    "fr": "",
-    "en": "",
-    "lu": ""
-  },
-  {
-    "page": "newsletter sub",
-    "key": "auth.newsletter-subscribe-seo-title",
-    "de": "Mit dem Newsletter die Neuigkeiten von BENU verfolgen",
-    "fr": "Suivre l'actualité de BENU avec la newsletter",
-    "en": "Follow the news from BENU with the BENU newsletter",
-    "lu": "Mam BENU Newsletter d'Neiegkeete vu BENU suivéieren"
-  },
-  {
-    "page": "newsletter sub",
-    "key": "auth.newsletter-subscribe-seo-desc",
-    "de": "",
-    "fr": "",
-    "en": "",
-    "lu": ""
-  },
-  {
-    "page": "newsletter can",
-    "key": "auth.newsletter-cancelled-seo-title",
-    "de": "BENU Newsletter kündigen",
-    "fr": "Se désabonner de la newsletter BENU",
-    "en": "Unsubscribe from the BENU newsletter",
-    "lu": "BENU Newsletter kënnegen"
-  },
-  {
-    "page": "newsletter can",
-    "key": "auth.newsletter-cancelled-seo-desc",
-    "de": "",
-    "fr": "",
-    "en": "",
-    "lu": ""
-  },
-  {
-    "page": "cond. générales",
-    "key": "footer.general-conditions-seo-title",
-    "de": "",
-    "fr": "",
-    "en": "",
-    "lu": ""
-  },
-  {
-    "page": "cond. générales",
-    "key": "footer.general-conditions-seo-description",
-    "de": "",
-    "fr": "",
-    "en": "",
-    "lu": ""
-  },
-  {
-    "page": "Datenschutz",
-    "key": "footer.policy-seo-title",
-    "de": "DSGVO: Schutz personenbezogener Daten",
-    "fr": "RGPD : Protection des données personnelles",
-    "en": "RGPD: Protection of personal data",
-    "lu": "DSGVO: Schutz vu perséinlechen Donnéeën"
-  },
-  {
-    "page": "Datenschutz",
-    "key": "footer.policy-seo-description",
-    "de": "",
-    "fr": "",
-    "en": "",
-    "lu": ""
-  },
-  {
-    "page": "Impressum",
-    "key": "footer.legal-seo-title",
-    "de": "",
-    "fr": "",
-    "en": "",
-    "lu": ""
-  },
-  {
-    "page": "Impressum",
-    "key": "footer.legal-seo-description",
-    "de": "",
-    "fr": "",
-    "en": "",
-    "lu": ""
-  },
-  {
-    "page": "Sitemap",
-    "key": "footer.sitemap-title",
-    "de": "",
-    "fr": "",
-    "en": "",
-    "lu": ""
-  },
-  {
-    "page": "Sitemap",
-    "key": "footer.sitemap-desc",
-    "de": "",
-    "fr": "",
-    "en": "",
-    "lu": ""
+    "page": "BENU VILLAGE",
+    "key": "campaigns.all-seo-desc",
+    "de": "BENU VILLAGE setzt auf Nachhaltigkeit, Kooperation und Partizipation - ganz nach dem Prinzip der sozio-ökologischen Kreislaufwirtschaft.",
+    "fr": "BENU VILLAGE mise sur la durabilité, la coopération et la participation, entièrement suivant le principe de l'économie circulaire socio-écologique.",
+    "en": "BENU VILLAGE focuses on sustainability, cooperation and participation - in line with the principle of the socio-ecological circular economy.",
+    "lu": "BENU VILLAGE zielt op Nohaltegkeet, Kooperatioun a Participatioun - ganz no dem Prinzip vun der sozio-ekologescher Kreeslafwirtschaft."
   },
   {
     "page": "Home",
@@ -5051,8 +5179,8 @@
     "page": "Home",
     "key": "about.paragraph-1-1",
     "de": "Auf der Suche nach “korrekten”, “gerechten”, “sauberen” Produkten und Leistungen tauchen viele Fragen auf. Intransparenz, wohin man auch schaut. Was taugt ein Label? Wie ordentlich sind die Arbeitsbedingungen bei der Herstellung von Produkten und Nahrungsmitteln? Welche Alternativen gibt es, bevor ich ein Produkt endgültig entsorgen muss? Ist eine Produktion, die keine neuen Ressourcen verbraucht, möglich?",
-    "fr": "Lors de la recherche de produits et de services \"corrects\", „justes\" ou \"propres\", de nombreuses questions surgissent. On constate un manque de transparence partout. Que vaut exactement un label? Les conditions de travail lors de la fabrication des produits et des aliments sont-elles correctes? Quelles sont les alternatives à l’élimination d’un produit? Une production qui ne consomme pas de nouvelles ressources est-elle possible?",
-    "en": "While looking for \"correct\", „fair\" or \"clean\" products and services, many questions arise. There is intransparency wherever you look. What exactly is a label good for? How proper are the working conditions in the production of goods and food? What alternatives to the disposal of a product are actually available to me? Is it even possible to produce without consuming new resources?",
+    "fr": "Lors de la recherche de produits et de services \"corrects\", “justes\" ou \"propres\", de nombreuses questions surgissent. On constate un manque de transparence partout. Que vaut exactement un label? Les conditions de travail lors de la fabrication des produits et des aliments sont-elles correctes? Quelles sont les alternatives à l’élimination d’un produit? Une production qui ne consomme pas de nouvelles ressources est-elle possible?",
+    "en": "While looking for \"correct\", “fair\" or \"clean\" products and services, many questions arise. There is intransparency wherever you look. What exactly is a label good for? How proper are the working conditions in the production of goods and food? What alternatives to the disposal of a product are actually available to me? Is it even possible to produce without consuming new resources?",
     "lu": "Op der Sich no “korrekten”, “gerechten”, “proppere” Produiten a Leeschtungen dauche vill Froen op. Intransparenz, egal wouhin een och kuckt. Wat bréngt eigentlech e Label? Wéi sinn d’Aarbechtsbedéngunge bei der Hierstellung vu Produiten a Liewensmëttel? Wéi eng Alternativen zur Entsuergung vun engem Produit sti mir eigentlech zur Verfügung? Ass et iwwerhaapt méiglech, eppes ze produzéieren, ouni Ressourcen ze verbrauchen?"
   },
   {
