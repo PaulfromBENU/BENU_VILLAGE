@@ -38,8 +38,6 @@
         </li>
     </ul>
 
-    @livewire('header.creations-menu-mobile')
-
     <div class="flex justify-start pt-5">
         <a href="https://www.facebook.com/benuvillageesch/" target="_blank" rel="noreferrer" class="footer__social"><i class="fab fa-facebook-f"></i></a>
         <a href="https://www.instagram.com/benu_village/" target="_blank" rel="noreferrer" class="footer__social"><i class="fab fa-linkedin-in"></i></a>

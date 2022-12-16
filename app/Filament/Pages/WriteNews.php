@@ -28,7 +28,18 @@ class WriteNews extends Page
 
     protected static ?int $navigationSort = 1;
 
+    protected static function shouldRegisterNavigation(): bool
+    {
+        $authorized_roles = [
+            'admin',
+            'assistant',
+            'vendor',
+        ];
+        return in_array(auth()->user()->role, $authorized_roles);
+    }
+
     public $show_general_info = 0;
+    public $show_article_meta = 0;
     public $show_article_content = 0;
     public $show_pending_articles = 0;
     public $show_online_articles = 0;
@@ -37,6 +48,7 @@ class WriteNews extends Page
 
     public $pending_articles;
     public $online_articles;
+    public $delete_check;
 
     public $article_title_fr = "";
     public $article_title_de = "";
@@ -79,11 +91,14 @@ class WriteNews extends Page
     public $article_seo_desc_en = "";
 
     public $element_types = [];
+    public $element_initial_position = [];
+    public $element_position = [];
     public $element_contents_fr = [];
     public $element_contents_de = [];
     public $element_contents_lu = [];
     public $element_contents_en = [];
     public $element_photo_files = [];
+    public $element_vertical_photo_files = [];
     public $element_photo_alts = [];
     public $element_photo_titles = [];
     public $element_links = [];
@@ -102,6 +117,9 @@ class WriteNews extends Page
     public function refreshData()
     {
         $this->pending_articles = VillageInfo::where('is_ready', '0')->orderBy('updated_at', 'desc')->get();
+        foreach ($this->pending_articles as $pending_article) {
+            $this->delete_check[$pending_article->id] = 0;
+        }
         $this->online_articles = VillageInfo::where('is_ready', '1')->orderBy('updated_at', 'desc')->get();
     }
 
@@ -152,14 +170,31 @@ class WriteNews extends Page
 
         $this->main_photo = $news->main_photo;
 
+        $fill_positions = 0;
+        if ($this->element_position == []) {
+            $fill_positions = 1;
+        }
+
         for ($i=0; $i < $news->elements()->count(); $i++) { 
             $element = $news->elements()->where('position', $i + 1)->first();
             $this->element_types[$i] = $element->type;
+            if ($fill_positions) {
+                $this->element_position[$i] = $element->position;
+            }
             $this->element_contents_fr[$i] = $element->content_fr;
             $this->element_contents_de[$i] = $element->content_de;
             $this->element_contents_lu[$i] = $element->content_lu;
             $this->element_contents_en[$i] = $element->content_en;
-            $this->element_photo_files[$i] = $element->photo_file_name;
+            if ($element->type == 3) {
+                $this->element_photo_files[$i] = $element->photo_file_name;
+                $this->element_vertical_photo_files[$i] = null;
+            } elseif ($element->type == 4) {
+                $this->element_photo_files[$i] = null;
+                $this->element_vertical_photo_files[$i] = $element->photo_file_name;
+            } else {
+                $this->element_photo_files[$i] = null;
+                $this->element_vertical_photo_files[$i] = null;
+            }
             $this->element_photo_alts[$i] = $element->photo_alt;
             $this->element_photo_titles[$i] = $element->photo_title;
             $this->element_links[$i] = $element->link;
@@ -170,6 +205,8 @@ class WriteNews extends Page
 
             $this->number_of_elements = $news->elements()->count();
         }
+
+        $this->element_initial_position = $this->element_position;
 
         if ($news->is_ready == 1) {
             $news->is_ready = 0;
@@ -209,10 +246,23 @@ class WriteNews extends Page
         }
     }
 
+    public function toggleArticleMeta($value)
+    {
+        if (in_array($value, [0, 1])) {
+            $this->show_article_meta = $value;
+            if ($value) {
+                $this->show_article_content = !$value;
+            }
+        }
+    }
+
     public function toggleArticleContent($value)
     {
         if (in_array($value, [0, 1])) {
             $this->show_article_content = $value;
+            if($value) {
+                $this->show_article_meta = !$value;
+            }
         }
     }
 
@@ -245,6 +295,7 @@ class WriteNews extends Page
         $this->element_contents_lu[$this->number_of_elements] = "";
         $this->element_contents_en[$this->number_of_elements] = "";
         $this->element_photo_files[$this->number_of_elements] = null;
+        $this->element_vertical_photo_files[$this->number_of_elements] = null;
         $this->element_photo_alts[$this->number_of_elements] = "";
         $this->element_photo_titles[$this->number_of_elements] = "";
         $this->element_links[$this->number_of_elements] = "";
@@ -252,10 +303,49 @@ class WriteNews extends Page
         $this->element_link_labels_de[$this->number_of_elements] = "";
         $this->element_link_labels_lu[$this->number_of_elements] = "";
         $this->element_link_labels_en[$this->number_of_elements] = "";
+        $this->element_position[$this->number_of_elements] = $this->number_of_elements + 1;
+        $this->element_initial_position = $this->element_position;
 
         $this->number_of_elements ++;
 
         $this->refreshData();
+    }
+
+    public function updatedElementPosition()
+    {
+        $new_index = 0;
+        $new_position = 1;
+        $new_position_valid = 1;
+        for ($i=0; $i < $this->number_of_elements; $i++) { 
+            if ($this->element_position[$i] >= 1 && $this->element_position[$i] <= $this->number_of_elements) {
+                if ($this->element_position[$i] !== $this->element_initial_position[$i]) {
+                    $new_index = $i;
+                    $new_position = $this->element_position[$i];
+                }
+            } else {
+                $new_position_valid = 0;
+                $this->element_position = $this->element_initial_position;
+            }
+        }
+
+        if($new_position_valid) {
+            for ($i=0; $i < $this->number_of_elements; $i++) { 
+                if ($i !== $new_index) {
+                    if($new_position > $this->element_initial_position[$new_index]) {
+                        if ($this->element_position[$i] <= $new_position && $this->element_position[$i] >= $this->element_initial_position[$new_index]) {
+                            $this->element_position[$i] --;
+                        }
+                    } else {
+                       if ($this->element_position[$i] >= $new_position && $this->element_position[$i] <= $this->element_initial_position[$new_index]) {
+                            $this->element_position[$i] ++;
+                        } 
+                    }
+                }
+            }
+            $this->element_initial_position = $this->element_position;
+        } else {
+            $this->notify('danger', 'Please fill the news elements positions correctly');
+        }
     }
 
     public function deleteElement($index)
@@ -274,6 +364,9 @@ class WriteNews extends Page
 
         unset($this->element_photo_files[$index]);
         $this->element_photo_files = array_values($this->element_photo_files);
+
+        unset($this->element_vertical_photo_files[$index]);
+        $this->element_vertical_photo_files = array_values($this->element_vertical_photo_files);
 
         unset($this->element_photo_alts[$index]);
         $this->element_photo_alts = array_values($this->element_photo_alts);
@@ -430,15 +523,19 @@ class WriteNews extends Page
                 $news->elements()->where('position', '>', $this->number_of_elements)->delete();
             }
 
+            // for($index = 1; $index <= $number_of_elements; $index++) {
+            // $i = array_search($index, $element_position);
+
             for ($i=0; $i < $this->number_of_elements; $i++) { 
-                if ($news->elements()->where('position', $i + 1)->count() > 0) {
-                    $element = $news->elements()->where('position', $i + 1)->first();
+                if ($news->elements()->where('position', $this->element_position[$i])->count() > 0) {
+                    $element = $news->elements()->where('position', $this->element_position[$i])->first();
                 } else {
                     $element = new VillageInfoElement();
-                    $element->position = $i + 1;
+                    $element->position = $this->element_position[$i];
                     $element->village_info_id = $news->id;
                 }
                 $element->type = $this->element_types[$i];
+                $element->position = $this->element_position[$i];
                 $element->content_fr = $this->element_contents_fr[$i];
                 $element->content_de = $this->element_contents_de[$i];
                 $element->content_lu = $this->element_contents_lu[$i];
@@ -448,7 +545,7 @@ class WriteNews extends Page
                 if($this->element_photo_files[$i]) {
                     if(!is_string($this->element_photo_files[$i])) {
                         $img = Image::make($this->element_photo_files[$i]);
-                        $file_name = 'news-additionnal-picture-'.$this->article_slug_en.'-'.$i.'.'.$this->element_photo_files[$i]->getClientOriginalExtension();
+                        $file_name = 'news-additionnal-picture-'.$this->article_slug_en.'-'.$this->element_position[$i].'.'.$this->element_photo_files[$i]->getClientOriginalExtension();
                         if ($img->width() < $img->height()) {
                             $img->rotate(90);
                         }
@@ -460,9 +557,34 @@ class WriteNews extends Page
                         if($img->save(public_path('media/pictures/news/'.$file_name))) {
                             $element->photo_file_name = $file_name;
                         }
+                    } else {
+                        $element->photo_file_name = $this->element_photo_files[$i];
                     }
-                } else {
-                    $element->photo_file_name = $this->element_photo_files[$i];
+                }
+
+                // New article portrait photo handling
+                if($this->element_vertical_photo_files[$i]) {
+                    if(!is_string($this->element_vertical_photo_files[$i])) {
+                        $img = Image::make($this->element_vertical_photo_files[$i]);
+                        $file_name = 'news-additionnal-picture-'.$this->article_slug_en.'-'.$this->element_position[$i].'.'.$this->element_vertical_photo_files[$i]->getClientOriginalExtension();
+                        if ($img->width() > $img->height()) {
+                            $img->rotate(90);
+                        }
+                        $img->resize(850, 1000, function ($constraint) {
+                            $constraint->aspectRatio();
+                            $constraint->upsize();
+                        });
+
+                        if($img->save(public_path('images/pictures/news/'.$file_name))) {
+                            $element->photo_file_name = $file_name;
+                        }
+                    } else {
+                        $element->photo_file_name = $this->element_vertical_photo_files[$i];
+                    }
+                }
+
+                if (!$this->element_vertical_photo_files[$i] && !$this->element_photo_files[$i]) {
+                    $element->photo_file_name = null;
                 }
 
                 $element->photo_alt = $this->element_photo_alts[$i];
@@ -487,6 +609,7 @@ class WriteNews extends Page
                 'element_contents_lu',
                 'element_contents_en',
                 'element_photo_files',
+                'element_vertical_photo_files',
                 'element_photo_alts',
                 'element_photo_titles',
                 'element_links',
@@ -507,6 +630,16 @@ class WriteNews extends Page
         $news->is_ready = 0;
         $news->save();
         $this->refreshData();
+    }
+
+    public function checkDelete($article_id)
+    {
+        $this->delete_check[$article_id] = 1;
+    }
+
+    public function cancelDelete($article_id)
+    {
+        $this->delete_check[$article_id] = 0;
     }
 
     public function deleteNews($article_id)

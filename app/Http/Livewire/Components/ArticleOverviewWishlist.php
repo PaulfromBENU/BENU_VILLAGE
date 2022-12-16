@@ -52,6 +52,14 @@ class ArticleOverviewWishlist extends Component
         if ($this->article->shops()->where('filter_key', '<>', 'benu-esch')->wherePivot('stock', '>', '0')->count() > 0) {
             $this->is_pop_up = 1;
         }
+
+        if (session('cart_id') !== null && Cart::where('cart_id', session('cart_id'))->count() > 0) {
+            if (Cart::where('cart_id', session('cart_id'))->first()->couture_variations->contains($this->article->id)) {
+                $this->sent_to_cart = 1;
+            } else {
+                $this->sent_to_cart = 0;
+            }
+        }
     }
 
     public function changePicture(string $side)
@@ -98,27 +106,33 @@ class ArticleOverviewWishlist extends Component
         $this->emit('displayArticle', $this->article->id);
     }
 
-    // public function addToCart()
-    // {
-    //     if (session('cart_id') !== null && Cart::where('cart_id', session('cart_id'))->count() > 0) {
-    //         $cart = Cart::firstOrNew([
-    //             'cart_id' => session('cart_id')
-    //         ]);
-    //         $cart->is_active = 1;
-    //         if (auth()->check()) {
-    //             $cart->user_id = auth()->user()->id;
-    //         }
-    //         $cart->status = 1;// 0 = created, 1 = currently updated, 2 = paying, 3 = paid, 4 = abandoned
-    //         if ($cart->save()) {
-    //             $cart->couture_variations()->attach($this->article->id);
-    //             $pivot = $this->article->available_shops()->first()->pivot;
-    //             $pivot->decrement('stock');
-    //             $pivot->increment('stock_in_cart');
-    //             $this->sent_to_cart = 1;
-    //             $this->emit('cartUpdated');
-    //         }
-    //     }
-    // }
+    public function addToCart()
+    {
+        if (session('cart_id') !== null) {
+            // $cart = Cart::firstOrNew([
+            //     'cart_id' => session('cart_id')
+            // ]);
+            if (Cart::where('cart_id', session('cart_id'))->count() > 0) {
+                $cart = Cart::where('cart_id', session('cart_id'))->first();
+            } else {
+                $cart = new Cart();
+            }
+            $cart->is_active = 1;
+            $cart->cart_id = session('cart_id');
+            if (auth()->check()) {
+                $cart->user_id = auth()->user()->id;
+            }
+            $cart->status = 1;// 0 = created, 1 = currently updated, 2 = paying, 3 = paid, 4 = abandoned
+            if ($cart->save()) {
+                $cart->couture_variations()->attach($this->article->id);
+                $pivot = $this->article->available_shops()->first()->pivot;
+                $pivot->decrement('stock');
+                $pivot->increment('stock_in_cart');
+                $this->sent_to_cart = 1;
+                $this->emit('cartUpdated');
+            }
+        }
+    }
     
     public function render()
     {

@@ -20,7 +20,6 @@ use App\Mail\NewsletterConfirmationForAdmin;
 use App\Mail\NewsletterCancelConfirmationForAdmin;
 use App\Exports\OrdersExport;
 
-use App\Traits\ArticleAnalyzer;
 use App\Traits\DataImporter;
 
 use App\Http\Requests\NewsletterRequest;
@@ -32,7 +31,6 @@ use App\Models\Translation;
 
 class GeneralController extends Controller
 {
-    use ArticleAnalyzer;
     use DataImporter;
 
     public function home()
@@ -53,10 +51,7 @@ class GeneralController extends Controller
         // Reset payment on-going status to reach dashboard after connect
         session(['payment-ongoing' => 'inactive']);
 
-        // Include last 6 creations where at least 1 article is present and in stock
-        $latest_models = $this->getAvailableCreations()->slice(0, 6);
-
-        return view('welcome', ['latest_models' => $latest_models]);
+        return view('welcome');
     }
 
     public function landing()
@@ -308,10 +303,6 @@ class GeneralController extends Controller
 
     public function showSiteMap()
     {
-        $clothes = $this->getAvailableCreations('clothes')->sortBy('name');
-        $accessories = $this->getAvailableCreations('accessories')->sortBy('name');
-        $home_items = $this->getAvailableCreations('home')->sortBy('name');
-        // $news = NewsArticleCouture::where('is_ready', '1')->orderBy('updated_at', 'desc')->get();
         $couture_news = NewsArticleCouture::where('is_ready', '1')->orderBy('updated_at', 'desc')->get();
         $village_news = VillageInfo::where('is_ready', '1')->orderBy('updated_at', 'desc')->get();
         return view('footer.pages.sitemap', [

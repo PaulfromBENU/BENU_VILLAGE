@@ -392,6 +392,23 @@
 		color: rgb(234 179 8/var(--tw-bg-opacity));
 	}
 	h2 {
+		font-size: 1.6rem;
+		cursor: pointer;
+		padding: 4px 20px;
+		border-bottom: rgb(234 179 8/var(--tw-bg-opacity)) solid 1px;
+		margin-bottom: 5px;
+		// background-color: rgb(234 179 8/var(--tw-bg-opacity));
+		background-color: transparent;
+		border: 2px solid rgb(234 179 8);
+		color: $white;
+		border-radius: 8px;
+		transition: all 0.2s;
+		&:hover {
+			// background-color: lighten(rgb(234 179 8), 20);
+			background-color: lighten(rgb(234 179 8), 0);
+		}
+	}
+	h3 {
 		font-size: 1.4rem;
 		padding-bottom: 4px;
 		border-bottom: lightgrey solid 4px;
@@ -410,6 +427,12 @@
 			background: rgb(234 179 8/var(--tw-bg-opacity));
 			color: $white;
 		}
+	}
+	&__position {
+		background: transparent !important;
+		border-radius: 4px;
+		width: 90px;
+		margin-right: 20px;
 	}
 	&__title {
 		padding-top: 10px;
@@ -452,6 +475,7 @@
 	&__new-element-title {
 		padding-bottom: 5px;
 		border-bottom: solid 1px lightgrey;
+		margin-bottom: 10px;
 		// color: rgb(234 179 8/var(--tw-bg-opacity));
 		height: 60px;
 		padding-top: 12px;
