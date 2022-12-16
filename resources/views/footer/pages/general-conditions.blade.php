@@ -27,16 +27,8 @@
 			{{ __('footer.general-conditions-txt-1') }}
 		</p>
 		<ul>
-			<li class="flex"><div style="width: 30px; padding-top: 6px; text-align: left;">
-					<img src="{{ asset('media/pictures/puce_village.png') }}" style="height: 18px; width: 18px;" />
-				</div> <p><a href="https://couture.benu.lu">{{ __('footer.general-conditions-link-1') }}</a> (<a href="https://www.benucouture.lu">{{ __('footer.general-conditions-link-2') }}</a>)</p></li>
-			<!-- <li><span class="primary-color pr-3">•</span><a href="https://couture.benu.lu">{{ __('footer.general-conditions-link-1') }}</a> (<a href="https://www.benucouture.lu">{{ __('footer.general-conditions-link-2') }}</a>)</li> -->
-			<li class="flex"><div style="width: 30px; padding-top: 6px; text-align: left;">
-					<img src="{{ asset('media/pictures/puce_village.png') }}" style="height: 18px; width: 18px;" />
-				</div> <p><a href="https://www.benu.lu">{{ __('footer.general-conditions-link-3') }}</a></p></li>
-			<!-- <li><span class="primary-color pr-3">•</span><a href="https://www.benu.lu">{{ __('footer.general-conditions-link-3') }}</a></li> -->
-			<!-- <li><a href="{{ route('home', ['locale' => app()->getLocale()]) }}">{{ __('footer.general-conditions-link-1') }}</a> (<a href="{{ route('home', ['locale' => app()->getLocale()]) }}">{{ __('footer.general-conditions-link-2') }}</a>)</li> -->
-			<!-- <li><a href="https://benu.lu">{{ __('footer.general-conditions-link-3') }}</a></li> -->
+			<li class="flex footer-conditions__paragraph">@svg('puce_leaf') <p><a href="https://couture.benu.lu">{{ __('footer.general-conditions-link-1') }}</a> (<a href="https://www.benucouture.lu">{{ __('footer.general-conditions-link-2') }}</a>)</p></li>
+			<li class="flex footer-conditions__paragraph">@svg('puce_leaf') <p><a href="https://www.benu.lu">{{ __('footer.general-conditions-link-3') }}</a></p></li>
 		</ul>
 		<p class="footer-conditions__paragraph">
 			{{ __('footer.general-conditions-txt-2') }}
@@ -66,11 +58,7 @@
 		</p>
 		<ul>
 			@for($i = 1; $i <= 4; $i ++)
-			<li class="flex">@svg('puce_leaf') <p>{{ __('footer.general-conditions-txt-1-2-'.(1 + $i)) }}</p></li>
-			<!-- <li class="footer-conditions__paragraph"><span class="primary-color pr-3">•</span> {{ __('footer.general-conditions-txt-1-2-'.(1 + $i)) }}</li> -->
-			<!-- <li class="footer-conditions__paragraph">
-				{{ __('footer.general-conditions-txt-1-2-'.(1 + $i)) }}
-			</li> -->
+			<li class="flex footer-conditions__paragraph">@svg('puce_leaf') <p>{{ __('footer.general-conditions-txt-1-2-'.(1 + $i)) }}</p></li>
 			@endfor
 		</ul>
 
@@ -91,10 +79,7 @@
 		</p>
 		<ul>
 			@for($i = 1; $i <= 2; $i ++)
-			<li class="footer-conditions__paragraph"><span class="primary-color pr-3">•</span> {{ __('footer.general-conditions-txt-1-4-'.(1 + $i)) }}</li>
-			<!-- <li class="footer-conditions__paragraph">
-				{{ __('footer.general-conditions-txt-1-4-'.(1 + $i)) }}
-			</li> -->
+			<li class="flex footer-conditions__paragraph">@svg('puce_leaf') <p> {{ __('footer.general-conditions-txt-1-4-'.(1 + $i)) }}</p></li>
 			@endfor
 		</ul>
 		@for($i = 1; $i <= 4; $i ++)
