@@ -65,7 +65,7 @@
 							<option value="" style="color: lightgrey;">Tag 1 (in English)</option>
 							<option value="{{ ucfirst(strtolower(__('news.tag-events', [], 'en'))) }}">{{ ucfirst(strtolower(__('news.tag-events', [], 'en'))) }}</option>
 							<option value="{{ ucfirst(strtolower(__('news.tag-what-s-new', [], 'en'))) }}">{{ ucfirst(strtolower(__('news.tag-what-s-new', [], 'en'))) }}</option>
-							<option value="{{ ucfirst(strtolower(__('news.tag-environment', [], 'en'))) }}">{{ ucfirst(strtolower(__('news.tag-environment', [], 'en'))) }}</option>
+							<!-- <option value="{{ ucfirst(strtolower(__('news.tag-environment', [], 'en'))) }}">{{ ucfirst(strtolower(__('news.tag-environment', [], 'en'))) }}</option> -->
 						</select>
 						<!-- <input type="text" name="article_tag_1_fr" wire:model.defer="article_tag_1_fr" placeholder="Tag 1 in French"> -->
 					</div>
@@ -75,10 +75,10 @@
 							<option value="" style="color: lightgrey;">Tag 2 (in English)</option>
 							<option value="{{ ucfirst(strtolower(__('news.tag-events', [], 'en'))) }}">{{ ucfirst(strtolower(__('news.tag-events', [], 'en'))) }}</option>
 							<option value="{{ ucfirst(strtolower(__('news.tag-what-s-new', [], 'en'))) }}">{{ ucfirst(strtolower(__('news.tag-what-s-new', [], 'en'))) }}</option>
-							<option value="{{ ucfirst(strtolower(__('news.tag-environment', [], 'en'))) }}">{{ ucfirst(strtolower(__('news.tag-environment', [], 'en'))) }}</option>
+							<!-- <option value="{{ ucfirst(strtolower(__('news.tag-environment', [], 'en'))) }}">{{ ucfirst(strtolower(__('news.tag-environment', [], 'en'))) }}</option> -->
 						</select>
 					</div>
-					<div class="create-news__title__input">
+					<div class="create-news__title__input" style="display: none;">
 						<label>Tag 3:</label><br/>
 						<select wire:model="article_tag_3_en">
 							<option value="" style="color: lightgrey;">Tag 3 (in English)</option>
@@ -436,6 +436,7 @@
 					Creation date: {{ $pending_article->created_at->format('d\/m\/Y') }}
 				</p>
 				<p class="text-right">
+					<button wire:click="deleteNews({{ $pending_article->id }})">Delete</button>
 					<button wire:click="fillArticleData({{ $pending_article->id }})">Modify</button>
 					<button wire:click="sendOnline({{ $pending_article->id }})">Validate</button>
 				</p>

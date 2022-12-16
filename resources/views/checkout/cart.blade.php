@@ -54,11 +54,8 @@
 			<p class="bg-gray-100 text-center text-2xl lg:text-4xl font-bold primary-color p-4" style="border-radius: 8px; font-family: 'Barlow Condensed';">
 				{{ __('cart.no-article-for-the-moment') }}
 			</p>
-			<p class="text-center mt-5 pt-5 mb-10">
-				<a href="{{ route('model-'.app()->getLocale()) }}" class="btn-slider-left m-auto font-bold text-lg" style="font-family: 'Barlow Condensed';">{{ __('welcome.last-link') }}</a>
-			</p>
 		@else
-			<h2 class="cart-content__banner cart-content__banner--couture">BENU COUTURE</h2>
+			<!-- <h2 class="cart-content__banner cart-content__banner--couture">BENU COUTURE</h2> -->
 			@livewire('cart.cart-articles', ['cart_id' => $cart_id])
 		@endif
 	</section>

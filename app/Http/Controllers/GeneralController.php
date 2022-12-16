@@ -10,10 +10,11 @@ use Illuminate\Http\Response;
 use App\Models\Article;
 use App\Models\Creation;
 use App\Models\CreationCategory;
-use App\Models\NewsArticle;
+use App\Models\NewsArticleCouture;
 use App\Models\Partner;
 use App\Models\User;
 use App\Models\Media;
+use App\Models\VillageInfo;
 use App\Mail\NewsletterConfirmation;
 use App\Mail\NewsletterConfirmationForAdmin;
 use App\Mail\NewsletterCancelConfirmationForAdmin;
@@ -85,7 +86,7 @@ class GeneralController extends Controller
 
     public function showAbout()
     {
-        return view('about');
+        return view('header.pages.about');
     }
 
     public function showPartners()
@@ -101,45 +102,6 @@ class GeneralController extends Controller
         $vouchers = Article::where('name', 'voucher')->orderBy('voucher_type', 'asc')->get();
 
         return view('vouchers', ['vouchers' => $vouchers]);
-    }
-
-    public function showNews(string $slug = '')
-    {
-        if ($slug == '') {
-            if (auth()->check() && auth()->user()->role == 'admin') {
-                $all_news = NewsArticle::orderBy('updated_at', 'desc')->get();
-            } else {
-                $all_news = NewsArticle::where('is_ready', '1')->orderBy('updated_at', 'desc')->get();
-            }
-            return view('news', ['all_news' => $all_news]);
-        }
-
-        if (NewsArticle::where('slug_'.app()->getLocale(), $slug)->where('is_ready', '1')->count() > 0) {
-            $news = NewsArticle::where('slug_'.app()->getLocale(), $slug)->first();
-            $previous_news = NewsArticle::where('created_at', '>', $news->created_at)
-                                          ->where('is_ready', '1')
-                                          ->orderBy('created_at', 'asc')
-                                          ->first();
-            $next_news = NewsArticle::where('created_at', '<', $news->created_at)
-                                      ->where('is_ready', '1')
-                                      ->orderBy('created_at', 'desc')
-                                      ->first();
-            return view('news-single', ['news' => $news, 'previous_news' => $previous_news, 'next_news' => $next_news]);
-        } elseif (auth()->check() && auth()->user()->role == 'admin' && NewsArticle::where('slug_'.app()->getLocale(), $slug)->count() > 0) {
-            // In stage or local, articles can be displayed for test even if not validated.
-            $news = NewsArticle::where('slug_'.app()->getLocale(), $slug)->first();
-            $previous_news = NewsArticle::where('created_at', '>', $news->created_at)
-                                          ->where('is_ready', '1')
-                                          ->orderBy('created_at', 'asc')
-                                          ->first();
-            $next_news = NewsArticle::where('created_at', '<', $news->created_at)
-                                      ->where('is_ready', '1')
-                                      ->orderBy('created_at', 'desc')
-                                      ->first();
-            return view('news-single', ['news' => $news, 'previous_news' => $previous_news, 'next_news' => $next_news]);
-        }
-
-        return redirect()->route('news-'.app()->getLocale());
     }
 
     public function showNewsletter()
@@ -255,35 +217,9 @@ class GeneralController extends Controller
         return view('footer.pages.legal');
     }
 
-    public function showParticipate($page = '')
+    public function showParticipate()
     {
-        // When changing locale while in a sub-section of the page, redirect to the page without parameter. Also handles random URI parameters.
-        if (!in_array($page, [
-            __('slugs.participate-badges'),
-            __('slugs.participate-give'),
-            __('slugs.participate-partnership'),
-            __('slugs.participate-smart'),
-            __('slugs.participate-sustainable'),
-            ''
-        ])) {
-            return redirect()->route('header.participate-'.app()->getLocale());
-        }
-
-        if ($page == __('slugs.participate-badges')) {
-            // Specific to badges section - initialize collection before if
-        }
-
-        if ($page == __('slugs.participate-give')) {
-            // Specific to give clothes section - initialize collection before if
-        }
-
-        if ($page == __('slugs.participate-partnership') || $page == '') {
-            
-        }
-
-        // $localized_desc_query = "description_".app()->getLocale();
-
-        return view('header.pages.participate', ['page' => $page]);
+        return view('header.pages.participate');
     }
 
 
@@ -375,12 +311,15 @@ class GeneralController extends Controller
         $clothes = $this->getAvailableCreations('clothes')->sortBy('name');
         $accessories = $this->getAvailableCreations('accessories')->sortBy('name');
         $home_items = $this->getAvailableCreations('home')->sortBy('name');
-        $news = NewsArticle::where('is_ready', '1')->orderBy('updated_at', 'desc')->get();
+        // $news = NewsArticleCouture::where('is_ready', '1')->orderBy('updated_at', 'desc')->get();
+        $couture_news = NewsArticleCouture::where('is_ready', '1')->orderBy('updated_at', 'desc')->get();
+        $village_news = VillageInfo::where('is_ready', '1')->orderBy('updated_at', 'desc')->get();
         return view('footer.pages.sitemap', [
             'clothes' => $clothes, 
             'accessories' => $accessories, 
             'home_items' => $home_items, 
-            'news' => $news,
+            'couture_news' => $couture_news,
+            'village_news' => $village_news,
         ]);
     }
 
@@ -399,6 +338,12 @@ class GeneralController extends Controller
     }
 
 
+    public function showLearnMore()
+    {
+        return view('learn-more');
+    }
+
+
     public function accessStage(Request $request)
     {
         if ($request->stage_password == 'benew') {
@@ -413,45 +358,13 @@ class GeneralController extends Controller
     public function startImport()
     {
         if(auth::check() && auth::user()->role == 'admin') {
-        // if(1 == 1) {
             echo "*** Time limit set to 3600s ***<br/>";
             set_time_limit(3600);
-            // echo "*** Creating folders with creations names in 'to_be_processed' folder' ***<br/>";
-            // $this->createModelsFolders();
-            // Article::query()->update(['checked' => '1']);
 
-            // !!! Run db:seed before executing the following, to fully clear and reset data before import
+            echo "*** Translations importation started ***<br/>";
+            $this->importTranslations();
 
-            // echo "*** Data importation started ***<br/>";
-            // $this->importDataFromSophie();
-            // $this->importCreationsFromLou();
-            // $this->importCreationsFromSabine();
-
-            // echo "*** Pictures and articles importation started ***<br/>";
-            // $this->createArticlesFromPictures();
-            // $this->updateArticlesFromLouAndSophie();
-
-            // echo "*** Translations importation started ***<br/>";
-            // $this->importTranslations();
-
-            // VAT update -> 3% for kids
-            // echo "*** Updating VAT to 3% for kids clothes and accessories ***<br/>";
-            // $creations_to_be_updated = Creation::whereHas('creation_groups', function($query) {
-            //     return $query->where('filter_key', 'kids');
-            // })->get();
-
-            // foreach ($creations_to_be_updated as $creation) {
-            //     $creation->tva_value = 3;
-            //     $creation->save();
-            // }
-
-            // echo "*** VAT updated for kids! :) ***";
-
-            // echo "*** validating existing variations... ***";
-            // Article::where('checked', '1')->update(['to_be_validated' => '1']);
-            // echo "*** Existing variations updated! ***";
-
-            // echo "*** Importation process complete! :) ***<br/>";
+            echo "*** Importation process complete! :) ***<br/>";
         } else {
             return redirect()->route('login-fr');
         }

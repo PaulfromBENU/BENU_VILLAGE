@@ -53,7 +53,7 @@ $(function() {
         } else {
             i = 0;
         }
-    }, 7000);
+    }, 10000);
 
     $('.welcome-presentation__desc__bar__btn').on('click', function() {
         let index = $('.welcome-presentation__desc__bar__btn').index(this);
@@ -65,13 +65,13 @@ $(function() {
         } else {
             i = 0;
         }
-        welcomeAnimation = setInterval(function() {
-        animateWelcomePres(i);
-        if (i < 4) {
-                i++;
-            } else {
-                i = 0;
-            }
-        }, 7000);
+        // welcomeAnimation = setInterval(function() {
+        // animateWelcomePres(i);
+        // if (i < 4) {
+        //         i++;
+        //     } else {
+        //         i = 0;
+        //     }
+        // }, 10000);
     });
 });

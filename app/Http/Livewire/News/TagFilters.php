@@ -4,7 +4,7 @@ namespace App\Http\Livewire\News;
 
 use Livewire\Component;
 
-use App\Models\NewsArticle;
+use App\Models\NewsArticleCouture;
 
 class TagFilters extends Component
 {
@@ -13,7 +13,7 @@ class TagFilters extends Component
 
     public function mount()
     {
-        $all_news = NewsArticle::query()
+        $all_news = NewsArticleCouture::query()
                     ->where('is_ready', '1')
                     ->orderBy('updated_at', 'desc')
                     ->get();

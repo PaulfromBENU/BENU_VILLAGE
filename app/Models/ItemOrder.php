@@ -11,6 +11,9 @@ class ItemOrder extends Model
 
     protected $guarded = [''];
 
+    // Choice of the database
+    protected $connection = 'mysql_couture';
+
     public function creation()
     {
         return $this->belongsTo(Creation::class);

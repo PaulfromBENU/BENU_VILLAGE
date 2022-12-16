@@ -6709,7 +6709,7 @@ $(function () {
     } else {
       i = 0;
     }
-  }, 7000);
+  }, 10000);
   $('.welcome-presentation__desc__bar__btn').on('click', function () {
     var index = $('.welcome-presentation__desc__bar__btn').index(this); //Upon click, stop current animation, and restart from new selected menu
 
@@ -6720,17 +6720,15 @@ $(function () {
       i = index + 1;
     } else {
       i = 0;
-    }
+    } // welcomeAnimation = setInterval(function() {
+    // animateWelcomePres(i);
+    // if (i < 4) {
+    //         i++;
+    //     } else {
+    //         i = 0;
+    //     }
+    // }, 10000);
 
-    welcomeAnimation = setInterval(function () {
-      animateWelcomePres(i);
-
-      if (i < 4) {
-        i++;
-      } else {
-        i = 0;
-      }
-    }, 7000);
   });
 });
 

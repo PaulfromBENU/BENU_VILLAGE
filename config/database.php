@@ -15,7 +15,7 @@ return [
     |
     */
 
-    'default' => env('DB_CONNECTION', 'mysql'),
+    'default' => env('DB_CONNECTION', 'mysql_village'),
 
     /*
     |--------------------------------------------------------------------------
@@ -43,14 +43,14 @@ return [
             'foreign_key_constraints' => env('DB_FOREIGN_KEYS', true),
         ],
 
-        'mysql' => [
+        'mysql_couture' => [
             'driver' => 'mysql',
             'url' => env('DATABASE_URL'),
-            'host' => env('DB_HOST', '127.0.0.1'),
-            'port' => env('DB_PORT', '3306'),
-            'database' => env('DB_DATABASE', 'forge'),
-            'username' => env('DB_USERNAME', 'forge'),
-            'password' => env('DB_PASSWORD', ''),
+            'host' => env('DB_HOST_COUTURE', '127.0.0.1'),
+            'port' => env('DB_PORT_COUTURE', '3306'),
+            'database' => env('DB_DATABASE_COUTURE', 'forge'),
+            'username' => env('DB_USERNAME_COUTURE', 'forge'),
+            'password' => env('DB_PASSWORD_COUTURE', ''),
             'unix_socket' => env('DB_SOCKET', ''),
             'charset' => 'utf8mb4',
             'collation' => 'utf8mb4_unicode_ci',
@@ -66,11 +66,31 @@ return [
         'mysql_common' => [
             'driver' => 'mysql',
             'url' => env('DATABASE_URL'),
-            'host' => env('DB_HOST_2', '127.0.0.1'),
-            'port' => env('DB_PORT_2', '3306'),
-            'database' => env('DB_DATABASE_2', 'forge'),
-            'username' => env('DB_USERNAME_2', 'forge'),
-            'password' => env('DB_PASSWORD_2', ''),
+            'host' => env('DB_HOST_COMMON', '127.0.0.1'),
+            'port' => env('DB_PORT_COMMON', '3306'),
+            'database' => env('DB_DATABASE_COMMON', 'forge'),
+            'username' => env('DB_USERNAME_COMMON', 'forge'),
+            'password' => env('DB_PASSWORD_COMMON', ''),
+            'unix_socket' => env('DB_SOCKET', ''),
+            'charset' => 'utf8mb4',
+            'collation' => 'utf8mb4_unicode_ci',
+            'prefix' => '',
+            'prefix_indexes' => true,
+            'strict' => true,
+            'engine' => null,
+            'options' => extension_loaded('pdo_mysql') ? array_filter([
+                PDO::MYSQL_ATTR_SSL_CA => env('MYSQL_ATTR_SSL_CA'),
+            ]) : [],
+        ],
+
+        'mysql_village' => [
+            'driver' => 'mysql',
+            'url' => env('DATABASE_URL'),
+            'host' => env('DB_HOST_VILLAGE', '127.0.0.1'),
+            'port' => env('DB_PORT_VILLAGE', '3306'),
+            'database' => env('DB_DATABASE_VILLAGE', 'forge'),
+            'username' => env('DB_USERNAME_VILLAGE', 'forge'),
+            'password' => env('DB_PASSWORD_VILLAGE', ''),
             'unix_socket' => env('DB_SOCKET', ''),
             'charset' => 'utf8mb4',
             'collation' => 'utf8mb4_unicode_ci',

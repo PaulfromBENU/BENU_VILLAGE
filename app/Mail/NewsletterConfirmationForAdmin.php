@@ -39,6 +39,6 @@ class NewsletterConfirmationForAdmin extends Mailable
      */
     public function build()
     {
-        return $this->from(config('mail.mailers.smtp_admin.sender'))->subject('Nouvelle inscription newsletter depuis BENU COUTURE')->view('emails.newsletter-confirmation-for-admin');
+        return $this->from(config('mail.mailers.smtp_admin.sender'))->subject('Nouvelle inscription newsletter depuis BENU VILLAGE')->view('emails.newsletter-confirmation-for-admin');
     }
 }

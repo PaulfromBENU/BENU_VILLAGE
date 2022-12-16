@@ -10,6 +10,7 @@
 
 @section('main-content')
     @include('includes.welcome.presentation')
+    @include('includes.welcome.campaign')
 @endsection
 
 @section('scripts')

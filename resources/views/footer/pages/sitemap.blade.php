@@ -30,157 +30,40 @@
 			<ul>
 				<li class="sitemap__list sitemap__list--large"><a href="{{ route('home', ['locale' => app()->getLocale()]) }}">{{ __('footer.sitemap-home') }}</a></li>
 
-				<li class="sitemap__list sitemap__list--large"><a href="{{ route('model-'.app()->getLocale(), ['family' => 'clothes']) }}">{{ __('footer.sitemap-all-clothes') }}</a></li>
-				@foreach($clothes as $clothe)
-					<li class="sitemap__list sitemap__list--small">
-						<a href="{{ route('model-'.app()->getLocale(), ['name' => strtolower(str_replace(' ', '-', $clothe->name))]) }}">
-							{{ __('footer.sitemap-single-clothe') }} {{ $clothe->name }}
-						</a>
-						<ul>
-							@foreach($clothe->articles as $clothe_article)
-							<li class="pl-3" style="font-size: 1rem;">
-								<a href="{{ route('model-'.app()->getLocale(), ['name' => strtolower(str_replace(' ', '-', $clothe->name)), 'article' => strtolower($clothe_article->name)]) }}">
-									{{ $clothe_article->name }}
-								</a>
-							</li>
-							@endforeach
-						</ul>
-					</li>
-				@endforeach
-
-				<li class="sitemap__list sitemap__list--large"><a href="{{ route('model-'.app()->getLocale(), ['family' => 'accessories']) }}">{{ __('footer.sitemap-all-accessories') }}</a></li>
-				@foreach($accessories as $accessory)
-					<li class="sitemap__list sitemap__list--small">
-						<a href="{{ route('model-'.app()->getLocale(), ['name' => strtolower(str_replace(' ', '-', $accessory->name))]) }}">
-							{{ __('footer.sitemap-single-clothe') }} {{ $accessory->name }}
-						</a>
-						<ul>
-							@foreach($accessory->articles as $accessory_article)
-							<li class="pl-3" style="font-size: 1rem;">
-								<a href="{{ route('model-'.app()->getLocale(), ['name' => strtolower(str_replace(' ', '-', $accessory->name)), 'article' => strtolower($accessory_article->name)]) }}">
-									{{ $accessory_article->name }}
-								</a>
-							</li>
-							@endforeach
-						</ul>
-					</li>
-				@endforeach
-
-				<li class="sitemap__list sitemap__list--large"><a href="{{ route('model-'.app()->getLocale(), ['family' => 'home']) }}">{{ __('footer.sitemap-all-home-items') }}</a></li>
-				@foreach($home_items as $home_item)
-					<li class="sitemap__list sitemap__list--small">
-						<a href="{{ route('model-'.app()->getLocale(), ['name' => strtolower(str_replace(' ', '-', $home_item->name))]) }}">
-							{{ __('footer.sitemap-single-clothe') }} {{ $home_item->name }}
-						</a>
-						<ul>
-							@foreach($home_item->articles as $home_article)
-							<li class="pl-3" style="font-size: 1rem;">
-								<a href="{{ route('model-'.app()->getLocale(), ['name' => strtolower(str_replace(' ', '-', $home_item->name)), 'article' => strtolower($home_article->name)]) }}">
-									{{ $home_article->name }}
-								</a>
-							</li>
-							@endforeach
-						</ul>
-					</li>
-				@endforeach
-
-				<li class="sitemap__list sitemap__list--large"><a href="{{ route('vouchers-'.app()->getLocale()) }}">{{ __('footer.sitemap-vouchers') }}</a></li>
-
 				<li class="sitemap__list sitemap__list--large"><a href="{{ route('about-'.app()->getLocale()) }}">{{ __('footer.sitemap-about-us') }}</a></li>
 
-				<li class="sitemap__list sitemap__list--large"><a href="{{ route('full-story-'.app()->getLocale()) }}">{{ __('footer.sitemap-full-story') }}</a></li>
+				<!-- <li class="sitemap__list sitemap__list--large"><a href="{{ route('full-story-'.app()->getLocale()) }}">{{ __('footer.sitemap-full-story') }}</a></li> -->
 
-				<li class="sitemap__list sitemap__list--large"><a href="{{ route('client-service-'.app()->getLocale()) }}">{{ __('footer.sitemap-client-service') }}</a></li>
-				<li class="sitemap__list sitemap__list--small">
-					<a href="{{ route('client-service-'.app()->getLocale(), ['page' => __('slugs.services-faq')]) }}">
-						{{ __('footer.sitemap-client-service-faq') }}
-					</a>
-				</li>
-				<li class="sitemap__list sitemap__list--small">
-					<a href="{{ route('client-service-'.app()->getLocale(), ['page' => __('slugs.services-delivery')]) }}">
-						{{ __('footer.sitemap-client-service-delivery') }}
-					</a>
-				</li>
-				<li class="sitemap__list sitemap__list--small">
-					<a href="{{ route('client-service-'.app()->getLocale(), ['page' => __('slugs.services-sizes')]) }}">
-						{{ __('footer.sitemap-client-service-sizes') }}
-					</a>
-				</li>
-				<li class="sitemap__list sitemap__list--small">
-					<a href="{{ route('client-service-'.app()->getLocale(), ['page' => __('slugs.services-return')]) }}">
-						{{ __('footer.sitemap-client-service-return') }}
-					</a>
-				</li>
-				<li class="sitemap__list sitemap__list--small">
-					<a href="{{ route('client-service-'.app()->getLocale(), ['page' => __('slugs.services-payment')]) }}">
-						{{ __('footer.sitemap-client-service-payment') }}
-					</a>
-				</li>
-				<li class="sitemap__list sitemap__list--small">
-					<a href="{{ route('client-service-'.app()->getLocale(), ['page' => __('slugs.services-care')]) }}">
-						{{ __('footer.sitemap-client-service-care') }}
-					</a>
-				</li>
-				<li class="sitemap__list sitemap__list--small">
-					<a href="{{ route('client-service-'.app()->getLocale(), ['page' => __('slugs.services-shops')]) }}">
-						{{ __('footer.sitemap-client-service-shops') }}
-					</a>
-				</li>
-				<li class="sitemap__list sitemap__list--small">
-					<a href="{{ route('client-service-'.app()->getLocale(), ['page' => __('slugs.services-contact')]) }}">
-						{{ __('footer.sitemap-client-service-contact') }}
-					</a>
-				</li>
+				<li class="sitemap__list sitemap__list--large"><a href="{{ route('client-service-'.app()->getLocale(), ['page' => __('slugs.services-contact')]) }}">{{ __('footer.sitemap-client-service-contact') }}</a></li>
+				
 
-				<li class="sitemap__list sitemap__list--large"><a href="{{ route('news-'.app()->getLocale()) }}">{{ __('footer.sitemap-all-news') }}</a></li>
-				@foreach($news as $single_news)
+				<li class="sitemap__list sitemap__list--large"><a href="{{ route('news-all-'.app()->getLocale()) }}">{{ __('footer.sitemap-all-news') }}</a></li>
+				@php 
+					$localized_slug = 'slug_'.app()->getLocale(); 
+					$localized_title = 'title_'.app()->getLocale(); 
+				@endphp
+				@foreach($village_news as $single_village_news)
 					<li class="sitemap__list sitemap__list--small">
-						@php 
-							$localized_slug = 'slug_'.app()->getLocale(); 
-							$localized_title = 'title_'.app()->getLocale(); 
-						@endphp
-						<a href="{{ route('news-'.app()->getLocale(), ['slug' => $single_news->$localized_slug]) }}">
-							{{ __('footer.sitemap-single-news') }} {{ $single_news->$localized_title }}
+						<a href="{{ route('news-'.app()->getLocale(), ['origin' => 'village', 'slug' => $single_village_news->$localized_slug]) }}">
+							VILLAGE - <!-- {{ __('footer.sitemap-single-news') }} -->{{ $single_village_news->$localized_title }}
 						</a>
 					</li>
 				@endforeach
-
-				<li class="sitemap__list sitemap__list--large"><a href="{{ route('cart-'.app()->getLocale()) }}">{{ __('footer.sitemap-cart') }}</a></li>
+				@foreach($couture_news as $single_couture_news)
+					<li class="sitemap__list sitemap__list--small">
+						<a href="{{ route('news-'.app()->getLocale(), ['origin' => 'couture', 'slug' => $single_couture_news->$localized_slug]) }}">
+							COUTURE - <!-- {{ __('footer.sitemap-single-news') }} -->{{ $single_couture_news->$localized_title }}
+						</a>
+					</li>
+				@endforeach
 
 				<li class="sitemap__list sitemap__list--large"><a href="{{ route('newsletter-'.app()->getLocale()) }}">{{ __('footer.sitemap-newsletter-subscribe') }}</a></li>
 
 				<li class="sitemap__list sitemap__list--large"><a href="{{ route('header.participate-'.app()->getLocale()) }}">{{ __('footer.sitemap-participate') }}</a></li>
-				<li class="sitemap__list sitemap__list--small">
-					<a href="{{ route('header.participate-'.app()->getLocale(), ['page' => __('slugs.participate-badges')]) }}">
-						{{ __('footer.sitemap-participate-badges') }}
-					</a>
-				</li>
-				<li class="sitemap__list sitemap__list--small">
-					<a href="{{ route('header.participate-'.app()->getLocale(), ['page' => __('slugs.participate-give')]) }}">
-						{{ __('footer.sitemap-participate-give') }}
-					</a>
-				</li>
-				<li class="sitemap__list sitemap__list--small">
-					<a href="{{ route('header.participate-'.app()->getLocale(), ['page' => __('slugs.participate-partnership')]) }}">
-						{{ __('footer.sitemap-participate-partnership') }}
-					</a>
-				</li>
-				<li class="sitemap__list sitemap__list--small">
-					<a href="{{ route('header.participate-'.app()->getLocale(), ['page' => __('slugs.participate-smart')]) }}">
-						{{ __('footer.sitemap-participate-smart') }}
-					</a>
-				</li>
 
 				<li class="sitemap__list sitemap__list--large"><a href="{{ route('footer.legal-'.app()->getLocale()) }}">{{ __('footer.sitemap-legal-mentions') }}</a></li>
 
 				<li class="sitemap__list sitemap__list--large"><a href="{{ route('footer.policy-'.app()->getLocale()) }}">{{ __('footer.sitemap-policy') }}</a></li>
-
-				<li class="sitemap__list sitemap__list--large"><a href="{{ route('footer.general-info-'.app()->getLocale()) }}">{{ __('footer.sitemap-general-infos') }}</a></li>
-
-				<li class="sitemap__list sitemap__list--large"><a href="{{ route('footer.medias-'.app()->getLocale()) }}">{{ __('footer.sitemap-medias') }}</a></li>
-
-				<li class="sitemap__list sitemap__list--large"><a href="{{ route('campaigns-'.app()->getLocale()) }}">{{ __('footer.sitemap-all-campaigns') }}</a></li>
-				<li class="sitemap__list sitemap__list--small"><a href="{{ route('campaign-single-'.app()->getLocale(), ['slug' => 'carte-blanche']) }}">{{ __('footer.sitemap-campaign-carte-blanche') }}</a></li>
 
 				<li class="sitemap__list sitemap__list--large"><a href="{{ route('dashboard', ['locale' => app()->getLocale()]) }}">{{ __('footer.sitemap-dashboard') }}</a></li>
 

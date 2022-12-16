@@ -1,10 +1,10 @@
 <section class="benu-container welcome-presentation">
     <div class="welcome-presentation__illustration">
-        <img src="{{ asset('media/pictures/couture_illustrations_pattern_slide1_v1.jpg') }}" class="welcome-illustration-1 welcome-presentation__img">
-        <img src="{{ asset('media/pictures/couture_illustrations_pattern_slide2_v1.jpg') }}" class="welcome-illustration-2 welcome-presentation__img">
-        <img src="{{ asset('media/pictures/couture_illustrations_pattern_slide3_v1.jpg') }}" class="welcome-illustration-3 welcome-presentation__img">
-        <img src="{{ asset('media/pictures/couture_illustrations_pattern_slide4_v1.jpg') }}" class="welcome-illustration-4 welcome-presentation__img">
-        <img src="{{ asset('media/pictures/couture_illustrations_pattern_slide5_v1.jpg') }}" class="welcome-illustration-5 welcome-presentation__img">
+        <img src="{{ asset('media/pictures/benu-village-illustration-slide5-social-pattern-OK.jpg') }}" class="welcome-illustration-1 welcome-presentation__img">
+        <img src="{{ asset('media/pictures/benu-village-illustration-slide1-ecologique-pattern-OK.jpg') }}" class="welcome-illustration-2 welcome-presentation__img">
+        <img src="{{ asset('media/pictures/benu-village-illustration-slide-local-pattern-OK.jpg') }}" class="welcome-illustration-3 welcome-presentation__img">
+        <img src="{{ asset('media/pictures/benu-village-illustration-slide4-transparent-pattern-OK.jpg') }}" class="welcome-illustration-4 welcome-presentation__img">
+        <img src="{{ asset('media/pictures/benu-village-illustration-slide3-participatif-pattern-OK.jpg') }}" class="welcome-illustration-5 welcome-presentation__img">
     </div>
     <div class="welcome-presentation__desc">
         <div class="flex justify-start welcome-presentation__desc__bar">
@@ -45,16 +45,16 @@
             <p class="welcome-illustration-4 welcome-presentation__desc__text">
                 {!! __('welcome.pres-txt-4') !!}
             </p>
-            <ul class="welcome-illustration-5 welcome-presentation__desc__text" id="welcome-bullet-presentation">
-                <li>{!! __('welcome.pres-txt-5') !!}</li>
-            </ul>
+            <p class="welcome-illustration-4 welcome-presentation__desc__text">
+                {!! __('welcome.pres-txt-5') !!}
+            </p>
         </div>
         <div class="">
-            <a href="{{ route('about-'.app()->getLocale()) }}" class="welcome-illustration-1 welcome-presentation__desc__link">{!! __('welcome.pres-link-1') !!}</a>
-            <a href="{{ route('client-service-'.app()->getLocale(), ['page' => __('slugs.services-shops')]) }}" class="welcome-illustration-2 welcome-presentation__desc__link">{!! __('welcome.pres-link-2') !!}</a>
-            <a href="{{ route('about-'.app()->getLocale()) }}" class="welcome-illustration-3 welcome-presentation__desc__link">{!! __('welcome.pres-link-3') !!}</a>
-            <a href="{{ route('footer.general-info-'.app()->getLocale()) }}" class="welcome-illustration-4 welcome-presentation__desc__link">{!! __('welcome.pres-link-4') !!}</a>
-            <a href="{{ route('client-service-'.app()->getLocale(), ['page' => __('slugs.services-faq')]) }}" class="welcome-illustration-5 welcome-presentation__desc__link">{!! __('welcome.pres-link-5') !!}</a>
+            <a href="{{ route('learn-more-'.app()->getLocale()) }}" class="welcome-illustration-1 welcome-presentation__desc__link">{!! __('welcome.pres-link-1') !!}</a>
+            <a href="{{ route('learn-more-'.app()->getLocale(), ['page' => __('slugs.services-shops')]) }}" class="welcome-illustration-2 welcome-presentation__desc__link">{!! __('welcome.pres-link-2') !!}</a>
+            <a href="{{ route('client-service-'.app()->getLocale(), ['page' => __('slugs.services-contact')]) }}" class="welcome-illustration-3 welcome-presentation__desc__link">{!! __('welcome.pres-link-3') !!}</a>
+            <a href="{{ route('client-service-'.app()->getLocale(), ['page' => __('slugs.services-contact')]) }}" class="welcome-illustration-4 welcome-presentation__desc__link">{!! __('welcome.pres-link-4') !!}</a>
+            <a href="{{ route('header.participate-'.app()->getLocale()) }}" class="welcome-illustration-5 welcome-presentation__desc__link">{!! __('welcome.pres-link-5') !!}</a>
         </div>
     </div>
 </section>

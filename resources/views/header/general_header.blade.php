@@ -14,45 +14,10 @@
             <div class="flex justify-between header__top-menu tablet-hidden">
                 <nav class="header__top-nav flex justify-start">
                     <div>
-                        <a href="{{ route('home', [app()->getLocale()]) }}" class="header__home-title">BENU VILLAGE</a>
+                        <a href="{{ route('learn-more-'.app()->getLocale()) }}" class="header__home-title">BENU VILLAGE</a>
                     </div>
                     <ul class="flex justify-start header__top-nav__links tablet-hidden">
-                        <li>
-                            <a href="{{ route('client-service-'.app()->getLocale()) }}" @if(Route::currentRouteName() == 'client-service-'.app()->getLocale()) class="header__top-nav__links__link header__top-nav__links__link--active" @else class="header__top-nav__links__link" @endif>
-                                {{ __('header.support') }}
-                            </a>
-                        </li>
-                        <li>|</li>
-                        <li>
-                            <!-- <a href="{{ route('full-story-'.app()->getLocale()) }}">
-                                {{ __('header.story') }}
-                            </a> -->
-                            <a href="{{ route('full-story-'.app()->getLocale()) }}" @if(Route::currentRouteName() == 'full-story-'.app()->getLocale()) class="header__top-nav__links__link header__top-nav__links__link--active" @else class="header__top-nav__links__link" @endif>
-                                {{ __('header.story') }}
-                            </a>
-                        </li>
-                        <li>|</li>
-                        <!-- <li>
-                            @if(Route::has('partners-'.app()->getLocale()))
-                            <a href="{{ route('partners-'.app()->getLocale()) }}">{{ __('header.partners') }}</a>
-                            @else
-                            <a href="{{ route('partners', ['locale' => app()->getLocale()]) }}">{{ __('header.partners') }}</a>
-                            @endif
-                        </li>
-                        <li>|</li> -->
-                        <li>
-                            <!-- <a href="{{ route('header.participate-'.app()->getLocale()) }}">{{ __('header.participate') }}</a> -->
-                            <a href="{{ route('header.participate-'.app()->getLocale()) }}" @if(Route::currentRouteName() == 'header.participate-'.app()->getLocale()) class="header__top-nav__links__link header__top-nav__links__link--active" @else class="header__top-nav__links__link" @endif>
-                                {{ __('header.participate') }}
-                            </a>
-                        </li>
-                        <li>|</li>
-                        <li>
-                            <!-- <a href="{{ route('vouchers-'.app()->getLocale()) }}">{{ __('header.vouchers') }}</a> -->
-                            <a href="{{ route('vouchers-'.app()->getLocale()) }}" @if(Route::currentRouteName() == 'vouchers-'.app()->getLocale()) class="header__top-nav__links__link header__top-nav__links__link--active" @else class="header__top-nav__links__link" @endif>
-                                {{ __('header.vouchers') }}
-                            </a>
-                        </li>
+                        
                     </ul>
                 </nav>
                 <div class="header__newsletter-btn">
@@ -76,15 +41,16 @@
             <div class="flex justify-between header__main-menu">
                 <nav class="header__main-nav flex justify-start tablet-hidden">
                     <!-- ƒ -->
-                    <a href="{{ route('news-'.app()->getLocale()) }}" class="header__main-nav__link @if(Route::currentRouteName() == 'news-'.app()->getLocale()) header__main-nav__link--active @endif">
+
+                    <a href="{{ route('header.participate-'.app()->getLocale()) }}" class="header__main-nav__link @if(Route::currentRouteName() == 'header.participate-'.app()->getLocale()) header__main-nav__link--active @endif">
+                        {{ __('header.participate') }}
+                    </a>
+
+                    <a href="{{ route('news-all-'.app()->getLocale()) }}" class="header__main-nav__link @if(Route::currentRouteName() == 'news-all-'.app()->getLocale()) header__main-nav__link--active @endif">
                         {{ __('header.news') }}
                     </a>
 
-                    <a href="{{ route('about-'.app()->getLocale()) }}" class="header__main-nav__link @if(Route::currentRouteName() == 'about-'.app()->getLocale()) header__main-nav__link--active @endif">
-                        {{ __('header.about') }}
-                    </a>
-
-                    <a href="{{ route('client-service-'.app()->getLocale(), ['page' => __('slugs.services-shops')]) }}" class="header__main-nav__link @if(Route::currentRouteName() == 'client-service-'.app()->getLocale() && $page == __('slugs.services-shops')) header__main-nav__link--active @endif">{{ __('header.locations') }}</a>
+                    <a href="{{ route('about-'.app()->getLocale()) }}" class="header__main-nav__link @if(Route::currentRouteName() == 'about-'.app()->getLocale()) header__main-nav__link--active @endif">{{ __('header.about') }}</a>
                 </nav>
                 <nav class="mobile-only">
                     <div>
@@ -116,18 +82,9 @@
                         @livewire('components.dashboard-icon')
                     @endguest
                     <li class="tablet-hidden">
-                        @if(Route::has('client-service-'.app()->getLocale()))
-                        <a href="{{ route('client-service-'.app()->getLocale(), ['page' => __('slugs.services-contact')]) }}" class="header__main-menu__icons__btn">
+                        <a href="{{ route('client-service-'.app()->getLocale()) }}" class="header__main-menu__icons__btn">
                             @svg('benu-icon-mail-contact')
                         </a>
-                        @else
-                        <a href="{{ route('client-service', ['locale' => app()->getLocale(), 'page' => __('slugs.services-contact')]) }}" class="header__main-menu__icons__btn">
-                            @svg('benu-icon-mail-contact')
-                        </a>
-                        @endif
-                    </li>
-                    <li class="tablet-hidden">
-                        @livewire('components.cart-header-icon')
                     </li>
                     <li class="header__main-menu__icons__lang-container">
                         <button class="header__main-menu__icons__lang-btn" id="lang-selector">

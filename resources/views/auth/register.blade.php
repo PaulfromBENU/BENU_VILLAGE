@@ -22,8 +22,12 @@
 
 @section('main-content')
     <section class="register mt-10 pt-5 mb-10 pb-10">
-        <h3 class="register__subtitle">BENU COUTURE</h3>
+        <h3 class="register__subtitle">BENU</h3>
         <h1 class="register__title">{!! __('auth.register-title') !!}</h1>
+
+        <p class="text-center mb-5 p-1 w-3/4 lg:w-1/2 font-medium m-auto">
+            {{ __('auth.register-subtitle-text') }}
+        </p>
 
         @if($errors->any())
 <!--             <div class="register__errors w-2/3 m-auto mt-5 mb-5">

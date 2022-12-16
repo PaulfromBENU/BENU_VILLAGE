@@ -25,7 +25,7 @@
 		<h3 class="footer-legal__subtitle">{{ __('footer.legal-subtitle') }}</h3>
 		<h1 class="footer-legal__title">{{ __('footer.legal-title') }}</h1>
 		<p class="footer-legal__paragraph">
-			{{ __('footer.legal-txt-1') }} <a href="{{ route('home', ['locale' => app()->getLocale()]) }}">couture.benu.lu</a> {{ __('footer.legal-txt-12') }}.
+			{{ __('footer.legal-txt-1') }}
 		</p>
 		<p class="footer-legal__paragraph">
 			{{ __('footer.legal-txt-3') }}

@@ -4,30 +4,72 @@ namespace App\Http\Livewire\News;
 
 use Livewire\Component;
 
-use App\Models\NewsArticle;
+use App\Models\NewsArticleCouture;
+use App\Models\VillageInfo;
 
 class AllNews extends Component
 {
     protected $listeners = ['tagFilterUpdate' => 'updateNews'];
 
-    public $all_news;
+    public $village_news;
+    public $couture_news;
+
+    public function mount()
+    {
+        $this->updateNews('none');
+    }
 
     public function updateNews($tag)
     {
         // Tag in English used for filtering
         if ($tag !== 'none') {
-            $this->all_news = NewsArticle::query()
+            if(auth()->check() && auth()->user()->canCheckNews()) {
+                $this->village_news = VillageInfo::query()
+                            ->where('tag_1_'.session('locale'), $tag)
+                            ->orWhere('tag_2_'.session('locale'), $tag)
+                            ->orWhere('tag_3_'.session('locale'), $tag)
+                            ->orderBy('updated_at', 'desc')
+                            ->get();
+                $this->couture_news = NewsArticleCouture::query()
+                                ->where('tag_1_'.session('locale'), $tag)
+                                ->orWhere('tag_2_'.session('locale'), $tag)
+                                ->orWhere('tag_3_'.session('locale'), $tag)
+                                ->orderBy('updated_at', 'desc')
+                                ->get();
+            } else {
+                $this->village_news = VillageInfo::query()
                             ->where('tag_1_'.session('locale'), $tag)
                             ->orWhere('tag_2_'.session('locale'), $tag)
                             ->orWhere('tag_3_'.session('locale'), $tag)
                             ->where('is_ready', '1')
                             ->orderBy('updated_at', 'desc')
                             ->get();
+                $this->couture_news = NewsArticleCouture::query()
+                                ->where('tag_1_'.session('locale'), $tag)
+                                ->orWhere('tag_2_'.session('locale'), $tag)
+                                ->orWhere('tag_3_'.session('locale'), $tag)
+                                ->where('is_ready', '1')
+                                ->orderBy('updated_at', 'desc')
+                                ->get();
+            }
         } else {
-            $this->all_news = NewsArticle::query()
-                            ->where('is_ready', '1')
-                            ->orderBy('updated_at', 'desc')
-                            ->get();
+            if(auth()->check() && auth()->user()->canCheckNews()) {
+                $this->village_news = VillageInfo::query()
+                                ->orderBy('updated_at', 'desc')
+                                ->get();
+                $this->couture_news = NewsArticleCouture::query()
+                                ->orderBy('updated_at', 'desc')
+                                ->get();
+            } else {
+                $this->village_news = VillageInfo::query()
+                                ->where('is_ready', '1')
+                                ->orderBy('updated_at', 'desc')
+                                ->get();
+                $this->couture_news = NewsArticleCouture::query()
+                                ->where('is_ready', '1')
+                                ->orderBy('updated_at', 'desc')
+                                ->get();
+            }
         }
     }
 

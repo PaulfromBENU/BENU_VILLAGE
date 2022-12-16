@@ -1,16 +1,8 @@
 <div id="side-mobile" class="side-mobile mobile-only benu-container">
     <div class="flex justify-around flex-wrap">
-        <div id="mobile-general-menu-toggle" class="side-mobile__toggler side-mobile__toggler--general">
+        <!-- <div id="mobile-general-menu-toggle" class="side-mobile__toggler side-mobile__toggler--general">
             {{ __('welcome.mobile-menu-btn-menu') }}
-            <!-- Menu -->
-        </div>
-        <div id="mobile-creations-menu-toggle" class="side-mobile__toggler side-mobile__toggler--creation flex justify-center">
-            @svg('benu-icon-squares-categories', 'side-mobile__toggler__svg')
-            <p class="uppercase">
-                {{ __('welcome.mobile-menu-btn-creations') }}
-                <!-- Creations -->
-            </p>
-        </div>
+        </div> -->
     </div>
     <ul class="side-mobile__links mt-4" id="side-mobile-general-links">
         <li>
@@ -20,7 +12,7 @@
             </a>
         </li>
         <li>
-            <a href="{{ route('news-'.app()->getLocale()) }}" class="side-mobile-link uppercase">
+            <a href="{{ route('news-all-'.app()->getLocale()) }}" class="side-mobile-link uppercase">
                 <strong>{!! __('welcome.side-menu-news') !!}</strong>
             </a>
         </li>
@@ -30,33 +22,8 @@
             </a>
         </li>
         <li>
-            <a href="{{ route('client-service-'.app()->getLocale(), ['page' => __('slugs.services-shops')]) }}" class="side-mobile-link uppercase">
-                <strong>{!! __('welcome.side-menu-shops') !!}</strong>
-            </a>
-        </li>
-        <li>
-            <a href="{{ route('client-service-'.app()->getLocale(), ['page' => __('slugs.services-faq')]) }}" class="side-mobile-link">
-                {!! __('welcome.side-menu-client-service') !!}
-            </a>
-        </li>
-        <li>
-            <a href="{{ route('full-story-'.app()->getLocale()) }}" class="side-mobile-link">
-                {!! __('welcome.side-menu-client-history') !!}
-            </a>
-        </li>
-        <!-- <li>
-            <a href="{{ route('partners-'.app()->getLocale()) }}" class="side-mobile-link">
-                {!! __('welcome.side-menu-client-partners') !!}
-            </a>
-        </li> -->
-        <li>
-            <a href="{{ route('header.participate-'.app()->getLocale()) }}" class="side-mobile-link">
-                {!! __('welcome.side-menu-client-participate') !!}
-            </a>
-        </li>
-        <li>
-            <a href="{{ route('vouchers-'.app()->getLocale()) }}" class="side-mobile-link">
-                {!! __('welcome.side-menu-client-vouchers') !!}
+            <a href="{{ route('header.participate-'.app()->getLocale()) }}" class="side-mobile-link uppercase">
+                <strong>{!! __('welcome.side-menu-client-participate') !!}</strong>
             </a>
         </li>
         <li>

@@ -9,7 +9,7 @@
         @yield('og-metadata-top')
 
         <!-- Page title and description -->
-        <title>@yield('title-top') | BENU COUTURE</title>
+        <title>@yield('title-top') | BENU</title>
         <meta charset="utf-8" name="description" content="@yield('description-top')">
 
         <!-- Search Engines visibility -->
@@ -123,7 +123,6 @@
                             {!! __('welcome.nav-account') !!}
                         </p>
                     </a>
-                    @livewire('components.cart-mobile-icon')
                 </div>
 
                 <!-- Side menu for mobile -->

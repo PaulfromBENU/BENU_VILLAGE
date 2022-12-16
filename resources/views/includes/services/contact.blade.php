@@ -8,17 +8,13 @@
 		</h1>
 	</div>
 	<div class="contact__mail">
-		<a href="mailto:info@benucouture.lu" class="btn-slider-left m-auto">info@benucouture.lu</a>
+		<a href="mailto:benu@benu.lu" class="btn-slider-left m-auto">benu@benu.lu</a>
 	</div>
 	<div class="contact__phone">
 		+352 2791 1949
 	</div>
 	<div class="contact__opening">
 		{!! __('services.contact-opening-1') !!}
-		<br/>
-		{!! __('services.contact-opening-2') !!}
-		<br/>
-		{!! __('services.contact-opening-3') !!}
 	</div>
 	<div class="contact__moreinfo">
 		{!! __('services.contact-extra-txt') !!}

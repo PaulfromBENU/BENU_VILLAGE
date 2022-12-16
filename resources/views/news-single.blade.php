@@ -23,16 +23,16 @@ $localized_label = "link_label_".app()->getLocale();
 
 @section('breadcrumbs')
 	<div class="breadcrumbs pattern-bg">
-		<div class="benu-container breadcrumbs__content flex justify-start">
+		<div class="benu-container breadcrumbs__content flex justify-start flex-wrap">
 			<a href="{{ route('home', [app()->getLocale()]) }}">{{ __('breadcrumbs.home') }}</a>
 			<div class="pl-5 pr-5">
 				>
 			</div>
-			<a href="{{ route('news-'.app()->getLocale()) }}">{{ __('breadcrumbs.news') }}</a>
+			<a href="{{ route('news-all-'.app()->getLocale()) }}">{{ __('breadcrumbs.news') }}</a>
 			<div class="pl-5 pr-5">
 				>
 			</div>
-			<a href="{{ route('news-'.app()->getLocale(), ['slug' => $news->$localized_slug]) }}" class="primary-color"><strong>{{ $news->$localized_title }}</strong></a>
+			<a href="{{ route('news-'.app()->getLocale(), ['origin' => $origin, 'slug' => $news->$localized_slug]) }}" class="primary-color"><strong>{{ $news->$localized_title }}</strong></a>
 		</div>
 	</div>
 @endsection
@@ -101,7 +101,7 @@ $localized_label = "link_label_".app()->getLocale();
 
 		<div class="single-news__prev-next flex justify-between flex-wrap">
 			@if($previous_news !== null)
-			<a class="single-news__prev-next__block justify-start" href="{{ route('news-'.app()->getLocale(), ['slug' => $previous_news->$localized_slug]) }}">
+			<a class="single-news__prev-next__block justify-start" href="{{ route('news-'.app()->getLocale(), ['origin' => $origin, 'slug' => $previous_news->$localized_slug]) }}">
 				<div class="single-news__prev-next__block__img-container">
 					<img src="{{ asset('media/pictures/news/'.$previous_news->main_photo) }}" alt="{{ $previous_news->main_photo_alt }}" title="{{ $previous_news->main_photo_title }}" />
 				</div>
@@ -124,7 +124,7 @@ $localized_label = "link_label_".app()->getLocale();
 			@endif
 			
 			@if($next_news !== null)
-			<a class="single-news__prev-next__block justify-end flex-row-reverse lg:flex-row" href="{{ route('news-'.app()->getLocale(), ['slug' => $next_news->$localized_slug]) }}">
+			<a class="single-news__prev-next__block justify-end flex-row-reverse lg:flex-row" href="{{ route('news-'.app()->getLocale(), ['origin' => $origin, 'slug' => $next_news->$localized_slug]) }}">
 				<div class="pr-0 pl-4 lg:pr-4 lg:pl-0">
 					<div class="flex justify-start mb-3">
 						<p class="single-news__prev-next__block__text">
@@ -148,7 +148,7 @@ $localized_label = "link_label_".app()->getLocale();
 		</div>
 
 		<!-- <div class="single-news__backlink mt-10">
-			<a href="{{ route('news-'.app()->getLocale()) }}" class="btn-couture">Toutes les actualités</a>
+			<a href="{{ route('news-all-'.app()->getLocale()) }}" class="btn-couture">Toutes les actualités</a>
 		</div> -->
 	</div>
 @endsection

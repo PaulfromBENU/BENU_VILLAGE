@@ -10,12 +10,33 @@
 		text-align: center;
 		font: normal normal 600 44px/53px 'Barlow Condensed';
 		letter-spacing: 0px;
-		margin-bottom: 15px;
+		margin-bottom: 25px;
 		@include mobile {
 			font: normal normal 700 28px/34px 'Barlow Condensed';
 			margin-bottom: 20px;
 			padding-bottom: 20px;
 			padding-top: 10px;
+		}
+	}
+	&__origin {
+		text-align: center;
+		font: normal normal 600 38px/45px 'Barlow Condensed';
+		letter-spacing: 0px;
+		margin-bottom: 25px;
+		padding: 15px 20px;
+		border-radius: 8px;
+		color: white;
+		@include mobile {
+			font: normal normal 700 28px/34px 'Barlow Condensed';
+			margin-bottom: 20px;
+			padding-bottom: 20px;
+			padding-top: 10px;
+		}
+		&--village {
+			background: $benu-village;
+		}
+		&--couture {
+			background: $benu-couture;
 		}
 	}
 	&__subtitle {

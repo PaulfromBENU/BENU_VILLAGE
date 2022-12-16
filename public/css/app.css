@@ -10,11 +10,11 @@ html, body {
 }
 
 ::-moz-selection {
-  background: #B9E9CD;
+  background: #E1F0E7;
 }
 
 ::selection {
-  background: #B9E9CD;
+  background: #E1F0E7;
 }
 
 @font-face {
@@ -239,7 +239,7 @@ body, html {
   background: #793162;
 }
 .color-circle--red {
-  background: #27955B;
+  background: #0F7E3D;
 }
 .color-circle--orange {
   background: #FF9300;
@@ -296,18 +296,18 @@ body, html {
 
 .input-underline {
   border: none;
-  border-bottom: solid 1px #D9D9D9 !important;
+  border-bottom: solid 1px #D0D0D0 !important;
   padding-bottom: 5px;
 }
 .input-underline:focus, .input-underline :active {
   border: none;
-  border-bottom: solid 1px #D9D9D9;
+  border-bottom: solid 1px #D0D0D0;
   box-shadow: none;
   outline: none;
 }
 
 input[type=radio] {
-  color: #27955B;
+  color: #0F7E3D;
   margin-top: 4px;
 }
 input[type=radio]:focus {
@@ -315,7 +315,7 @@ input[type=radio]:focus {
 }
 
 input[type=checkbox] {
-  color: #27955B;
+  color: #0F7E3D;
   margin-top: -3px;
 }
 input[type=checkbox]:focus {
@@ -388,8 +388,8 @@ input[type=checkbox]:focus {
   width: 100%;
   top: 0;
   left: 0;
-  background: transparent url("/images/svg/pattern_solo_benu_couture_OK.svg") 0% 0% repeat padding-box;
-  background-size: 180px;
+  background: transparent url("/media/svg/pattern_solo_benu_village_OK.svg") 0% 0% repeat padding-box;
+  background-size: 115px;
   opacity: 0.5;
   z-index: 0;
 }
@@ -399,7 +399,7 @@ input[type=checkbox]:focus {
 }
 
 .primary-color {
-  color: #27955B;
+  color: #0F7E3D;
 }
 
 .slider-arrow {
@@ -414,13 +414,13 @@ input[type=checkbox]:focus {
   opacity: 0.9;
 }
 .slider-arrow--color-1 {
-  background: #401c1c;
+  background: #1d340d;
   color: #FFFFFF;
   opacity: 0.5;
 }
 .slider-arrow--color-2 {
   background: #FFFFFF;
-  color: #27955B;
+  color: #0F7E3D;
   opacity: 0.7;
 }
 .slider-arrow--left {
@@ -445,11 +445,11 @@ input[type=checkbox]:focus {
 }
 
 .svg-fill-primary-light {
-  fill: #27955B80;
+  fill: rgba(15, 126, 61, 0.5);
 }
 
 .svg-primary-white {
-  fill: #27955B;
+  fill: #0F7E3D;
   transition: fill 0.3s;
 }
 .svg-primary-white--active {
@@ -457,15 +457,15 @@ input[type=checkbox]:focus {
 }
 
 .svg-primary {
-  fill: #2E1414;
+  fill: #122008;
   transition: fill 0.3s;
 }
 .svg-primary--active {
-  fill: #27955B;
+  fill: #0F7E3D;
 }
 
 .svg-village {
-  fill: #27955B;
+  fill: #0F7E3D;
 }
 
 .svg-sis {
@@ -506,7 +506,7 @@ input[type=checkbox]:focus {
 .tooltip .tooltiptext {
   visibility: hidden;
   width: 180px;
-  background: #27955B;
+  background: #0F7E3D;
   color: #FFFFFF;
   text-align: center;
   padding: 5px 10px;
@@ -530,7 +530,7 @@ input[type=checkbox]:focus {
   left: 100%;
   margin-top: -5px;
   border: 5px solid transparent;
-  border-left-color: #27955B;
+  border-left-color: #0F7E3D;
 }
 .tooltip .tooltiptext--top {
   top: -27px;
@@ -543,7 +543,7 @@ input[type=checkbox]:focus {
   left: 50%;
   margin-left: -5px;
   border: 5px solid transparent;
-  border-top-color: #27955B;
+  border-top-color: #0F7E3D;
 }
 .tooltip:hover .tooltiptext {
   visibility: visible;
@@ -621,11 +621,11 @@ input[type=checkbox]:focus {
 }
 
 .btn-green {
-  color: #27955B;
-  border-color: #27955B;
+  color: #0F7E3D;
+  border-color: #0F7E3D;
 }
 .btn-green:hover {
-  background: #27955B;
+  background: #0F7E3D;
   color: white;
 }
 
@@ -647,17 +647,17 @@ input[type=checkbox]:focus {
   min-width: 30px;
   height: 5px;
   border-radius: 10px;
-  background: #27955B;
+  background: #0F7E3D;
   transition: width 0.5s ease-in-out;
 }
 .btn-slider-left:hover {
-  color: #27955B;
+  color: #0F7E3D;
 }
 .btn-slider-left:hover::after {
   width: 100%;
 }
 .btn-slider-left--active {
-  color: #27955B;
+  color: #0F7E3D;
 }
 .btn-slider-left--active::after {
   width: 100%;
@@ -680,11 +680,11 @@ input[type=checkbox]:focus {
   width: 20%;
   height: 5px;
   border-radius: 10px;
-  background: #27955B;
+  background: #0F7E3D;
   transition: width 0.5s ease-in-out;
 }
 .btn-slider-right:hover {
-  color: #27955B;
+  color: #0F7E3D;
 }
 .btn-slider-right:hover::after {
   width: 100%;
@@ -707,13 +707,13 @@ input[type=checkbox]:focus {
 }
 
 .btn-couture {
-  color: #27955B;
+  color: #0F7E3D;
   background: #FFFFFF;
   padding: 10px 40px;
   text-align: center;
   font: normal normal 600 22px/26px "Barlow Condensed";
   letter-spacing: 0px;
-  border: solid 2px #27955B;
+  border: solid 2px #0F7E3D;
   border-radius: 5px;
   transition: all 0.2s ease-in-out;
   margin-left: 10px;
@@ -721,7 +721,7 @@ input[type=checkbox]:focus {
   cursor: pointer;
 }
 .btn-couture:hover {
-  background: #27955B;
+  background: #0F7E3D;
   color: #FFFFFF;
 }
 .btn-couture--transparent {
@@ -730,7 +730,7 @@ input[type=checkbox]:focus {
 
 .btn-couture-plain {
   color: #FFFFFF;
-  background: #27955B;
+  background: #0F7E3D;
   height: 27px;
   padding-left: 40px;
   padding-right: 40px;
@@ -738,7 +738,7 @@ input[type=checkbox]:focus {
   text-align: center;
   font: normal normal 600 20px/28px "Barlow Condensed";
   letter-spacing: 0px;
-  border: solid 2px #27955B;
+  border: solid 2px #0F7E3D;
   border-radius: 5px;
   transition: all 0.2s ease-in-out;
   margin-left: 10px;
@@ -752,13 +752,13 @@ input[type=checkbox]:focus {
   }
 }
 .btn-couture-plain:hover {
-  color: #27955B;
+  color: #0F7E3D;
   background: #FFFFFF;
 }
 .btn-couture-plain--dark-hover:hover {
-  background: #2E1414;
+  background: #122008;
   color: #FFFFFF;
-  border-color: #2E1414;
+  border-color: #122008;
 }
 .btn-couture-plain--fit {
   height: -webkit-fit-content;
@@ -791,7 +791,7 @@ input[type=checkbox]:focus {
   display: inline-block;
   width: 100%;
   color: #FFFFFF;
-  background: #27955B;
+  background: #0F7E3D;
   padding-left: 40px;
   padding-right: 40px;
   text-align: center;
@@ -799,18 +799,18 @@ input[type=checkbox]:focus {
   text-align: center;
   font: normal normal 600 18px/22px "Barlow Condensed";
   letter-spacing: 0px;
-  border: solid 2px #27955B;
+  border: solid 2px #0F7E3D;
   border-radius: 5px;
   transition: all 0.2s ease-in-out;
   cursor: pointer;
 }
 .btn-dashboard-plain:hover {
-  color: #27955B;
+  color: #0F7E3D;
   background: #FFFFFF;
 }
 
 .btn-hover-village:hover {
-  color: #27955B;
+  color: #0F7E3D;
 }
 
 .btn-hover-sis:hover {
@@ -885,7 +885,7 @@ input[type=checkbox]:focus {
   }
 }
 .model-overview__footer p {
-  color: #2E1414;
+  color: #122008;
   text-align: left;
   font: normal normal 600 26px/28px "Barlow Condensed";
   letter-spacing: 0px;
@@ -923,7 +923,7 @@ input[type=checkbox]:focus {
   text-align: left;
   font: normal normal 500 14px/28px "Barlow";
   letter-spacing: 0px;
-  color: #27955B;
+  color: #0F7E3D;
   margin-bottom: 11px;
 }
 @media (min-width: 768px) and (max-width: 1080px) {
@@ -941,7 +941,7 @@ input[type=checkbox]:focus {
 .model-overview__header__heart {
   position: relative;
   font-size: 1.6rem;
-  color: #27955B;
+  color: #0F7E3D;
 }
 .model-overview__header__heart__icon {
   position: absolute;
@@ -1056,7 +1056,7 @@ input[type=checkbox]:focus {
   transition: all 0.2s ease-in-out;
 }
 .article-overview__cap--red {
-  background: #27955B;
+  background: #D41C1B;
 }
 .article-overview__cap--grey {
   background: #D0D0D0;
@@ -1110,7 +1110,7 @@ input[type=checkbox]:focus {
   margin-top: 12px;
 }
 .article-overview__footer__size {
-  background: #27955B;
+  background: #0F7E3D;
   border-radius: 8px;
   padding: 4px 30px;
   text-transform: uppercase;
@@ -1124,7 +1124,7 @@ input[type=checkbox]:focus {
   text-align: left;
   font: normal normal 500 14px/28px "Barlow";
   letter-spacing: 0px;
-  color: #2E1414;
+  color: #122008;
   opacity: 0.5;
 }
 .article-overview__footer__name {
@@ -1132,7 +1132,7 @@ input[type=checkbox]:focus {
   text-align: left;
   font: normal normal 600 26px/28px "Barlow Condensed";
   letter-spacing: 0px;
-  color: #27955B;
+  color: #0F7E3D;
 }
 .article-overview__footer__price {
   margin-top: 4px;
@@ -1143,7 +1143,7 @@ input[type=checkbox]:focus {
 .article-overview__footer__heart {
   position: relative;
   font-size: 1.6rem;
-  color: #27955B;
+  color: #0F7E3D;
 }
 @media (max-width: 767px) {
   .article-overview__footer__heart {
@@ -1232,7 +1232,7 @@ input[type=checkbox]:focus {
   }
 }
 .article-overview-wishlist__cap--red {
-  background: #27955B;
+  background: #D41C1B;
 }
 .article-overview-wishlist__cap--grey {
   background: #D0D0D0;
@@ -1310,7 +1310,7 @@ input[type=checkbox]:focus {
 }
 .article-overview-wishlist__footer__size {
   height: 20px;
-  background: #27955B;
+  background: #D41C1B;
   border-radius: 12px;
   padding: 0px 20px;
   text-transform: uppercase;
@@ -1324,7 +1324,7 @@ input[type=checkbox]:focus {
   text-align: left;
   font: normal normal 500 14px/28px "Barlow";
   letter-spacing: 0px;
-  color: #2E1414;
+  color: #122008;
   opacity: 0.5;
 }
 @media (max-width: 767px) {
@@ -1337,7 +1337,7 @@ input[type=checkbox]:focus {
   text-align: left;
   font: normal normal 600 26px/28px "Barlow Condensed";
   letter-spacing: 0px;
-  color: #27955B;
+  color: #D41C1B;
 }
 .article-overview-wishlist__footer__price {
   margin-top: 4px;
@@ -1347,7 +1347,7 @@ input[type=checkbox]:focus {
 }
 .article-overview-wishlist__footer__heart {
   position: relative;
-  color: #27955B;
+  color: #D41C1B;
 }
 @media (max-width: 767px) {
   .article-overview-wishlist__footer__heart {
@@ -1443,7 +1443,7 @@ input[type=checkbox]:focus {
   transition: all 0.2s ease-in-out;
 }
 .sold-overview__cap--red {
-  background: #27955B;
+  background: #0F7E3D;
 }
 .sold-overview__cap--grey {
   background: #867576;
@@ -1491,7 +1491,7 @@ input[type=checkbox]:focus {
   text-align: left;
   font: normal normal 600 26px/28px "Barlow Condensed";
   letter-spacing: 0px;
-  color: #27955B;
+  color: #0F7E3D;
 }
 .sold-overview__footer__price {
   margin-top: 4px;
@@ -1502,7 +1502,7 @@ input[type=checkbox]:focus {
 .sold-overview__footer__heart {
   position: relative;
   font-size: 1.6rem;
-  color: #27955B;
+  color: #0F7E3D;
 }
 .sold-overview__footer__heart__icon {
   position: absolute;
@@ -1577,7 +1577,7 @@ input[type=checkbox]:focus {
   }
 }
 .sold-overview-wishlist__cap--red {
-  background: #27955B;
+  background: #0F7E3D;
 }
 .sold-overview-wishlist__cap--grey {
   background: #867576;
@@ -1669,7 +1669,7 @@ input[type=checkbox]:focus {
   text-align: left;
   font: normal normal 500 14px/28px "Barlow";
   letter-spacing: 0px;
-  color: #2E1414;
+  color: #122008;
   opacity: 0.5;
 }
 @media (max-width: 767px) {
@@ -1682,7 +1682,7 @@ input[type=checkbox]:focus {
   text-align: left;
   font: normal normal 600 26px/28px "Barlow Condensed";
   letter-spacing: 0px;
-  color: #2E1414;
+  color: #122008;
 }
 .sold-overview-wishlist__footer__price {
   margin-top: 4px;
@@ -1692,7 +1692,7 @@ input[type=checkbox]:focus {
 }
 .sold-overview-wishlist__footer__heart {
   position: relative;
-  color: #27955B;
+  color: #0F7E3D;
 }
 @media (max-width: 767px) {
   .sold-overview-wishlist__footer__heart {
@@ -1749,7 +1749,10 @@ input[type=checkbox]:focus {
 @media (max-width: 767px) {
   .breadcrumbs {
     margin-top: 1px;
-    height: 60px;
+    height: -webkit-fit-content;
+    height: -moz-fit-content;
+    height: fit-content;
+    min-height: 60px;
   }
 }
 .breadcrumbs__content {
@@ -1765,10 +1768,16 @@ input[type=checkbox]:focus {
   .breadcrumbs__content {
     font: normal normal 500 14px/17px "Barlow";
     padding-top: 20px;
+    padding-bottom: 15px;
   }
 }
 .breadcrumbs__content a {
   transition: all 0.2s ease-in-out;
+}
+@media (max-width: 767px) {
+  .breadcrumbs__content a {
+    padding-bottom: 6px;
+  }
 }
 .breadcrumbs__content a:hover {
   text-decoration: underline;
@@ -1777,7 +1786,7 @@ input[type=checkbox]:focus {
 .pagination-index {
   padding: 8px 10px;
   border-radius: 6px;
-  background: #B9E9CD;
+  background: #E1F0E7;
   min-width: 100px;
   width: -webkit-fit-content;
   width: -moz-fit-content;
@@ -1798,16 +1807,16 @@ input[type=checkbox]:focus {
   margin-top: 13px;
 }
 .pagination-index__chevron:hover {
-  color: #27955B;
+  color: #0F7E3D;
 }
 .pagination-index__chevron:hover svg path {
-  fill: #27955B;
+  fill: #0F7E3D;
 }
 .pagination-index__chevron svg {
   transform-origin: center center;
 }
 .pagination-index__chevron svg path {
-  fill: #2E1414;
+  fill: #122008;
 }
 .pagination-index__chevron--left svg {
   transform: scale(1.5) rotateZ(90deg);
@@ -1827,7 +1836,7 @@ input[type=checkbox]:focus {
 }
 .pagination-index__index--active, .pagination-index__index:hover {
   color: #FFFFFF;
-  background: #27955B;
+  background: #0F7E3D;
 }
 
 .creations-navbar {
@@ -1837,7 +1846,7 @@ input[type=checkbox]:focus {
 .creations-navbar__container {
   height: 40px;
   width: 100%;
-  background-color: #27955B;
+  background-color: #0F7E3D;
   color: white;
 }
 .creations-navbar__menu {
@@ -1858,7 +1867,7 @@ input[type=checkbox]:focus {
   min-width: 200px;
 }
 .creations-navbar__menu__lists h4 {
-  color: #27955B;
+  color: #0F7E3D;
   font-size: 1.1rem;
   padding-bottom: 5px;
   margin-right: 5vw;
@@ -1873,11 +1882,11 @@ input[type=checkbox]:focus {
   min-width: 100px;
 }
 .creations-navbar__menu__lists ul a {
-  color: #2E1414;
+  color: #122008;
   transition: all 0.2s ease-in-out;
 }
 .creations-navbar__menu__lists ul a:hover {
-  color: #27955B;
+  color: #0F7E3D;
 }
 .creations-navbar__nav {
   height: 100%;
@@ -1901,11 +1910,11 @@ input[type=checkbox]:focus {
   margin-left: 15px;
 }
 .creations-navbar__nav__toggle:hover, .creations-navbar__nav__toggle-link:hover {
-  background-color: #2E1414;
+  background-color: #122008;
   color: white;
 }
 .creations-navbar__nav__toggle--active, .creations-navbar__nav__toggle-link--active {
-  background-color: #2E1414;
+  background-color: #122008;
   color: white;
 }
 
@@ -1914,7 +1923,7 @@ input[type=checkbox]:focus {
   top: 50px;
   z-index: 10;
   width: 100vw;
-  border-bottom: solid 1px #D9D9D9;
+  border-bottom: solid 1px #D0D0D0;
   background-color: white;
   max-height: 150px;
 }
@@ -1934,7 +1943,7 @@ input[type=checkbox]:focus {
   top: 0px;
   z-index: 10;
   width: 100vw;
-  border-bottom: solid 1px #D9D9D9;
+  border-bottom: solid 1px #D0D0D0;
   background-color: white;
   height: 150px;
 }
@@ -1956,8 +1965,8 @@ input[type=checkbox]:focus {
 .header__hamburger {
   padding: 2px 2px;
   font-size: 1.5rem;
-  color: #27955B;
-  background-color: #B9E9CD;
+  color: #0F7E3D;
+  background-color: #E1F0E7;
   border-radius: 6px;
   height: 42px;
   width: 42px;
@@ -1968,15 +1977,15 @@ input[type=checkbox]:focus {
   cursor: pointer;
 }
 .header__hamburger:hover {
-  background-color: #27955B;
+  background-color: #0F7E3D;
   color: #FFFFFF;
 }
 .header__hamburger--active {
-  background-color: #27955B;
+  background-color: #0F7E3D;
   color: #FFFFFF;
 }
 .header__home-title {
-  color: #27955B;
+  color: #0F7E3D;
   font: normal normal 600 24px/29px "Barlow Condensed";
   letter-spacing: 0px;
   padding-right: 0.8rem;
@@ -1985,7 +1994,7 @@ input[type=checkbox]:focus {
   position: relative;
   display: block;
   min-width: 55px;
-  background-color: #27955B;
+  background-color: #0F7E3D;
 }
 @media (min-width: 768px) and (max-width: 1080px) {
   .header__logo-container {
@@ -2102,7 +2111,7 @@ input[type=checkbox]:focus {
   max-width: 100%;
 }
 .header__main-menu__icons__btn:hover {
-  fill: #27955B;
+  fill: #0F7E3D;
 }
 .header__main-menu__icons__btn__cart-counter {
   position: absolute;
@@ -2111,7 +2120,7 @@ input[type=checkbox]:focus {
   width: 22px;
   height: 22px;
   border-radius: 50%;
-  background-color: #27955B;
+  background-color: #0F7E3D;
   color: #FFFFFF;
   font-size: 0.85rem;
   text-align: center;
@@ -2159,8 +2168,8 @@ input[type=checkbox]:focus {
   }
 }
 .header__main-menu__icons__lang-btn {
-  background-color: #B9E9CD;
-  color: #2E1414;
+  background-color: #E1F0E7;
+  color: #122008;
   text-transform: uppercase;
   border-radius: 5px;
   text-align: center;
@@ -2179,7 +2188,7 @@ input[type=checkbox]:focus {
   }
 }
 .header__main-menu__icons__lang-btn:hover {
-  background-color: #27955B;
+  background-color: #0F7E3D;
   color: white;
 }
 .header__main-menu__icons li {
@@ -2203,12 +2212,12 @@ input[type=checkbox]:focus {
   flex-wrap: nowrap;
   width: 190px;
   height: 50px;
-  color: #2E1414;
+  color: #122008;
   font-size: 1.05rem;
   font-weight: 500;
   padding: 0.65rem 1rem;
   cursor: pointer;
-  background-color: #B9E9CD;
+  background-color: #E1F0E7;
   font-family: "Barlow Condensed";
   border-radius: 5px;
   transition: all 0.2s ease-in-out;
@@ -2221,7 +2230,7 @@ input[type=checkbox]:focus {
 }
 .header__main-nav__btn--active {
   color: white;
-  background-color: #27955B;
+  background-color: #0F7E3D;
 }
 .header__main-nav__btn--active .header__main-nav__btn--logo-1 {
   transform: rotate(90deg);
@@ -2252,7 +2261,7 @@ input[type=checkbox]:focus {
 }
 .header__main-nav__btn:hover {
   color: white;
-  background-color: #27955B;
+  background-color: #0F7E3D;
 }
 .header__main-nav__btn:hover .header__main-nav__btn--logo-1 {
   transform: rotate(90deg);
@@ -2278,8 +2287,8 @@ input[type=checkbox]:focus {
   }
 }
 .header__main-nav__link::before {
-  background-color: #27955B;
-  color: #27955B;
+  background-color: #0F7E3D;
+  color: #0F7E3D;
   content: "";
   height: 2px;
   left: 50%;
@@ -2289,7 +2298,7 @@ input[type=checkbox]:focus {
   transition: all 0.3s ease-in-out;
 }
 .header__main-nav__link:hover, .header__main-nav__link--active {
-  color: #27955B;
+  color: #0F7E3D;
 }
 .header__main-nav__link:hover::before, .header__main-nav__link--active::before {
   left: 0%;
@@ -2321,7 +2330,7 @@ input[type=checkbox]:focus {
 .header__newsletter-btn__link {
   display: inline-block;
   text-decoration: none;
-  color: #27955B;
+  color: #0F7E3D;
   padding: 5px 1rem;
   position: relative;
   top: -1px;
@@ -2342,7 +2351,7 @@ input[type=checkbox]:focus {
   right: 0;
   min-width: 0.5rem;
   max-height: 1.4375rem;
-  background-color: #27955B;
+  background-color: #0F7E3D;
   z-index: 0;
   border-radius: 0.5rem;
   transition: all 0.5s ease-in-out;
@@ -2376,7 +2385,7 @@ input[type=checkbox]:focus {
   padding-right: 0;
 }
 .header__top-nav__links__link {
-  color: #2E1414;
+  color: #122008;
   padding: 0.5rem;
   font: normal normal normal 18px/22px "Barlow Condensed";
   letter-spacing: 0.36px;
@@ -2389,7 +2398,7 @@ input[type=checkbox]:focus {
   }
 }
 .header__top-nav__links__link:hover, .header__top-nav__links__link--active {
-  color: #27955B;
+  color: #0F7E3D;
 }
 
 .header-simplified {
@@ -2441,7 +2450,7 @@ input[type=checkbox]:focus {
 }
 @media (min-width: 768px) and (max-width: 1080px) {
   .header-simplified__logo-container {
-    background-color: #27955B;
+    background-color: #0F7E3D;
     min-width: 50px;
     width: 50px;
     text-align: center;
@@ -2449,7 +2458,7 @@ input[type=checkbox]:focus {
 }
 @media (max-width: 767px) {
   .header-simplified__logo-container {
-    background-color: #27955B;
+    background-color: #0F7E3D;
     min-width: 50px;
     width: 50px;
     text-align: center;
@@ -2591,8 +2600,8 @@ input[type=checkbox]:focus {
   }
 }
 .header-simplified__main-menu__icons__lang-btn {
-  background-color: #B9E9CD;
-  color: #2E1414;
+  background-color: #E1F0E7;
+  color: #122008;
   text-transform: uppercase;
   border-radius: 5px;
   text-align: center;
@@ -2601,7 +2610,7 @@ input[type=checkbox]:focus {
   transition: all 0.2s ease-in-out;
 }
 .header-simplified__main-menu__icons__lang-btn:hover {
-  background-color: #27955B;
+  background-color: #0F7E3D;
   color: white;
 }
 .header-simplified__main-menu__icons__info {
@@ -2668,9 +2677,9 @@ input[type=checkbox]:focus {
   height: 50px;
   width: 100vw;
   z-index: 10;
-  background: #f3f3f3 0% 0% no-repeat padding-box;
+  background: #eaeaea 0% 0% no-repeat padding-box;
   cursor: pointer;
-  color: #2E1414;
+  color: #122008;
   transition: color 0.2s, background 0.3s;
 }
 @media (min-width: 768px) and (max-width: 1080px) {
@@ -2685,11 +2694,11 @@ input[type=checkbox]:focus {
 }
 .harmonica-bar:hover {
   color: #FFFFFF;
-  background: #2E1414 0% 0% no-repeat padding-box;
+  background: #122008 0% 0% no-repeat padding-box;
 }
 .harmonica-bar--active {
   color: #FFFFFF;
-  background: #2E1414 0% 0% no-repeat padding-box;
+  background: #122008 0% 0% no-repeat padding-box;
 }
 .harmonica-bar__title {
   height: 50px;
@@ -2760,7 +2769,7 @@ input[type=checkbox]:focus {
   z-index: 100;
   width: 100vw;
   height: 100%;
-  background: #2E1414 0% 0% no-repeat padding-box;
+  background: #122008 0% 0% no-repeat padding-box;
   padding: 50px;
   display: none;
 }
@@ -2782,7 +2791,7 @@ input[type=checkbox]:focus {
   width: 100%;
 }
 .harmonica-menu__content__col {
-  border-right: 1px solid #D9D9D9;
+  border-right: 1px solid #D0D0D0;
   height: 100%;
   width: 12.5%;
   transition: width 0.5s;
@@ -2880,7 +2889,7 @@ input[type=checkbox]:focus {
   }
 }
 .harmonica-menu__content__col__title--village {
-  color: #27955B;
+  color: #0F7E3D;
 }
 .harmonica-menu__content__col__title--sis {
   color: #7BAC2A;
@@ -3022,7 +3031,7 @@ input[type=checkbox]:focus {
   }
 }
 .harmonica-menu__content__col__open--village {
-  background: #27955B 0% 0% no-repeat padding-box;
+  background: #0F7E3D 0% 0% no-repeat padding-box;
 }
 .harmonica-menu__content__col__open--sis {
   background: #7BAC2A 0% 0% no-repeat padding-box;
@@ -3096,24 +3105,24 @@ input[type=checkbox]:focus {
   transition: background-color 0.3s;
 }
 .lang-modal__block:hover {
-  background-color: #B9E9CD;
+  background-color: #E1F0E7;
 }
 .lang-modal__block:hover .lang-modal__block__btn {
-  background-color: #27955B;
+  background-color: #0F7E3D;
   color: #FFFFFF;
 }
 .lang-modal__block p {
   text-align: center;
   font: normal normal 400 12px/14px "Barlow Condensed";
   letter-spacing: 0px;
-  color: #2E1414;
+  color: #122008;
 }
 .lang-modal__block__btn {
   height: 50px;
   width: 50px;
   cursor: pointer;
-  background-color: #B9E9CD;
-  color: #2E1414;
+  background-color: #E1F0E7;
+  color: #122008;
   text-transform: uppercase;
   border-radius: 5px;
   text-align: center;
@@ -3126,7 +3135,7 @@ input[type=checkbox]:focus {
   text-align: left;
   font: normal normal 500 16px/19px "Barlow Condensed";
   letter-spacing: 0px;
-  color: #2E1414;
+  color: #122008;
   margin-bottom: 2px;
 }
 @media (max-width: 767px) {
@@ -3165,7 +3174,7 @@ input[type=checkbox]:focus {
   cursor: pointer;
 }
 .search-modal button:hover .svg-primary {
-  fill: #27955B;
+  fill: #0F7E3D;
 }
 .search-modal input[type=text] {
   width: 50%;
@@ -3208,7 +3217,7 @@ input[type=checkbox]:focus {
   transition: all 0.2s;
 }
 .connect-modal__forgotten-pwd:hover {
-  color: #27955B;
+  color: #0F7E3D;
 }
 
 .side-modal {
@@ -3251,7 +3260,7 @@ input[type=checkbox]:focus {
 .article-sidebar__img-container__scroller {
   border-radius: 11px;
   background: #FFFFFF;
-  color: #27955B;
+  color: #0F7E3D;
   padding: 15px 40px;
   height: 57px;
   width: 376px;
@@ -3273,7 +3282,7 @@ input[type=checkbox]:focus {
   width: 50px;
   margin: 10px;
   border: solid 2px white;
-  background: #27955B;
+  background: #0F7E3D;
   border-radius: 50%;
   cursor: pointer;
   padding-top: 8px;
@@ -3355,7 +3364,7 @@ input[type=checkbox]:focus {
   border-radius: 30px;
   cursor: pointer;
   transition: all 0.5s;
-  background: #27955B;
+  background: #0F7E3D;
 }
 @media (min-width: 1081px) and (max-width: 1249px) {
   .article-sidebar__content__close-container {
@@ -3367,7 +3376,7 @@ input[type=checkbox]:focus {
   .article-sidebar__content__close-container {
     top: 25px;
     right: 35px;
-    background: #27955B;
+    background: #0F7E3D;
     z-index: 5;
   }
 }
@@ -3375,14 +3384,14 @@ input[type=checkbox]:focus {
   .article-sidebar__content__close-container {
     top: 15px;
     right: 25px;
-    background: #27955B;
+    background: #0F7E3D;
     z-index: 5;
   }
 }
 .article-sidebar__content__close-container:hover {
   width: 85px;
   max-width: 120px;
-  background: #2E1414;
+  background: #122008;
 }
 @media (min-width: 768px) and (max-width: 1080px) {
   .article-sidebar__content__close-container:hover {
@@ -3458,8 +3467,8 @@ input[type=checkbox]:focus {
 .article-sidebar__content__mask-btn {
   width: 30px;
   text-align: center;
-  color: #27955B;
-  background: #B9E9CD;
+  color: #0F7E3D;
+  background: #E1F0E7;
   border-radius: 3px;
   margin-top: 2px;
   margin-bottom: 2px;
@@ -3502,13 +3511,13 @@ input[type=checkbox]:focus {
 }
 .article-sidebar__content__mask-btn:hover {
   color: white;
-  background: #27955B;
+  background: #0F7E3D;
 }
 .article-sidebar__content__mask-textarea {
   border-color: lightgrey;
 }
 .article-sidebar__content__mask-textarea:focus {
-  border-color: #27955B;
+  border-color: #0F7E3D;
   outline: none;
   box-shadow: none;
 }
@@ -3516,7 +3525,7 @@ input[type=checkbox]:focus {
   width: 100%;
   border-radius: 6px;
   background: #ededed;
-  color: #27955B;
+  color: #0F7E3D;
   font-weight: 500;
   font-size: 1rem;
   border: none;
@@ -3542,19 +3551,19 @@ input[type=checkbox]:focus {
   letter-spacing: 0px;
   height: 54px;
   width: 44%;
-  border: #27955B solid 2px;
+  border: #0F7E3D solid 2px;
   background: #FFFFFF;
   cursor: pointer;
   transition: 0.2s;
 }
 .article-sidebar__content__voucher-value:hover, .article-sidebar__content__voucher-value--active {
-  background: #27955B;
+  background: #0F7E3D;
   color: #FFFFFF;
 }
 .article-sidebar__content__wishlist {
   text-align: center;
   font-size: 1.6rem;
-  color: #27955B;
+  color: #0F7E3D;
   position: relative;
   height: 60px;
 }
@@ -3578,7 +3587,7 @@ input[type=checkbox]:focus {
   transform: scale(1);
 }
 .article-sidebar__content__size {
-  background: #27955B;
+  background: #0F7E3D;
   border-radius: 8px;
   padding: 4px 30px;
   text-transform: uppercase;
@@ -3590,13 +3599,13 @@ input[type=checkbox]:focus {
   margin-bottom: 20px;
 }
 .article-sidebar__content__size--sold {
-  background: #D9D9D9;
+  background: #D0D0D0;
 }
 .article-sidebar__content__title {
   text-align: center;
   font: normal normal 600 26px/31px "Barlow Condensed";
   letter-spacing: 0px;
-  color: #27955B;
+  color: #0F7E3D;
   margin-bottom: 10px;
 }
 .article-sidebar__content__price {
@@ -3628,23 +3637,23 @@ input[type=checkbox]:focus {
   margin-bottom: 25px;
 }
 .article-sidebar__content__singularity {
-  background: #D0D0D033 0% 0% no-repeat padding-box;
+  background: rgba(208, 208, 208, 0.1) 0% 0% no-repeat padding-box;
   border-radius: 8px;
   text-align: center;
   font: normal normal 500 14px/20px "Barlow";
   letter-spacing: 0px;
-  color: #2E1414;
+  color: #122008;
   padding: 10px;
   margin-bottom: 25px;
 }
 .article-sidebar__content__delayed-stock {
   background: #FFFFFF;
   border-radius: 8px;
-  border: solid 2px #27955B;
+  border: solid 2px #0F7E3D;
   text-align: center;
   font: normal normal 500 14px/20px "Barlow";
   letter-spacing: 0px;
-  color: #2E1414;
+  color: #122008;
   padding: 10px;
   margin-bottom: 25px;
 }
@@ -3666,7 +3675,7 @@ input[type=checkbox]:focus {
     margin: 0;
     left: 10%;
     width: 80%;
-    background: #27955B;
+    background: #0F7E3D;
     border-radius: 8px;
     padding: 4px 30px;
     font: normal normal 600 20px/28px "Barlow Condensed";
@@ -3680,8 +3689,8 @@ input[type=checkbox]:focus {
 }
 .article-sidebar__content__cart-btn:hover {
   color: #FFFFFF;
-  background: #2E1414;
-  border-color: #2E1414;
+  background: #122008;
+  border-color: #122008;
 }
 .article-sidebar__content__size-check {
   text-align: center;
@@ -3704,7 +3713,7 @@ input[type=checkbox]:focus {
   transition: color 0.3s;
 }
 .article-sidebar__content__list li:hover {
-  color: #27955B;
+  color: #0F7E3D;
 }
 .article-sidebar__content__list svg {
   transform: rotate(-90deg) scale(1.5);
@@ -3713,7 +3722,7 @@ input[type=checkbox]:focus {
   width: 30px;
 }
 .article-sidebar__content__list svg path {
-  fill: #27955B;
+  fill: #0F7E3D;
 }
 .article-sidebar__content__contact {
   text-align: center;
@@ -3754,7 +3763,7 @@ input[type=checkbox]:focus {
   }
 }
 .article-sidebar__content__compo__subtitle:hover {
-  color: #27955B;
+  color: #0F7E3D;
 }
 .article-sidebar__content__compo__detail {
   text-align: left;
@@ -3773,7 +3782,7 @@ input[type=checkbox]:focus {
   transition: color 0.2s;
 }
 .article-sidebar__content__compo__title-expl a:hover {
-  color: #27955B;
+  color: #0F7E3D;
 }
 .article-sidebar__content__compo__list img {
   width: 100%;
@@ -3828,12 +3837,12 @@ input[type=checkbox]:focus {
   width: 100vw;
   height: 100vh;
   z-index: 101;
-  background: #2E1414;
+  background: #122008;
   opacity: 0.7;
 }
 
 .error-modal {
-  border: solid 2px #27955B;
+  border: solid 2px #0F7E3D;
   width: 50vw;
   left: 25vw;
   top: 100px;
@@ -3848,7 +3857,7 @@ input[type=checkbox]:focus {
   transition: color 0.2s;
 }
 .error-modal__close:hover {
-  color: #27955B;
+  color: #0F7E3D;
 }
 
 .success-modal {
@@ -3872,7 +3881,7 @@ input[type=checkbox]:focus {
   font: normal normal 600 24px/26px "Barlow";
 }
 .success-modal__close:hover {
-  color: #27955B;
+  color: #0F7E3D;
 }
 
 .add-address-modal {
@@ -3905,11 +3914,11 @@ input[type=checkbox]:focus {
   border-radius: 30px;
   cursor: pointer;
   transition: all 0.5s;
-  background: #D9D9D9;
+  background: #D0D0D0;
 }
 .add-address-modal__close-container:hover {
   width: 85px;
-  background: #2E1414;
+  background: #122008;
 }
 @media (min-width: 768px) and (max-width: 1080px) {
   .add-address-modal__close-container:hover {
@@ -3979,12 +3988,12 @@ input[type=checkbox]:focus {
   transition: all 0.2s ease-in-out;
 }
 .footer__copyright {
-  border-top: solid 1px #D9D9D9;
+  border-top: solid 1px #D0D0D0;
   padding: 23px 0px;
   text-align: left;
   font: normal normal 500 16px/36px "Barlow";
   letter-spacing: 0px;
-  color: #2E1414;
+  color: #122008;
 }
 @media (min-width: 768px) and (max-width: 1080px) {
   .footer__copyright {
@@ -4049,8 +4058,8 @@ input[type=checkbox]:focus {
   height: 60px;
   width: 60px;
   border-radius: 6px;
-  background: #B9E9CD;
-  color: #27955B;
+  background: #E1F0E7;
+  color: #0F7E3D;
   font-size: 2rem;
   padding-top: 6px;
   margin-right: 10px;
@@ -4058,7 +4067,7 @@ input[type=checkbox]:focus {
   transition: all 0.2s ease-in-out;
 }
 .footer__social:hover {
-  background: #27955B;
+  background: #0F7E3D;
   color: #FFFFFF;
 }
 .footer__sponsors {
@@ -4108,7 +4117,7 @@ input[type=checkbox]:focus {
   text-align: left;
   font: normal normal 600 28px/34px "Barlow Condensed";
   letter-spacing: 0px;
-  color: #2E1414;
+  color: #122008;
   margin-bottom: 45px;
 }
 @media (max-width: 767px) {
@@ -4121,7 +4130,7 @@ input[type=checkbox]:focus {
   text-align: left;
   font: normal normal 500 22px/46px "Barlow Condensed";
   letter-spacing: 0px;
-  color: #2E1414;
+  color: #122008;
 }
 @media (min-width: 1081px) and (max-width: 1249px) {
   .footer ul {
@@ -4145,7 +4154,7 @@ input[type=checkbox]:focus {
   transition: all 0.2s ease-in-out;
 }
 .footer ul a:hover {
-  color: #27955B;
+  color: #0F7E3D;
 }
 
 .footer-connect {
@@ -4242,7 +4251,7 @@ input[type=checkbox]:focus {
   text-align: center;
   font: normal normal 600 44px/53px "Barlow Condensed";
   letter-spacing: 0px;
-  color: #2E1414;
+  color: #122008;
   margin-bottom: 59px;
 }
 @media (min-width: 1081px) and (max-width: 1249px) {
@@ -4267,7 +4276,7 @@ input[type=checkbox]:focus {
   text-align: center;
   font: normal normal 500 16px/28px "Barlow";
   letter-spacing: 0px;
-  color: #2E1414;
+  color: #122008;
   margin-bottom: 80px;
 }
 @media (max-width: 767px) {
@@ -4315,7 +4324,7 @@ input[type=checkbox]:focus {
 .footer-more__block h3 {
   font: normal normal 600 44px/53px "Barlow Condensed";
   letter-spacing: 0px;
-  color: #27955B;
+  color: #0F7E3D;
 }
 @media (max-width: 767px) {
   .footer-more__block h3 {
@@ -4330,7 +4339,7 @@ input[type=checkbox]:focus {
   margin-bottom: 70px;
   font: normal normal medium 16px/28px Barlow;
   letter-spacing: 0px;
-  color: #2E1414;
+  color: #122008;
   width: 50%;
 }
 @media (max-width: 767px) {
@@ -4367,7 +4376,7 @@ input[type=checkbox]:focus {
 }
 
 .footer-all {
-  background: #D0D0D033 0% 0% no-repeat padding-box;
+  background: rgba(208, 208, 208, 0.1) 0% 0% no-repeat padding-box;
   margin-top: -100px;
   position: relative;
   z-index: 1;
@@ -4375,7 +4384,7 @@ input[type=checkbox]:focus {
 .footer-all__txt {
   font: normal normal 300 44px/53px Barlow Condensed;
   letter-spacing: 0px;
-  color: #2E1414;
+  color: #122008;
 }
 .footer-all__txt--left {
   margin-left: 6vw;
@@ -4443,7 +4452,7 @@ input[type=checkbox]:focus {
 .footer-all__sponsor {
   height: 102px;
   width: 100%;
-  background: #27955B;
+  background: #0F7E3D;
   z-index: 5;
   color: #FFFFFF;
   bottom: 0;
@@ -4546,15 +4555,15 @@ input[type=checkbox]:focus {
   margin-bottom: 35px;
 }
 .footer-legal__paragraph a {
-  color: #27955B;
+  color: #0F7E3D;
   transition: color 0.2s;
 }
 .footer-legal__paragraph a:hover {
-  color: #2E1414;
+  color: #122008;
 }
 .footer-legal__highlight {
   padding: 30px;
-  background: #B9E9CD;
+  background: #E1F0E7;
   border-radius: 12px;
   font: normal normal 700 22px/36px "Barlow";
   text-align: center;
@@ -4592,15 +4601,15 @@ input[type=checkbox]:focus {
   margin-bottom: 35px;
 }
 .footer-medias__paragraph a {
-  color: #27955B;
+  color: #0F7E3D;
   transition: color 0.2s;
 }
 .footer-medias__paragraph a:hover {
-  color: #2E1414;
+  color: #122008;
 }
 .footer-medias__highlight {
   padding: 30px;
-  background: #B9E9CD;
+  background: #E1F0E7;
   border-radius: 12px;
   font: normal normal 700 22px/36px "Barlow";
   text-align: center;
@@ -4638,15 +4647,15 @@ input[type=checkbox]:focus {
   margin-bottom: 35px;
 }
 .footer-info__paragraph a {
-  color: #27955B;
+  color: #0F7E3D;
   transition: color 0.2s;
 }
 .footer-info__paragraph a:hover {
-  color: #2E1414;
+  color: #122008;
 }
 .footer-info__highlight {
   padding: 30px;
-  background: #B9E9CD;
+  background: #E1F0E7;
   border-radius: 12px;
   font: normal normal 700 22px/36px "Barlow";
   text-align: center;
@@ -4673,11 +4682,11 @@ input[type=checkbox]:focus {
   }
 }
 .sitemap a {
-  color: #27955B;
+  color: #0F7E3D;
   transition: color 0.2s;
 }
 .sitemap a:hover {
-  color: #2E1414;
+  color: #122008;
 }
 .sitemap__list--large {
   font: normal normal 600 22px/30px "Barlow";
@@ -4694,12 +4703,12 @@ input[type=checkbox]:focus {
   margin-bottom: 100px;
 }
 .footer-conditions a {
-  color: #27955B;
+  color: #0F7E3D;
   transition: color 0.2s;
   font: normal normal 500 16px/28px "Barlow";
 }
 .footer-conditions a:hover {
-  color: #2E1414;
+  color: #122008;
 }
 .footer-conditions li {
   margin-left: 10px;
@@ -4744,7 +4753,7 @@ input[type=checkbox]:focus {
   letter-spacing: 0px;
   color: #2E141480;
   margin-bottom: 15px;
-  color: #27955B;
+  color: #0F7E3D;
   margin-top: 45px;
 }
 .footer-conditions__paragraph {
@@ -4753,7 +4762,7 @@ input[type=checkbox]:focus {
 }
 .footer-conditions__highlight {
   padding: 30px;
-  background: #B9E9CD;
+  background: #E1F0E7;
   border-radius: 12px;
   font: normal normal 700 22px/36px "Barlow";
   text-align: center;
@@ -4761,7 +4770,7 @@ input[type=checkbox]:focus {
 }
 .footer-conditions--update {
   font-size: 600;
-  color: #27955B;
+  color: #0F7E3D;
 }
 .footer-conditions--update::before {
   content: "[Update ##/##/####] ";
@@ -4820,7 +4829,7 @@ input[type=checkbox]:focus {
 .welcome-presentation__desc__bar {
   padding: 10px 5px;
   margin-bottom: 50px;
-  background: #B9E9CD 0% 0% no-repeat padding-box;
+  background: #E1F0E7 0% 0% no-repeat padding-box;
   border-radius: 8px;
   width: -webkit-fit-content;
   width: -moz-fit-content;
@@ -4845,9 +4854,9 @@ input[type=checkbox]:focus {
   padding: 6px 12px;
   font: normal normal 500 18px/22px "Barlow Condensed";
   letter-spacing: 0.36px;
-  color: #2E1414;
+  color: #122008;
   border-radius: 8px;
-  background: #B9E9CD 0% 0% no-repeat padding-box;
+  background: #E1F0E7 0% 0% no-repeat padding-box;
   transition: all 0.2s ease-in-out;
 }
 @media (min-width: 1081px) and (max-width: 1249px) {
@@ -4866,17 +4875,17 @@ input[type=checkbox]:focus {
 }
 .welcome-presentation__desc__bar__btn:hover {
   color: #FFFFFF;
-  background: #27955B 0% 0% no-repeat padding-box;
+  background: #0F7E3D 0% 0% no-repeat padding-box;
 }
 .welcome-presentation__desc__bar__btn.--active {
   color: #FFFFFF;
-  background: #27955B 0% 0% no-repeat padding-box;
+  background: #0F7E3D 0% 0% no-repeat padding-box;
 }
 .welcome-presentation__desc__title {
   text-align: left;
   font: normal normal bold 44px/53px "Barlow Condensed";
   letter-spacing: 0px;
-  color: #2E1414;
+  color: #122008;
   margin-bottom: 55px;
 }
 @media (min-width: 1081px) and (max-width: 1249px) {
@@ -4934,7 +4943,7 @@ input[type=checkbox]:focus {
 .welcome-presentation__desc__text li::before {
   content: "•";
   /* CSS Code/unicode for a bullet */
-  color: #27955B;
+  color: #0F7E3D;
   font-weight: bold;
   /* If you want it to be bold */
   display: inline-block;
@@ -4948,11 +4957,11 @@ input[type=checkbox]:focus {
   text-align: left;
   font: normal normal 800 22px/33px "Barlow";
   letter-spacing: 0px;
-  color: #27955B;
+  color: #0F7E3D;
   transition: color 0.2s;
 }
 .welcome-presentation__desc__link:hover {
-  color: #2E1414;
+  color: #122008;
 }
 @media (max-width: 767px) {
   .welcome-presentation__desc__link {
@@ -5031,7 +5040,7 @@ input[type=checkbox]:focus {
   text-align: left;
   font: normal normal 300 40px/48px "Barlow Condensed";
   letter-spacing: 0.36px;
-  color: #2E1414;
+  color: #122008;
 }
 @media (min-width: 1081px) and (max-width: 1249px) {
   .welcome-campaign__left__title-1 {
@@ -5055,7 +5064,7 @@ input[type=checkbox]:focus {
   text-align: left;
   font: normal normal 600 105px/126px "Barlow Condensed";
   letter-spacing: 0px;
-  color: #27955B;
+  color: #0F7E3D;
   margin-top: -25px;
 }
 @media (min-width: 1081px) and (max-width: 1249px) {
@@ -5176,11 +5185,11 @@ input[type=checkbox]:focus {
   width: 20%;
   height: 5px;
   border-radius: 10px;
-  background: #27955B;
+  background: #0F7E3D;
   transition: width 0.5s ease-in-out;
 }
 .welcome-creations__list__link a:hover {
-  color: #27955B;
+  color: #0F7E3D;
 }
 .welcome-creations__list__link a:hover::after {
   width: 100%;
@@ -5189,7 +5198,7 @@ input[type=checkbox]:focus {
   text-align: center;
   font: normal normal 700 44px/53px "Barlow Condensed";
   letter-spacing: 0px;
-  color: #2E1414;
+  color: #122008;
   margin-bottom: 26px;
 }
 @media (min-width: 768px) and (max-width: 1080px) {
@@ -5206,7 +5215,7 @@ input[type=checkbox]:focus {
   text-align: center;
   font: normal normal 500 16px/28px "Barlow";
   letter-spacing: 0px;
-  color: #2E1414;
+  color: #122008;
   width: 45%;
   margin: auto;
   margin-bottom: 50px;
@@ -5244,7 +5253,7 @@ input[type=checkbox]:focus {
   text-align: center;
   font: normal normal 700 44px/53px "Barlow Condensed";
   letter-spacing: 0px;
-  color: #2E1414;
+  color: #122008;
 }
 @media (min-width: 768px) and (max-width: 1080px) {
   .welcome-others h3 {
@@ -5260,7 +5269,7 @@ input[type=checkbox]:focus {
   text-align: center;
   font: normal normal 600 105px/115px "Barlow Condensed";
   letter-spacing: 0px;
-  color: #27955B;
+  color: #0F7E3D;
   padding: 20px;
   margin-bottom: 10px;
 }
@@ -5282,16 +5291,16 @@ input[type=checkbox]:focus {
   padding: 0px 15px;
 }
 .welcome-others__list a:hover {
-  color: #2E1414;
+  color: #122008;
 }
 .welcome-others__plus {
   height: 104px;
   width: 104px;
-  border: 5px solid #2E1414;
+  border: 5px solid #122008;
   border-radius: 50%;
   position: relative;
   margin: auto;
-  color: #B9E9CD;
+  color: #E1F0E7;
   transition: all 0.2s ease-in-out;
 }
 .welcome-others__plus__symbol {
@@ -5303,8 +5312,8 @@ input[type=checkbox]:focus {
   text-align: center;
 }
 .welcome-others__plus:hover {
-  background: #B9E9CD;
-  color: #27955B;
+  background: #E1F0E7;
+  color: #0F7E3D;
 }
 .welcome-others__svg-container {
   background: #FFFFFF;
@@ -5391,7 +5400,7 @@ input[type=checkbox]:focus {
   width: 22px;
 }
 .welcome-mobile-nav__link:hover {
-  background: #B9E9CD;
+  background: #E1F0E7;
 }
 
 .side-mobile {
@@ -5431,22 +5440,22 @@ input[type=checkbox]:focus {
   text-transform: uppercase;
 }
 .side-mobile__toggler--general:hover {
-  background: #2E1414;
+  background: #122008;
   color: #FFFFFF;
 }
 .side-mobile__toggler--creation {
-  background: #B9E9CD;
+  background: #E1F0E7;
   font: normal normal 500 16px/22px "Barlow Condensed";
 }
 .side-mobile__toggler--creation:hover {
-  background: #27955B;
+  background: #0F7E3D;
   color: #FFFFFF;
 }
 .side-mobile__toggler--creation:hover .side-mobile__toggler__svg path {
   fill: #FFFFFF;
 }
 .side-mobile__toggler--creation--active {
-  background: #27955B;
+  background: #0F7E3D;
   color: #FFFFFF;
 }
 .side-mobile__toggler--creation--active .side-mobile__toggler__svg path {
@@ -5462,7 +5471,7 @@ input[type=checkbox]:focus {
   transition: all 0.2s;
 }
 .side-mobile__links li:hover {
-  background: #27955B;
+  background: #0F7E3D;
   color: #FFFFFF;
   padding-left: 9px;
 }
@@ -5491,7 +5500,7 @@ input[type=checkbox]:focus {
   letter-spacing: 0.32px;
 }
 .side-mobile__creations__title:hover {
-  background: #27955B;
+  background: #0F7E3D;
   color: #FFFFFF;
   padding-left: 9px;
 }
@@ -5499,7 +5508,7 @@ input[type=checkbox]:focus {
   fill: #FFFFFF;
 }
 .side-mobile__creations__title--active {
-  color: #27955B;
+  color: #0F7E3D;
   font-weight: 600;
 }
 .side-mobile__creations__title__svg {
@@ -5512,7 +5521,7 @@ input[type=checkbox]:focus {
   transform: rotate(180deg);
 }
 .side-mobile__creations__title__svg path {
-  fill: #27955B;
+  fill: #0F7E3D;
 }
 .side-mobile__creations__list {
   overflow: hidden;
@@ -5528,7 +5537,7 @@ input[type=checkbox]:focus {
 }
 .side-mobile__creations__list h4 {
   font: normal normal 600 16px/19px "Barlow Condensed";
-  color: #27955B;
+  color: #0F7E3D;
   margin-top: 15px;
   margin-bottom: 15px;
 }
@@ -5544,7 +5553,7 @@ input[type=checkbox]:focus {
 
 .service {
   padding-top: 66px;
-  border-bottom: solid 1px #D9D9D9;
+  border-bottom: solid 1px #D0D0D0;
 }
 @media (max-width: 767px) {
   .service {
@@ -5611,7 +5620,7 @@ input[type=checkbox]:focus {
   transform: rotate(90deg);
 }
 .service__nav__arrow--left svg path {
-  fill: #27955B;
+  fill: #0F7E3D;
 }
 .service__nav__arrow--right {
   right: 8px;
@@ -5622,7 +5631,7 @@ input[type=checkbox]:focus {
   transform: rotate(-90deg);
 }
 .service__nav__arrow--right svg path {
-  fill: #27955B;
+  fill: #0F7E3D;
 }
 .service__nav__link {
   display: block;
@@ -5632,7 +5641,7 @@ input[type=checkbox]:focus {
   cursor: pointer;
   font: normal normal 600 17px/22px "Barlow Condensed";
   letter-spacing: 0.36px;
-  color: #2E1414;
+  color: #122008;
   text-transform: uppercase;
   margin-bottom: -1px;
   padding-left: 8px;
@@ -5672,12 +5681,12 @@ input[type=checkbox]:focus {
   }
 }
 .service__nav__link--active {
-  color: #27955B;
-  border-bottom: solid 2px #27955B;
+  color: #0F7E3D;
+  border-bottom: solid 2px #0F7E3D;
 }
 .service__nav__link:hover {
-  color: #27955B;
-  border-bottom: solid 2px #27955B;
+  color: #0F7E3D;
+  border-bottom: solid 2px #0F7E3D;
 }
 
 .service-panel {
@@ -5710,7 +5719,7 @@ input[type=checkbox]:focus {
 }
 .faq__accordion__header {
   margin-bottom: 30px;
-  background: #27955B 0% 0% no-repeat padding-box;
+  background: #0F7E3D 0% 0% no-repeat padding-box;
   border-radius: 8px;
   color: #FFFFFF;
   padding: 34px 50px 34px 50px;
@@ -5777,7 +5786,7 @@ input[type=checkbox]:focus {
   }
 }
 .faq__accordion__answer li {
-  border-bottom: 1px solid #D9D9D9;
+  border-bottom: 1px solid #D0D0D0;
 }
 .faq__accordion__answer__txt {
   text-align: left;
@@ -5819,8 +5828,8 @@ input[type=checkbox]:focus {
   }
 }
 .faq__accordion__answer__header--active {
-  border-bottom: 2px solid #27955B;
-  color: #27955B;
+  border-bottom: 2px solid #0F7E3D;
+  color: #0F7E3D;
 }
 .faq__accordion__answer__header__plus {
   font-size: 2.2rem;
@@ -5908,19 +5917,19 @@ input[type=checkbox]:focus {
 }
 .delivery__chapter h3 {
   font: normal normal 700 28px/36px "Barlow Condensed";
-  color: #27955B;
+  color: #0F7E3D;
   padding-bottom: 20px;
   border-bottom: solid 1px lightgrey;
   text-align: left;
   margin-bottom: 30px;
 }
 .delivery__chapter__link {
-  color: #27955B;
+  color: #0F7E3D;
   font-weight: 500;
   transition: color 0.2s;
 }
 .delivery__chapter__link:hover {
-  color: #2E1414;
+  color: #122008;
 }
 .delivery__chapter__img-container {
   width: 45%;
@@ -5934,7 +5943,7 @@ input[type=checkbox]:focus {
   margin-left: 25%;
 }
 .delivery__chapter__legend__list h4 {
-  color: #27955B;
+  color: #0F7E3D;
   font: normal normal 600 16px/20px "Barlow";
 }
 .delivery__chapter__legend__list p {
@@ -5970,10 +5979,10 @@ input[type=checkbox]:focus {
   color: grey;
 }
 .delivery__chapter__table th:nth-child(even) {
-  color: #2E1414;
+  color: #122008;
 }
 .delivery__chapter__table th:nth-child(1) {
-  color: #27955B;
+  color: #0F7E3D;
 }
 .delivery__chapter__table__data-rows:nth-child(odd) {
   background: #ededed;
@@ -5982,10 +5991,10 @@ input[type=checkbox]:focus {
   color: grey;
 }
 .delivery__chapter__table__data-rows td:nth-child(even) {
-  color: #2E1414;
+  color: #122008;
 }
 .delivery__chapter__table__data-rows td:nth-child(1) {
-  color: #2E1414;
+  color: #122008;
 }
 .delivery__chapter__table__data-rows td {
   padding: 4px 10px;
@@ -6078,8 +6087,8 @@ input[type=checkbox]:focus {
     border-bottom: solid 2px transparent;
   }
   .sizes__index__menu li button:hover, .sizes__index__menu li button--active {
-    color: #27955B;
-    border-bottom: solid 2px #27955B;
+    color: #0F7E3D;
+    border-bottom: solid 2px #0F7E3D;
   }
 }
 @media (max-width: 767px) {
@@ -6096,8 +6105,8 @@ input[type=checkbox]:focus {
     border-bottom: solid 2px transparent;
   }
   .sizes__index__menu li button:hover, .sizes__index__menu li button--active {
-    color: #27955B;
-    border-bottom: solid 2px #27955B;
+    color: #0F7E3D;
+    border-bottom: solid 2px #0F7E3D;
   }
 }
 .sizes__chapters {
@@ -6119,7 +6128,7 @@ input[type=checkbox]:focus {
 }
 .sizes__chapter h3 {
   font: normal normal 700 28px/36px "Barlow Condensed";
-  color: #27955B;
+  color: #0F7E3D;
   padding-bottom: 20px;
   border-bottom: solid 1px lightgrey;
   text-align: left;
@@ -6175,7 +6184,7 @@ input[type=checkbox]:focus {
   }
 }
 .sizes__chapter__legend__list h4 {
-  color: #27955B;
+  color: #0F7E3D;
   font: normal normal 600 16px/20px "Barlow";
 }
 .sizes__chapter__legend__list p {
@@ -6210,10 +6219,10 @@ input[type=checkbox]:focus {
   color: grey;
 }
 .sizes__chapter__table th:nth-child(even) {
-  color: #2E1414;
+  color: #122008;
 }
 .sizes__chapter__table th:nth-child(1) {
-  color: #27955B;
+  color: #0F7E3D;
 }
 .sizes__chapter__table__data-rows:nth-child(even) {
   background: #ededed;
@@ -6222,10 +6231,10 @@ input[type=checkbox]:focus {
   color: grey;
 }
 .sizes__chapter__table__data-rows td:nth-child(even) {
-  color: #2E1414;
+  color: #122008;
 }
 .sizes__chapter__table__data-rows td:nth-child(1) {
-  color: #2E1414;
+  color: #122008;
 }
 .sizes__chapter__table__data-rows td {
   padding: 4px 10px;
@@ -6283,7 +6292,7 @@ input[type=checkbox]:focus {
   text-align: center;
   font: normal normal 600 20px/36px Barlow;
   letter-spacing: 0px;
-  background: #B9E9CD 0% 0% no-repeat padding-box;
+  background: #E1F0E7 0% 0% no-repeat padding-box;
   border-radius: 8px;
   padding-top: 28px;
   padding-bottom: 28px;
@@ -6332,7 +6341,7 @@ input[type=checkbox]:focus {
 }
 .return__chapter h3 {
   font: normal normal 700 28px/36px "Barlow Condensed";
-  color: #27955B;
+  color: #0F7E3D;
   padding-bottom: 20px;
   border-bottom: solid 1px lightgrey;
   text-align: left;
@@ -6350,7 +6359,7 @@ input[type=checkbox]:focus {
   margin-left: 25%;
 }
 .return__chapter__legend__list h4 {
-  color: #27955B;
+  color: #0F7E3D;
   font: normal normal 600 16px/20px "Barlow";
 }
 .return__chapter__legend__list p {
@@ -6360,11 +6369,11 @@ input[type=checkbox]:focus {
   margin-bottom: 15px;
 }
 .return__chapter__link {
-  color: #27955B;
+  color: #0F7E3D;
   transition: color 0.2s;
 }
 .return__chapter__link:hover {
-  color: #2E1414;
+  color: #122008;
 }
 .return__form__fieldset {
   text-align: left;
@@ -6417,7 +6426,7 @@ input[type=checkbox]:focus {
   margin-bottom: 45px;
 }
 .payment__option {
-  background: #D0D0D033 0% 0% no-repeat padding-box;
+  background: rgba(208, 208, 208, 0.1) 0% 0% no-repeat padding-box;
   border-radius: 20px;
   padding: 40px 65px;
   margin-bottom: 30px;
@@ -6500,7 +6509,7 @@ input[type=checkbox]:focus {
   letter-spacing: 0px;
 }
 .care__grid__title {
-  color: #27955B;
+  color: #0F7E3D;
   font: normal normal 700 30px/40px "Barlow Condensed";
   margin-bottom: 30px;
   padding-top: 20px;
@@ -6633,7 +6642,7 @@ input[type=checkbox]:focus {
   letter-spacing: 0px;
 }
 .shops__card__highlight {
-  background: #B9E9CD 0% 0% no-repeat padding-box;
+  background: #E1F0E7 0% 0% no-repeat padding-box;
   border-radius: 8px;
   padding: 18px 20px;
 }
@@ -6661,7 +6670,7 @@ input[type=checkbox]:focus {
 }
 .contact__subtitle {
   font-size: 1rem;
-  color: silver;
+  color: #b7b7b7;
   font-family: "Barlow Condensed";
   font-weight: 500;
   margin-bottom: 40px;
@@ -6675,7 +6684,7 @@ input[type=checkbox]:focus {
   text-align: center;
   font: normal normal 700 44px/53px "Barlow Condensed";
   letter-spacing: 0px;
-  color: #2E1414;
+  color: #122008;
   margin-bottom: 50px;
 }
 @media (max-width: 767px) {
@@ -6716,7 +6725,7 @@ input[type=checkbox]:focus {
   }
 }
 .contact__opening {
-  background: #B9E9CD;
+  background: #E1F0E7;
   border-radius: 6px;
   text-align: center;
   font-size: 1.3rem;
@@ -6733,7 +6742,7 @@ input[type=checkbox]:focus {
 .contact__moreinfo {
   font-size: 1rem;
   line-height: 28px;
-  color: #2E1414;
+  color: #122008;
   font-family: "Barlow";
   font-weight: 500;
   margin-bottom: 40px;
@@ -6874,8 +6883,8 @@ input[type=checkbox]:focus {
 .contact__form__invalid {
   border-radius: 10px;
   padding: 40px;
-  background: #B9E9CD;
-  color: #27955B;
+  background: #E1F0E7;
+  color: #0F7E3D;
   margin-top: 20px;
 }
 .contact__form__radio-group {
@@ -6900,7 +6909,7 @@ input[type=checkbox]:focus {
   top: 45px;
   width: 100%;
   background: #FFFFFF;
-  border-bottom: solid 1px #D9D9D9;
+  border-bottom: solid 1px #D0D0D0;
   min-height: 80px;
 }
 @media (min-width: 1720px) {
@@ -6914,10 +6923,10 @@ input[type=checkbox]:focus {
   font: normal normal 500 16px/28px "Barlow Condensed";
 }
 .all-models__mobile-header__button:hover {
-  color: #27955B;
+  color: #0F7E3D;
 }
 .all-models__mobile-header__button:hover path {
-  fill: #27955B;
+  fill: #0F7E3D;
 }
 .all-models__mobile-header__button svg {
   margin-right: 6px;
@@ -6934,7 +6943,7 @@ input[type=checkbox]:focus {
   overflow: hidden;
 }
 .all-models__mobile-menu__opacifier {
-  background: #2E1414;
+  background: #122008;
   opacity: 0.6;
   position: absolute;
   top: 0;
@@ -6974,7 +6983,7 @@ input[type=checkbox]:focus {
   transition: background 0.3s;
 }
 .all-models__mobile-menu__sidebar__close:hover {
-  background: #27955B;
+  background: #0F7E3D;
 }
 .all-models__mobile-menu__sidebar__header {
   font: normal normal 500 16px/28px "Barlow";
@@ -6986,7 +6995,7 @@ input[type=checkbox]:focus {
   transition: all 0.3s;
 }
 .all-models__mobile-menu__sidebar__accordion:hover {
-  border-bottom: solid 1px #B9E9CD;
+  border-bottom: solid 1px #E1F0E7;
 }
 .all-models__mobile-menu__sidebar__accordion__header {
   font: normal normal 600 16px/28px "Barlow";
@@ -7006,13 +7015,13 @@ input[type=checkbox]:focus {
   transition: transform 0.3s;
 }
 .all-models__mobile-menu__sidebar__accordion__header svg path {
-  fill: #27955B;
+  fill: #0F7E3D;
 }
 .all-models__mobile-menu__sidebar__accordion__content {
   padding-top: 5px;
 }
 .all-models__filters {
-  border-bottom: solid 1px #D9D9D9;
+  border-bottom: solid 1px #D0D0D0;
   position: relative;
   margin-bottom: 20px;
   height: 45px;
@@ -7028,7 +7037,7 @@ input[type=checkbox]:focus {
   margin-right: 50px;
 }
 .all-models__filters__filter:hover {
-  color: #27955B;
+  color: #0F7E3D;
 }
 .all-models__filters__filter img {
   width: 16px;
@@ -7052,10 +7061,10 @@ input[type=checkbox]:focus {
   transition: all 0.2s ease-in-out;
 }
 .all-models__color-filter-tag:hover {
-  color: #27955B;
+  color: #0F7E3D;
 }
 .all-models__color-filter-tag__circle {
-  background: #27955B;
+  background: #0F7E3D;
   height: 34px;
   width: 34px;
   border-radius: 50%;
@@ -7070,17 +7079,17 @@ input[type=checkbox]:focus {
   padding-top: 3px;
   padding-left: 10px;
   padding-right: 10px;
-  border: solid 1px #D9D9D9;
+  border: solid 1px #D0D0D0;
   cursor: pointer;
   transition: all 0.2s ease-in-out;
 }
 .all-models__filter-tag--active, .all-models__filter-tag:hover {
-  color: #27955B;
-  border: solid 1px #27955B;
+  color: #0F7E3D;
+  border: solid 1px #0F7E3D;
 }
 .all-models__filter-tag--inactive {
   color: white;
-  background: #D9D9D9;
+  background: #D0D0D0;
 }
 .all-models__active-filters {
   margin-bottom: 20px;
@@ -7088,10 +7097,10 @@ input[type=checkbox]:focus {
 .all-models__active-filters__filter {
   min-width: 110px;
   padding: 3px 10px;
-  background: #ccefdb;
+  background: #f2f9f5;
   border: 2px solid transparent;
   border-radius: 20px;
-  color: #27955B;
+  color: #0F7E3D;
   transition: all 0.2s ease-in-out;
   cursor: pointer;
   margin-right: 10px;
@@ -7106,7 +7115,7 @@ input[type=checkbox]:focus {
 }
 .all-models__active-filters__filter:hover {
   background: #FFFFFF;
-  border: 2px solid #27955B;
+  border: 2px solid #0F7E3D;
 }
 .all-models__active-filters__filter p {
   font-size: 0.9rem;
@@ -7303,7 +7312,7 @@ input[type=checkbox]:focus {
 .model-pres__mobile-anchors {
   width: 100%;
   padding: 27px 15px;
-  color: #27955B;
+  color: #0F7E3D;
 }
 .model-pres__mobile-anchors--with-border {
   border-top: solid 1px lightgrey;
@@ -7322,10 +7331,10 @@ input[type=checkbox]:focus {
   }
 }
 .model-pres__mobile-anchors a:hover {
-  color: #2E1414;
+  color: #122008;
 }
 .model-pres__mobile-anchors a:hover path {
-  fill: #2E1414;
+  fill: #122008;
 }
 .model-pres__mobile-anchors a svg {
   margin-left: 12px;
@@ -7366,7 +7375,7 @@ input[type=checkbox]:focus {
   }
 }
 .model-pres__desc__title {
-  color: #27955B;
+  color: #0F7E3D;
   text-align: left;
   font: normal normal 700 44px/53px "Barlow Condensed";
   letter-spacing: 0px;
@@ -7510,7 +7519,7 @@ input[type=checkbox]:focus {
   }
 }
 .model-pres__desc__seemore {
-  color: #27955B;
+  color: #0F7E3D;
   font-weight: 600;
   position: absolute;
   bottom: 33px;
@@ -7558,10 +7567,10 @@ input[type=checkbox]:focus {
   }
 }
 .model-pres__desc__seemore a:hover {
-  color: #2E1414;
+  color: #122008;
 }
 .model-pres__desc__seemore a:hover path {
-  fill: #2E1414;
+  fill: #122008;
 }
 .model-pres__desc__seemore a svg {
   margin-left: 10px;
@@ -7571,7 +7580,7 @@ input[type=checkbox]:focus {
   padding: 25px 30px;
   border-radius: 8px;
   margin-bottom: 25px;
-  color: #2E1414;
+  color: #122008;
 }
 @media (max-width: 767px) {
   .model-pres__wiki-link {
@@ -7609,7 +7618,7 @@ input[type=checkbox]:focus {
   }
 }
 .model-articles__filters {
-  border-bottom: solid 1px #D9D9D9;
+  border-bottom: solid 1px #D0D0D0;
   position: relative;
   margin-bottom: 20px;
 }
@@ -7624,7 +7633,7 @@ input[type=checkbox]:focus {
   margin-right: 50px;
 }
 .model-articles__filters__filter:hover {
-  color: #27955B;
+  color: #0F7E3D;
 }
 .model-articles__filters__filter img {
   width: 16px;
@@ -7638,10 +7647,10 @@ input[type=checkbox]:focus {
 .model-articles__active-filters__filter {
   min-width: 110px;
   padding: 3px 10px;
-  background: #ccefdb;
+  background: #f2f9f5;
   border: 2px solid transparent;
   border-radius: 20px;
-  color: #27955B;
+  color: #0F7E3D;
   transition: all 0.2s ease-in-out;
   cursor: pointer;
   margin-right: 10px;
@@ -7651,7 +7660,7 @@ input[type=checkbox]:focus {
 }
 .model-articles__active-filters__filter:hover {
   background: #FFFFFF;
-  border: 2px solid #27955B;
+  border: 2px solid #0F7E3D;
 }
 .model-articles__active-filters__filter p {
   font-size: 0.9rem;
@@ -7689,7 +7698,7 @@ input[type=checkbox]:focus {
   text-align: center;
   font: normal normal 700 44px/53px "Barlow Condensed";
   letter-spacing: 0px;
-  color: #2E1414;
+  color: #122008;
   margin-bottom: 26px;
 }
 @media (max-width: 767px) {
@@ -7734,7 +7743,7 @@ input[type=checkbox]:focus {
   text-align: center;
   font: normal normal 600 105px/126px "Barlow Condensed";
   letter-spacing: 0px;
-  color: #27955B;
+  color: #0F7E3D;
   margin-bottom: 30px;
 }
 @media (min-width: 768px) and (max-width: 1080px) {
@@ -7753,7 +7762,7 @@ input[type=checkbox]:focus {
   text-align: center;
   font: normal normal 500 16px/28px "Barlow";
   letter-spacing: 0px;
-  color: #2E1414;
+  color: #122008;
   margin-bottom: 50px;
 }
 .model-request__link {
@@ -7788,7 +7797,7 @@ input[type=checkbox]:focus {
 .full-story {
   padding-top: 66px;
   padding-bottom: 80px;
-  color: #2E1414;
+  color: #122008;
   line-height: 2rem;
 }
 .full-story__title {
@@ -7810,20 +7819,20 @@ input[type=checkbox]:focus {
   letter-spacing: 0px;
   margin-top: 65px;
   margin-bottom: 32px;
-  color: #27955B;
+  color: #0F7E3D;
 }
 .full-story__lowtitle--2 {
   font: normal normal 700 25px/32px "Barlow Condensed";
   margin-bottom: 30px;
   text-align: left;
-  color: #2E1414;
+  color: #122008;
 }
 .full-story__section-title {
   text-align: center;
   font: normal normal 700 38px/45px "Barlow Condensed";
   letter-spacing: 0px;
   margin-bottom: 75px;
-  color: #27955B;
+  color: #0F7E3D;
 }
 .full-story__txt {
   margin-bottom: 30px;
@@ -7831,14 +7840,14 @@ input[type=checkbox]:focus {
   line-height: 2rem;
 }
 .full-story__txt a {
-  color: #27955B;
+  color: #0F7E3D;
   font-weight: 500;
 }
 .full-story__txt a:hover {
   text-decoration: underline;
 }
 .full-story__highlight {
-  background: #B9E9CD;
+  background: #E1F0E7;
   border-radius: 0.5rem;
   font-size: 1.25rem;
   font-weight: 700;
@@ -7846,7 +7855,7 @@ input[type=checkbox]:focus {
   margin-bottom: 30px;
 }
 .full-story__highlight a {
-  color: #27955B;
+  color: #0F7E3D;
   font-weight: 500;
 }
 .full-story__highlight a:hover {
@@ -7860,7 +7869,7 @@ input[type=checkbox]:focus {
 .full-story__bullets li::before {
   content: "•";
   /* Add content: \2022 is the CSS Code/unicode for a bullet */
-  color: #27955B;
+  color: #0F7E3D;
   /* Change the color */
   font-weight: bold;
   /* If you want it to be bold */
@@ -7870,6 +7879,13 @@ input[type=checkbox]:focus {
   /* Also needed for space (tweak if needed) */
   margin-left: -1em;
   /* Also needed for space (tweak if needed) */
+}
+.full-story__bullets a {
+  color: #0F7E3D;
+  font-weight: 500;
+}
+.full-story__bullets a:hover {
+  text-decoration: underline;
 }
 .full-story__general {
   position: relative;
@@ -7929,7 +7945,7 @@ input[type=checkbox]:focus {
   bottom: 0;
   left: 0;
   width: 100%;
-  background: #27955B;
+  background: #0F7E3D;
   color: #FFFFFF;
   padding: 12px 10px;
 }
@@ -7938,7 +7954,7 @@ input[type=checkbox]:focus {
   width: 50px;
   padding-top: 7px;
   text-align: center;
-  color: #27955B;
+  color: #0F7E3D;
   background: #FFFFFF;
   border-radius: 50%;
   margin-right: 20px;
@@ -7958,7 +7974,7 @@ input[type=checkbox]:focus {
   height: 80px;
   width: 80px;
   background: #FFFFFF;
-  border: 2px solid #27955B;
+  border: 2px solid #0F7E3D;
   border-radius: 50%;
   padding-top: 23px;
   padding-left: 20px;
@@ -7967,7 +7983,7 @@ input[type=checkbox]:focus {
   margin: 12px;
 }
 .full-story__general__content__slider__bar__btn:hover {
-  background: #27955B;
+  background: #0F7E3D;
 }
 .full-story__general__content__slider__bar__btn:hover .full-story__general__content__slider__bar__svg path {
   fill: #FFFFFF;
@@ -7995,7 +8011,7 @@ input[type=checkbox]:focus {
   width: 35px;
 }
 .full-story__general__content__slider__bar__svg path {
-  fill: #27955B;
+  fill: #0F7E3D;
 }
 .full-story__general__content__slider__bar__scroll {
   position: relative;
@@ -8010,7 +8026,7 @@ input[type=checkbox]:focus {
   top: -1px;
   height: 4px;
   border-radius: 2px;
-  background: #27955B;
+  background: #0F7E3D;
   width: 25%;
   -webkit-animation: left 0.2s;
           animation: left 0.2s;
@@ -8048,7 +8064,7 @@ input[type=checkbox]:focus {
   border-radius: 12px;
 }
 .full-story__general__content__info-section__txt h4 {
-  color: #27955B;
+  color: #0F7E3D;
   font: normal normal 700 25px/32px "Barlow Condensed";
   margin-bottom: 30px;
   text-align: left;
@@ -8065,7 +8081,7 @@ input[type=checkbox]:focus {
 .full-story__general__content__info-section__txt__highlight {
   font: normal normal 600 19px/24px "Barlow";
   text-align: center;
-  background: #B9E9CD;
+  background: #E1F0E7;
   padding: 20px 40px;
   border-radius: 12px;
   margin-bottom: 60px;
@@ -8073,7 +8089,7 @@ input[type=checkbox]:focus {
 
 .about {
   padding-top: 66px;
-  color: #2E1414;
+  color: #122008;
   line-height: 2rem;
 }
 .about__title {
@@ -8111,7 +8127,7 @@ input[type=checkbox]:focus {
   font: normal normal 700 38px/45px "Barlow Condensed";
   letter-spacing: 0px;
   margin-bottom: 75px;
-  color: #27955B;
+  color: #0F7E3D;
 }
 @media (min-width: 768px) and (max-width: 1080px) {
   .about__section-title {
@@ -8132,14 +8148,14 @@ input[type=checkbox]:focus {
   line-height: 2rem;
 }
 .about__txt a {
-  color: #27955B;
+  color: #0F7E3D;
   font-weight: 500;
 }
 .about__txt a:hover {
   text-decoration: underline;
 }
 .about__highlight {
-  background: #B9E9CD;
+  background: #E1F0E7;
   border-radius: 0.5rem;
   font-size: 1.25rem;
   font-weight: 700;
@@ -8147,7 +8163,7 @@ input[type=checkbox]:focus {
   margin-bottom: 45px;
 }
 .about__highlight a {
-  color: #27955B;
+  color: #0F7E3D;
   font-weight: 500;
 }
 .about__highlight a:hover {
@@ -8161,7 +8177,7 @@ input[type=checkbox]:focus {
 .about__bullets li::before {
   content: "•";
   /* Add content: \2022 is the CSS Code/unicode for a bullet */
-  color: #27955B;
+  color: #0F7E3D;
   /* Change the color */
   font-weight: bold;
   /* If you want it to be bold */
@@ -8242,7 +8258,7 @@ input[type=checkbox]:focus {
   bottom: 0;
   left: 0;
   width: 100%;
-  background: #27955B;
+  background: #0F7E3D;
   color: #FFFFFF;
   padding: 12px 10px;
 }
@@ -8251,7 +8267,7 @@ input[type=checkbox]:focus {
   width: 50px;
   padding-top: 7px;
   text-align: center;
-  color: #27955B;
+  color: #0F7E3D;
   background: #FFFFFF;
   border-radius: 50%;
   margin-right: 20px;
@@ -8283,7 +8299,7 @@ input[type=checkbox]:focus {
   height: 80px;
   width: 80px;
   background: #FFFFFF;
-  border: 2px solid #27955B;
+  border: 2px solid #0F7E3D;
   border-radius: 50%;
   padding-top: 23px;
   padding-left: 20px;
@@ -8293,20 +8309,20 @@ input[type=checkbox]:focus {
 }
 @media (min-width: 768px) and (max-width: 1080px) {
   .about__general__content__slider__bar__btn {
-    border: 2px solid #27955B;
+    border: 2px solid #0F7E3D;
     height: 80px;
     width: 80px;
   }
 }
 @media (max-width: 767px) {
   .about__general__content__slider__bar__btn {
-    border: 2px solid #27955B;
+    border: 2px solid #0F7E3D;
     height: 80px;
     width: 80px;
   }
 }
 .about__general__content__slider__bar__btn:hover {
-  background: #27955B;
+  background: #0F7E3D;
 }
 .about__general__content__slider__bar__btn:hover .about__general__content__slider__bar__svg path {
   fill: #FFFFFF;
@@ -8334,7 +8350,7 @@ input[type=checkbox]:focus {
   width: 35px;
 }
 .about__general__content__slider__bar__svg path {
-  fill: #27955B;
+  fill: #0F7E3D;
 }
 .about__general__content__slider__bar__scroll {
   position: relative;
@@ -8349,7 +8365,7 @@ input[type=checkbox]:focus {
   top: -1px;
   height: 4px;
   border-radius: 2px;
-  background: #27955B;
+  background: #0F7E3D;
   width: 25%;
   -webkit-animation: left 0.2s;
           animation: left 0.2s;
@@ -8431,7 +8447,7 @@ input[type=checkbox]:focus {
   }
 }
 .about__general__content__info-section__txt h4 {
-  color: #27955B;
+  color: #0F7E3D;
   font: normal normal 700 25px/32px "Barlow Condensed";
   margin-bottom: 30px;
   text-align: left;
@@ -8470,7 +8486,7 @@ input[type=checkbox]:focus {
 .about__general__content__info-section__txt__highlight {
   font: normal normal 600 19px/24px "Barlow";
   text-align: center;
-  background: #B9E9CD;
+  background: #E1F0E7;
   padding: 20px 40px;
   border-radius: 12px;
   margin-bottom: 60px;
@@ -8602,7 +8618,7 @@ input[type=checkbox]:focus {
   letter-spacing: 0px;
 }
 .partners__box__highlight {
-  background: #B9E9CD 0% 0% no-repeat padding-box;
+  background: #E1F0E7 0% 0% no-repeat padding-box;
   border-radius: 8px;
   padding: 18px 20px;
 }
@@ -8630,7 +8646,7 @@ input[type=checkbox]:focus {
   text-align: center;
   font: normal normal 600 44px/53px "Barlow Condensed";
   letter-spacing: 0px;
-  margin-bottom: 15px;
+  margin-bottom: 25px;
 }
 @media (max-width: 767px) {
   .all-news__title {
@@ -8639,6 +8655,29 @@ input[type=checkbox]:focus {
     padding-bottom: 20px;
     padding-top: 10px;
   }
+}
+.all-news__origin {
+  text-align: center;
+  font: normal normal 600 38px/45px "Barlow Condensed";
+  letter-spacing: 0px;
+  margin-bottom: 25px;
+  padding: 15px 20px;
+  border-radius: 8px;
+  color: white;
+}
+@media (max-width: 767px) {
+  .all-news__origin {
+    font: normal normal 700 28px/34px "Barlow Condensed";
+    margin-bottom: 20px;
+    padding-bottom: 20px;
+    padding-top: 10px;
+  }
+}
+.all-news__origin--village {
+  background: #0F7E3D;
+}
+.all-news__origin--couture {
+  background: #D41C1B;
 }
 .all-news__subtitle {
   text-align: center;
@@ -8661,14 +8700,14 @@ input[type=checkbox]:focus {
   }
 }
 .all-news__filter-tags__tag {
-  background: #B9E9CD;
+  background: #E1F0E7;
   padding: 7px 15px;
   border-radius: 15px;
   width: -webkit-fit-content;
   width: -moz-fit-content;
   width: fit-content;
   margin: 10px;
-  color: #27955B;
+  color: #0F7E3D;
   font: normal normal 500 14px/20px "Barlow Condensed";
   transition: all 0.3s;
   cursor: pointer;
@@ -8681,7 +8720,7 @@ input[type=checkbox]:focus {
   }
 }
 .all-news__filter-tags__tag:hover, .all-news__filter-tags__tag--active {
-  background: #27955B;
+  background: #0F7E3D;
   color: #FFFFFF;
 }
 .all-news__link {
@@ -8734,8 +8773,8 @@ input[type=checkbox]:focus {
   padding-right: 10px;
   margin-right: 5px;
   border-radius: 15px;
-  background: #B9E9CD;
-  color: #27955B;
+  background: #E1F0E7;
+  color: #0F7E3D;
   font: normal normal 500 14px/24px "Barlow Condensed";
   text-align: center;
   transition: all 0.2s;
@@ -8745,18 +8784,18 @@ input[type=checkbox]:focus {
   margin-bottom: 5px;
 }
 .all-news__link__tags__tag:hover {
-  background: #27955B;
+  background: #0F7E3D;
   color: #FFFFFF;
 }
 .all-news__link__title {
   font: normal normal 600 24px/34px "Barlow Condensed";
-  color: #27955B;
+  color: #0F7E3D;
   text-align: left;
   margin-bottom: 5px;
   transition: color 0.2s;
 }
 .all-news__link__title:hover {
-  color: #2E1414;
+  color: #122008;
 }
 .all-news__link__date {
   font: normal normal 500 12px/20px "Barlow";
@@ -8801,7 +8840,7 @@ input[type=checkbox]:focus {
   margin-bottom: 30px;
 }
 .single-news__txt a {
-  color: #27955B;
+  color: #0F7E3D;
 }
 .single-news__txt a:hover {
   text-decoration: underline;
@@ -8810,7 +8849,7 @@ input[type=checkbox]:focus {
   text-align: center;
   font: normal normal 700 20px/36px "Barlow";
   letter-spacing: 0px;
-  background: #B9E9CD 0% 0% no-repeat padding-box;
+  background: #E1F0E7 0% 0% no-repeat padding-box;
   border-radius: 8px;
   padding-top: 28px;
   padding-bottom: 28px;
@@ -8867,10 +8906,10 @@ input[type=checkbox]:focus {
   }
 }
 .single-news__prev-next__block:hover {
-  box-shadow: #B9E9CD 0 0 15px;
+  box-shadow: #E1F0E7 0 0 15px;
 }
 .single-news__prev-next__block:hover h3 {
-  color: #2E1414;
+  color: #122008;
 }
 .single-news__prev-next__block:hover .single-news__prev-next__block__chevron--left {
   padding-left: 0px;
@@ -8880,7 +8919,7 @@ input[type=checkbox]:focus {
 }
 .single-news__prev-next__block h3 {
   font: normal normal 700 24px/28px "Barlow Condensed";
-  color: #27955B;
+  color: #0F7E3D;
   transition: color 0.2s;
 }
 .single-news__prev-next__block__chevron {
@@ -8920,8 +8959,8 @@ input[type=checkbox]:focus {
 }
 .register__errors {
   border-radius: 20px;
-  background: #B9E9CD;
-  color: #27955B;
+  background: #E1F0E7;
+  color: #0F7E3D;
   font: normal normal 500 16px/28px "Barlow";
   padding: 20px 40px;
 }
@@ -8929,7 +8968,7 @@ input[type=checkbox]:focus {
   text-align: center;
   font: normal normal 700 44px/53px "Barlow Condensed";
   letter-spacing: 0px;
-  margin-bottom: 70px;
+  margin-bottom: 30px;
 }
 @media (max-width: 767px) {
   .register__title {
@@ -8962,7 +9001,7 @@ input[type=checkbox]:focus {
   transition: all 0.2s ease-in-out;
 }
 .register__lowtitle--btn:hover {
-  color: #27955B;
+  color: #0F7E3D;
 }
 .register__form__radio-group {
   height: 65px;
@@ -8976,7 +9015,7 @@ input[type=checkbox]:focus {
 .register__address {
   margin-top: 95px;
   margin-bottom: 30px;
-  background: #D0D0D033 0% 0% no-repeat padding-box;
+  background: rgba(208, 208, 208, 0.1) 0% 0% no-repeat padding-box;
   padding: 36px 135px;
 }
 @media (min-width: 1081px) and (max-width: 1249px) {
@@ -9005,7 +9044,7 @@ input[type=checkbox]:focus {
   }
 }
 .register__address__address-name {
-  background: #D41C1B 0% 0% no-repeat padding-box;
+  background: #0F7E3D 0% 0% no-repeat padding-box;
   border-radius: 8px;
   margin-bottom: 10px;
   padding: 15px 50px;
@@ -9113,7 +9152,7 @@ input[type=checkbox]:focus {
   letter-spacing: 0px;
 }
 .login__validate__question {
-  background: #B9E9CD 0% 0% no-repeat padding-box;
+  background: #E1F0E7 0% 0% no-repeat padding-box;
   border-radius: 8px;
   text-align: center;
   font: normal normal 500 16px/28px "Barlow";
@@ -9151,7 +9190,7 @@ input[type=checkbox]:focus {
 }
 .dashboard__nav {
   padding: 29px 0px 29px 100px;
-  background: #B9E9CD 0% 0% no-repeat padding-box;
+  background: #E1F0E7 0% 0% no-repeat padding-box;
   margin-right: 20px;
   width: 27vw;
   position: relative;
@@ -9191,7 +9230,7 @@ input[type=checkbox]:focus {
     width: 100%;
     display: block;
     padding: 10px 30px;
-    background: #27955B;
+    background: #0F7E3D;
     border-radius: 5px;
     text-align: center;
     color: white;
@@ -9204,7 +9243,7 @@ input[type=checkbox]:focus {
     margin-bottom: 15px;
   }
   .dashboard__nav__link-mobile:hover {
-    background: #2E1414;
+    background: #122008;
   }
 }
 @media (max-width: 767px) {
@@ -9212,7 +9251,7 @@ input[type=checkbox]:focus {
     width: 100%;
     display: block;
     padding: 10px 30px;
-    background: #27955B;
+    background: #0F7E3D;
     border-radius: 5px;
     text-align: center;
     color: white;
@@ -9225,7 +9264,7 @@ input[type=checkbox]:focus {
     margin-bottom: 15px;
   }
   .dashboard__nav__link-mobile:hover {
-    background: #2E1414;
+    background: #122008;
   }
 }
 .dashboard__nav__link {
@@ -9237,13 +9276,13 @@ input[type=checkbox]:focus {
   cursor: pointer;
 }
 .dashboard__nav__link--active {
-  color: #27955B;
+  color: #0F7E3D;
 }
 .dashboard__nav__link--active::after {
   width: 100%;
 }
 .dashboard__nav__link:hover {
-  color: #27955B;
+  color: #0F7E3D;
 }
 .dashboard__nav__logout button {
   display: inline-block;
@@ -9266,7 +9305,7 @@ input[type=checkbox]:focus {
 .dashboard__content__box {
   margin-right: 20px;
   padding: 18px 40px;
-  background: #D0D0D033 0% 0% no-repeat padding-box;
+  background: rgba(208, 208, 208, 0.1) 0% 0% no-repeat padding-box;
   border-radius: 8px;
   min-height: 215px;
   margin-bottom: 60px;
@@ -9480,7 +9519,7 @@ input[type=checkbox]:focus {
   position: absolute;
   top: 7px;
   right: 5vw;
-  color: #27955B;
+  color: #0F7E3D;
   width: -webkit-fit-content;
   width: -moz-fit-content;
   width: fit-content;
@@ -9489,7 +9528,7 @@ input[type=checkbox]:focus {
   font-weight: 500;
   padding: 0.6rem 1rem;
   cursor: pointer;
-  background-color: #B9E9CD;
+  background-color: #E1F0E7;
   font-family: "Barlow Condensed";
   border-radius: 5px;
   transition: all 0.2s ease-in-out;
@@ -9512,7 +9551,7 @@ input[type=checkbox]:focus {
 }
 .dashboard-addresses__new-address-btn:hover {
   color: white;
-  background-color: #27955B;
+  background-color: #0F7E3D;
 }
 .dashboard-addresses__new-address-btn:hover .header__main-nav__btn--logo-1 {
   transform: rotate(90deg);
@@ -9547,7 +9586,7 @@ input[type=checkbox]:focus {
 .dashboard-addresses__address__name {
   text-transform: uppercase;
   color: #FFFFFF;
-  background: #27955B;
+  background: #0F7E3D;
   padding: 5px 10px;
   width: -webkit-fit-content;
   width: -moz-fit-content;
@@ -9813,7 +9852,7 @@ input[type=checkbox]:focus {
   }
 }
 .dashboard-delete textarea:focus {
-  border-color: #27955B;
+  border-color: #0F7E3D;
   outline: none;
   box-shadow: none;
 }
@@ -9914,7 +9953,7 @@ input[type=checkbox]:focus {
   outline: none;
   box-shadow: none;
   border: none;
-  border-bottom: solid 1px #27955B;
+  border-bottom: solid 1px #0F7E3D;
 }
 .dashboard-vouchers__form__input input[type=text]::-moz-placeholder {
   color: lightgrey;
@@ -9962,7 +10001,7 @@ input[type=checkbox]:focus {
   text-align: left;
   font: normal normal 700 16px/36px "Barlow";
   letter-spacing: 0px;
-  color: #27955B;
+  color: #0F7E3D;
 }
 .dashboard-vouchers__voucher__delete {
   position: absolute;
@@ -9971,7 +10010,7 @@ input[type=checkbox]:focus {
   transition: color 0.2s;
 }
 .dashboard-vouchers__voucher__delete:hover {
-  color: #27955B;
+  color: #0F7E3D;
 }
 
 .dashboard-orders {
@@ -10061,7 +10100,7 @@ input[type=checkbox]:focus {
   transition: color 0.2s;
 }
 .dashboard-orders__details__summary__backlink:hover {
-  color: #2E1414;
+  color: #122008;
 }
 @media (min-width: 768px) and (max-width: 1080px) {
   .dashboard-orders__details__summary button, .dashboard-orders__details__summary a {
@@ -10144,7 +10183,7 @@ input[type=checkbox]:focus {
   width: 75%;
 }
 .dashboard-orders__details__articles__article__desc h5 {
-  color: #27955B;
+  color: #0F7E3D;
   font: normal normal 700 26px/30px "Barlow Condensed";
   margin-bottom: 15px;
 }
@@ -10164,7 +10203,7 @@ input[type=checkbox]:focus {
   width: fit-content;
   text-transform: uppercase;
   color: #FFFFFF;
-  background: #27955B;
+  background: #0F7E3D;
   padding: 4px 22px;
   border-radius: 30px;
   text-align: center;
@@ -10349,7 +10388,7 @@ input[type=checkbox]:focus {
   transition: color 0.2s;
 }
 .article-check__img-container button:hover {
-  color: #27955B;
+  color: #0F7E3D;
 }
 .article-check__form {
   padding-bottom: 30px;
@@ -10773,11 +10812,11 @@ input[type=checkbox]:focus {
 }
 
 .dark .filament-login-page {
-  background-image: radial-gradient(circle at top, #27955B, #1f2937, #111827 100%) !important;
+  background-image: radial-gradient(circle at top, #0F7E3D, #1f2937, #111827 100%) !important;
 }
 
 .bg-primary-500 {
-  background: #27955B !important;
+  background: #0F7E3D !important;
 }
 
 .filament-logo {
@@ -10787,7 +10826,7 @@ input[type=checkbox]:focus {
 .filament-logo__title {
   font-size: 1.5rem;
   font-weight: 700;
-  color: #27955B;
+  color: #0F7E3D;
   padding: 20px;
 }
 
@@ -10936,11 +10975,11 @@ input[type=checkbox]:focus {
 }
 .central_textbox h1 {
   text-transform: uppercase;
-  color: #27955B;
+  color: #0F7E3D;
   text-align: center;
   margin-top: 50px;
   margin-bottom: 5px;
-  color: #27955B;
+  color: #0F7E3D;
   text-align: center;
   font: normal normal 400 72px/86px "Barlow Semi Condensed";
   letter-spacing: 0px;
@@ -11044,7 +11083,7 @@ input[type=checkbox]:focus {
 
 .contact_form {
   padding: 10px;
-  background: #27955B;
+  background: #0F7E3D;
   border-radius: 10px;
 }
 
@@ -11096,7 +11135,7 @@ input[type=checkbox]:focus {
   border: none;
   height: 40px;
   background: white;
-  color: #27955B;
+  color: #0F7E3D;
   padding: 5px 30px;
   font-size: 1rem;
   border-radius: 5px;
@@ -11104,7 +11143,7 @@ input[type=checkbox]:focus {
   margin-left: 10px;
 }
 .contact-form-container input[type=submit]:hover {
-  background: #27955B;
+  background: #0F7E3D;
   color: white;
 }
 .contact-form-container ::-moz-placeholder {
@@ -11151,7 +11190,7 @@ input[type=checkbox]:focus {
 }
 
 .landing-footer {
-  background: #27955B;
+  background: #0F7E3D;
   height: 233px;
   position: relative;
 }
@@ -11211,7 +11250,7 @@ input[type=checkbox]:focus {
 }
 .landing-footer__links__header {
   width: 350px;
-  background: #27955B;
+  background: #0F7E3D;
   color: white;
   padding: 5px 25px 5px 25px;
   text-align: center;
@@ -11260,12 +11299,12 @@ input[type=checkbox]:focus {
   font-family: "Barlow Condensed";
   text-align: center;
   border-radius: 10px;
-  color: #27955B;
+  color: #0F7E3D;
   transition: all 0.2s;
 }
 .landing-footer__links__icon:hover {
   color: #FFFFFF;
-  background: #27955B;
+  background: #0F7E3D;
 }
 @media (min-width: 768px) and (max-width: 1080px) {
   .landing-footer__links__icon {
@@ -11302,7 +11341,7 @@ input[type=checkbox]:focus {
 .landing-header {
   width: 100%;
   height: 704px;
-  background: #27955B 0% 0% no-repeat padding-box;
+  background: #0F7E3D 0% 0% no-repeat padding-box;
   position: relative;
 }
 @media (min-width: 768px) and (max-width: 1080px) {
@@ -11486,7 +11525,7 @@ input[type=checkbox]:focus {
 }
 
 .pattern_bg {
-  background: transparent url("/landing/pictures/pattern_solo_benu_couture_OK.svg") 0% 0% repeat padding-box;
+  background: transparent url("/landing/pictures/pattern_solo_benu_village_OK.svg") 0% 0% repeat padding-box;
   background-size: 150px;
   z-index: -1;
   background-attachment: fixed;
@@ -11679,7 +11718,7 @@ input[type=checkbox]:focus {
   text-align: left;
   font: normal normal 600 calc(18px + 1.2vw)/50px "Barlow Condensed";
   letter-spacing: 0px;
-  color: #27955B;
+  color: #0F7E3D;
   padding-top: 30px;
 }
 @media (min-width: 1081px) and (max-width: 1249px) {
@@ -11772,10 +11811,10 @@ input[type=checkbox]:focus {
   }
 }
 .cart-content__article__name__checkbox__svg-active path {
-  fill: #27955B;
+  fill: #0F7E3D;
 }
 .cart-content__article__size {
-  background: #27955B;
+  background: #0F7E3D;
   border-radius: 8px;
   padding: 3px 4px;
   width: 80px;
@@ -11862,9 +11901,9 @@ input[type=checkbox]:focus {
     margin-top: 20px;
     font: normal normal 500 16px/28px "Barlow Condensed";
     padding-top: 12px;
-    border-top: solid 1px #27955B;
+    border-top: solid 1px #0F7E3D;
     padding-bottom: 12px;
-    border-bottom: solid 1px #27955B;
+    border-bottom: solid 1px #0F7E3D;
   }
 }
 @media (max-width: 767px) {
@@ -11883,14 +11922,14 @@ input[type=checkbox]:focus {
   height: 32px;
   border-radius: 6px;
   text-align: center;
-  border: solid 2px #27955B;
+  border: solid 2px #0F7E3D;
   padding-top: 0px;
-  color: #27955B;
+  color: #0F7E3D;
   transition: all 0.2s;
   cursor: pointer;
 }
 .cart-content__article__number__counter:hover {
-  background: #27955B;
+  background: #0F7E3D;
   color: #FFFFFF;
 }
 .cart-content__article__price {
@@ -11930,7 +11969,7 @@ input[type=checkbox]:focus {
   right: 68px;
   top: 0px;
   font-size: 1.6rem;
-  color: #27955B;
+  color: #0F7E3D;
 }
 @media (min-width: 768px) and (max-width: 1080px) {
   .cart-content__article__icons__heart {
@@ -12082,7 +12121,7 @@ input[type=checkbox]:focus {
 .cart-summary__use-voucher input[type=checkbox] {
   margin-top: 5px;
   margin-right: 10px;
-  border-color: #27955B;
+  border-color: #0F7E3D;
   border-radius: 4px;
 }
 .cart-summary__use-voucher input[type=text] {
@@ -12093,7 +12132,7 @@ input[type=checkbox]:focus {
 .cart-summary__use-voucher input[type=text]:focus {
   outline: none;
   box-shadow: none;
-  border-color: #27955B;
+  border-color: #0F7E3D;
 }
 .cart-summary__payment-options {
   margin-top: 25px;
@@ -12114,7 +12153,7 @@ input[type=checkbox]:focus {
 .cart-summary__validate-conditions input[type=checkbox] {
   margin-top: 5px;
   margin-right: 10px;
-  border-color: #27955B;
+  border-color: #0F7E3D;
   border-radius: 4px;
 }
 
@@ -12161,7 +12200,7 @@ input[type=checkbox]:focus {
 
 .cart-info-box {
   padding: 30px 15px;
-  background: #27955B;
+  background: #0F7E3D;
   border-radius: 10px;
   margin-top: 60px;
 }
@@ -12186,7 +12225,7 @@ input[type=checkbox]:focus {
   letter-spacing: 0px;
 }
 .cart-info-box__block a {
-  color: #27955B;
+  color: #0F7E3D;
   font: normal normal 700 16px/20px "Barlow";
   letter-spacing: 0px;
 }
@@ -12244,8 +12283,8 @@ input[type=checkbox]:focus {
   text-transform: uppercase;
   padding: 4px 12px;
   border-radius: 8px;
-  color: #27955B;
-  background: #B9E9CD;
+  color: #0F7E3D;
+  background: #E1F0E7;
   text-align: center;
   font: normal normal 600 20px/28px "Barlow Condensed";
   letter-spacing: 0px;
@@ -12273,7 +12312,7 @@ input[type=checkbox]:focus {
 }
 .cart-gift-modal__section-btn:hover, .cart-gift-modal__section-btn--active {
   color: #FFFFFF;
-  background: #27955B;
+  background: #0F7E3D;
 }
 .cart-gift-modal__wrapping {
   min-height: 270px;
@@ -12289,7 +12328,7 @@ input[type=checkbox]:focus {
   margin-right: 10px;
 }
 .cart-gift-modal__wrapping__input label {
-  color: #27955B;
+  color: #0F7E3D;
   text-align: left;
   font: normal normal 500 16px/28px "Barlow";
   letter-spacing: 0px;
@@ -12343,7 +12382,7 @@ input[type=checkbox]:focus {
   padding-bottom: 20px;
 }
 .cart-gift-modal__card h5 {
-  color: #27955B;
+  color: #0F7E3D;
   text-align: center;
   font: normal normal 500 16px/28px "Barlow";
   letter-spacing: 0px;
@@ -12405,7 +12444,7 @@ input[type=checkbox]:focus {
   font: normal normal 500 16px/28px "Barlow";
 }
 .cart-gift-modal__card__type--active {
-  border-color: #27955B;
+  border-color: #0F7E3D;
   box-shadow: lightgrey 4px 4px 10px;
   border-width: 2px;
 }
@@ -12414,7 +12453,7 @@ input[type=checkbox]:focus {
   padding-bottom: 20px;
 }
 .cart-gift-modal__message h5 {
-  color: #27955B;
+  color: #0F7E3D;
   text-align: center;
   font: normal normal 500 16px/28px "Barlow";
   letter-spacing: 0px;
@@ -12449,11 +12488,11 @@ input[type=checkbox]:focus {
   border-radius: 30px;
   cursor: pointer;
   transition: all 0.5s;
-  background: #D9D9D9;
+  background: #D0D0D0;
 }
 .cart-gift-modal__close-container:hover {
   width: 85px;
-  background: #2E1414;
+  background: #122008;
 }
 .cart-gift-modal__close {
   text-align: right;
@@ -12522,7 +12561,7 @@ input[type=checkbox]:focus {
 }
 .payment-tunnel__block__title--current {
   color: #FFFFFF;
-  background: #27955B;
+  background: #0F7E3D;
 }
 .payment-tunnel__block__title--finished {
   background: #2E1414;
@@ -12827,7 +12866,7 @@ input[type=checkbox]:focus {
   font: normal normal 600 20px/28px "Barlow Condensed";
   letter-spacing: 0px;
   color: #FFFFFF;
-  background: #27955B;
+  background: #0F7E3D;
   border-radius: 8px;
   padding: 4px 10px;
   width: -webkit-fit-content;
@@ -12948,7 +12987,7 @@ input[type=checkbox]:focus {
 }
 .payment-tunnel__delivery label {
   z-index: 1;
-  color: #2E1414;
+  color: #122008;
   bottom: 30px;
   left: 0;
   transform: scale(0.8);
@@ -12995,7 +13034,7 @@ input[type=checkbox]:focus {
 }
 .payment-tunnel__in-shop__form__explanation {
   margin-bottom: 20px;
-  border-bottom: solid 1px #27955B;
+  border-bottom: solid 1px #0F7E3D;
   padding-bottom: 6px;
   font-size: 1.1rem;
 }
@@ -13075,12 +13114,12 @@ input[type=checkbox]:focus {
   }
 }
 .payment-summary__cart-content__article__name {
-  color: #27955B;
+  color: #0F7E3D;
   font: normal normal 600 26px/28px "Barlow Condensed";
   margin-bottom: 7px;
 }
 .payment-summary__cart-content__article__size {
-  background: #27955B;
+  background: #0F7E3D;
   padding: 1px 10px;
   width: -webkit-fit-content;
   width: -moz-fit-content;
@@ -13106,7 +13145,7 @@ input[type=checkbox]:focus {
 }
 
 .payment-process__form {
-  border: solid 2px #D41C1B;
+  border: solid 2px #0F7E3D;
   border-radius: 8px;
   width: 70%;
   margin: auto;
@@ -13136,7 +13175,7 @@ input[type=checkbox]:focus {
 .payment-process__form input[type=text]:focus {
   outline: none;
   box-shadow: none;
-  border-color: #27955B;
+  border-color: #0F7E3D;
 }
 
 .payment-confirmation {
@@ -13184,7 +13223,7 @@ input[type=checkbox]:focus {
   text-align: center;
   font: normal normal 700 28px/34px "Barlow Condensed";
   letter-spacing: 0.28px;
-  color: #27955B;
+  color: #0F7E3D;
   margin-bottom: 35px;
 }
 .payment-confirmation__order-infos {
@@ -13274,7 +13313,7 @@ input[type=checkbox]:focus {
 
 .participate {
   padding-top: 66px;
-  border-bottom: solid 1px #D9D9D9;
+  border-bottom: solid 1px #D0D0D0;
 }
 .participate__title {
   text-align: center;
@@ -13347,7 +13386,7 @@ input[type=checkbox]:focus {
   transform: rotate(90deg);
 }
 .participate__nav__arrow--left svg path {
-  fill: #27955B;
+  fill: #0F7E3D;
 }
 .participate__nav__arrow--right {
   right: 8px;
@@ -13358,7 +13397,7 @@ input[type=checkbox]:focus {
   transform: rotate(-90deg);
 }
 .participate__nav__arrow--right svg path {
-  fill: #27955B;
+  fill: #0F7E3D;
 }
 .participate__nav__link {
   display: block;
@@ -13368,7 +13407,7 @@ input[type=checkbox]:focus {
   cursor: pointer;
   font: normal normal 600 18px/22px "Barlow Condensed";
   letter-spacing: 0.36px;
-  color: #2E1414;
+  color: #122008;
   text-transform: uppercase;
   margin-bottom: -1px;
   padding-left: 10px;
@@ -13403,12 +13442,12 @@ input[type=checkbox]:focus {
   }
 }
 .participate__nav__link--active {
-  color: #27955B;
-  border-bottom: solid 2px #27955B;
+  color: #0F7E3D;
+  border-bottom: solid 2px #0F7E3D;
 }
 .participate__nav__link:hover {
-  color: #27955B;
-  border-bottom: solid 2px #27955B;
+  color: #0F7E3D;
+  border-bottom: solid 2px #0F7E3D;
 }
 
 .participate-section-container {
@@ -13438,7 +13477,7 @@ input[type=checkbox]:focus {
 .participate-badges__badge {
   margin: 20px 0px;
   text-align: center;
-  background: #B9E9CD;
+  background: #E1F0E7;
   padding: 30px;
   border-radius: 8px;
 }
@@ -13501,7 +13540,7 @@ input[type=checkbox]:focus {
   text-align: center;
 }
 .participate-give__collect-box__details {
-  background: #B9E9CD 0% 0% no-repeat padding-box;
+  background: #E1F0E7 0% 0% no-repeat padding-box;
   border-radius: 8px;
   padding: 18px 20px;
   font: normal normal 500 15px/22px "Barlow";
@@ -13511,11 +13550,11 @@ input[type=checkbox]:focus {
   text-align: left;
   font: normal normal 600 15px/22px "Barlow";
   letter-spacing: 0.16px;
-  color: #27955B;
+  color: #0F7E3D;
   transition: all 0.3s;
 }
 .participate-give__collect-box__details a:hover {
-  color: #2E1414;
+  color: #122008;
 }
 
 .participate-partnership__title {
@@ -13544,7 +13583,7 @@ input[type=checkbox]:focus {
   text-align: center;
   font: normal normal 600 20px/36px Barlow;
   letter-spacing: 0px;
-  background: #B9E9CD 0% 0% no-repeat padding-box;
+  background: #E1F0E7 0% 0% no-repeat padding-box;
   border-radius: 8px;
   padding-top: 28px;
   padding-bottom: 28px;
@@ -13664,7 +13703,7 @@ input[type=checkbox]:focus {
   right: -16px;
   font: normal normal 700 40px/30px "Barlow";
   color: white;
-  background: #27955B;
+  background: #0F7E3D;
   width: 75px;
   height: 75px;
   padding-top: 22px;
@@ -13680,7 +13719,7 @@ input[type=checkbox]:focus {
   position: absolute;
   left: 0;
   bottom: -50px;
-  background: #27955B;
+  background: #0F7E3D;
   width: 100%;
   color: #FFFFFF;
   text-align: left;
@@ -13829,7 +13868,7 @@ input[type=checkbox]:focus {
   text-align: left;
   font: normal normal 700 28px/28px "Barlow Condensed";
   letter-spacing: 0px;
-  color: #27955B;
+  color: #0F7E3D;
   padding-top: 10px;
   margin-bottom: 10px;
 }
@@ -13888,7 +13927,7 @@ input[type=checkbox]:focus {
 }
 .single-campaign__header a:hover {
   text-decoration: none;
-  color: #B9E9CD;
+  color: #E1F0E7;
 }
 .single-campaign__header__opacifier {
   position: absolute;
@@ -13896,7 +13935,7 @@ input[type=checkbox]:focus {
   left: 0;
   width: 100%;
   height: 100%;
-  background: #2E1414;
+  background: #122008;
   opacity: 0;
   z-index: 1;
 }
@@ -14167,7 +14206,7 @@ input[type=checkbox]:focus {
   left: 0;
   width: 100%;
   height: 100%;
-  background: #2E1414;
+  background: #122008;
   opacity: 0;
   z-index: -1;
 }
@@ -14288,7 +14327,7 @@ input[type=checkbox]:focus {
   }
 }
 .single-campaign__section-2__txt h4 {
-  color: #27955B;
+  color: #0F7E3D;
   font: normal normal 700 52px/56px "Barlow";
   margin-bottom: 40px;
 }
@@ -14387,7 +14426,7 @@ input[type=checkbox]:focus {
   left: 0;
   width: 100%;
   height: 100%;
-  background: #2E1414;
+  background: #122008;
   opacity: 0;
   z-index: 1;
 }
@@ -14434,11 +14473,11 @@ input[type=checkbox]:focus {
   }
 }
 .single-campaign__section-3__txt__link {
-  color: #27955B;
+  color: #0F7E3D;
   transition: color 0.2s;
 }
 .single-campaign__section-3__txt__link:hover {
-  color: #2E1414;
+  color: #122008;
 }
 .single-campaign__section-3bis {
   padding-bottom: 50px;
@@ -14570,7 +14609,7 @@ input[type=checkbox]:focus {
 }
 .single-campaign__section-4__quote {
   font: normal normal 700 56px/56px "Barlow";
-  color: #27955B;
+  color: #0F7E3D;
   text-align: center;
   margin-bottom: 40px;
   overflow-wrap: break-word;
@@ -14586,12 +14625,12 @@ input[type=checkbox]:focus {
   }
 }
 .single-campaign__section-4__quote--highlight {
-  color: #2E1414;
+  color: #122008;
 }
 .single-campaign__section-4__separator {
   width: 2px;
   height: 60px;
-  background: #27955B;
+  background: #0F7E3D;
   margin: auto;
   margin-bottom: 40px;
 }
@@ -14608,7 +14647,7 @@ input[type=checkbox]:focus {
 .single-campaign__section-4__quote-2 {
   background: #f0f0f0;
   text-align: center;
-  color: #27955B;
+  color: #0F7E3D;
   padding: 40px 0px;
 }
 .single-campaign__section-4__quote-2__symbols {
@@ -14701,7 +14740,7 @@ input[type=checkbox]:focus {
 .media-links__card__language {
   width: 50px;
   margin: auto;
-  background: #27955B;
+  background: #0F7E3D;
   border-radius: 12px;
   text-transform: uppercase;
   color: #FFFFFF;
@@ -14712,7 +14751,7 @@ input[type=checkbox]:focus {
 }
 .media-links__accordion__header {
   margin-bottom: 30px;
-  background: #27955B 0% 0% no-repeat padding-box;
+  background: #0F7E3D 0% 0% no-repeat padding-box;
   border-radius: 8px;
   color: #FFFFFF;
   padding: 34px 50px 34px 50px;
@@ -14730,7 +14769,7 @@ input[type=checkbox]:focus {
   }
 }
 .media-links__accordion__header:hover {
-  background: #2E1414;
+  background: #122008;
 }
 .media-links__accordion__header__title {
   margin-right: 15px;
@@ -14779,7 +14818,7 @@ input[type=checkbox]:focus {
   }
 }
 .media-links__accordion__answer li {
-  border-bottom: 1px solid #D9D9D9;
+  border-bottom: 1px solid #D0D0D0;
 }
 .media-links__accordion__answer__txt {
   text-align: left;
@@ -14821,8 +14860,8 @@ input[type=checkbox]:focus {
   }
 }
 .media-links__accordion__answer__header--active {
-  border-bottom: 2px solid #27955B;
-  color: #27955B;
+  border-bottom: 2px solid #0F7E3D;
+  color: #0F7E3D;
 }
 .media-links__accordion__answer__header__plus {
   font-size: 2.2rem;

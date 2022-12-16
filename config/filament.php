@@ -75,7 +75,7 @@ return [
     |
     */
 
-    'brand' => 'BENU COUTURE',//env('APP_NAME', 'BENU'),
+    'brand' => 'BENU VILLAGE',//env('APP_NAME', 'BENU'),
 
     /*
     |--------------------------------------------------------------------------
@@ -212,7 +212,7 @@ return [
     |
     */
 
-    'favicon' => 'https://couture.benu.lu/images/favicon/apple-icon-60x60.png',
+    'favicon' => 'https://stage.benu.lu/media/favicon/apple-icon-60x60.png',
 
     /*
     |--------------------------------------------------------------------------

@@ -8,7 +8,8 @@
 	}
 	@include mobile {
 		margin-top: 1px;
-		height: 60px;
+		height: fit-content;
+		min-height: 60px;
 	}
 	&__content {
 		padding-top: 26px;
@@ -21,9 +22,13 @@
 		@include mobile {
 			font: normal normal 500 14px/17px 'Barlow';
 			padding-top: 20px;
+			padding-bottom: 15px;
 		}
 		a {
 			transition: $transition-base;
+			@include mobile {
+				padding-bottom: 6px;
+			}
 			&:hover {
 				text-decoration: underline;
 			}

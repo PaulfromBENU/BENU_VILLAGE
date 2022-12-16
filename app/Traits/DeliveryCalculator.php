@@ -7,6 +7,7 @@ use App\Models\DeliveryCountry;
 use App\Models\Cart;
 
 trait DeliveryCalculator {
+	protected $pillow_weight = 800;
 
 	protected $fare_table = [
 		'1' => [
@@ -168,6 +169,9 @@ trait DeliveryCalculator {
 				$total_weight += 0;
 			} else {
 				$total_weight += $variation->creation->weight / 1000 * $variation->pivot->articles_number;
+				if ($variation->pivot->with_extra_article) {
+					$total_weight +=  $this->pillow_weight / 1000 * $variation->pivot->articles_number;
+				}
 			}
 		}
 

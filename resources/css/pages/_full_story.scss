@@ -76,6 +76,13 @@
 			width: 1em; /* Also needed for space (tweak if needed) */
 			margin-left: -1em; /* Also needed for space (tweak if needed) */
 		}
+		a {
+			color: $primary-color;
+			font-weight: 500;
+			&:hover {
+				text-decoration: underline;
+			}
+		}
 	}
 	&__general {
 		position: relative;

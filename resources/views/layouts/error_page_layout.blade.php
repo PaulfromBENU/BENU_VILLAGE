@@ -30,7 +30,7 @@
 	        </div>
 	        <a class="header__logo-container" href="{{ route('home', [app()->getLocale()]) }}">
 	            <!-- <img src="{{ asset('media/svg/logo_benu_couture.svg') }}" class="header__logo header__logo--desktop"> -->
-	            @svg('logo_benu_couture', 'header__logo header__logo--desktop')
+	            @svg('logo_benu_village', 'header__logo header__logo--desktop')
 	            <img src="{{ asset('media/svg/benu-icon-menu-scroll.svg') }}" class="header__logo header__logo--scroll">
 	            <img src="{{ asset('media/svg/benu-icon-menu-scroll.svg') }}" class="header__logo header__logo--mobile">
 	        </a>
@@ -38,7 +38,7 @@
 	            <div class="flex justify-between header__top-menu tablet-hidden">
 	                <nav class="header__top-nav flex justify-start">
 	                    <div>
-	                        <a href="{{ route('home', [app()->getLocale()]) }}" class="header__home-title">BENU COUTURE</a>
+	                        <a href="{{ route('home', [app()->getLocale()]) }}" class="header__home-title">BENU VILLAGE</a>
 	                    </div>
 	                    <ul class="flex justify-start header__top-nav__links tablet-hidden">
 	                        <li>
@@ -70,13 +70,6 @@
 	                                {{ __('header.participate') }}
 	                            </a>
 	                        </li>
-	                        <li>|</li>
-	                        <li>
-	                            <!-- <a href="{{ route('vouchers-'.app()->getLocale()) }}">{{ __('header.vouchers') }}</a> -->
-	                            <a href="{{ route('vouchers-'.app()->getLocale()) }}" @if(Route::currentRouteName() == 'vouchers-'.app()->getLocale()) class="header__top-nav__links__link header__top-nav__links__link--active" @else class="header__top-nav__links__link" @endif>
-	                                {{ __('header.vouchers') }}
-	                            </a>
-	                        </li>
 	                    </ul>
 	                </nav>
 	                <div class="header__newsletter-btn">
@@ -102,7 +95,7 @@
 	                    <div>
 	                        
 	                    </div>
-	                    <a href="{{ route('news-'.app()->getLocale()) }}" class="header__main-nav__link @if(Route::currentRouteName() == 'news-'.app()->getLocale()) header__main-nav__link--active @endif" style="margin-left: 0;">
+	                    <a href="{{ route('news-all-'.app()->getLocale()) }}" class="header__main-nav__link @if(Route::currentRouteName() == 'news-all-'.app()->getLocale()) header__main-nav__link--active @endif" style="margin-left: 0;">
 	                        {{ __('header.news') }}
 	                    </a>
 
@@ -114,7 +107,7 @@
 	                </nav>
 	                <nav class="mobile-only">
 	                    <div>
-	                        <a href="{{ route('home', [app()->getLocale()]) }}" class="header__home-title">BENU COUTURE</a>
+	                        <a href="{{ route('home', [app()->getLocale()]) }}" class="header__home-title">BENU VILLAGE</a>
 	                    </div>
 	                </nav>
 	                <ul class="header__main-menu__icons flex justify-end">
@@ -143,9 +136,6 @@
 	                            @svg('benu-icon-mail-contact')
 	                        </a>
 	                        @endif
-	                    </li>
-	                    <li class="tablet-hidden">
-	                        @livewire('components.cart-header-icon')
 	                    </li>
 	                    <li class="header__main-menu__icons__lang-container">
 	                        <button class="header__main-menu__icons__lang-btn" id="lang-selector">
@@ -181,15 +171,8 @@
 	                <div class="creations-navbar__nav__toggle flex" id="nav-toggle-home">
 	                    {{ __('header.house') }} @svg('chevron-down')
 	                </div>
-	                <!-- <a href="{{ route('model-'.app()->getLocale(), ['family' => 'home']) }}" class="creations-navbar__nav__toggle-link">
-	                    {{ __('header.house') }}
-	                </a> -->
-	                <a href="{{ route('vouchers-'.app()->getLocale()) }}" class="creations-navbar__nav__toggle-link">
-	                    {{ __('header.vouchers') }}
-	                </a>
 	            </nav>
 	        </div>
-	        @livewire('header.creations-menu')
 	    </div>
 	</header>
 
