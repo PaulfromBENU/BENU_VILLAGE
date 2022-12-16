@@ -29,11 +29,11 @@
                         </a>
                     </li>
                     @endif
-                    <li>
+                    <!-- <li>
                         <a wire:click="changeSection('orders')" class="btn-slider-left dashboard__nav__link @if($section == 'orders') dashboard__nav__link--active @endif">
                             {{ __('dashboard.nav-orders') }}
                         </a>
-                    </li>
+                    </li> -->
                     <li>
                         <a wire:click="changeSection('communications')" class="btn-slider-left dashboard__nav__link @if($section == 'communications') dashboard__nav__link--active @endif">
                             {{ __('dashboard.nav-demands') }} @if($counter > 0) ({{ $counter }}) @endif
@@ -91,10 +91,6 @@
             @switch($section)
                 @case('overview')
                     @include('includes.dashboard.overview')
-                    @break
-
-                @case('orders')
-                    @livewire('dashboard.orders')
                     @break
 
                 @case('communications')

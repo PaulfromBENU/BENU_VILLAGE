@@ -72,11 +72,6 @@ if (app('env') == 'landing') {
 			'prefix' => $locale,
 			'middleware' => 'setlocale'], function() use($locale) {
 
-			// Models Pages
-			// Route::get('/'.trans("slugs.models", [], "lu").'/{name?}', 'ModelController@show')->name('model-lu')->middleware('createcart');
-			// Route::get('/'.trans("slugs.models", [], "lu").'/{name}/'.trans("slugs.sold", [], "lu"), 'ModelController@soldItems')->name('sold-lu');
-			// Route::get('/'.trans("slugs.vouchers", [], "lu"), 'GeneralController@showVouchers')->name('vouchers-lu')->middleware('createcart');
-
 			// Client Support
 			Route::get('/'.trans("slugs.client-support", [], $locale).'/{page?}', 'ContactController@showAll')->name('client-service-'.$locale);
 
@@ -97,16 +92,6 @@ if (app('env') == 'landing') {
 			// Landing page
 			Route::get('/test-landing-'.$locale, 'GeneralController@landingLu')->name('landing-'.$locale);
 
-			// Cart and Payment Pages
-			// Route::get('/'.trans("slugs.cart", [], "lu"), 'SaleController@showCart')->name('cart-lu')->middleware('createcart');
-
-			// Route::get('/'.trans("slugs.payment", [], "lu"), 'SaleController@showPayment')->name('payment-lu');
-			// Route::get('/'.trans("slugs.process-payment", [], "lu").'/{order}', 'SaleController@cardPayment')->name('payment-request-lu');
-			// Route::get('/'.trans("slugs.process-paypal-payment", [], "lu").'/{order}', 'SaleController@paypalPayment')->name('payment-request-paypal-lu');
-			// Route::post('/'.trans("slugs.payment-by-card", [], "lu"), 'SaleController@payByCard')->name('payment-process-lu');
-			// Route::get('/'.trans("slugs.payment-validation", [], "lu").'/{order}', 'SaleController@validatePayment')->name('payment-validate-lu');
-			// Route::get('/'.trans("slugs.processed-payment", [], "lu").'/{order}', 'SaleController@showValidPayment')->name('payment-processed-lu');
-
 			// Newsletter Pages
 			Route::get('/'.trans("slugs.newsletter-subscribe", [], $locale), 'GeneralController@showNewsletter')->name('newsletter-'.$locale);
 			Route::get('/'.trans("slugs.newsletter-unsubscribe", [], $locale).'/{id}', 'GeneralController@cancelNewsletter')->name('newsletter-stop-'.$locale);
@@ -119,9 +104,6 @@ if (app('env') == 'landing') {
 			Route::get('/'.trans("slugs.header-download-drop-off", [], $locale), 'GeneralController@downloadDropOff')->name('header.download-dropoff-'.$locale);
 
 			// Display PDF documents
-			Route::get('/'.trans("slugs.return", [], $locale).'/{order_code}', 'SaleController@displayReturn')->name('return-'.$locale);
-			Route::get('/'.trans("slugs.invoice", [], $locale).'/{order_code}', 'SaleController@displayInvoice')->name('invoice-'.$locale);
-			Route::get('/'.trans("slugs.invoice-download", [], $locale).'/{order_code}', 'SaleController@downloadInvoice')->name('invoice-download-'.$locale);
 			Route::get('/'.trans("slugs.show-voucher", [], $locale).'/{voucher_code}', 'UserController@displayVoucher')->name('show-voucher-pdf-'.$locale);
 
 			// CSV export for admin
@@ -134,10 +116,6 @@ if (app('env') == 'landing') {
 			Route::get('/'.trans("slugs.footer-medias", [], $locale), 'GeneralController@showMedias')->name('footer.medias-'.$locale);
 			Route::get('/'.trans("slugs.general-conditions", [], $locale), 'GeneralController@showGeneralConditions')->name('footer.general-conditions-'.$locale);
 			Route::get('/'.trans("slugs.sitemap", [], $locale), 'GeneralController@showSiteMap')->name('footer.sitemap-'.$locale);
-
-			// Campaigns
-			// Route::get('/'.trans("slugs.campaigns", [], "lu"), 'GeneralController@showAllCampaigns')->name('campaigns-lu');
-			// Route::get('/'.trans("slugs.campaigns", [], "lu").'/{slug}', 'GeneralController@showSingleCampaign')->name('campaign-single-lu');
 
 			// Data Importation
 			Route::get('/import-data', 'GeneralController@startImport')->name('data-import-'.$locale);
