@@ -56,7 +56,7 @@ class InstagramPictureResource extends Resource
                 FileUpload::make('picture_name')
                         ->label('Picture upload')
                         ->disk('public_folder')
-                        ->directory('images/pictures/instagram')
+                        ->directory('media/pictures/instagram')
                         ->visibility('public')
                         ->acceptedFileTypes(['image/png', 'image/jpg', 'image/jpeg', 'image/bmp'])
                         ->preserveFilenames()

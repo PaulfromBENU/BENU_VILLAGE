@@ -21,9 +21,9 @@
             <h3 class="welcome-presentation__desc__title welcome-illustration-2">
                 <!-- <span class="primary-color">{{ __('welcome.pres-title-2-1') }}</span>  -->{{ __('welcome.pres-title-2-1') }}
             </h3>
-            <h3 class="welcome-presentation__desc__title welcome-illustration-3">
+            <h1 class="welcome-presentation__desc__title welcome-illustration-3">
                 <!-- <span class="primary-color">{{ __('welcome.pres-title-3-1') }}</span>  -->{{ __('welcome.pres-title-3-1') }}
-            </h3>
+            </h1>
             <h3 class="welcome-presentation__desc__title welcome-illustration-4">
                 <!-- <span class="primary-color">{{ __('welcome.pres-title-4-1') }}</span>  -->{{ __('welcome.pres-title-4-1') }}
             </h3>

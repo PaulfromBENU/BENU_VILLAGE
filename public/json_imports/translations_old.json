@@ -4792,6 +4792,22 @@
     "lu": "BENU COUTURE designt, produzéiert a verkeeft nohalteg UpCycling-Kleeder an Haute Couture-Qualitéit zu Lëtzebuerg."
   },
   {
+    "page": "Kontakt",
+    "key": "service.seo-title",
+    "de": "BENU VILLAGE kontaktieren",
+    "fr": "Contacter BENU VILLAGE",
+    "en": "Contact BENU VILLAGE",
+    "lu": "BENU VILLAGE kontaktéieren"
+  },
+  {
+    "page": "Kontakt",
+    "key": "service.seo-description",
+    "de": "Du findest uns im BENU VILLAGE in der Stadt Esch-sur-Alzette im Süden Luxemburgs.",
+    "fr": "Tu nous trouveras au BENU VILLAGE dans la ville d'Esch-sur-Alzette, au sud du Luxembourg.",
+    "en": "You will find us in the BENU VILLAGE located in Esch-sur-Alzette, a town in the south of Luxembourg.",
+    "lu": "Du fënns eis am BENU VILLAGE zu Esch-Uelzecht am Süde vu Lëtzebuerg."
+  },
+  {
     "page": "slug",
     "key": "slugs.about",
     "de": "ueber",
@@ -6302,22 +6318,6 @@
     "fr": "Tu peux nous joindre en semaine de 9h00 à 17h00.",
     "en": "You can reach us during the week from 9:00 a.m. to 5:00 p.m.",
     "lu": "Du kanns eis wärend der Woch vun 9:00 bis 17:00 Auer erreechen."
-  },
-  {
-    "page": "Contact",
-    "key": "services.contact-opening-2",
-    "de": "",
-    "fr": "",
-    "en": "",
-    "lu": ""
-  },
-  {
-    "page": "Contact",
-    "key": "services.contact-opening-3",
-    "de": "",
-    "fr": "",
-    "en": "",
-    "lu": ""
   },
   {
     "page": "Contact",
