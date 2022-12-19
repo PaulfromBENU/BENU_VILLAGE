@@ -64,7 +64,7 @@
         @foreach($couture_news as $single_couture_news)
             <a href="{{ route('news-'.app()->getLocale(), ['origin' => 'couture', 'slug' => $single_couture_news->$localized_slug]) }}" class="all-news__link" wire:key="news-{{ $single_couture_news->id }}">
             <div class="all-news__link__img-container">
-                <img src="{{ asset('media/pictures/news/'.$single_couture_news->main_photo) }}" alt="Photo news" title="Photo news">
+                <img src="https://couture.benu.lu/images/pictures/news/{{ $single_couture_news->main_photo }}" alt="Photo news BENU" title="Photo news BENU">
             </div>
             <div class="all-news__link__tags flex justify-start flex-wrap">
                 @if($single_couture_news->$localized_tag_1 !== '' && $single_couture_news->$localized_tag_1 !== null)
