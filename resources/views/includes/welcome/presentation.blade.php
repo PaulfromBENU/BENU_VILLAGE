@@ -46,7 +46,7 @@
                 {!! __('welcome.pres-txt-4') !!}
             </p>
             <p class="welcome-illustration-4 welcome-presentation__desc__text">
-                {!! __('welcome.pres-txt-5') !!}
+                {!! __('welcome.pres-txt-5-1') !!} <a href="https://www.benureuse.lu" target="_blank" class="primary-color hover:text-gray-800 transition">BENU REUSE</a> {!! __('welcome.pres-txt-5-2') !!}
             </p>
         </div>
         <div class="">
