@@ -42,10 +42,10 @@
   {
     "page": "Home",
     "key": "header.sloow-desc",
-    "de": "Weil Ernährung und Lebensmittelverschwendung Themen sind, die uns am Herzen liegen, haben wir BENU SLOOW gegründet. Das erste \n \"Rescued Food\"-Restaurant der Großregion bietet eine Bio-Küche an, die originell und vor allem nachhaltig ist!\nEine neue, umfangreichere Website wird im Winter 2022 eingerichtet. Mehr dazu hier:",
-    "fr": "Parce que l’alimentation et le gaspillage alimentaire sont des sujets qui nous tiennent à cœur, nous avons créé BENU SLOOW. Le premier restaurant \"Rescued Food\" de la Grande Région propose une cuisine bio, originale, mais surtout durable !\nUn nouveau site plus complet sera mis en place à l'hiver 2022. Pour en savoir plus :",
-    "en": "Food and food waste are subjects that are close to our hearts. That's why we have created BENU SLOOW. The first \"Rescued Food\" restaurant in the Greater Region offers organic, original and above all, sustainable dishes!\nA new, more complete website will be launched in winter 2022. For more information:",
-    "lu": "Well Ernärung a Liewensmëttelverschwendung Theeme sinn, déi eis um Häerze leien, hu mir BENU SLOOW gegrënnt. Den éischte \"Rescued Food\" Restaurant an der Groussregioun, bitt eng Bio-Kichen un, originell a virun allem nohalteg! \nEng méi informatiounsräich Internetsäit wäert am Wanter 2022 ageriicht ginn. Méi dozou hei:"
+    "de": "Weil Ernährung und Lebensmittelverschwendung Themen sind, die uns am Herzen liegen, haben wir BENU SLOOW gegründet. Das erste \n \"Rescued Food\"-Restaurant der Großregion bietet eine Bio-Küche an, die originell und vor allem nachhaltig ist!\nEine neue, umfangreichere Website wird im Winter 2022/23 eingerichtet. Mehr dazu hier:",
+    "fr": "Parce que l’alimentation et le gaspillage alimentaire sont des sujets qui nous tiennent à cœur, nous avons créé BENU SLOOW. Le premier restaurant \"Rescued Food\" de la Grande Région propose une cuisine bio, originale, mais surtout durable !\nUn nouveau site plus complet sera mis en place en l'hiver 2022/23. Pour en savoir plus :",
+    "en": "Food and food waste are subjects that are close to our hearts. That's why we have created BENU SLOOW. The first \"Rescued Food\" restaurant in the Greater Region offers organic, original and above all, sustainable dishes!\nA new, more complete website will be launched in winter 2022/23. For more information:",
+    "lu": "Well Ernärung a Liewensmëttelverschwendung Theeme sinn, déi eis um Häerze leien, hu mir BENU SLOOW gegrënnt. Den éischte \"Rescued Food\" Restaurant an der Groussregioun, bitt eng Bio-Kichen un, originell a virun allem nohalteg! \nEng méi informatiounsräich Internetsäit wäert am Wanter 2022/23 ageriicht ginn. Méi dozou hei:"
   },
   {
     "page": "Home",
@@ -5123,7 +5123,7 @@
     "page": "Home",
     "key": "welcome.pres-txt-4",
     "de": "BENU ist ein innovatives Pilotprojekt der sozio-ökologischen Kreislaufwirtschaft. Recherchen und Diskussionen mit Fachleuten und interessierten Personen helfen uns bei der fortlaufenden Weiterentwicklung von BENU. Transparente Kommunikation bedeutet für uns sowohl das Aufzeigen von Handlungsmöglichkeiten, als auch von Grenzen. Es ist uns wichtig, über unsere Arbeit zu informieren: warum machen wir etwas? Wie arbeiten wir? Welche Möglichkeiten haben wir? BENU möchte Menschen inspirieren!",
-    "fr": "BENU est un projet pilote innovant d'économie circulaire socio-écologique. Des recherches et des discussions avec des experts et des personnes intéressées nous aident à développer continuellement BENU. Pour nous, une communication transparente signifie aussi bien mettre en évidence les possibilités d'action que les limites. Il est important pour nous d'informer sur notre travail: pourquoi faisons-nous quelque chose? Comment travaillons-nous? Quelles sont nos possibilités? BENU veut inspirer les gens!",
+    "fr": "BENU est un projet pilote innovant d'économie circulaire appliqué à un système socio-écologique. Des recherches et des discussions avec des experts et des personnes intéressées nous aident à développer continuellement BENU. Pour nous, une communication transparente signifie aussi bien mettre en évidence les possibilités d'action que les limites. Il est important pour nous d'informer sur notre travail: pourquoi faisons-nous quelque chose? Comment travaillons-nous? Quelles sont nos possibilités? BENU veut inspirer les gens!",
     "en": "BENU is an innovative pilot project of the socio-ecological circular economy. Research and discussions with experts and interested people help us in the continuous development of BENU. For us, transparent communication means pointing out possibilities for action, as well as limits. It is important for us to inform about our work: why do we do something? How do we work? What possibilities do we have? BENU wants to inspire people!",
     "lu": "BENU ass en innovative Pilotprojet vun der sozio-ekologescher Kreeslafwirtschaft. Recherchen an Diskussioune mat Fachleit an intresséierte Persounen hëllefen eis bei der konstanter Weiderentwécklung vu BENU. Transparent Kommunikatioun heescht fir eis, esou wuel eis Handlungsoptiounen, ewéi och eis Grenze kloer ze ënnersträichen. Et ass eis wichteg, iwwer eis Aarbecht ze informéieren: firwat maache mir eppes? Wéi schaffe mir? Wat fir eng Méiglechkeeten hu mir? BENU wëll d’Leit inspiréieren!"
   },
@@ -5152,12 +5152,20 @@
     "lu": "Kooperatioun an Zesummenaarbecht"
   },
   {
-    "page": "Home",
-    "key": "welcome.pres-txt-5",
-    "de": "BENU VILLAGE ist ein Ort der Begegnung. Ob jung oder alt, ob als Privatpersonen, Verein oder Unternehmen - wir laden ein, bei BENU mitzumachen. BENU bietet Beratung, Workshops und unterschiedliche Aktivitäten an. Das partizipative Kunstprojekt BENU METAMORPHOSE bringt darüber hinaus Freiwillige mit Künstler:innen aus verschiedenen Kulturkreisen zusammen. Für Menschen, die ihren Beitrag zur nachhaltigen Veränderung unseres Konsumverhaltens leisten möchten, bietet BENU REUSE - unsere Austausch-Plattform für gebrauchte Gegenstände - die ideale Möglichkeit.",
-    "fr": "BENU VILLAGE est un lieu de rencontre. Que vous soyez jeune ou moins jeune, que vous soyez un particulier, une association ou une entreprise, nous vous invitons à participer à BENU. BENU propose des conseils, des ateliers et différentes activités. Le projet artistique participatif BENU METAMORPHOSE réunit en outre des bénévoles et des artistes issus de différents milieux culturels. Pour ceux qui souhaitent contribuer à un changement durable de nos habitudes de consommation, BENU REUSE - notre plateforme d'échange d'objets usagés - constitue la solution idéale.",
-    "en": "BENU VILLAGE is a place where encounters happen. Young or old, private individuals, associations or companies - we invite you to join BENU. BENU offers advice, workshops and various activities. The participatory art project BENU METAMORPHOSE also brings together volunteers and artists from different cultural backgrounds. For people who want to contribute to a sustainable change in our consumption behaviour, BENU REUSE - exchange platform for used objects - is an ideal opportunity.",
-    "lu": "BENU VILLAGE ass eng Plaz vun der Renconter. Ob jonk oder al, als Privatpersoun, Veräin oder Entreprise - mir invitéieren, bei BENU matzemaachen. BENU bitt Berodung, Workshops an ënnerschiddlech Aktivitéiten un. De participative Konschtprojet BENU METAMORPHOSE bréngt doriwwer eraus Fräiwëlleger mat Kënschtler:innen aus verschiddene Kulturkreesser zesummen. Fir Mënschen, déi hiren Deel zu enger nohalteger Verännerung vun eisem Konsumverhale bäidroe wëllen, stellt BENU REUSE - eis Austausch-Plattform fir gebrauchten Objeten - déi ideal Méiglechkeet duer."
+    "page": "",
+    "key": "welcome.pres-txt-5-1",
+    "de": "BENU VILLAGE ist ein Ort der Begegnung. Ob jung oder alt, ob als Privatpersonen, Verein oder Unternehmen - wir laden ein, bei BENU mitzumachen. BENU bietet Beratung, Workshops und unterschiedliche Aktivitäten an. Das partizipative Kunstprojekt BENU METAMORPHOSE bringt darüber hinaus Freiwillige mit Künstler:innen aus verschiedenen Kulturkreisen zusammen. Für Menschen, die ihren Beitrag zur nachhaltigen Veränderung unseres Konsumverhaltens leisten möchten, bietet",
+    "fr": "BENU VILLAGE est un lieu de rencontre. Que vous soyez jeune ou moins jeune, que vous soyez un particulier, une association ou une entreprise, nous vous invitons à participer à BENU. BENU propose des conseils, des ateliers et différentes activités. Le projet artistique participatif BENU METAMORPHOSE réunit en outre des bénévoles et des artistes issus de différents milieux culturels. Pour ceux qui souhaitent contribuer à un changement durable de nos habitudes de consommation,",
+    "en": "BENU VILLAGE is a place where encounters happen. Young or old, private individuals, associations or companies - we invite you to join BENU. BENU offers advice, workshops and various activities. The participatory art project BENU METAMORPHOSE also brings together volunteers and artists from different cultural backgrounds. For people who want to contribute to a sustainable change in our consumption behaviour,",
+    "lu": "BENU VILLAGE ass eng Plaz vun der Renconter. Ob jonk oder al, als Privatpersoun, Veräin oder Entreprise - mir invitéieren, bei BENU matzemaachen. BENU bitt Berodung, Workshops an ënnerschiddlech Aktivitéiten un. De participative Konschtprojet BENU METAMORPHOSE bréngt doriwwer eraus Fräiwëlleger mat Kënschtler:innen aus verschiddene Kulturkreesser zesummen. Fir Mënschen, déi hiren Deel zu enger nohalteger Verännerung vun eisem Konsumverhale bäidroe wëllen, stellt"
+  },
+  {
+    "page": "",
+    "key": "welcome.pres-txt-5-2",
+    "de": "- unsere Austausch-Plattform für gebrauchte Gegenstände - die ideale Möglichkeit.",
+    "fr": "- notre plateforme d'échange d'objets usagés - constitue la solution idéale.",
+    "en": "- exchange platform for used objects - is an ideal opportunity.",
+    "lu": "- eis Austausch-Plattform fir gebrauchten Objeten - déi ideal Méiglechkeet duer."
   },
   {
     "page": "Home",
