@@ -306,9 +306,6 @@ class GeneralController extends Controller
         $couture_news = NewsArticleCouture::where('is_ready', '1')->orderBy('updated_at', 'desc')->get();
         $village_news = VillageInfo::where('is_ready', '1')->orderBy('updated_at', 'desc')->get();
         return view('footer.pages.sitemap', [
-            'clothes' => $clothes, 
-            'accessories' => $accessories, 
-            'home_items' => $home_items, 
             'couture_news' => $couture_news,
             'village_news' => $village_news,
         ]);
