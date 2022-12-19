@@ -11,6 +11,7 @@ use Livewire\WithFileUploads;
 use App\Models\ContactMessage;
 use App\Models\GeneralCondition;
 use App\Models\Kulturpass;
+use App\Traits\ArticleAnalyzer;
 
 use Illuminate\Validation\Rules;
 use Illuminate\Validation\Rule;
@@ -18,6 +19,7 @@ use Illuminate\Validation\Rule;
 class DashboardNavigation extends Component
 {
     use WithFileUploads;
+    use ArticleAnalyzer;
 
     public $section;
     public $couture_wishlisted_articles;
