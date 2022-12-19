@@ -61,9 +61,15 @@ $localized_label = "link_label_".app()->getLocale();
 			@endif
 		</div>
 
+		@if($origin == 'couture')
+		<p class="single-news__img-container">
+			<img src="https://couture.benu.lu/images/pictures/news/{{ $news->main_photo }}">
+		</p>
+		@else
 		<p class="single-news__img-container">
 			<img src="{{ asset('media/pictures/news/'.$news->main_photo) }}">
 		</p>
+		@endif
 
 		@foreach($news->elements()->orderBy('position', 'asc')->get() as $element)
 			@switch($element->type)
@@ -86,9 +92,27 @@ $localized_label = "link_label_".app()->getLocale();
 				@break
 
 				@case('3')
+					@if($origin == 'couture')
+					<div class="single-news__img-container">
+						<img src="https://couture.benu.lu/images/pictures/news/{{ $element->photo_file_name }}" alt="{{ $element->photo_alt }}" title="{{ $element->photo_title }}">
+					</div>
+					@else
 					<div class="single-news__img-container">
 						<img src="{{ asset('media/pictures/news/'.$element->photo_file_name) }}" alt="{{ $element->photo_alt }}" title="{{ $element->photo_title }}">
 					</div>
+					@endif
+				@break
+
+				@case('4')
+					@if($origin == 'couture')
+					<div class="single-news__img-container--portrait">
+						<img src="https://couture.benu.lu/images/pictures/news/{{ $element->photo_file_name }}" alt="{{ $element->photo_alt }}" title="{{ $element->photo_title }}">
+					</div>
+					@else
+					<div class="single-news__img-container--portrait">
+						<img src="{{ asset('images/pictures/news/'.$element->photo_file_name) }}" alt="{{ $element->photo_alt }}" title="{{ $element->photo_title }}">
+					</div>
+					@endif
 				@break
 
 				@default
@@ -103,7 +127,11 @@ $localized_label = "link_label_".app()->getLocale();
 			@if($previous_news !== null)
 			<a class="single-news__prev-next__block justify-start" href="{{ route('news-'.app()->getLocale(), ['origin' => $origin, 'slug' => $previous_news->$localized_slug]) }}">
 				<div class="single-news__prev-next__block__img-container">
+					@if($origin == 'couture')
+					<img src="https://couture.benu.lu/images/pictures/news/{{ $previous_news->main_photo }}" alt="{{ $previous_news->main_photo_alt }}" title="{{ $previous_news->main_photo_title }}" />
+					@else
 					<img src="{{ asset('media/pictures/news/'.$previous_news->main_photo) }}" alt="{{ $previous_news->main_photo_alt }}" title="{{ $previous_news->main_photo_title }}" />
+					@endif
 				</div>
 				<div class="pl-4">
 					<div class="flex justify-start mb-3">
@@ -139,7 +167,11 @@ $localized_label = "link_label_".app()->getLocale();
 					</h3>
 				</div>
 				<div class="single-news__prev-next__block__img-container">
+					@if($origin == 'couture')
+					<img src="https://couture.benu.lu/images/pictures/news/{{ $next_news->main_photo }}" alt="{{ $next_news->main_photo_alt }}" title="{{ $next_news->main_photo_title }}" />
+					@else
 					<img src="{{ asset('media/pictures/news/'.$next_news->main_photo) }}" alt="{{ $next_news->main_photo_alt }}" title="{{ $next_news->main_photo_title }}" />
+					@endif
 				</div>
 			</a>
 			@else
