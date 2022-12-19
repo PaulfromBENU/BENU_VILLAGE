@@ -105,6 +105,7 @@ if (app('env') == 'landing') {
 
 			// Display PDF documents
 			Route::get('/'.trans("slugs.show-voucher", [], $locale).'/{voucher_code}', 'UserController@displayVoucher')->name('show-voucher-pdf-'.$locale);
+			Route::get('/'.trans("slugs.invoice", [], $locale).'/{order_code}', 'SaleController@displayInvoice')->name('invoice-'.$locale);
 
 			// CSV export for admin
 			Route::get('/invoice-export-csv/{year}/{month}', 'GeneralController@exportOrdersData')->name('export-invoice-csv-'.$locale);

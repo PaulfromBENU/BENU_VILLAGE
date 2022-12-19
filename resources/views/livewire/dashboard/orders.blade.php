@@ -264,18 +264,18 @@
         <div class="dashboard-orders__details__articles flex justify-between flex-wrap">
             @foreach($articles as $article)
                 @if($article->name == 'voucher')
-                <a target="_blank" href="{{ route('vouchers-'.app()->getLocale()) }}" wire:key="{{ $order->unique_id }}-{{ $article->id }}" class="block dashboard-orders__details__articles__article flex justify-start mb-4">
+                <a target="_blank" href="https://couture.benu.lu/fr/bons-d-achat" wire:key="{{ $order->unique_id }}-{{ $article->id }}" class="block dashboard-orders__details__articles__article flex justify-start mb-4">
                 @else
-                <a target="_blank" href="{{ route('model-'.app()->getLocale(), ['name' => strtolower($article->creation->name), 'article' => strtolower($article->name)]) }}" wire:key="{{ $order->unique_id }}-{{ $article->id }}" class="block dashboard-orders__details__articles__article flex justify-start mb-4">
+                <a target="_blank" href="https://couture.benu.lu/fr/creations/{{ strtolower($article->creation->name) }}" wire:key="{{ $order->unique_id }}-{{ $article->id }}" class="block dashboard-orders__details__articles__article flex justify-start mb-4">
                 @endif
                 <!-- <div wire:key="{{ $order->unique_id }}-{{ $article->id }}" class="dashboard-orders__details__articles__article flex justify-start mb-4"> -->
                     <div class="dashboard-orders__details__articles__article__img-container mr-4">
                         @if($article->name ==  'voucher')
-                            <img src="{{ asset('media/pictures/vouchers_img.png') }}" />
+                            <img src="https://couture.benu.lu/images/pictures/photo_voucher.jpg" />
                         @elseif($article->photos()->where('is_front', '1')->count() > 0)
-                            <img src="{{ asset('media/pictures/articles/'.$article->photos()->where('is_front', '1')->first()->file_name) }}" />
+                            <img src="https://couture.benu.lu/images/pictures/articles/{{ $article->photos()->where('is_front', '1')->first()->file_name }}" />
                         @else
-                            <img src="{{ asset('media/pictures/articles/'.$article->photos()->first()->file_name) }}" />
+                            <img src="https://couture.benu.lu/images/pictures/articles/{{ $article->photos()->first()->file_name }}" />
                         @endif
                     </div>
                     <div class="dashboard-orders__details__articles__article__desc relative">
@@ -315,9 +315,6 @@
                             @else
                                 <div class="color-circle color-circle--{{ $article->color->name }}"></div>
                             @endif
-                            <p class="pl-1" style="margin-top: -5px;">
-                                {{ __('colors.'.$article->color->name) }}
-                            </p>
                         </div>
                         <p class="dashboard-orders__details__articles__article__desc__number">
                             {{ __('dashboard.order-number-of-items') }} : x{{ $article->pivot->articles_number }}
