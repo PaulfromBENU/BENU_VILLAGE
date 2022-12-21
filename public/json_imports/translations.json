@@ -43,7 +43,7 @@
     "page": "Home",
     "key": "header.sloow-desc",
     "de": "Weil Ernährung und Lebensmittelverschwendung Themen sind, die uns am Herzen liegen, haben wir BENU SLOOW gegründet. Das erste \n \"Rescued Food\"-Restaurant der Großregion bietet eine Bio-Küche an, die originell und vor allem nachhaltig ist!\nEine neue, umfangreichere Website wird im Winter 2022/23 eingerichtet. Mehr dazu hier:",
-    "fr": "Parce que l’alimentation et le gaspillage alimentaire sont des sujets qui nous tiennent à cœur, nous avons créé BENU SLOOW. Le premier restaurant \"Rescued Food\" de la Grande Région propose une cuisine bio, originale, mais surtout durable !\nUn nouveau site plus complet sera mis en place en l'hiver 2022/23. Pour en savoir plus :",
+    "fr": "Parce que l’alimentation et le gaspillage alimentaire sont des sujets qui nous tiennent à cœur, nous avons créé BENU SLOOW. Le premier restaurant \"Rescued Food\" de la Grande Région propose une cuisine bio, originale, mais surtout durable !\nUn nouveau site plus complet sera mis en place en hiver 2022/23. Pour en savoir plus :",
     "en": "Food and food waste are subjects that are close to our hearts. That's why we have created BENU SLOOW. The first \"Rescued Food\" restaurant in the Greater Region offers organic, original and above all, sustainable dishes!\nA new, more complete website will be launched in winter 2022/23. For more information:",
     "lu": "Well Ernärung a Liewensmëttelverschwendung Theeme sinn, déi eis um Häerze leien, hu mir BENU SLOOW gegrënnt. Den éischte \"Rescued Food\" Restaurant an der Groussregioun, bitt eng Bio-Kichen un, originell a virun allem nohalteg! \nEng méi informatiounsräich Internetsäit wäert am Wanter 2022/23 ageriicht ginn. Méi dozou hei:"
   },
@@ -549,7 +549,7 @@
     "de": "Mit Deinem  BENU Konto kannst Du Deine Aktivitäten auf den  verschiedenen Internetseiten von BENU Village Esch asbl einsehen und verwalten.",
     "fr": "Avec ton compte BENU, tu peux consulter et gérer tes activités sur les différents sites Internet de BENU Village Esch asbl.",
     "en": "With your BENU account, you can view and manage your activities on the different BENU Village Esch asbl websites.",
-    "lu": "Mat Dengem  BENU Konto kanns Du Deng Aktivitéiten op deenen ënnerschiddlechen Internetsäite vu BENU Village Esch asbl kucken a verwalten."
+    "lu": "Mat Dengem BENU Konto kanns Du Deng Aktivitéiten op deenen ënnerschiddlechen Internetsäite vu BENU Village Esch asbl kucken a verwalten."
   },
   {
     "page": "Compte",
@@ -4961,7 +4961,7 @@
   },
   {
     "page": "Kontakt",
-    "key": "service.seo-title",
+    "key": "services.seo-title",
     "de": "BENU VILLAGE kontaktieren",
     "fr": "Contacter BENU VILLAGE",
     "en": "Contact BENU VILLAGE",
@@ -4969,7 +4969,7 @@
   },
   {
     "page": "Kontakt",
-    "key": "service.seo-description",
+    "key": "services.seo-description",
     "de": "Du findest uns im BENU VILLAGE in der Stadt Esch-sur-Alzette im Süden Luxemburgs.",
     "fr": "Tu nous trouveras au BENU VILLAGE dans la ville d'Esch-sur-Alzette, au sud du Luxembourg.",
     "en": "You will find us in the BENU VILLAGE located in Esch-sur-Alzette, a town in the south of Luxembourg.",
@@ -5029,7 +5029,7 @@
     "de": "BENU setzt sich für Integration, Inklusion und gleiche Rechte für alle ein. Ein Drittel der Arbeitsplätze im BENU VILLAGE ist für Personen reserviert, die auf dem Arbeitsmarkt benachteiligt sind oder eines besonderen Schutzes bedürfen. BENU integriert z. B. Langzeitarbeitslose, Flüchtlinge und Asylbewerber:innen, Jugendliche ohne Berufserfahrung sowie nationale und internationale Freiwillige. Darüber hinaus bietet BENU Ausbildungsplätze an und gibt Praktikanten die Möglichkeit, die Arbeitswelt kennenzulernen.",
     "fr": "BENU s'engage pour l'intégration, l'inclusion et l'égalité des droits pour tous. Un tiers des postes de travail de BENU VILLAGE sont réservés à des personnes défavorisées sur le marché du travail ou nécessitant une protection particulière. BENU intègre par exemple des chômeurs de longue durée, des réfugiés et des demandeurs d'asile, des jeunes sans expérience professionnelle ainsi que des volontaires nationaux et internationaux. En outre, BENU propose des places d’apprentissage et donne aux stagiaires la possibilité de découvrir le monde du travail.",
     "en": "BENU is committed to integration, inclusion and equal rights for all. One third of the jobs at BENU VILLAGE are reserved for people who are disadvantaged in the labour market or in need of some special protection. BENU integrates, for instance, the long-term unemployed, refugees and asylum seekers, young people without work experience, and national and international volunteers. In addition, BENU offers apprenticeships and gives interns the opportunity to get to know the world of work.",
-    "lu": "BENU setzt sech fir Integratioun, Inclusioun an déi selwecht Rechter fir jiddereen an. Een Drëttel vun den Aarbechtsplazen am BENU VILLAGE si fir Persoune reservéiert, déi op dem Aarbechtsmarché benodeelegt sinn oder e besonnesche Schutz brauchen. BENU integréiert z.B Laangzäit-Aarbechtslosen, Refugié:en an Asylbewerber:innen, Jugendlecher ouni  Beruffserfarung, esou ewéi national an international Benevollen. Doriwwer eraus bitt BENU Ausbildungsplazen un a gëtt Stagiairen d’Méiglechkeet, d’Aarbechtswelt kennenzeléieren."
+    "lu": "BENU setzt sech fir Integratioun, Inclusioun an déi selwecht Rechter fir jiddereen an. Een Drëttel vun den Aarbechtsplazen am BENU VILLAGE si fir Persoune reservéiert, déi op dem Aarbechtsmarché benodeelegt sinn oder e besonnesche Schutz brauchen. BENU integréiert z.B Laangzäit-Aarbechtsloser, Refugié:en an Asylbewerber:innen, Jugendlecher ouni Beruffserfarung, esou ewéi national an international Benevoller. Doriwwer eraus bitt BENU Ausbildungsplazen un a gëtt Stagiairen d’Méiglechkeet, d’Aarbechtswelt kennenzeléieren."
   },
   {
     "page": "Home",
@@ -5061,7 +5061,7 @@
     "de": "Das Ökodorf BENU VILLAGE entsteht in nachhaltiger Bauweise mit maximaler Nutzung gebrauchter Materialien. Der Ressourcenverbrauch wird durch ein nachhaltiges Energie- und Regenwasserkonzept optimiert. Als innovatives Pilotprojekt zur Kreislaufwirtschaft sucht BENU in all seinen Aktivitäten kontinuierlich nach Verbesserungen: sei es bei der Reduzierung des Abfalls, dem Nutzen traditioneller Techniken oder der Entwicklung neuer Lösungen.",
     "fr": "L'écovillage BENU VILLAGE est construit de manière durable, en recourant par exemple  à une utilisation maximale de matériaux usagés. La consommation des ressources est optimisée grâce à un concept durable d'énergie et d'eau de pluie. En tant que projet pilote innovant en matière d'économie circulaire, BENU cherche continuellement à s'améliorer dans toutes ses activités: qu'il s'agisse de réduire les déchets, d'utiliser des techniques traditionnelles ou de développer de nouvelles solutions.",
     "en": "The BENU VILLAGE ecovillage is built using sustainable construction methods, by resorting, for instance, to used materials whenever it is possible. Our resource consumption is optimised through a sustainable energy and rainwater concept. As an innovative pilot project for the circular economy, BENU is continuously looking for improvements in all its activities: be it in reducing waste, using traditional techniques or developing new solutions.",
-    "lu": "D’Ekodorf BENU VILLAGE gëtt nohalteg gebaut, andeems beispillsweis maximal op gebrauchte Materialien zeréckgegraff gëtt. De Ressourcëverbrauch gëtt duerch en nohaltegt Energie- a Reewaasserkonzept optiméiert. Als innovative Pilotprojet zur Kreeslafwirtschaft sicht BENU bei all sengen Aktivitéite kontinuéierlech no Verbesserungsméiglechkeeten: sief et bei der Reduzéierung vum Offall, dem Notze vun traditionellen Techniken oder der Entwécklung vun neie Léisungen."
+    "lu": "D’Ekoduerf BENU VILLAGE gëtt nohalteg gebaut, andeems beispillsweis maximal op gebrauchte Materialien zeréckgegraff gëtt. De Ressourcëverbrauch gëtt duerch en nohaltegt Energie- a Reewaasserkonzept optiméiert. Als innovative Pilotprojet zur Kreeslafwirtschaft sicht BENU bei all sengen Aktivitéite kontinuéierlech no Verbesserungsméiglechkeeten: sief et bei der Reduzéierung vum Offall, dem Notze vun traditionellen Techniken oder der Entwécklung vun neie Léisungen."
   },
   {
     "page": "Home",
@@ -5093,7 +5093,7 @@
     "de": "Alle BENU Kreationen werden vor Ort im BENU VILLAGE entworfen und hergestellt. Die lokale Produktion garantiert handwerkliche Qualität und faire Arbeitsbedingungen, spart Ressourcen und reduziert Transportwege. Lokal aktiv sein heißt auch, Teil des Stadtlebens von Esch-sur-Alzette sein! BENU arbeitet mit lokalen Vereinen und Anwohner:innen zusammen, setzt sich für eine soziale Stadtentwicklung ein und unterstützt die Stadt bei der Umsetzung ihrer Klimapakt-Ziele.",
     "fr": "Toutes les créations BENU sont conçues et fabriquées localement au BENU VILLAGE. La production locale garantit une qualité artisanale et des conditions de travail équitables, économise les ressources et réduit les distances de transport. Être actif localement - pour nous, cela signifie aussi faire partie de la vie urbaine d'Esch-sur-Alzette! BENU collabore avec des associations locales et des riverains, s'engage pour un développement urbain social et soutient la ville dans la réalisation de ses objectifs en matière de pacte climatique.",
     "en": "All BENU creations are designed and manufactured locally at BENU VILLAGE. Local production guarantees craftsmanship and fair working conditions, saves resources and reduces transport distances. \nBeing locally active also means being part of the city life of Esch-sur-Alzette! BENU works with local associations and residents, promotes social urban development and supports the city in implementing its climate pact goals.",
-    "lu": "All BENU Kreatioune ginn op der Plaz am BENU VILLAGE entworf a produzéiert. Déi lokal Produktioun garantéiert handwierklech Qualitéit a fair Aarbechtskonditiounen, spuert Ressourcen a reduzéiert Transportweeër. Lokal aktiv sinn heescht och, en Deel vum Stadliewe vun Esch-Uelzecht ze sinn! BENU schafft mat lokale Veräiner a Residenten zesummen, setzt sech fir eng sozial Stadentwécklung an an ënnerstëtzt d’Stad Esch-Uelzecht bei der Ëmsetzung vun hire Klimapakt-Ziler."
+    "lu": "All BENU Kreatioune ginn op der Plaz am BENU VILLAGE entworf a produzéiert. Déi lokal Produktioun garantéiert handwierklech Qualitéit a fair Aarbechtskonditiounen, spuert Ressourcen a reduzéiert Transportweeër. Lokal aktiv sinn heescht och, en Deel vum Stadliewe vun Esch-Uelzecht ze sinn! BENU schafft mat lokale Veräiner a Bierger zesummen, setzt sech fir eng sozial Stadentwécklung an an ënnerstëtzt d’Stad Esch-Uelzecht bei der Ëmsetzung vun hire Klimapakt-Ziler."
   },
   {
     "page": "Home",
@@ -5125,7 +5125,7 @@
     "de": "BENU ist ein innovatives Pilotprojekt der sozio-ökologischen Kreislaufwirtschaft. Recherchen und Diskussionen mit Fachleuten und interessierten Personen helfen uns bei der fortlaufenden Weiterentwicklung von BENU. Transparente Kommunikation bedeutet für uns sowohl das Aufzeigen von Handlungsmöglichkeiten, als auch von Grenzen. Es ist uns wichtig, über unsere Arbeit zu informieren: warum machen wir etwas? Wie arbeiten wir? Welche Möglichkeiten haben wir? BENU möchte Menschen inspirieren!",
     "fr": "BENU est un projet pilote innovant d'économie circulaire appliqué à un système socio-écologique. Des recherches et des discussions avec des experts et des personnes intéressées nous aident à développer continuellement BENU. Pour nous, une communication transparente signifie aussi bien mettre en évidence les possibilités d'action que les limites. Il est important pour nous d'informer sur notre travail: pourquoi faisons-nous quelque chose? Comment travaillons-nous? Quelles sont nos possibilités? BENU veut inspirer les gens!",
     "en": "BENU is an innovative pilot project of the socio-ecological circular economy. Research and discussions with experts and interested people help us in the continuous development of BENU. For us, transparent communication means pointing out possibilities for action, as well as limits. It is important for us to inform about our work: why do we do something? How do we work? What possibilities do we have? BENU wants to inspire people!",
-    "lu": "BENU ass en innovative Pilotprojet vun der sozio-ekologescher Kreeslafwirtschaft. Recherchen an Diskussioune mat Fachleit an intresséierte Persounen hëllefen eis bei der konstanter Weiderentwécklung vu BENU. Transparent Kommunikatioun heescht fir eis, esou wuel eis Handlungsoptiounen, ewéi och eis Grenze kloer ze ënnersträichen. Et ass eis wichteg, iwwer eis Aarbecht ze informéieren: firwat maache mir eppes? Wéi schaffe mir? Wat fir eng Méiglechkeeten hu mir? BENU wëll d’Leit inspiréieren!"
+    "lu": "BENU ass en innovative Pilotprojet vun der sozio-ekologescher Kreeslafwirtschaft. Recherchen an Diskussioune mat Fachleit an intresséierte Persounen hëllefen eis bei der konstanter Weiderentwécklung vu BENU. Transparent Kommunikatioun heescht fir eis, esou wuel eis Handlungsoptiounen, ewéi och eis Grenze kloer z'ënnersträichen. Et ass eis wichteg, iwwert eis Aarbecht z'informéieren: firwat maache mir eppes? Wéi schaffe mir? Wat fir eng Méiglechkeeten hu mir? BENU wëll d’Leit inspiréieren!"
   },
   {
     "page": "Home",
@@ -5157,7 +5157,7 @@
     "de": "BENU VILLAGE ist ein Ort der Begegnung. Ob jung oder alt, ob als Privatpersonen, Verein oder Unternehmen - wir laden ein, bei BENU mitzumachen. BENU bietet Beratung, Workshops und unterschiedliche Aktivitäten an. Das partizipative Kunstprojekt BENU METAMORPHOSE bringt darüber hinaus Freiwillige mit Künstler:innen aus verschiedenen Kulturkreisen zusammen. Für Menschen, die ihren Beitrag zur nachhaltigen Veränderung unseres Konsumverhaltens leisten möchten, bietet",
     "fr": "BENU VILLAGE est un lieu de rencontre. Que vous soyez jeune ou moins jeune, que vous soyez un particulier, une association ou une entreprise, nous vous invitons à participer à BENU. BENU propose des conseils, des ateliers et différentes activités. Le projet artistique participatif BENU METAMORPHOSE réunit en outre des bénévoles et des artistes issus de différents milieux culturels. Pour ceux qui souhaitent contribuer à un changement durable de nos habitudes de consommation,",
     "en": "BENU VILLAGE is a place where encounters happen. Young or old, private individuals, associations or companies - we invite you to join BENU. BENU offers advice, workshops and various activities. The participatory art project BENU METAMORPHOSE also brings together volunteers and artists from different cultural backgrounds. For people who want to contribute to a sustainable change in our consumption behaviour,",
-    "lu": "BENU VILLAGE ass eng Plaz vun der Renconter. Ob jonk oder al, als Privatpersoun, Veräin oder Entreprise - mir invitéieren, bei BENU matzemaachen. BENU bitt Berodung, Workshops an ënnerschiddlech Aktivitéiten un. De participative Konschtprojet BENU METAMORPHOSE bréngt doriwwer eraus Fräiwëlleger mat Kënschtler:innen aus verschiddene Kulturkreesser zesummen. Fir Mënschen, déi hiren Deel zu enger nohalteger Verännerung vun eisem Konsumverhale bäidroe wëllen, stellt"
+    "lu": "BENU VILLAGE ass eng Plaz vum Zesummentreffen. Ob jonk oder al, als Privatpersoun, Veräin oder Entreprise - mir invitéieren jidderee bei BENU matzemaachen. BENU bitt Berodung, Workshops an ënnerschiddlech Aktivitéiten un. De participative Konschtprojet BENU METAMORPHOSE bréngt doriwwer eraus Fräiwëlleger mat Kënschtler:innen aus verschiddene Kulturkreesser zesummen. Fir Mënschen, déi hiren Deel zu enger nohalteger Verännerung vun eisem Konsumverhale bäidroe wëllen, stellt"
   },
   {
     "page": "",
@@ -5325,7 +5325,7 @@
     "de": "Woher kommt eigentlich der Name „BENU“?",
     "fr": "D'où vient le nom „BENU“?",
     "en": "Where does the name „BENU“ actually come from?",
-    "lu": "Wouhier kennt eigentlech den Numm „BENU“?"
+    "lu": "Wouhier kënnt eigentlech den Numm „BENU“?"
   },
   {
     "page": "Home",
@@ -5333,7 +5333,7 @@
     "de": "„BENU“ wird ausgesprochen wie der englische Ausdruck ‘Be New!’ und bedeutet ‘Sei Neu!’. Der BENU Vogel, der auf unserem Logo zu sehen ist, entspringt der ägyptischen Mythologie und wurde - meist in Form eines Reihers - bereits in den ägyptischen Pyramiden dargestellt. Er ist der Vorfahre des griechischen Phönix, dieses wunderschönen roten Vogels, der am Ende seines Lebenszyklus verbrennt oder stirbt, um aus seiner Asche immer wieder neu zu erstehen.",
     "fr": "„BENU“ se prononce comme l'expression anglaise 'Be New!' et signifie 'sois nouveau'! L'oiseau BENU, qui figure sur notre logo, est issu de la mythologie égyptienne et était déjà représenté - généralement sous la forme d'un héron - dans les pyramides égyptiennes. Il est soit-disant l'ancêtre du phénix grec, ce magnifique oiseau rouge qui, à la fin de son cycle de vie, se consume ou meurt pour renaître à chaque fois de ses cendres.",
     "en": "„BENU“ is pronounced like the English expression 'Be New'. The BENU bird, which can be seen on our logo, originates from Egyptian mythology and was already depicted - usually in the form of a heron - in the Egyptian pyramids. We could say it is the ancestor of the Greek phoenix, this beautiful red bird that burns or dies at the end of its life cycle, only to be reborn again and again from its ashes.",
-    "lu": "„BENU“ gëtt ausgeschwat ewéi den engleschen Ausdrock ‘Be New!’ a bedeit ‘Sief nei!’. De BENU Villchen, deen op eisem Logo ze gesinn ass, entspréngt der ägyptescher Mythologie a gouf - meeschtens an der Gestalt vun engem Reier - schonn an den ägyptesche Pyramiden duergestallt. En ass souzesoen de Virgänger vum griichesche Phönix, dësem wonnerschéinen, roude Villchen, deen zum Schluss vu sengem Liewenszyklus verbrennt, fir aus sengen Äschen ëmmer nees nei ze entstoen."
+    "lu": "„BENU“ gëtt ausgeschwat ewéi den engleschen Ausdrock ‘Be New!’ a bedeit ‘Sief nei!’. De BENU Villchen, deen op eisem Logo ze gesinn ass, entspréngt der ägyptescher Mythologie a gouf - meeschtens an der Gestalt vun engem Reier - schonn an den ägyptesche Pyramiden duergestallt. En ass souzesoen de Virgänger vum griichesche Phönix, dësem wonnerschéinen, roude Villchen, deen zum Schluss vu sengem Liewenszyklus verbrennt, fir aus sengen Äschen ëmmer nees nei z'entstoen."
   },
   {
     "page": "Home",
@@ -5397,7 +5397,7 @@
     "de": "oder melde Dich für den",
     "fr": "ou inscris-toi à la",
     "en": "or sign up for the",
-    "lu": "a Kontakt, oder mell Dech fir den"
+    "lu": "a Kontakt, oder mell Dech fir d'"
   },
   {
     "page": "Home",
@@ -5413,7 +5413,7 @@
     "de": "an. Wir verschicken ihn regelmäßig, um über aktuelle Aktivitäten und Projekte von BENU zu informieren.",
     "fr": "que nous envoyons régulièrement, pour te tenir au courant des activités et projets actuels de BENU.",
     "en": "that we send out regularly to inform you about BENU's current activities and projects.",
-    "lu": "un, dee mir reegelméisseg verschécken, fir iwwer aktuell Aktivitéiten a Projete vu BENU ze informéieren."
+    "lu": "un, déi mir reegelméisseg verschécken, fir iwwer aktuell Aktivitéiten a Projete vu BENU z'informéieren."
   },
   {
     "page": "Home",
@@ -5477,7 +5477,7 @@
     "de": "oder im",
     "fr": "ou dans la",
     "en": "or in the",
-    "lu": "oder am"
+    "lu": "oder an der"
   },
   {
     "page": "Home",
@@ -5533,7 +5533,7 @@
     "de": "Auch Du kannst Dich mit Deiner eigenen Initiative, Firma oder Firmenidee im",
     "fr": "Toi aussi, tu peux t'installer au",
     "en": "You can set up in the",
-    "lu": "Och Du kanns Dech mat Denger eegener Initiative, Denger Firma oder Denger Iddi am"
+    "lu": "Och Du kanns Dech mat Denger eegener Initiativ, Denger Firma oder Denger Iddi am"
   },
   {
     "page": "Home",
@@ -5669,7 +5669,7 @@
     "de": "Wenn Du BENU mit Informationen zu den Themen „nachhaltige Kleidung“ oder „Wiederverwendung“ weiterhelfen kannst, gewinnst Du vielleicht sogar ein BENU Brain Siegel! Näheres hierzu erfährst Du auf",
     "fr": "Si tu peux aider BENU avec des informations sur les thèmes \"vêtements durables\" ou \"réutilisation\", tu pourras peut-être même gagner un label BENU Brain! Tu trouveras plus d'informations sur",
     "en": "If you can help BENU with information on the topics \"sustainable clothing\" or \"reuse\", you might even win a BENU Brain label! You can find more information on",
-    "lu": "Wann s Du BENU mat Informatiounen zu den Theme „nohaltegt Gezei“ oder „weidere Gebrauch“ weiderhëllefe kanns, gewënns Du vläicht esouguer e BENU Brain Badge! Méi Informatiounen dozou fënns Du op"
+    "lu": "Wann s Du BENU mat Informatiounen zu den Themen „nohaltegt Gezei“ oder „weidere Gebrauch“ weiderhëllefe kanns, gewënns Du vläicht esouguer e BENU Brain Badge! Méi Informatiounen dozou fënns Du op"
   },
   {
     "page": "Home",
@@ -5845,7 +5845,7 @@
     "de": "Das Ökodorf befindet sich im Aufbau!",
     "fr": "L'écovillage est en construction !",
     "en": "The ecovillage is under construction!",
-    "lu": "D’Ekoduerf as am vollen Opbau!"
+    "lu": "D’Ekoduerf ass am vollen Opbau!"
   },
   {
     "page": "Home",
@@ -6093,7 +6093,7 @@
     "de": "Für den Bau werden nahezu ausschließlich gebrauchtes Metall und Holz verwendet. Partiell kommt auch Stroh aus der Region zum Einsatz.",
     "fr": "Pour la construction, on utilise presque exclusivement du métal et du bois usagé, tout comme de la paille provenant de la région.",
     "en": "Almost exclusively, we relied on used metal and wood for the construction; partially, straw from the region came into use as well.",
-    "lu": "Fir de Bau goufe quasi just gebraucht Metall an Holz benotzt. Partiell ass och Stréi aus der Regioun an den Asaz komm."
+    "lu": "Fir de Bau goufe quasi just gebrauchtent Metall an Holz benotzt. Partiell ass och Stréi aus der Regioun an den Asaz komm."
   },
   {
     "page": "Home",
@@ -6133,7 +6133,7 @@
     "de": "Mit dem Projekt BENU METAMORPHOSE wird das Ökodorf in seinen Außen- und Innenbereichen auf partizipative Weise künstlerisch gestaltet. …. lokale Naturmaterialien, vermeintlicher „Abfall“, eine schöne Portion Kreativität :) und begeisterte Menschen… mehr braucht es nicht! BENU VILLAGE wartet auf eine gemeischaftliche Transformation in all seinen Ecken, Nischen und Flächen.",
     "fr": "Avec le projet BENU METAMORPHOSE, l'écovillage sera aménagé de manière artistique et participative dans ses espaces extérieurs et intérieurs: des matériaux naturels locaux, des soi-disant „déchets\", une belle dose de créativité :) et des gens enthousiastes... il n'en faut pas plus! BENU VILLAGE attend une transformation communautaire dans tous ses coins, niches et surfaces.",
     "en": "With the BENU METAMORPHOSE project, the outdoor and indoor areas of the ecovillage are being artistically designed in a participatory way: local natural materials, supposed \"waste\", a nice dose of creativity :) and enthusiastic people... that's all it takes! BENU VILLAGE is waiting for a community transformation in all its corners, niches and spaces.",
-    "lu": "Mat dem Projet BENU METAMORPHOSE Gëtt d’Ekoduerf an de Bannen- an Bausseberäicher op eng participativ Aart a Weis kënschtleresch gestalt: lokal Naturmaterialien, „Offall“, eng gutt Portioun Kreativitéit :) a begeeschtert Leit … méi brauche mir dofir net! BENU VILLAGE waart op eng gemeinschaftlech Transformatioun an all sengen Ecker, Nischen a Flächen."
+    "lu": "Mam Projet BENU METAMORPHOSE gëtt d’Ekoduerf an de Bannen- an Bausseberäicher op eng participativ Aart a Weis kënschtleresch gestalt: lokal Naturmaterialien, „Offall“, eng gutt Portioun Kreativitéit :) a begeeschtert Leit … méi brauche mir dofir net! BENU VILLAGE waart op eng gemeinschaftlech Transformatioun an all sengen Ecker, Nischen a Flächen."
   },
   {
     "page": "Home",
@@ -6333,7 +6333,7 @@
     "de": "Hast Du Fragen? Möchtest Du als Freiwillige:r helfen oder  als Partner:in mit BENU zusammenarbeiten? Hast Du Interesse, Dich im BENU VILLAGE mit Deiner Firma niederzulassen? Oder willst Du einfach mehr über BENU erfahren und uns besuchen?",
     "fr": "Tu as des questions? Veux-tu aider en tant que bénévole, ou collaborer avec BENU en tant que partenaire? Es-tu intéressé:e à t'installer avec ton entreprise au BENU VILLAGE ? Ou veux-tu simplement en savoir plus sur BENU et nous rendre visite?",
     "en": "Do you have any questions? Would you like to help as a volunteer or work with BENU as a partner? Are you interested in setting up your company in the BENU VILLAGE? Or do you simply want to learn more about BENU and visit us?",
-    "lu": "Hues Du eng Fro iwwer BENU? Wëlls Du eis als Benevol hëllefen oder als Partner:in mat eis zesummeschaffen? Bass Du drun intresséiert, Dech mat Denger Entreprise am BENU VILLAGE ze installéieren? Oder wëlls Du einfach méi iwwer BENU gewuer ginn an eis besichen?"
+    "lu": "Hues Du eng Fro iwwer BENU? Wëlls Du eis als Benevol hëllefen oder als Partner:in mat eis zesummeschaffen? Bass Du drun intresséiert, Dech mat Denger Entreprise am BENU VILLAGE z'installéieren? Oder wëlls Du einfach méi iwwer BENU gewuer ginn an eis besichen?"
   },
   {
     "page": "Actualités",
