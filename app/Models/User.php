@@ -65,6 +65,13 @@ class User extends Authenticatable implements HasName, FilamentUser
         'remember_token',
     ];
 
+    // Newsletter status details
+    // 'newsletter' value:
+    // 0 => No subscription, user not in MailChimp list
+    // 1 => Subscription requested
+    // 2 => Subscribed, user in MailChimp list
+    // 3 => Cancellation requested
+
     /**
      * The attributes that should be cast.
      *

@@ -4792,22 +4792,6 @@
     "lu": "BENU COUTURE designt, produzéiert a verkeeft nohalteg UpCycling-Kleeder an Haute Couture-Qualitéit zu Lëtzebuerg."
   },
   {
-    "page": "Kontakt",
-    "key": "service.seo-title",
-    "de": "BENU VILLAGE kontaktieren",
-    "fr": "Contacter BENU VILLAGE",
-    "en": "Contact BENU VILLAGE",
-    "lu": "BENU VILLAGE kontaktéieren"
-  },
-  {
-    "page": "Kontakt",
-    "key": "service.seo-description",
-    "de": "Du findest uns im BENU VILLAGE in der Stadt Esch-sur-Alzette im Süden Luxemburgs.",
-    "fr": "Tu nous trouveras au BENU VILLAGE dans la ville d'Esch-sur-Alzette, au sud du Luxembourg.",
-    "en": "You will find us in the BENU VILLAGE located in Esch-sur-Alzette, a town in the south of Luxembourg.",
-    "lu": "Du fënns eis am BENU VILLAGE zu Esch-Uelzecht am Süde vu Lëtzebuerg."
-  },
-  {
     "page": "slug",
     "key": "slugs.about",
     "de": "ueber",
@@ -4961,7 +4945,7 @@
   },
   {
     "page": "BENU VILLAGE",
-    "key": "campaigns.all-seo-title",
+    "key": "campaigns.seo-title",
     "de": "Das Ökodorf BENU VILLAGE ist im Entstehen",
     "fr": "L'écovillage BENU VILLAGE est en train de se construire",
     "en": "The BENU VILLAGE ecovillage is in the making",
@@ -4969,11 +4953,27 @@
   },
   {
     "page": "BENU VILLAGE",
-    "key": "campaigns.all-seo-desc",
+    "key": "campaigns.seo-desc",
     "de": "BENU VILLAGE setzt auf Nachhaltigkeit, Kooperation und Partizipation - ganz nach dem Prinzip der sozio-ökologischen Kreislaufwirtschaft.",
     "fr": "BENU VILLAGE mise sur la durabilité, la coopération et la participation, entièrement suivant le principe de l'économie circulaire socio-écologique.",
     "en": "BENU VILLAGE focuses on sustainability, cooperation and participation - in line with the principle of the socio-ecological circular economy.",
     "lu": "BENU VILLAGE zielt op Nohaltegkeet, Kooperatioun a Participatioun - ganz no dem Prinzip vun der sozio-ekologescher Kreeslafwirtschaft."
+  },
+  {
+    "page": "Kontakt",
+    "key": "service.seo-title",
+    "de": "BENU VILLAGE kontaktieren",
+    "fr": "Contacter BENU VILLAGE",
+    "en": "Contact BENU VILLAGE",
+    "lu": "BENU VILLAGE kontaktéieren"
+  },
+  {
+    "page": "Kontakt",
+    "key": "service.seo-description",
+    "de": "Du findest uns im BENU VILLAGE in der Stadt Esch-sur-Alzette im Süden Luxemburgs.",
+    "fr": "Tu nous trouveras au BENU VILLAGE dans la ville d'Esch-sur-Alzette, au sud du Luxembourg.",
+    "en": "You will find us in the BENU VILLAGE located in Esch-sur-Alzette, a town in the south of Luxembourg.",
+    "lu": "Du fënns eis am BENU VILLAGE zu Esch-Uelzecht am Süde vu Lëtzebuerg."
   },
   {
     "page": "Home",

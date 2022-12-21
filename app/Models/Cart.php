@@ -15,6 +15,14 @@ class Cart extends Model
 
     protected $guarded = [];
 
+    // Information on status enum
+    // 'status' value:
+    // 0 => Created
+    // 1 => Currently updated
+    // 2 => Payment on-going
+    // 3 => Paid
+    // 4 => Cancelled
+
     public function couture_variations()
     {
         if(App::environment('stage')) {
