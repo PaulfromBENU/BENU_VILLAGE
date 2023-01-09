@@ -35,6 +35,7 @@
 					</div>
 				@endforeach
 
+				@if(App\Models\User::where('email', $messages->first()->email)->where('role', '<>', 'newsletter')->where('role', '<>', 'guest_client')->count() > 0)
 				<h5>Add a reply:</h5>
 				<form method="POST" wire:submit.prevent="sendReply({{ $thread }})">
 					@csrf
@@ -45,6 +46,9 @@
 						</button>
 					</div>
 				</form>
+				@else 
+				<h5>This user does not have an account. Please reply manually by sending an e-mail directly to this address: <a class="hover:underline" href="mailto:{{ $messages->first()->email }}">{{ $messages->first()->email }}</a> </h5>
+				@endif
 			</div>
 		</div>
 	@endforeach
